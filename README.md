@@ -22,7 +22,7 @@ Build the nodes:
 
 The publisher node reads images from one input of the DeckLink card and publishes them to ROS topic. After having the `roscore` running, open in a different terminal: 
 
-    rosrun decklink_ros publisher _decklink_device:="DeckLink [model] (input)"
+    rosrun hi_decklink_ros publisher _decklink_device:="DeckLink [model] (input)"
 
 This will create a `publisher` node that listens for images on from one input of your Decklink card and publishes them on the topic `/image_raw`.
 
@@ -49,7 +49,7 @@ The subscriber node reads images from a ROS topic and writes them to the specifi
 
 After having the `roscore` running, open in a different terminal: 
 
-    rosrun decklink_ros subscriber _decklink_device:="DeckLink [model] (input)"
+    rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] (input)"
 
 This will create a `subscriber` node that monitors a ROS image topic. This node expects `BGRA8` formatted images for simplicity and will produce an error if an image with a different formatting is used. The alpha channel is required to support keying.
 
@@ -73,7 +73,7 @@ The pixel format is hard coded to YUV422.
 We prepared a small demo to test the subscriber node both in writing and keying mode.
 After having the `roscore` running:
 
-	rosrun decklink_ros img2ros
+	rosrun hi_decklink_ros img2ros
 
 This will create a ROS topic image (`image_ros`). You can see it with: 
 
@@ -81,13 +81,13 @@ This will create a ROS topic image (`image_ros`). You can see it with:
 
 Then run the subscriber node, specifying this topic:
 
-	rosrun decklink_ros subscriber _decklink_device:="DeckLink [model] (input)" _topic:="image_ros"
+	rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] (input)" _topic:="image_ros"
 
 By default, the node will write this image.
 
 If you want this image to be keying on the input video:
 	
-	rosrun decklink_ros subscriber _decklink_device:="DeckLink [model] (input)" _topic:="image_ros" _keying:="True" _opacity:="150"
+	rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] (input)" _topic:="image_ros" _keying:="True" _opacity:="150"
 
 We designed the subscriber node, in a way that it possible to use the same node and change the two modes (write/keying) internally, using a boolean topic `function/output_write`. To understand its functioning, we suggest to check it in `subscriber.cpp`.
 
