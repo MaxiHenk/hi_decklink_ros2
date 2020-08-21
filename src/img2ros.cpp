@@ -18,7 +18,14 @@ int main(int argc, char **argv) {
 	image_transport::Publisher pub_img;
 
     //Load the image that will be written/overlaid
-	cv::Mat image = cv::imread("/home/forte/catkin_ws/src/decklink_ros/sample/image.png", cv::IMREAD_UNCHANGED);
+	std::string path;
+    pn.getParam("path", path);
+    if (path.empty()) {
+		ROS_ERROR_STREAM("No image path specified. You must specify the path of the image that you want to write/overlay with _path:=/path/to/your/image.png");
+		return -1;
+	}
+
+	cv::Mat image = cv::imread(path, cv::IMREAD_UNCHANGED);
 	cv::Mat image_ros;
 	cv::cvtColor(image, image_ros, CV_BGR2BGRA, 4);
     
