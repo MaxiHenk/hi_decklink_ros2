@@ -76,7 +76,7 @@ We placed an image (`image.png` in the folder `sample`) that you are welcome to 
 
 After having the `roscore` running:
 
-	rosrun hi_decklink_ros img2ros _path:="/path/to/your/image.png"
+	rosrun hi_decklink_ros img2ros _path:="[/path/to/your/image.png]"
 
 This will create a ROS topic image (`image_ros`). You can see it with: 
 
