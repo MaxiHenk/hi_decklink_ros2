@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 	std::string path;
     pn.getParam("path", path);
     if (path.empty()) {
-		ROS_ERROR_STREAM("No image path specified. You must specify the path of the image that you want to write/overlay with _path:=/path/to/your/image.png");
+		ROS_ERROR_STREAM("No image path specified. You must specify the path of the image that you want to write/overlay with _path:=\"/path/to/your/image.png\"");
 		return -1;
 	}
 
