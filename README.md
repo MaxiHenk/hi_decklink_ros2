@@ -68,6 +68,8 @@ The node accepts the following parameters:
 
 Keying on DeckLink devices is extremely fast (less than 1ms extra latency on average). On modern cards it is possible to re-map each individual connector so that they can be used individually for input or for output. However, to use keying you must provide an input onto which the images will be keyed; as such, you must retain a pair (the left connector is for input and the right connector is for output). The output will be the input video with the keyed image overlaid on top with the specified opacity.
 
+The pixel format is hard coded to YUV422.
+
 ### Test
 We prepared a small demo to test the subscriber node both in writing and keying mode.
 After having the `roscore` running:
@@ -99,8 +101,6 @@ If you find this code useful in your research, we would kindly ask you to cite:
 {
 	TO ADD
 }
-
-The pixel format is hard coded to YUV422.
 
 ### Acknowledgments
 We thank the NearLab for developing the first version of these drivers, and in particular, Nima Enayati and Thibaud Chupin. We are also thankful to Thibaud Chupin for giving key guidance and advices in the development of this second version, to evaluate it, to improve it and to test it with a different DeckLink card and the da Vinci Research Kit (dVRK) to guarantee inter-operability.
