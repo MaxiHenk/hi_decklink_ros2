@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(decklink_ros)
+project(hi_decklink_ros)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)

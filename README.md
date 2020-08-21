@@ -1,4 +1,3 @@
-
 # DeckLink ROS
 
 The DeckLink ROS module exposes BlackMagic Design DeckLink video playback & capture cards to a ROS network. It leverages [libdecklink], a higher-level level interface to the BlackMagic Design SDK, to control the underlying card(s). The `libdecklink` component is already included as a submodule.
@@ -64,13 +63,13 @@ The node accepts the following parameters:
 | `keying (bool)` | Whether or not to enable keying on the card. |
 | `opacity (int)` | The opacity of the keyed images in the range 0 (transparent) to 255 (opaque). |
 
-### Using keying
+## Using keying
 
 Keying on DeckLink devices is extremely fast (less than 1ms extra latency on average). On modern cards it is possible to re-map each individual connector so that they can be used individually for input or for output. However, to use keying you must provide an input onto which the images will be keyed; as such, you must retain a pair (the left connector is for input and the right connector is for output). The output will be the input video with the keyed image overlaid on top with the specified opacity.
 
 The pixel format is hard coded to YUV422.
 
-### Test
+## Test
 We prepared a small demo to test the subscriber node both in writing and keying mode.
 After having the `roscore` running:
 
@@ -92,16 +91,15 @@ If you want this image to be keying on the input video:
 
 We designed the subscriber node, in a way that it possible to use the same node and change the two modes (write/keying) internally, using a boolean topic `function/output_write`. To understand its functioning, we suggest to check it in `subscriber.cpp`.
 
-### Launch examples
+## Launch examples
 We used these drivers to connect a workstation computer to the vision system of a clinical da Vinci Si HD surgical robot (Intuitive Inc.). In this way, we could overlay virtual content of the intraoperative images acquired by the endoscope. Examples of launch files are in the folder `launch`.
 To more information about how to connect the hardware to a da Vinci robot, please refer to our paper: TO ADD FINAL TITLE AND LINK
 
-### Citation
+## Citation
 If you find this code useful in your research, we would kindly ask you to cite:
 {
 	TO ADD
 }
 
-### Acknowledgments
+## Acknowledgments
 We thank the NearLab for developing the first version of these drivers, and in particular, Nima Enayati and Thibaud Chupin. We are also thankful to Thibaud Chupin for giving key guidance and advices in the development of this second version, to evaluate it, to improve it and to test it with a different DeckLink card and the da Vinci Research Kit (dVRK) to guarantee inter-operability.
-# hi_decklink_ros
