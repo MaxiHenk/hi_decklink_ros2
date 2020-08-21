@@ -1,0 +1,3 @@
+[submodule "vendor/libdecklink_wrapper"]
+	path = vendor/libdecklink
+	url = https://gitlab.com/Polimi-dVRK/decklink/libdecklink.git

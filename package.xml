@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>decklink_ros</name>
+    <version>0.3.0</version>
+    <description>A wrapper around the DeckLink SDK</description>
+
+    <maintainer email="thibaud@mail.polimi.it">Thibaud</maintainer>
+    <license>MIT</license>
+    
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>image_transport</build_depend>
+    <build_depend>camera_info_manager</build_depend>
+    <build_depend>cv_bridge</build_depend>
+
+    <depend>sensor_msgs</depend>
+</package>
