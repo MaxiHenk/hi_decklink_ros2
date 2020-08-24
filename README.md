@@ -1,6 +1,6 @@
 # DeckLink ROS
 
-The DeckLink ROS module exposes BlackMagic Design DeckLink video playback & capture cards to a ROS network. It leverages [libdecklink], a higher-level level interface to the BlackMagic Design SDK, to control the underlying card(s). The `libdecklink` component is already included as a submodule.
+The DeckLink ROS module exposes BlackMagic Design DeckLink video playback & capture cards to a ROS network. It leverages `libdecklink`, a higher-level level interface to the BlackMagic Design SDK, to control the underlying card(s). The `libdecklink` component is already included as a submodule.
 
 `hi_decklink_ros` is based on the previous version `decklink_ros` (https://gitlab.com/Polimi-dVRK/decklink/decklink_ros) developed at the NearLab (Politecnico di Milano) by Nima Enayati and Thibaud Chupin. This second version was developed by Thibaud Chupin and Maria-Paola Forte, and maintained by Maria-Paola Forte (Haptic Intelligence Department - Max Planck Institute for Intelligent Systems).
 
