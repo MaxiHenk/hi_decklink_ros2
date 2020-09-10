@@ -1,8 +1,0 @@
-
-# Ignore CLion configuration adn build files
-/cmake-build-*
-/.idea/*
-
-# Ignore the mkenum folder if  present
-tools/mkenum/
-
