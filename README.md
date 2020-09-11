@@ -110,7 +110,7 @@ Then run the subscriber node, specifying this topic:
 
 By default, the node will write this image.
 
-If you want this image to be keying on the input video:
+If you want this image to be keyed on the input video:
 
 	rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros" _keying:="True" _opacity:="150"
 
