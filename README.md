@@ -33,7 +33,7 @@ After having the `roscore` running, open in a different terminal:
 
     rosrun hi_decklink_ros publisher _decklink_device:="DeckLink [model] ([input])"
 
-This will create a `publisher` node that listens for images on from one input of your Decklink card
+This will create a `publisher` node that listens for images on from one input of your DeckLink card
 and publishes them on the topic `/image_raw`.
 
 To see the published image:
@@ -158,9 +158,8 @@ under the MIT license (see LICENSE_declink_ros.md)
 ## Notes
 
 The `libdecklink` tools (check the status of the DeckLink card, its model, the status of the channels etc.)
-are not maintained anymore (and removed from this version) since this information can be obtained
-through the softwares provided by BlackMagic Design. If you want to access them,
-refer to [libdecklink](https://gitlab.com/Polimi-dVRK/decklink/libdecklink)
+are not maintained anymore since this information can be obtained
+through the softwares provided by BlackMagic Design.
 
 ## Acknowledgments
 
