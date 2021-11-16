@@ -167,12 +167,13 @@ We thank [Jean-Claude Passy](https://github.com/jcpassy) and the
 [Software Workshop](http://is.tuebingen.mpg.de/en/software-workshop) for their help to release the code.
 
 ## Reference
-
+```
 @article{Forte21-IJMRCAS-Design,
   title={Design of Interactive {AR} Functions for Robotic Surgery and Evaluation in Dry-Lab Lymphadenectomy},
-  author={\textbf{Forte, Maria-Paola} and Gourishetti, Ravali and Javot, Bernard and Gomez, Ernest T. and Kuchenbecker, Katherine J.},
+  author={Forte, Maria-Paola and Gourishetti, Ravali and Javot, Bernard and Gomez, Ernest T. and Kuchenbecker, Katherine J.},
   journal={The International Journal of Medical Robotics and Computer Assisted Surgery},
   year={2021},
   publisher={Wiley Online Library}
 }
+```
 
