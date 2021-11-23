@@ -3,7 +3,7 @@
 <launch>
     <group ns="endoscope">
         <group ns="left">
-            <node pkg="decklink_ros" type="publisher" name="camera" required="true" output="screen">
+            <node pkg="hi_decklink_ros" type="publisher" name="camera" required="true" output="screen">
                 <param name="decklink_device" type="str" value="DeckLink Quad (4)" />
 
                 <param name="camera_name" type="str" value="ecml" />
@@ -13,7 +13,7 @@
         </group>
 
         <group ns="right">
-            <node pkg="decklink_ros" type="publisher" name="camera" required="true" output="screen">
+            <node pkg="hi_decklink_ros" type="publisher" name="camera" required="true" output="screen">
                 <param name="decklink_device" type="str" value="DeckLink Quad (3)" />
                 <param name="camera_name" type="str" value="ecmr" />
                 <param name="camera_frame" type="str" value="endoscope/right_camera" />
