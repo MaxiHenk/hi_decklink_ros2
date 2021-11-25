@@ -1,0 +1,80 @@
+# We want CMake 3.1+
+image: ubuntu:16.04
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - apt-get -qq update > /dev/null
+  - apt-get -qq install build-essential cmake libboost-all-dev > /dev/null
+
+  # Unfortunately Opencv 3.x is not part of the repositories yet and I'd rather like to avoid
+  # depending on random ppas so here's a script that checks out and installs OpenCV from source
+  - scripts/install-opencv.sh
+
+
+# Compile and build the nodes
+build-targets:
+  stage: build
+  script:
+    - mkdir cmake-build
+    - cd cmake-build
+    - cmake .. && make
+
+  artifacts:
+    paths:
+      - cmake-build
+      
+
+# Generate the docs with doxygen
+build-docs:
+  stage: test
+  script:
+    - apt-get -qq update > /dev/null
+    - apt-get -qq install doxygen graphviz > /dev/null
+
+    # Generate the docs and move them to the artifacts folder. 
+    # Doxygen isn't the smartest tool in the world so we have to run from the same folder as the 
+    # doxyfile.
+    - mkdir -p cmake-build
+    - cd cmake-build
+    - cmake .. && make docs
+    - mv libdecklink_wrapper/doc/html/ ${CI_PROJECT_DIR}/public/
+
+  allow_failure: true
+
+  dependencies:
+    - build-targets
+
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - public/
+
+  # only:
+  #   - master
+
+# Upload the docs to the serve
+# Note: This step is only necessary because gitlab pages does not work for nested projects
+upload-docs:
+  stage: deploy
+  script:
+    - apt-get -qq update > /dev/null
+    - apt-get install -qq rsync openssh-client > /dev/null
+  
+    # Create and set up ssh keys/signatures. The alternative would be to disable host key checking 
+    # and password auth but that we don't want that. 
+    - mkdir -p ~/.ssh
+    - echo "${SSH_PRIVATE_KEY}" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - echo "${SSH_HOST_KEYS}" > ~/.ssh/known_hosts
+
+    - rsync -avrzh -e "ssh" ${CI_PROJECT_DIR}/public/ tibo@comkieffer.com:${CI_PROJECT_NAME}/
+  
+  allow_failure: true
+
+  dependencies:
+    - build-docs
+
+  only:
+    - master

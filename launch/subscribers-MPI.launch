@@ -2,7 +2,7 @@
 
 <launch>     
 
-     <node pkg="decklink_ros" type="subscriber" name="camera_left"  output="screen">
+     <node pkg="hi_decklink_ros" type="subscriber" name="camera_left"  output="screen">
      	<param name="decklink_device" type="str" value="DeckLink Quad (4)" />
 	<param name="image_format" type="str" value="HD1080i5994" />
 	<param name="topic" type="str" value="overlay_output_left" />
@@ -10,7 +10,7 @@
 	<param name="opacity" type="int" value="255" />
      </node>
 
-     <node pkg="decklink_ros" type="subscriber" name="camera_right"  output="screen">
+     <node pkg="hi_decklink_ros" type="subscriber" name="camera_right"  output="screen">
      	<param name="decklink_device" type="str" value="DeckLink Quad (3)" />
 	<param name="image_format" type="str" value="HD1080i5994" />
 	<param name="topic" type="str" value="overlay_output_right" />
