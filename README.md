@@ -15,8 +15,11 @@ to control the underlying card(s). This component is installed as a git submodul
 
 ## Installation
 
-This project is known to work with both ROS Kinetic and ROS Lunar, on DeckLink Duo and DeckLink Quad 2,
-with a clinical Intuitive da Vinci Si HD robotic system and with the dVRK (da Vinci Research Kit).
+This project has been tested with:
++ Ubuntu 16.04 and Ubuntu 20.04
++ ROS Kinetic, ROS Lunar, and ROS Noetic
++ DeckLink Duo and DeckLink Quad 2
++ a clinical Intuitive da Vinci Si HD robotic system and the dVRK (da Vinci Research Kit).
 
 Clone the repository into your ROS workspace:
 
@@ -25,6 +28,18 @@ Clone the repository into your ROS workspace:
 Build the nodes:
 
     catkin build hi_decklink_ros
+
+## Docker
+
+**HI DeckLink ROS** can also be built inside a Docker container using the provided `Dockerfile`.
+In order to do so, simply do
+
+```bash
+docker build . -t hi_declink_ros # builds image
+docker run -it -d --name my_container hi_declink_ros # starts container
+```
+
+Note that building this image is part of our continuous integration.
 
 ## The publisher node
 
@@ -176,4 +191,3 @@ We thank [Jean-Claude Passy](https://github.com/jcpassy) and the
   publisher={Wiley Online Library}
 }
 ```
-
