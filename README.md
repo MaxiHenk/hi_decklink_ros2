@@ -73,7 +73,7 @@ A launch file for a stereo endoscope is provided for documentation purposes in t
 The publisher node has been tested on:
 + a clinical Intuitive da Vinci Si HD robotic system 
 + a dVRK (da Vinci Research Kit)
-+ a standard SDI video camera 
++ a standard HD-SDI video camera 
 
 ## The subscriber node
 
