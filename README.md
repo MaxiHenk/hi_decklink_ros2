@@ -19,7 +19,6 @@ This project has been tested with:
 + Ubuntu 16.04 and Ubuntu 20.04
 + ROS Kinetic, ROS Lunar, and ROS Noetic
 + DeckLink Duo and DeckLink Quad 2
-+ a clinical Intuitive da Vinci Si HD robotic system and the dVRK (da Vinci Research Kit).
 
 Clone the repository into your ROS workspace:
 
@@ -71,6 +70,11 @@ The node accepts the following parameters:
 
 A launch file for a stereo endoscope is provided for documentation purposes in the `launch/` folder.
 
+The publisher node has been tested on:
++ a clinical Intuitive da Vinci Si HD robotic system 
++ a dVRK (da Vinci Research Kit)
++ a standard SDI video camera 
+
 ## The subscriber node
 
 The subscriber node reads images from a ROS topic and writes them to the specified DeckLink output.
@@ -94,6 +98,10 @@ The node accepts the following parameters:
 | `image_format` | The name of the display mode to use. |
 | `keying (bool)` | Whether or not to enable keying on the card. |
 | `opacity (int)` | The opacity of the keyed images in the range 0 (transparent) to 255 (opaque). |
+
+The subscriber node has been tested on:
++ the stereo viewer of a clinical Intuitive da Vinci Si HD robotic system 
++ the stereo viewer of a dVRK (da Vinci Research Kit)
 
 ## Using keying
 
