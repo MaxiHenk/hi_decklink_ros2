@@ -190,6 +190,7 @@ We thank [Jean-Claude Passy](https://github.com/jcpassy) and the
 [Software Workshop](http://is.tuebingen.mpg.de/en/software-workshop) for their help to release the code.
 
 ## Reference
+If you use these drivers, please cite:
 ```
 @article{Forte22-IJMRCAS-Design,
   title={Design of Interactive {AR} Functions for Robotic Surgery and Evaluation in Dry-Lab Lymphadenectomy},
