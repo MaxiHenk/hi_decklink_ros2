@@ -26,8 +26,10 @@ public: /* Callbacks */
     /// Called ech time the decklink card receives a new image
     void on_new_image(const DeckLink::VideoInputFrame& frame);
     
+    /// reports error
     void on_decklink_error(DeckLink::VideoInputError err);
     
+    /// input video format changes
     void on_video_format_changed(
         DeckLink::InputFormatChangedEvent notification_event,
         const DeckLink::DisplayMode& new_display_mode,
@@ -35,12 +37,14 @@ public: /* Callbacks */
     );
     
     /// Service callback to start the video capture
+    /// exposes /start_capture
     bool on_start_capture_request(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
         start();
         return true;
     };
     
     /// Service callback to stop the video capture
+    /// exposes /stop_capture
     bool on_stop_capture_request(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
         stop();
         return true;

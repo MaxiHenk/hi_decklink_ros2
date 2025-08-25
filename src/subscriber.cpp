@@ -59,7 +59,9 @@ void OnFrameReceived(
         received = false;
     }
 
+    /// creates empty video_frame
     auto frame = output.create_video_frame(display_mode, pixel_format);
+    //converts ROS to opencv
     cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(image, sensor_msgs::image_encodings::BGRA8);
 
     ROS_ASSERT_MSG(
@@ -75,6 +77,7 @@ void OnFrameReceived(
             cv_ptr->image.step, frame.row_bytes()
     );
 
+/// debug check for transparency
 #ifdef DEBUG
     double accumulated_transparency = 0.0;
     for (unsigned int i = 3; i < image->data.size(); i += 4) {
@@ -90,7 +93,7 @@ void OnFrameReceived(
 #endif
 
     frame.load(cv_ptr->image.data, static_cast<size_t>(cv_ptr->image.rows * cv_ptr->image.step));
-
+    //sends frame to the Deck Link Card, thus it appears in the video output device
     output.display_video_frame(frame);
 
     //double execution_time = (ros::Time::now() - stamp).toNSec() * 1e-6;
@@ -103,10 +106,13 @@ int main(int argc, char **argv) {
 
         ros::init(argc, argv, "decklink_subscriber", ros::init_options::AnonymousName);
 
+        /// Adds node to advertise topics etc - main interface to ROS
         ros::NodeHandle node;
         ros::NodeHandle private_node("~");
-
+        
+        /// transport, that can publish and subscribt to images
         image_transport::ImageTransport transport(node);
+        /// loop frequency
         ros::Rate loop_rate(60);
 
         // Device

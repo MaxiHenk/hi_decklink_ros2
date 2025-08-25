@@ -8,6 +8,9 @@
 #include "decklink_camera_driver.hpp"
 
 DeckLinkCameraDriver::DeckLinkCameraDriver()
+    /// member initializor - runs before constructor
+    /// node handler nh and private_nh and image transport it
+    /// ~ makes it private i.e. unique per node instance
     : _nh()
     , _private_nh("~")
     , _it(_nh)
@@ -35,6 +38,7 @@ DeckLinkCameraDriver::DeckLinkCameraDriver()
     }
     
     // Step 2 - Set up the device and make sure we're ready to go
+    /// Container for Callback functions - can be called by other functions
     try {
         DeckLink::CaptureCallback cb(
             boost::bind(&DeckLinkCameraDriver::on_new_image, this, _1),
@@ -96,6 +100,8 @@ void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
         return;
     }
     
+    /// adds the image and adjusts it
+    /// needs to be updated
     const auto image_msg = boost::make_shared<sensor_msgs::Image>();
     image_msg->header.stamp    = ros::Time::now();
     image_msg->header.frame_id = _camera_frame;
@@ -127,11 +133,13 @@ void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
     auto camera_info_msg = _camera_info_mgr->getCameraInfo();
     camera_info_msg.header = image_msg->header;
     
+    /// publishes it
     _camera_pub.publish(*image_msg, camera_info_msg);
 }
 
 
 void DeckLinkCameraDriver::on_decklink_error(DeckLink::VideoInputError err) {
+    /// checks for errors
     switch(err) {
         case DeckLink::VideoInputError::NullFrame:
         case DeckLink::VideoInputError::NoInputSource:
@@ -149,7 +157,7 @@ void DeckLinkCameraDriver::on_decklink_error(DeckLink::VideoInputError err) {
     }
 }
 
-
+/// monitors video for changes, if hardware changes signal properties in field dominance, format and display mode
 void DeckLinkCameraDriver::on_video_format_changed(
     DeckLink::InputFormatChangedEvent notification_event,
     const DeckLink::DisplayMode& new_display_mode,
@@ -180,6 +188,7 @@ void DeckLinkCameraDriver::on_video_format_changed(
 }
 
 
+/// tells decklink when to start and stop capturing
 void DeckLinkCameraDriver::start()
 {
     _device.input().start();
