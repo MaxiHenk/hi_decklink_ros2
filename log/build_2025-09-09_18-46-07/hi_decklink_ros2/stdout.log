@@ -1,0 +1,11 @@
+[  3%] [34m[1mGenerating API documentation with Doxygen[0m
+[ 43%] Built target decklink
+[ 56%] Built target deckview
+[ 56%] Built target deckquery
+[ 63%] Built target deckmonitor
+[ 70%] Built target img2ros
+[ 76%] Built target deckstatus
+[ 86%] Built target publisher
+[ 90%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 96%] Built target deckoutput
+[ 96%] Built target docs

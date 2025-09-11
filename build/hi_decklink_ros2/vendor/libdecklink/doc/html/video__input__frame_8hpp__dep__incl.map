@@ -1,0 +1,35 @@
+<map id="include/libdecklink/video_input_frame.hpp" name="include/libdecklink/video_input_frame.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="553,5,729,45"/>
+<area shape="rect" id="Node000002" href="$capture__callback_8hpp.html" title=" " alt="" coords="467,93,631,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="613,57,572,95,568,91,609,53"/>
+<area shape="rect" id="Node000015" href="$video__input__frame_8cpp.html" title=" " alt="" coords="655,93,811,133"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="673,53,715,91,711,95,670,57"/>
+<area shape="rect" id="Node000003" href="$device__input__interface_8hpp.html" title=" " alt="" coords="591,181,793,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="594,138,662,179,659,184,591,143"/>
+<area shape="rect" id="Node000007" href="$deckquery_8cpp.html" title=" " alt="" coords="5,365,144,390"/>
+<area shape="poly" id="edge15_Node000002_Node000007" title=" " alt="" coords="501,142,423,184,96,367,93,362,420,179,499,137"/>
+<area shape="rect" id="Node000009" href="$deckview_8cpp.html" title=" " alt="" coords="168,365,301,390"/>
+<area shape="poly" id="edge16_Node000002_Node000009" title=" " alt="" coords="518,144,250,367,247,363,514,140"/>
+<area shape="rect" id="Node000014" href="$capture__callback_8cpp.html" title=" " alt="" coords="817,269,986,309"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="644,134,745,159,807,179,834,199,857,223,892,267,887,271,853,226,830,203,804,184,744,164,643,139"/>
+<area shape="rect" id="Node000004" href="$device_8hpp.html" title=" " alt="" coords="597,269,741,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="686,235,677,270,672,268,681,234"/>
+<area shape="rect" id="Node000011" href="$device__input__interface_8cpp.html" title=" " alt="" coords="1421,357,1584,397"/>
+<area shape="poly" id="edge14_Node000003_Node000011" title=" " alt="" coords="720,230,765,276,805,307,860,324,932,335,1015,341,1103,344,1276,347,1350,350,1410,355,1422,357,1421,362,1409,360,1350,355,1276,352,1103,350,1014,346,931,340,859,329,803,312,762,280,716,233"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="752,224,857,267,854,272,750,229"/>
+<area shape="rect" id="Node000005" href="$deckmonitor_8cpp.html" title=" " alt="" coords="506,365,659,390"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="642,321,597,366,593,362,638,317"/>
+<area shape="rect" id="Node000006" href="$deckoutput_8cpp.html" title=" " alt="" coords="684,365,828,390"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="700,317,746,362,742,366,696,321"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="584,302,388,325,156,360,121,367,120,362,156,355,387,320,584,297"/>
+<area shape="rect" id="Node000008" href="$deckstatus_8cpp.html" title=" " alt="" coords="853,365,995,390"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="739,311,891,362,889,367,737,316"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="584,308,314,360,282,367,281,362,313,355,583,303"/>
+<area shape="rect" id="Node000010" href="$device_8cpp.html" title=" " alt="" coords="1019,365,1210,390"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="755,306,761,307,1053,362,1052,367,759,312,754,311"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="755,306,760,307,942,326,1085,331,1227,336,1410,355,1422,356,1421,362,1409,360,1227,342,1085,336,942,331,760,312,754,311"/>
+<area shape="rect" id="Node000012" href="$device__output__interface_8cpp.html" title=" " alt="" coords="1235,357,1397,397"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="755,306,760,307,890,323,992,331,1093,339,1223,355,1235,357,1234,362,1222,360,1093,344,991,336,889,328,760,312,754,311"/>
+<area shape="rect" id="Node000013" href="$video__output__frame_8cpp.html" title=" " alt="" coords="326,357,482,397"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="599,316,463,360,461,355,597,311"/>
+</map>

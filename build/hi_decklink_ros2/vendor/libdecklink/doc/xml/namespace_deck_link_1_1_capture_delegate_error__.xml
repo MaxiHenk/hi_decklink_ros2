@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link_1_1_capture_delegate_error__" kind="namespace" language="C++">
+    <compoundname>DeckLink::CaptureDelegateError_</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_deck_link_1_1_capture_delegate_error___1a91787cb8c7caeab1de780c8c8b29bb1e" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">constexpr</ref> std::array&lt; <ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557" kindref="member">CaptureDelegateError</ref>, 4 &gt;</type>
+        <definition>constexpr std::array&lt;CaptureDelegateError, 4&gt; DeckLink::CaptureDelegateError_::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <qualifiedname>DeckLink::CaptureDelegateError_::Values</qualifiedname>
+        <initializer>{
+            <ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557aa60852f204ed8028c1c58808b746d115" kindref="member">CaptureDelegateError::Ok</ref>,
+            <ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557aca9171a782d9b3c469028c60c24be20b" kindref="member">CaptureDelegateError::EmptyFrameReceived</ref>,
+            <ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557a2c3269307817cf3ed1324dc246970c2d" kindref="member">CaptureDelegateError::EmptyVideoStream</ref>,
+            <ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557a9bd3f415b753a9da041a5247ff038217" kindref="member">CaptureDelegateError::PixelFormatConversionError</ref>,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1232" column="30" bodyfile="include/libdecklink/types.hpp" bodystart="1232" bodyend="1237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/types.cpp" line="2119" column="5"/>
+  </compounddef>
+</doxygen>

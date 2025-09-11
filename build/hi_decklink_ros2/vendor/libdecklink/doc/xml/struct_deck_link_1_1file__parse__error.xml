@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_deck_link_1_1file__parse__error" kind="struct" language="C++" prot="public">
+    <compoundname>DeckLink::file_parse_error</compoundname>
+    <basecompoundref refid="struct_deck_link_1_1file__error" prot="public" virt="virtual">DeckLink::file_error</basecompoundref>
+    <includes refid="errors_8hpp" local="no">errors.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>DeckLink::exception_base</label>
+        <link refid="struct_deck_link_1_1exception__base"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DeckLink::file_error</label>
+        <link refid="struct_deck_link_1_1file__error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::file_parse_error</label>
+        <link refid="struct_deck_link_1_1file__parse__error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::io_error</label>
+        <link refid="struct_deck_link_1_1io__error"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DeckLink::runtime_error</label>
+        <link refid="struct_deck_link_1_1runtime__error"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>boost::exception</label>
+      </node>
+      <node id="6">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>DeckLink::exception_base</label>
+        <link refid="struct_deck_link_1_1exception__base"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DeckLink::file_error</label>
+        <link refid="struct_deck_link_1_1file__error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::file_parse_error</label>
+        <link refid="struct_deck_link_1_1file__parse__error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::io_error</label>
+        <link refid="struct_deck_link_1_1io__error"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DeckLink::runtime_error</label>
+        <link refid="struct_deck_link_1_1runtime__error"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>boost::exception</label>
+      </node>
+      <node id="6">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/errors.hpp" line="45" column="5" bodyfile="include/libdecklink/errors.hpp" bodystart="45" bodyend="45"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

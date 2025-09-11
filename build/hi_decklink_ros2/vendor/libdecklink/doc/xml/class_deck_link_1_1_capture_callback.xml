@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_deck_link_1_1_capture_callback" kind="class" language="C++" prot="public">
+    <compoundname>DeckLink::CaptureCallback</compoundname>
+    <basecompoundref prot="public" virt="virtual">IDeckLinkInputCallback</basecompoundref>
+    <includes refid="capture__callback_8hpp" local="no">capture_callback.hpp</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" prot="public" static="no">
+        <type>std::function&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref>(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_video_input_frame" kindref="compound">VideoInputFrame</ref> &amp;)&gt;</type>
+        <definition>using DeckLink::CaptureCallback::frame_cb_t =  std::function&lt;void(const VideoInputFrame&amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>frame_cb_t</name>
+        <qualifiedname>DeckLink::CaptureCallback::frame_cb_t</qualifiedname>
+        <briefdescription>
+<para>Type of the new frame callback function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the type of the callback function that is called when a new frame is received. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="31" column="9" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" prot="public" static="no">
+        <type>std::function&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref>(<ref refid="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503" kindref="member">InputFormatChangedEvent</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &amp;, <ref refid="namespace_deck_link_1a170759576974daf1c357ce650f8baab6" kindref="member">DetectedVideoInputFormatFlags</ref>)&gt;</type>
+        <definition>using DeckLink::CaptureCallback::video_format_changed_cb_t =  std::function&lt;void( InputFormatChangedEvent, const DisplayMode&amp;, DetectedVideoInputFormatFlags)&gt;</definition>
+        <argsstring></argsstring>
+        <name>video_format_changed_cb_t</name>
+        <qualifiedname>DeckLink::CaptureCallback::video_format_changed_cb_t</qualifiedname>
+        <briefdescription>
+<para>Type of the video format changed callback function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the type of the callback function that is called when a video format change is detected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="39" column="9" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_deck_link_1_1_capture_callback_1a3f24a0a8b4062fd991eb0a6b3da4e577" prot="public" static="no">
+        <type>std::function&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref>(<ref refid="namespace_deck_link_1ac85c4403553a3d124350f12ed36da200" kindref="member">VideoInputError</ref>)&gt;</type>
+        <definition>using DeckLink::CaptureCallback::error_cb_t =  std::function&lt;void(VideoInputError)&gt;</definition>
+        <argsstring></argsstring>
+        <name>error_cb_t</name>
+        <qualifiedname>DeckLink::CaptureCallback::error_cb_t</qualifiedname>
+        <briefdescription>
+<para>Type of the error callback function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the type of the callback function that is called when an error occurs giving the user a chance to handle it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="48" column="9" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_deck_link_1_1_capture_callback_1a11f3c90b34a437b57f4c296919c9e6d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">class</ref></type>
+        <definition>friend class DeviceInputInterface</definition>
+        <argsstring></argsstring>
+        <name>DeviceInputInterface</name>
+        <qualifiedname>DeckLink::CaptureCallback::DeviceInputInterface</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device_input_interface" kindref="compound">DeviceInputInterface</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="22" column="22" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1aa6bffd2c5e5a7c69b6418e28d1c789da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+        <definition>int DeckLink::CaptureCallback::_bad_frame_counter</definition>
+        <argsstring></argsstring>
+        <name>_bad_frame_counter</name>
+        <qualifiedname>DeckLink::CaptureCallback::_bad_frame_counter</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="144" column="13" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1a820a44c5f782c1595cfa140fae9d4961" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+        <definition>int DeckLink::CaptureCallback::_bad_frame_threshold</definition>
+        <argsstring></argsstring>
+        <name>_bad_frame_threshold</name>
+        <qualifiedname>DeckLink::CaptureCallback::_bad_frame_threshold</qualifiedname>
+        <initializer>= 24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="145" column="13" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1aaaacc4d8d869f5220eb65b3fcdcd433c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_device_input_interface" kindref="compound">DeviceInputInterface</ref> *</type>
+        <definition>DeviceInputInterface* DeckLink::CaptureCallback::_owner</definition>
+        <argsstring></argsstring>
+        <name>_owner</name>
+        <qualifiedname>DeckLink::CaptureCallback::_owner</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">nullptr</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="149" column="30" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1aae3ed22f47a0ee6742822a1343eab224" prot="private" static="no" mutable="no">
+        <type>boost::optional&lt; <ref refid="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cc" kindref="member">TimecodeFormat</ref> &gt;</type>
+        <definition>boost::optional&lt;TimecodeFormat&gt; DeckLink::CaptureCallback::_timecode_format</definition>
+        <argsstring></argsstring>
+        <name>_timecode_format</name>
+        <qualifiedname>DeckLink::CaptureCallback::_timecode_format</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="151" column="25" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1a0578b01e843f487c99a7fc61073bd610" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" kindref="member">frame_cb_t</ref></type>
+        <definition>frame_cb_t DeckLink::CaptureCallback::_on_frame_cb</definition>
+        <argsstring></argsstring>
+        <name>_on_frame_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::_on_frame_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="153" column="20" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1ac198ce2f04b6cd23d13935be0669f814" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" kindref="member">video_format_changed_cb_t</ref></type>
+        <definition>video_format_changed_cb_t DeckLink::CaptureCallback::_on_video_format_changed_cb</definition>
+        <argsstring></argsstring>
+        <name>_on_video_format_changed_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::_on_video_format_changed_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="154" column="35" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_capture_callback_1abcd4f267cee889943b26caf7ff4d895e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_capture_callback_1a3f24a0a8b4062fd991eb0a6b3da4e577" kindref="member">error_cb_t</ref></type>
+        <definition>error_cb_t DeckLink::CaptureCallback::_on_error_cb</definition>
+        <argsstring></argsstring>
+        <name>_on_error_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::_on_error_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="155" column="20" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1aed34026447e1ea832f7f1280bd474f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::CaptureCallback::CaptureCallback</definition>
+        <argsstring>()=default</argsstring>
+        <name>CaptureCallback</name>
+        <qualifiedname>DeckLink::CaptureCallback::CaptureCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="51" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a1848f37d0b00c18e53273de0d3f6b373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::CaptureCallback::CaptureCallback</definition>
+        <argsstring>(CaptureCallback &amp;)=default</argsstring>
+        <name>CaptureCallback</name>
+        <qualifiedname>DeckLink::CaptureCallback::CaptureCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback" kindref="compound">CaptureCallback</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="52" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a8eb6e3b1c9ab7178906e4cdb71f25e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_capture_callback" kindref="compound">CaptureCallback</ref> &amp;</type>
+        <definition>CaptureCallback &amp; DeckLink::CaptureCallback::operator=</definition>
+        <argsstring>(CaptureCallback &amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>DeckLink::CaptureCallback::operator=</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback" kindref="compound">CaptureCallback</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="54" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1acadc5deb8e59c53d97f217f7f0c619a1" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::CaptureCallback::CaptureCallback</definition>
+        <argsstring>(frame_cb_t &amp;&amp;cb)</argsstring>
+        <name>CaptureCallback</name>
+        <qualifiedname>DeckLink::CaptureCallback::CaptureCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" kindref="member">frame_cb_t</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when a new frame is received </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="60" column="18" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1aa902728e0fa831a15fcb7e52d1964fca" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::CaptureCallback::CaptureCallback</definition>
+        <argsstring>(frame_cb_t &amp;&amp;frame_cb, video_format_changed_cb_t &amp;&amp;format_cb)</argsstring>
+        <name>CaptureCallback</name>
+        <qualifiedname>DeckLink::CaptureCallback::CaptureCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" kindref="member">frame_cb_t</ref> &amp;&amp;</type>
+          <declname>frame_cb</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" kindref="member">video_format_changed_cb_t</ref> &amp;&amp;</type>
+          <declname>format_cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when a new frame is received </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when a video format change is detected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="67" column="18" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a7bcf5002db520a1cd7fb27e6296f145f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::CaptureCallback::CaptureCallback</definition>
+        <argsstring>(frame_cb_t &amp;&amp;frame_cb, video_format_changed_cb_t &amp;&amp;format_cb, error_cb_t &amp;&amp;error_cb)</argsstring>
+        <name>CaptureCallback</name>
+        <qualifiedname>DeckLink::CaptureCallback::CaptureCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" kindref="member">frame_cb_t</ref> &amp;&amp;</type>
+          <declname>frame_cb</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" kindref="member">video_format_changed_cb_t</ref> &amp;&amp;</type>
+          <declname>format_cb</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_capture_callback_1a3f24a0a8b4062fd991eb0a6b3da4e577" kindref="member">error_cb_t</ref> &amp;&amp;</type>
+          <declname>error_cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when a new frame is received </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when a video format change is detected </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback function to call when an error is produced </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="75" column="18" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1afa02d6c59133e68ea93183c456175398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::CaptureCallback::set_on_new_frame_cb</definition>
+        <argsstring>(const frame_cb_t &amp;&amp;cb)</argsstring>
+        <name>set_on_new_frame_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::set_on_new_frame_cb</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" kindref="member">frame_cb_t</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="81" column="14" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a69afe6934acdec1b00f54119e53d1db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::CaptureCallback::set_on_input_format_changed_cb</definition>
+        <argsstring>(const video_format_changed_cb_t &amp;&amp;cb)</argsstring>
+        <name>set_on_input_format_changed_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::set_on_input_format_changed_cb</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" kindref="member">video_format_changed_cb_t</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="83" column="14" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a3304f0cacdd0399fde46749cc93dfa50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::CaptureCallback::set_on_error_cb</definition>
+        <argsstring>(const error_cb_t &amp;&amp;cb)</argsstring>
+        <name>set_on_error_cb</name>
+        <qualifiedname>DeckLink::CaptureCallback::set_on_error_cb</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_capture_callback_1a3f24a0a8b4062fd991eb0a6b3da4e577" kindref="member">error_cb_t</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="85" column="14" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1acd3c0ea138dc57f69db909cbecc8f295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::CaptureCallback::set_bad_frame_threshold</definition>
+        <argsstring>(int bad_frame_threshold)</argsstring>
+        <name>set_bad_frame_threshold</name>
+        <qualifiedname>DeckLink::CaptureCallback::set_bad_frame_threshold</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+          <declname>bad_frame_threshold</declname>
+        </param>
+        <briefdescription>
+<para>The bad frame threshold is number of consecutive empty frames that should be considered an error. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Dropped frames will happen every now and then and might not always be considered an error but more than 15 consecutive might definitely be.</para>
+<para>This gives you some freedom to customize this behaviour. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="98" column="14" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="133" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a656733666969386544bdd734e660207e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+        <definition>int DeckLink::CaptureCallback::get_bad_frame_threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_bad_frame_threshold</name>
+        <qualifiedname>DeckLink::CaptureCallback::get_bad_frame_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="99" column="13" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1abdec41d83a001d85db54c655ae4c6341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::CaptureCallback::set_timecode_format</definition>
+        <argsstring>(TimecodeFormat timecode_format)</argsstring>
+        <name>set_timecode_format</name>
+        <qualifiedname>DeckLink::CaptureCallback::set_timecode_format</qualifiedname>
+        <param>
+          <type><ref refid="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cc" kindref="member">TimecodeFormat</ref></type>
+          <declname>timecode_format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="101" column="14" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1a793187904c9a2b146067607665fa61de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cc" kindref="member">TimecodeFormat</ref></type>
+        <definition>TimecodeFormat DeckLink::CaptureCallback::get_timecode_format</definition>
+        <argsstring>() const</argsstring>
+        <name>get_timecode_format</name>
+        <qualifiedname>DeckLink::CaptureCallback::get_timecode_format</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="102" column="24" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1ab1bcccd10472d659944b12d99f53513d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>HRESULT DeckLink::CaptureCallback::VideoInputFormatChanged</definition>
+        <argsstring>(BMDVideoInputFormatChangedEvents notification_events_raw, IDeckLinkDisplayMode *new_display_mode, BMDDetectedVideoInputFormatFlags detected_signal_flags_raw) override</argsstring>
+        <name>VideoInputFormatChanged</name>
+        <qualifiedname>DeckLink::CaptureCallback::VideoInputFormatChanged</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_8h_1a6b902995ef2a1955442df3465adc07b8" kindref="member">BMDVideoInputFormatChangedEvents</ref></type>
+          <declname>notification_events_raw</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_deck_link_display_mode" kindref="compound">IDeckLinkDisplayMode</ref> *</type>
+          <declname>new_display_mode</declname>
+        </param>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_8h_1a3d546435aa6f5fcec80762ac9fd53d94" kindref="member">BMDDetectedVideoInputFormatFlags</ref></type>
+          <declname>detected_signal_flags_raw</declname>
+        </param>
+        <briefdescription>
+<para>This method is called by the hardware when a video input format change is detected. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The most common case for this is when the stream has been enabled with input format detection. In this case we set the stream format to a default, probably incorrect, value and let the hardware give us the right stream options when it receives the first frame. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="115" column="17" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="68" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_capture_callback_1af99587fd3278bf42e029289ab07abe96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>HRESULT DeckLink::CaptureCallback::VideoInputFrameArrived</definition>
+        <argsstring>(IDeckLinkVideoInputFrame *video_frame, IDeckLinkAudioInputPacket *) override</argsstring>
+        <name>VideoInputFrameArrived</name>
+        <qualifiedname>DeckLink::CaptureCallback::VideoInputFrameArrived</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkVideoInputFrame</ref> *</type>
+          <declname>video_frame</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkAudioInputPacket</ref> *</type>
+        </param>
+        <briefdescription>
+<para>This is the function called by the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> driver when a new frame is received. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>video_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input video frame. It is only valid for the duration of the callback. If we need to keep it around we have to call IDeckLinkVideoFrame::AddRef on it and subsequently IDeckLinkVideoFrame::Release to free it.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+The pointer may be null in some situations. This is usually indicative of a problem with the input (i.e. is it even turned on correctly ?)</para>
+<para><simplesect kind="return"><para>The return value is ignored by the caller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/capture_callback.hpp" line="136" column="17" bodyfile="src/libdecklink/capture_callback.cpp" bodystart="96" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DeckLink::CaptureCallback</label>
+        <link refid="class_deck_link_1_1_capture_callback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDeckLinkInputCallback</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DeckLink::CaptureCallback</label>
+        <link refid="class_deck_link_1_1_capture_callback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DeckLink::Device</label>
+        <link refid="class_deck_link_1_1_device"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_input_interface</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_output_interface</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_notification_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::DeviceInputInterface</label>
+        <link refid="class_deck_link_1_1_device_input_interface"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DeckLink::DeviceOutputInterface</label>
+        <link refid="class_deck_link_1_1_device_output_interface"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeckLink::NotificationCallback</label>
+        <link refid="class_deck_link_1_1_notification_callback"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDeckLinkInputCallback</label>
+      </node>
+      <node id="8">
+        <label>IDeckLinkNotificationCallback</label>
+      </node>
+      <node id="4">
+        <label>boost::noncopyable</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/capture_callback.hpp" line="20" column="5" bodyfile="include/libdecklink/capture_callback.hpp" bodystart="20" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_deck_link_1_1_capture_callback_1aa6bffd2c5e5a7c69b6418e28d1c789da" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_bad_frame_counter</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a820a44c5f782c1595cfa140fae9d4961" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_bad_frame_threshold</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1abcd4f267cee889943b26caf7ff4d895e" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_on_error_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a0578b01e843f487c99a7fc61073bd610" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_on_frame_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1ac198ce2f04b6cd23d13935be0669f814" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_on_video_format_changed_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1aaaacc4d8d869f5220eb65b3fcdcd433c" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_owner</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1aae3ed22f47a0ee6742822a1343eab224" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>_timecode_format</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1aed34026447e1ea832f7f1280bd474f59" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>CaptureCallback</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a1848f37d0b00c18e53273de0d3f6b373" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>CaptureCallback</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1acadc5deb8e59c53d97f217f7f0c619a1" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>CaptureCallback</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1aa902728e0fa831a15fcb7e52d1964fca" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>CaptureCallback</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a7bcf5002db520a1cd7fb27e6296f145f" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>CaptureCallback</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a11f3c90b34a437b57f4c296919c9e6d4" prot="private" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>DeviceInputInterface</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a3f24a0a8b4062fd991eb0a6b3da4e577" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>error_cb_t</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a4bbc40ed960303cc36814a16b34bb941" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>frame_cb_t</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a656733666969386544bdd734e660207e" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>get_bad_frame_threshold</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a793187904c9a2b146067607665fa61de" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>get_timecode_format</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a8eb6e3b1c9ab7178906e4cdb71f25e61" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>operator=</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1acd3c0ea138dc57f69db909cbecc8f295" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>set_bad_frame_threshold</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a3304f0cacdd0399fde46749cc93dfa50" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>set_on_error_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a69afe6934acdec1b00f54119e53d1db9" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>set_on_input_format_changed_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1afa02d6c59133e68ea93183c456175398" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>set_on_new_frame_cb</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1abdec41d83a001d85db54c655ae4c6341" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>set_timecode_format</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1a2e70f630e24063c2ef769d89f938cc8e" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>video_format_changed_cb_t</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1ab1bcccd10472d659944b12d99f53513d" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>VideoInputFormatChanged</name></member>
+      <member refid="class_deck_link_1_1_capture_callback_1af99587fd3278bf42e029289ab07abe96" prot="public" virt="non-virtual"><scope>DeckLink::CaptureCallback</scope><name>VideoInputFrameArrived</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

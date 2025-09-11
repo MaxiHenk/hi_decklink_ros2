@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (hi_decklink_ros2) JobQueued: {'identifier': 'hi_decklink_ros2', 'dependencies': OrderedDict()}
+[0.000533] (hi_decklink_ros2) JobStarted: {'identifier': 'hi_decklink_ros2'}
+[0.023797] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'cmake'}
+[0.025388] (hi_decklink_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/mhenkel/Documents/hi_decklink_ros2', '-DCMAKE_INSTALL_PREFIX=/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2'], 'cwd': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mhenkel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mhenkel', 'OLDPWD': '/home/mhenkel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS0': '$(printf "%s" ${EPOCHREALTIME/./} >"$BYOBU_RUN_DIR/timer.$$")', 'MANAGERPID': '3312', 'SYSTEMD_EXEC_PID': '3785', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '44102', 'GNOME_KEYRING_CONTROL': '/run/user/1006/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mhenkel', 'JOURNAL_STREAM': '9:21301', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1006.slice/user@1006.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mhenkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pckjk02:@/tmp/.ICE-unix/3554,unix/pckjk02:/tmp/.ICE-unix/3554', 'INVOCATION_ID': '4d4ef63905ad4f64869ff44a2ea35c44', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1006', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1006/.mutter-Xwaylandauth.3LXNB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1006/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3d9a1022-49ce-4637-ad4c-686da0c77082', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BYOBU_CONFIG_DIR': '/home/mhenkel/.config/byobu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'BYOBU_RUN_DIR': '/dev/shm/byobu-mhenkel-4HjfKyoW', 'PWD': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099944] (-) TimerEvent: {}
+[0.200531] (-) TimerEvent: {}
+[0.301216] (-) TimerEvent: {}
+[0.401532] (-) TimerEvent: {}
+[0.502136] (-) TimerEvent: {}
+[0.602835] (-) TimerEvent: {}
+[0.703504] (-) TimerEvent: {}
+[0.772925] (hi_decklink_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.803576] (-) TimerEvent: {}
+[0.903910] (-) TimerEvent: {}
+[1.004469] (-) TimerEvent: {}
+[1.105015] (-) TimerEvent: {}
+[1.205578] (-) TimerEvent: {}
+[1.302832] (hi_decklink_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.305659] (-) TimerEvent: {}
+[1.405953] (-) TimerEvent: {}
+[1.436233] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.506154] (-) TimerEvent: {}
+[1.606670] (-) TimerEvent: {}
+[1.707169] (-) TimerEvent: {}
+[1.792091] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.807257] (-) TimerEvent: {}
+[1.807996] (hi_decklink_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.808679] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.809546] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.840201] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.907440] (-) TimerEvent: {}
+[2.002133] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.007518] (-) TimerEvent: {}
+[2.012133] (hi_decklink_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.012368] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.012876] (hi_decklink_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.067686] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: exception program_options \n'}
+[2.082097] (hi_decklink_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.107664] (-) TimerEvent: {}
+[2.208306] (-) TimerEvent: {}
+[2.308563] (-) TimerEvent: {}
+[2.325200] (hi_decklink_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.326296] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.329484] (hi_decklink_ros2) StdoutLine: {'line': b'-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) \n'}
+[2.329715] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[0mDoxygen need to be installed to generate the doxygen documentation\x1b[0m\n'}
+[2.349520] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.408844] (-) TimerEvent: {}
+[2.509284] (-) TimerEvent: {}
+[2.602434] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.609401] (-) TimerEvent: {}
+[2.709779] (-) TimerEvent: {}
+[2.810260] (-) TimerEvent: {}
+[2.816297] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.910453] (-) TimerEvent: {}
+[3.011008] (-) TimerEvent: {}
+[3.039996] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.068233] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.102592] (hi_decklink_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.111170] (-) TimerEvent: {}
+[3.139670] (hi_decklink_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.211402] (-) TimerEvent: {}
+[3.294952] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.311611] (-) TimerEvent: {}
+[3.313707] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.411810] (-) TimerEvent: {}
+[3.512446] (-) TimerEvent: {}
+[3.606004] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.612517] (-) TimerEvent: {}
+[3.632309] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.654950] (hi_decklink_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.712868] (-) TimerEvent: {}
+[3.795334] (hi_decklink_ros2) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[3.813234] (-) TimerEvent: {}
+[3.913620] (-) TimerEvent: {}
+[4.013889] (-) TimerEvent: {}
+[4.017385] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[4.017696] (hi_decklink_ros2) StderrLine: {'line': b'  By not providing "Findcamera_info_manager.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.017944] (hi_decklink_ros2) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.018154] (hi_decklink_ros2) StderrLine: {'line': b'  "camera_info_manager", but CMake did not find one.\n'}
+[4.018367] (hi_decklink_ros2) StderrLine: {'line': b'\n'}
+[4.018524] (hi_decklink_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[4.018669] (hi_decklink_ros2) StderrLine: {'line': b'  "camera_info_manager" with any of the following names:\n'}
+[4.018863] (hi_decklink_ros2) StderrLine: {'line': b'\n'}
+[4.019013] (hi_decklink_ros2) StderrLine: {'line': b'    camera_info_managerConfig.cmake\n'}
+[4.019178] (hi_decklink_ros2) StderrLine: {'line': b'    camera_info_manager-config.cmake\n'}
+[4.019355] (hi_decklink_ros2) StderrLine: {'line': b'\n'}
+[4.019571] (hi_decklink_ros2) StderrLine: {'line': b'  Add the installation prefix of "camera_info_manager" to CMAKE_PREFIX_PATH\n'}
+[4.019721] (hi_decklink_ros2) StderrLine: {'line': b'  or set "camera_info_manager_DIR" to a directory containing one of the above\n'}
+[4.019861] (hi_decklink_ros2) StderrLine: {'line': b'  files.  If "camera_info_manager" provides a separate development package or\n'}
+[4.020008] (hi_decklink_ros2) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[4.020191] (hi_decklink_ros2) StderrLine: {'line': b'\n'}
+[4.020351] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.020533] (hi_decklink_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.029468] (hi_decklink_ros2) CommandEnded: {'returncode': 1}
+[4.030258] (hi_decklink_ros2) JobEnded: {'identifier': 'hi_decklink_ros2', 'rc': 1}
+[4.040715] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.065s] [ 44%] Built target decklink
+[0.093s] [ 48%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[0.095s] [ 55%] Built target deckmonitor
+[0.096s] [ 59%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.096s] [ 66%] Built target deckview
+[0.097s] [ 74%] Built target deckstatus
+[0.098s] [ 81%] Built target deckquery
+[0.105s] [ 88%] Built target deckoutput
+[0.113s] [ 96%] Built target img2ros
+[0.347s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kdecklink_camera_driver.hpp: No such file or directory
+[0.347s]     8 | #include [01;31m[K"decklink_camera_driver.hpp"[m[K
+[0.347s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.348s] compilation terminated.
+[0.350s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+[0.350s] gmake[2]: *** Waiting for unfinished jobs....
+[0.401s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kdecklink_camera_driver.hpp: No such file or directory
+[0.401s]     6 | #include [01;31m[K"decklink_camera_driver.hpp"[m[K
+[0.401s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.401s] compilation terminated.
+[0.405s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[0.405s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+[0.405s] gmake: *** [Makefile:146: all] Error 2
+[0.407s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8

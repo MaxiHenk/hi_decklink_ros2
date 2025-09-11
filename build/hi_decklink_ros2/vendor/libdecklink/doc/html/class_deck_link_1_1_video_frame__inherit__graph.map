@@ -1,0 +1,7 @@
+<map id="DeckLink::VideoFrame" name="DeckLink::VideoFrame">
+<area shape="rect" id="Node000001" title="Wrapper for IDeckLinkVideoFrame*." alt="" coords="137,5,305,31"/>
+<area shape="rect" id="Node000002" href="$class_deck_link_1_1_video_input_frame.html" title=" " alt="" coords="5,79,207,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,40,126,81,123,76,189,35"/>
+<area shape="rect" id="Node000003" href="$class_deck_link_1_1_video_output_frame.html" title=" " alt="" coords="231,79,443,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,35,319,76,316,81,249,40"/>
+</map>

@@ -1,0 +1,20 @@
+<!--This is an example configuration file from our use at Max Planck Institute for Intelligent Systems. We want to write the ROS image topics "overlay_output_left" and "overlay_output_right" that will be shown to the da Vinci surgeon console replacing the images acquired by the da Vinci stereo endoscope. We use a DeckLink Quad 2.-->
+
+<launch>     
+
+     <node pkg="hi_decklink_ros2" exec="subscriber" name="camera_left" output="screen">
+     	<param name="decklink_device" value="DeckLink Quad (4)" />
+		<param name="image_format" value="HD1080i5994" />
+		<param name="topic" value="image_ros" />
+		<param name="keying" value="true" />
+		<param name="opacity" value="150" />
+     </node>
+
+     <node pkg="hi_decklink_ros2" exec="subscriber" name="camera_right" output="screen">
+     	<param name="decklink_device" value="DeckLink Quad (3)" />
+		<param name="image_format" value="HD1080i5994" />
+		<param name="topic" value="image_ros" />
+		<param name="keying" value="true" />
+		<param name="opacity" value="150" />
+     </node>
+</launch>

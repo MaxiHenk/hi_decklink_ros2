@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.056s] [  3%] [34m[1mGenerating API documentation with Doxygen[0m
+[0.065s] [ 43%] Built target decklink
+[0.081s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' does not exist
+[0.081s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' does not exist
+[0.089s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' is not a readable file or directory... skipping.
+[0.089s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' is not a readable file or directory... skipping.
+[0.089s] warning: Specified markdown mainpage 'README.md' does not exist
+[0.097s] [ 56%] Built target deckview
+[0.097s] [ 56%] Built target deckquery
+[0.099s] [ 63%] Built target deckmonitor
+[0.106s] [ 66%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.106s] [ 73%] Built target img2ros
+[0.107s] [ 80%] Built target deckstatus
+[0.117s] [ 90%] Built target publisher
+[0.137s] [ 96%] Built target deckoutput
+[0.443s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[0.648s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[0.667s] [ 96%] Built target docs
+[3.110s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:48:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.110s]    48 | [01;35m[K)[m[K {
+[3.110s]       | [01;35m[K^[m[K
+[3.110s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.110s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:13[m[K:
+[3.110s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:176:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.110s]   176 |     [01;36m[KConstPtr[m[K;
+[3.110s]       |     [01;36m[K^~~~~~~~[m[K
+[13.815s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[14.717s] [100%] Built target subscriber
+[14.729s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[14.738s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2
+[14.746s] -- Install configuration: "Debug"
+[14.746s] -- Execute custom install script
+[14.747s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/img2ros
+[14.747s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/publisher
+[14.747s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/subscriber
+[14.748s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/libdecklink.a
+[14.748s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/package_run_dependencies/hi_decklink_ros2
+[14.748s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/parent_prefix_path/hi_decklink_ros2
+[14.748s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.sh
+[14.749s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.dsv
+[14.749s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.sh
+[14.749s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.dsv
+[14.749s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.bash
+[14.750s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.sh
+[14.750s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.zsh
+[14.750s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.dsv
+[14.751s] -- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.dsv
+[14.759s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/packages/hi_decklink_ros2
+[14.759s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.760s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.760s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config.cmake
+[14.760s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config-version.cmake
+[14.760s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.xml
+[14.760s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch
+[14.761s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers-MPI.xml
+[14.761s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers_keying-MPI.xml
+[14.761s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/full-MPI.xml
+[14.763s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2

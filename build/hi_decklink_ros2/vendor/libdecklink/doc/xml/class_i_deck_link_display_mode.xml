@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_i_deck_link_display_mode" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IDeckLinkDisplayMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IUnknown</basecompoundref>
+    <includes refid="_deck_link_a_p_i_modes_8h" local="no">DeckLinkAPIModes.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a01891d243e1ba7a1d79f1ae47a60fa62" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkDisplayMode::GetName</definition>
+        <argsstring>(const char **name)=0</argsstring>
+        <name>GetName</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetName</qualifiedname>
+        <param>
+          <type>const char **</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="176" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a2ae7ae954a1a398d09f05f1c04132fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_deck_link_a_p_i_modes_8h_1a53a24da93c73653675b403e3b4b30a4a" kindref="member">BMDDisplayMode</ref></type>
+        <definition>virtual BMDDisplayMode IDeckLinkDisplayMode::GetDisplayMode</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetDisplayMode</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetDisplayMode</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="177" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a8ef70a4e955b2555692cd9310f19b3c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>long</type>
+        <definition>virtual long IDeckLinkDisplayMode::GetWidth</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetWidth</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetWidth</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="178" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a08a6cd64b46088335361517c14c76375" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>long</type>
+        <definition>virtual long IDeckLinkDisplayMode::GetHeight</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetHeight</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetHeight</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="179" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a63d15d4c492c35014bfaad6240721e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkDisplayMode::GetFrameRate</definition>
+        <argsstring>(BMDTimeValue *frameDuration, BMDTimeScale *timeScale)=0</argsstring>
+        <name>GetFrameRate</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetFrameRate</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_types_8h_1a978812ad7ab5ee0a1a0bc3fc2babc01a" kindref="member">BMDTimeValue</ref> *</type>
+          <declname>frameDuration</declname>
+        </param>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_types_8h_1a93cd3314ee8f29f0407d34108cdfec10" kindref="member">BMDTimeScale</ref> *</type>
+          <declname>timeScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="180" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1aba68e50482bb27c5472c3d7c6cb0a8dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_deck_link_a_p_i_modes_8h_1a057908338327facad3e425a16a0c08cf" kindref="member">BMDFieldDominance</ref></type>
+        <definition>virtual BMDFieldDominance IDeckLinkDisplayMode::GetFieldDominance</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetFieldDominance</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetFieldDominance</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="181" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a73c94839f74138436e71cdc8c94c6440" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_deck_link_a_p_i_modes_8h_1a6d751fc1b76c2f460f53927a4f718c5d" kindref="member">BMDDisplayModeFlags</ref></type>
+        <definition>virtual BMDDisplayModeFlags IDeckLinkDisplayMode::GetFlags</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetFlags</name>
+        <qualifiedname>IDeckLinkDisplayMode::GetFlags</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="182" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_deck_link_display_mode_1a34398b62082cc20964abee54c87bf424" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IDeckLinkDisplayMode::~IDeckLinkDisplayMode</definition>
+        <argsstring>()</argsstring>
+        <name>~IDeckLinkDisplayMode</name>
+        <qualifiedname>IDeckLinkDisplayMode::~IDeckLinkDisplayMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="185" column="13" bodyfile="include/decklink_sdk/DeckLinkAPIModes.h" bodystart="185" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IDeckLinkDisplayMode</label>
+        <link refid="class_i_deck_link_display_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IDeckLinkDisplayMode</label>
+        <link refid="class_i_deck_link_display_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/decklink_sdk/DeckLinkAPIModes.h" line="173" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIModes.h" bodystart="174" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_i_deck_link_display_mode_1a2ae7ae954a1a398d09f05f1c04132fdf" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetDisplayMode</name></member>
+      <member refid="class_i_deck_link_display_mode_1aba68e50482bb27c5472c3d7c6cb0a8dc" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetFieldDominance</name></member>
+      <member refid="class_i_deck_link_display_mode_1a73c94839f74138436e71cdc8c94c6440" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetFlags</name></member>
+      <member refid="class_i_deck_link_display_mode_1a63d15d4c492c35014bfaad6240721e9f" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetFrameRate</name></member>
+      <member refid="class_i_deck_link_display_mode_1a08a6cd64b46088335361517c14c76375" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetHeight</name></member>
+      <member refid="class_i_deck_link_display_mode_1a01891d243e1ba7a1d79f1ae47a60fa62" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetName</name></member>
+      <member refid="class_i_deck_link_display_mode_1a8ef70a4e955b2555692cd9310f19b3c6" prot="public" virt="pure-virtual"><scope>IDeckLinkDisplayMode</scope><name>GetWidth</name></member>
+      <member refid="class_i_deck_link_display_mode_1a34398b62082cc20964abee54c87bf424" prot="protected" virt="virtual"><scope>IDeckLinkDisplayMode</scope><name>~IDeckLinkDisplayMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

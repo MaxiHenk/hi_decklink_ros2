@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_i_deck_link_timecode" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IDeckLinkTimecode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IUnknown</basecompoundref>
+    <includes refid="_deck_link_a_p_i_types_8h" local="no">DeckLinkAPITypes.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a3fb12f8f3f465511d0f3b2c4e46af25f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref></type>
+        <definition>virtual BMDTimecodeBCD IDeckLinkTimecode::GetBCD</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetBCD</name>
+        <qualifiedname>IDeckLinkTimecode::GetBCD</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="102" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a831e607e89d5030e8012a9a998a9683a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkTimecode::GetComponents</definition>
+        <argsstring>(uint8_t *hours, uint8_t *minutes, uint8_t *seconds, uint8_t *frames)=0</argsstring>
+        <name>GetComponents</name>
+        <qualifiedname>IDeckLinkTimecode::GetComponents</qualifiedname>
+        <param>
+          <type>uint8_t *</type>
+          <declname>hours</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>minutes</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>seconds</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>frames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="103" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a109c64c2c6bb204ea0733b9f4ef5c6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkTimecode::GetString</definition>
+        <argsstring>(const char **timecode)=0</argsstring>
+        <name>GetString</name>
+        <qualifiedname>IDeckLinkTimecode::GetString</qualifiedname>
+        <param>
+          <type>const char **</type>
+          <declname>timecode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="104" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a13e20c9f7dcb2b674905d912419c65c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_deck_link_a_p_i_types_8h_1ac6e9e9fe99a13c460fea63eba77a390a" kindref="member">BMDTimecodeFlags</ref></type>
+        <definition>virtual BMDTimecodeFlags IDeckLinkTimecode::GetFlags</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>GetFlags</name>
+        <qualifiedname>IDeckLinkTimecode::GetFlags</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="105" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a489dfec4ea6fd2779767f6850a10a1c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkTimecode::GetTimecodeUserBits</definition>
+        <argsstring>(BMDTimecodeUserBits *userBits)=0</argsstring>
+        <name>GetTimecodeUserBits</name>
+        <qualifiedname>IDeckLinkTimecode::GetTimecodeUserBits</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_types_8h_1ad6bc8df332fb01bf4f330d56792d6ffa" kindref="member">BMDTimecodeUserBits</ref> *</type>
+          <declname>userBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="106" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_deck_link_timecode_1a816ceacf7f403804643ae6ce9bae5107" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IDeckLinkTimecode::~IDeckLinkTimecode</definition>
+        <argsstring>()</argsstring>
+        <name>~IDeckLinkTimecode</name>
+        <qualifiedname>IDeckLinkTimecode::~IDeckLinkTimecode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="109" column="13" bodyfile="include/decklink_sdk/DeckLinkAPITypes.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IDeckLinkTimecode</label>
+        <link refid="class_i_deck_link_timecode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IDeckLinkTimecode</label>
+        <link refid="class_i_deck_link_timecode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/decklink_sdk/DeckLinkAPITypes.h" line="99" column="1" bodyfile="include/decklink_sdk/DeckLinkAPITypes.h" bodystart="100" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_i_deck_link_timecode_1a3fb12f8f3f465511d0f3b2c4e46af25f" prot="public" virt="pure-virtual"><scope>IDeckLinkTimecode</scope><name>GetBCD</name></member>
+      <member refid="class_i_deck_link_timecode_1a831e607e89d5030e8012a9a998a9683a" prot="public" virt="pure-virtual"><scope>IDeckLinkTimecode</scope><name>GetComponents</name></member>
+      <member refid="class_i_deck_link_timecode_1a13e20c9f7dcb2b674905d912419c65c5" prot="public" virt="pure-virtual"><scope>IDeckLinkTimecode</scope><name>GetFlags</name></member>
+      <member refid="class_i_deck_link_timecode_1a109c64c2c6bb204ea0733b9f4ef5c6df" prot="public" virt="pure-virtual"><scope>IDeckLinkTimecode</scope><name>GetString</name></member>
+      <member refid="class_i_deck_link_timecode_1a489dfec4ea6fd2779767f6850a10a1c8" prot="public" virt="pure-virtual"><scope>IDeckLinkTimecode</scope><name>GetTimecodeUserBits</name></member>
+      <member refid="class_i_deck_link_timecode_1a816ceacf7f403804643ae6ce9bae5107" prot="protected" virt="virtual"><scope>IDeckLinkTimecode</scope><name>~IDeckLinkTimecode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

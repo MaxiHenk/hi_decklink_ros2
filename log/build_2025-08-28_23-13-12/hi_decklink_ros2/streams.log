@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.087s] [ 44%] Built target decklink
+[0.135s] [ 48%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.140s] [ 51%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[0.141s] [ 59%] Built target deckquery
+[0.141s] [ 66%] Built target img2ros
+[0.148s] [ 74%] Built target deckview
+[0.149s] [ 81%] Built target deckstatus
+[0.150s] [ 88%] Built target deckoutput
+[0.151s] [ 96%] Built target deckmonitor
+[0.487s] In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6[m[K:
+[0.487s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/std_srvs/srv/empty.hpp: No such file or directory
+[0.487s]    13 | #include [01;31m[K<std_srvs/std_srvs/srv/empty.hpp>[m[K
+[0.487s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.487s] compilation terminated.
+[0.490s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[0.490s] gmake[2]: *** Waiting for unfinished jobs....
+[0.550s] In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:8[m[K:
+[0.550s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/std_srvs/srv/empty.hpp: No such file or directory
+[0.550s]    13 | #include [01;31m[K<std_srvs/std_srvs/srv/empty.hpp>[m[K
+[0.550s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.550s] compilation terminated.
+[0.555s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+[0.555s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+[0.555s] gmake: *** [Makefile:146: all] Error 2
+[0.558s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8

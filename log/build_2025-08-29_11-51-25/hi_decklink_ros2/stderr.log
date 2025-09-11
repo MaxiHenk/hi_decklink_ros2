@@ -1,0 +1,8 @@
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:21:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<DeckLinkCameraDriver, __gnu_cxx::_S_atomic, false, false>::element_type = class DeckLinkCameraDriver[m[K’ {aka ‘[01m[Kclass DeckLinkCameraDriver[m[K’} has no member named ‘[01m[Kinit_image_transport[m[K’
+   21 |         camera_driver->[01;31m[Kinit_image_transport[m[K();
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

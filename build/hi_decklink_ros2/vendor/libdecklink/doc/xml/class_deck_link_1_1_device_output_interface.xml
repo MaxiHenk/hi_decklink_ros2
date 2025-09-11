@@ -1,0 +1,788 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_deck_link_1_1_device_output_interface" kind="class" language="C++" prot="public">
+    <compoundname>DeckLink::DeviceOutputInterface</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">boost::noncopyable</basecompoundref>
+    <includes refid="device__output__interface_8hpp" local="no">device_output_interface.hpp</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_deck_link_1_1_device_output_interface_1a520fa05e0bf58785da428f7a0241eee2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">class</ref></type>
+        <definition>friend class Device</definition>
+        <argsstring></argsstring>
+        <name>Device</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::Device</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="22" column="22" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deck_link_1_1_device_output_interface_1ad6bdc953820952cb33d5dae9a1a18c92" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> *</type>
+        <definition>Device* DeckLink::DeviceOutputInterface::_parent_device</definition>
+        <argsstring></argsstring>
+        <name>_parent_device</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::_parent_device</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">nullptr</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="185" column="16" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_output_interface_1a768a377f73858e43225e2a7efabe78ef" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::DeviceOutputInterface::_output_enabled</definition>
+        <argsstring></argsstring>
+        <name>_output_enabled</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::_output_enabled</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">false</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="187" column="14" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_output_interface_1aee2af0a51a3089de4b1ff663f556e0e4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::DeviceOutputInterface::_keyer_enabled</definition>
+        <argsstring></argsstring>
+        <name>_keyer_enabled</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::_keyer_enabled</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">false</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="188" column="14" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_output_interface_1a53d88f704a8862e4baa76b4f24f47a60" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkOutput</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkOutput, IDeckLinkHandleDeleter&gt; DeckLink::DeviceOutputInterface::_impl</definition>
+        <argsstring></argsstring>
+        <name>_impl</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="190" column="25" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_output_interface_1a5c186934a1fc297926ab99b6c799faaa" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkKeyer</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkKeyer, IDeckLinkHandleDeleter&gt; DeckLink::DeviceOutputInterface::_keyer_impl</definition>
+        <argsstring></argsstring>
+        <name>_keyer_impl</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::_keyer_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="191" column="25" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="191" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a14733d69f83b3884472225ceabc34474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::DeviceOutputInterface::~DeviceOutputInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~DeviceOutputInterface</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::~DeviceOutputInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="26" column="9" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a2b24d9f5e06e4d3101ea62a61adb5d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::enable</definition>
+        <argsstring>(DisplayMode display_mode, PixelFormat pixel_format, VideoOutputFlags flags=VideoOutputFlags::Default)</argsstring>
+        <name>enable</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::enable</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref></type>
+          <declname>display_mode</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref></type>
+          <declname>pixel_format</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" kindref="member">VideoOutputFlags</ref></type>
+          <declname>flags</declname>
+          <defval><ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea7a1920d61156abc05a60135aefe8bc67" kindref="member">VideoOutputFlags::Default</ref></defval>
+        </param>
+        <briefdescription>
+<para>Enable the output interface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>display_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The display mode to use for video frames </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pixel_format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pixel format to use for video frames </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The flags to use to configure the interface. Default is usually good.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="38" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="105" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a47c78140a40978e8ca460e1961c3646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::disable</definition>
+        <argsstring>()</argsstring>
+        <name>disable</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::disable</qualifiedname>
+        <briefdescription>
+<para>Disable the interface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a no-op if the interface has not been loaded yet.</para>
+<para><simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="51" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="170" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a4f80044c2d45ada1c6f9d1c33261c436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &gt;</type>
+        <definition>std::vector&lt; DisplayMode &gt; DeckLink::DeviceOutputInterface::get_all_supported_display_modes</definition>
+        <argsstring>()</argsstring>
+        <name>get_all_supported_display_modes</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::get_all_supported_display_modes</qualifiedname>
+        <briefdescription>
+<para>Get a list of all the display modes supported by this device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="58" column="21" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="189" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a74d04574b325e86cccd966ff79f544a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &gt;</type>
+        <definition>boost::optional&lt; DisplayMode &gt; DeckLink::DeviceOutputInterface::get_display_mode</definition>
+        <argsstring>(ImageFormat image_format)</argsstring>
+        <name>get_display_mode</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::get_display_mode</qualifiedname>
+        <param>
+          <type><ref refid="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754c" kindref="member">ImageFormat</ref></type>
+          <declname>image_format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="61" column="25" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="214" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a0cf8783ca61ab5a07e18221352b1c1d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::DeviceOutputInterface::supports_pixel_format</definition>
+        <argsstring>(const DisplayMode &amp;display_mode, const PixelFormat pixel_format)</argsstring>
+        <name>supports_pixel_format</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::supports_pixel_format</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &amp;</type>
+          <declname>display_mode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref></type>
+          <declname>pixel_format</declname>
+        </param>
+        <briefdescription>
+<para>Is the specified <ref refid="struct_image" kindref="compound">Image</ref> Format + Pixel Format supported by the card ? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>display_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image format to try </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pixel_format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The associated pixel formar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether the combination is supported by the device </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="70" column="14" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="232" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a62ddccc1baa5dcc7eee8245ce3dc01be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dc" kindref="member">DisplayModeSupport</ref></type>
+        <definition>DisplayModeSupport DeckLink::DeviceOutputInterface::get_display_mode_support</definition>
+        <argsstring>(const DisplayMode &amp;display_mode, const PixelFormat pixel_format, const VideoOutputFlags output_flags=VideoOutputFlags::Default)</argsstring>
+        <name>get_display_mode_support</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::get_display_mode_support</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &amp;</type>
+          <declname>display_mode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref></type>
+          <declname>pixel_format</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" kindref="member">VideoOutputFlags</ref></type>
+          <declname>output_flags</declname>
+          <defval><ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea7a1920d61156abc05a60135aefe8bc67" kindref="member">VideoOutputFlags::Default</ref></defval>
+        </param>
+        <briefdescription>
+<para>How is the specified <ref refid="struct_image" kindref="compound">Image</ref> Format + Pixel Format combination supported by the hardware ? </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Whilst <ref refid="class_deck_link_1_1_device_output_interface_1a0cf8783ca61ab5a07e18221352b1c1d0" kindref="member">DeviceOutputInterface::supports_pixel_format</ref> only tells you whether a display mode is supported or not this function allows you to differentiate between <computeroutput>supported</computeroutput> and <computeroutput>supproted with conversion</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>display_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_image" kindref="compound">Image</ref> Format to try </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pixel_format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The associated pixel format </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The associated <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" kindref="member">VideoOutputFlags</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether the combination is supported by the device </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="84" column="28" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="258" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1ae4d50c4018eaecbc807697e0e18e0790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref> &gt;</type>
+        <definition>std::vector&lt; PixelFormat &gt; DeckLink::DeviceOutputInterface::get_supported_pixel_formats</definition>
+        <argsstring>(const DisplayMode &amp;display_mode)</argsstring>
+        <name>get_supported_pixel_formats</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::get_supported_pixel_formats</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &amp;</type>
+          <declname>display_mode</declname>
+        </param>
+        <briefdescription>
+<para>Get all the supported pixel formats for a specified display mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>display_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The display_mode for which to retrieve the supported pixel formats </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of all the pixel formats supported by this display mode </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="96" column="21" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="244" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1aed7ae6b7c43a174e1530d8f62fce4722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::enable_keyer</definition>
+        <argsstring>(bool is_external=false)</argsstring>
+        <name>enable_keyer</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::enable_keyer</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+          <declname>is_external</declname>
+          <defval><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">false</ref></defval>
+        </param>
+        <briefdescription>
+<para>Enable the keyer using internal or external keying. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>is_external</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to use internal or external keying </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="106" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="321" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a828c4703eedfbb93b5d36bfae62a4131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::disable_keyer</definition>
+        <argsstring>()</argsstring>
+        <name>disable_keyer</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::disable_keyer</qualifiedname>
+        <briefdescription>
+<para>Disable the keyer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the <computeroutput>enable_keyer</computeroutput> has not already been called this is a no-op.</para>
+<para><simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="115" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="397" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a0f97af0e3726cb947ec96e4828c82acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::set_opacity</definition>
+        <argsstring>(const uint8_t level)</argsstring>
+        <name>set_opacity</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::set_opacity</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint8_t</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Set the opacity of the keyed images. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is in addition to any opacity specified in the alpha channel of the keyed images.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The opacity as a number between 0 and 255 where 0 is fully transparent and 255 is fully opaque. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="127" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="339" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a2b50a484829df2848dad928d03aeac9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::set_opacity</definition>
+        <argsstring>(const float level)</argsstring>
+        <name>set_opacity</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::set_opacity</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">float</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Set the opacity of the keyed images. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is in addition to any opacity specified in the alpha channel of the keyed images.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The opacity as a number between 0.0 and 1.0 where 0.0 is fully transparent and 1.0 is fully opaque. Values out of this range will cause an out_of_range error to be thrown. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="138" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="356" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a389eb7e7f3872ec4a23eec5d115d43e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::ramp_up_opacity</definition>
+        <argsstring>(uint32_t number_of_frames)</argsstring>
+        <name>ramp_up_opacity</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::ramp_up_opacity</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint32_t</ref></type>
+          <declname>number_of_frames</declname>
+        </param>
+        <briefdescription>
+<para>Progressively blend an image in over a number of frames. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number_of_frames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of frames over which to do the blending </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="146" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="366" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a5511a8716aea960499921e6b0434f042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::ramp_down_opacity</definition>
+        <argsstring>(uint32_t number_of_frames)</argsstring>
+        <name>ramp_down_opacity</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::ramp_down_opacity</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint32_t</ref></type>
+          <declname>number_of_frames</declname>
+        </param>
+        <briefdescription>
+<para>Progressively blend an image out over a number of frames. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number_of_frames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of frames over which to do the blending </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this (for method chaining) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="154" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="381" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a06dc9416c63ede5550bb60caf00c5810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_video_output_frame" kindref="compound">VideoOutputFrame</ref></type>
+        <definition>VideoOutputFrame DeckLink::DeviceOutputInterface::create_video_frame</definition>
+        <argsstring>(const DisplayMode &amp;display_mode, const PixelFormat &amp;pixel_format)</argsstring>
+        <name>create_video_frame</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::create_video_frame</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref> &amp;</type>
+          <declname>display_mode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref> &amp;</type>
+          <declname>pixel_format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="158" column="26" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="44" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1aa0ff6bda8d2a15a3b64c7a3a285222c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::display_video_frame</definition>
+        <argsstring>(const VideoOutputFrame &amp;outFrame)</argsstring>
+        <name>display_video_frame</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::display_video_frame</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_video_output_frame" kindref="compound">VideoOutputFrame</ref> &amp;</type>
+          <declname>outFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="161" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="73" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a50cc51f0832a2d65b4d38ed63f872779" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::DeviceOutputInterface::DeviceOutputInterface</definition>
+        <argsstring>()=default</argsstring>
+        <name>DeviceOutputInterface</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::DeviceOutputInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="166" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a7f33d63cc920067162c84c523f91002b" prot="protected" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::DeviceOutputInterface::DeviceOutputInterface</definition>
+        <argsstring>(Device *parent_device)</argsstring>
+        <name>DeviceOutputInterface</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::DeviceOutputInterface</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> *</type>
+          <declname>parent_device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="168" column="18" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a4fac2a92fa61a296502fefa1fef009cf" prot="protected" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::DeviceOutputInterface::DeviceOutputInterface</definition>
+        <argsstring>(DeviceOutputInterface &amp;&amp;src) noexcept</argsstring>
+        <name>DeviceOutputInterface</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::DeviceOutputInterface</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="170" column="9" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a762e462a5ed103d3de1baf1ec5834b55" prot="protected" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::DeviceOutputInterface::operator=</definition>
+        <argsstring>(DeviceOutputInterface &amp;&amp;rhs) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::operator=</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="172" column="31" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="23" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1adcc6fb0792f90fc078774e916d7deb7c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::DeviceOutputInterface::load_impl</definition>
+        <argsstring>()</argsstring>
+        <name>load_impl</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::load_impl</qualifiedname>
+        <briefdescription>
+<para>Load the underlying output interface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="177" column="14" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="306" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_output_interface_1a8bc14e391964be64e51062146ca7141e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::DeviceOutputInterface::load_keyer_interface</definition>
+        <argsstring>()</argsstring>
+        <name>load_keyer_interface</name>
+        <qualifiedname>DeckLink::DeviceOutputInterface::load_keyer_interface</qualifiedname>
+        <briefdescription>
+<para>Load the udnerlying keyer interface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device_output_interface.hpp" line="180" column="14" bodyfile="src/libdecklink/device_output_interface.cpp" bodystart="313" bodyend="318"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DeckLink::DeviceOutputInterface</label>
+        <link refid="class_deck_link_1_1_device_output_interface"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>boost::noncopyable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>DeckLink::CaptureCallback</label>
+        <link refid="class_deck_link_1_1_capture_callback"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::Device</label>
+        <link refid="class_deck_link_1_1_device"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_input_interface</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_output_interface</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_notification_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DeckLink::DeviceInputInterface</label>
+        <link refid="class_deck_link_1_1_device_input_interface"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::DeviceOutputInterface</label>
+        <link refid="class_deck_link_1_1_device_output_interface"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeckLink::NotificationCallback</label>
+        <link refid="class_deck_link_1_1_notification_callback"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IDeckLinkInputCallback</label>
+      </node>
+      <node id="8">
+        <label>IDeckLinkNotificationCallback</label>
+      </node>
+      <node id="2">
+        <label>boost::noncopyable</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/device_output_interface.hpp" line="20" column="5" bodyfile="include/libdecklink/device_output_interface.hpp" bodystart="20" bodyend="193"/>
+    <listofallmembers>
+      <member refid="class_deck_link_1_1_device_output_interface_1a53d88f704a8862e4baa76b4f24f47a60" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>_impl</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1aee2af0a51a3089de4b1ff663f556e0e4" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>_keyer_enabled</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a5c186934a1fc297926ab99b6c799faaa" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>_keyer_impl</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a768a377f73858e43225e2a7efabe78ef" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>_output_enabled</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1ad6bdc953820952cb33d5dae9a1a18c92" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>_parent_device</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a06dc9416c63ede5550bb60caf00c5810" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>create_video_frame</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a520fa05e0bf58785da428f7a0241eee2" prot="private" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>Device</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a50cc51f0832a2d65b4d38ed63f872779" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>DeviceOutputInterface</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a7f33d63cc920067162c84c523f91002b" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>DeviceOutputInterface</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a4fac2a92fa61a296502fefa1fef009cf" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>DeviceOutputInterface</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a47c78140a40978e8ca460e1961c3646e" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>disable</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a828c4703eedfbb93b5d36bfae62a4131" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>disable_keyer</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1aa0ff6bda8d2a15a3b64c7a3a285222c9" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>display_video_frame</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a2b24d9f5e06e4d3101ea62a61adb5d07" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>enable</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1aed7ae6b7c43a174e1530d8f62fce4722" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>enable_keyer</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a4f80044c2d45ada1c6f9d1c33261c436" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>get_all_supported_display_modes</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a74d04574b325e86cccd966ff79f544a2" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>get_display_mode</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a62ddccc1baa5dcc7eee8245ce3dc01be" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>get_display_mode_support</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1ae4d50c4018eaecbc807697e0e18e0790" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>get_supported_pixel_formats</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1adcc6fb0792f90fc078774e916d7deb7c" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>load_impl</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a8bc14e391964be64e51062146ca7141e" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>load_keyer_interface</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a762e462a5ed103d3de1baf1ec5834b55" prot="protected" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>operator=</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a5511a8716aea960499921e6b0434f042" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>ramp_down_opacity</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a389eb7e7f3872ec4a23eec5d115d43e3" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>ramp_up_opacity</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a0f97af0e3726cb947ec96e4828c82acc" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>set_opacity</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a2b50a484829df2848dad928d03aeac9e" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>set_opacity</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a0cf8783ca61ab5a07e18221352b1c1d0" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>supports_pixel_format</name></member>
+      <member refid="class_deck_link_1_1_device_output_interface_1a14733d69f83b3884472225ceabc34474" prot="public" virt="non-virtual"><scope>DeckLink::DeviceOutputInterface</scope><name>~DeviceOutputInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

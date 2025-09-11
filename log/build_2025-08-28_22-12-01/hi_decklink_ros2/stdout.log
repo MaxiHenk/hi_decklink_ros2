@@ -1,0 +1,30 @@
+[ 50%] Built target decklink
+[ 58%] Built target deckstatus
+[ 66%] Built target deckquery
+[ 75%] Built target deckview
+[ 83%] Built target deckmonitor
+[ 91%] Built target deckoutput
+[ 95%] [32mBuilding CXX object CMakeFiles/img2ros.dir/src/img2ros.cpp.o[0m
+[100%] [32m[1mLinking CXX executable img2ros[0m
+[100%] Built target img2ros
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/img2ros
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/libdecklink.a
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/package_run_dependencies/hi_decklink_ros2
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/parent_prefix_path/hi_decklink_ros2
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.sh
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.dsv
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.bash
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.sh
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.zsh
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.dsv
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.dsv
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/packages/hi_decklink_ros2
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config.cmake
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config-version.cmake
+-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.xml

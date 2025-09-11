@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_dcc510ee7cb054a67e3642ade9130bf1" kind="dir">
+    <compoundname>include/libdecklink</compoundname>
+    <innerfile refid="bitmask_8hpp">bitmask.hpp</innerfile>
+    <innerfile refid="capture__callback_8hpp">capture_callback.hpp</innerfile>
+    <innerfile refid="decklink__handle__deleter_8hpp">decklink_handle_deleter.hpp</innerfile>
+    <innerfile refid="device_8hpp">device.hpp</innerfile>
+    <innerfile refid="device__input__interface_8hpp">device_input_interface.hpp</innerfile>
+    <innerfile refid="device__output__interface_8hpp">device_output_interface.hpp</innerfile>
+    <innerfile refid="display__mode_8hpp">display_mode.hpp</innerfile>
+    <innerfile refid="dummy__reference__counted_8hpp">dummy_reference_counted.hpp</innerfile>
+    <innerfile refid="errors_8hpp">errors.hpp</innerfile>
+    <innerfile refid="interface__helper_8hpp">interface_helper.hpp</innerfile>
+    <innerfile refid="notification__callback_8hpp">notification_callback.hpp</innerfile>
+    <innerfile refid="types_8hpp">types.hpp</innerfile>
+    <innerfile refid="video__frame_8hpp">video_frame.hpp</innerfile>
+    <innerfile refid="video__input__frame_8hpp">video_input_frame.hpp</innerfile>
+    <innerfile refid="video__output__frame_8hpp">video_output_frame.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/libdecklink/"/>
+  </compounddef>
+</doxygen>

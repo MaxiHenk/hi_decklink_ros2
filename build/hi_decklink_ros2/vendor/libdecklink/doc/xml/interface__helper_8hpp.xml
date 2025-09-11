@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface__helper_8hpp" kind="file" language="C++">
+    <compoundname>interface_helper.hpp</compoundname>
+    <includes refid="_deck_link_a_p_i_8h" local="yes">decklink_sdk/DeckLinkAPI.h</includes>
+    <includes refid="errors_8hpp" local="yes">libdecklink/errors.hpp</includes>
+    <includes refid="decklink__handle__deleter_8hpp" local="yes">libdecklink/decklink_handle_deleter.hpp</includes>
+    <includedby refid="device_8cpp" local="yes">src/libdecklink/device.cpp</includedby>
+    <includedby refid="device__input__interface_8cpp" local="yes">src/libdecklink/device_input_interface.cpp</includedby>
+    <includedby refid="device__output__interface_8cpp" local="yes">src/libdecklink/device_output_interface.cpp</includedby>
+    <includedby refid="video__output__frame_8cpp" local="yes">src/libdecklink/video_output_frame.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>decklink_sdk/DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DeckLinkAPIConfiguration.h</label>
+        <link refid="_deck_link_a_p_i_configuration_8h"/>
+      </node>
+      <node id="9">
+        <label>DeckLinkAPIDeckControl.h</label>
+        <link refid="_deck_link_a_p_i_deck_control_8h"/>
+      </node>
+      <node id="7">
+        <label>DeckLinkAPIDiscovery.h</label>
+        <link refid="_deck_link_a_p_i_discovery_8h"/>
+      </node>
+      <node id="6">
+        <label>DeckLinkAPIModes.h</label>
+        <link refid="_deck_link_a_p_i_modes_8h"/>
+      </node>
+      <node id="5">
+        <label>DeckLinkAPITypes.h</label>
+        <link refid="_deck_link_a_p_i_types_8h"/>
+      </node>
+      <node id="4">
+        <label>LinuxCOM.h</label>
+        <link refid="_linux_c_o_m_8h"/>
+      </node>
+      <node id="15">
+        <label>libdecklink/decklink_handle_deleter.hpp</label>
+        <link refid="decklink__handle__deleter_8hpp"/>
+      </node>
+      <node id="10">
+        <label>libdecklink/errors.hpp</label>
+        <link refid="errors_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/libdecklink/interface_helper.hpp</label>
+        <link refid="interface__helper_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>libdecklink/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>array</label>
+      </node>
+      <node id="11">
+        <label>boost/exception/all.hpp</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>include/libdecklink/interface_helper.hpp</label>
+        <link refid="interface__helper_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/libdecklink/device.cpp</label>
+        <link refid="device_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/libdecklink/device_input_interface.cpp</label>
+        <link refid="device__input__interface_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/libdecklink/device_output_interface.cpp</label>
+        <link refid="device__output__interface_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/libdecklink/video_output_frame.cpp</label>
+        <link refid="video__output__frame_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_deck_link">DeckLink</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>tibo<sp/>on<sp/>16/01/18.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_deck_link_a_p_i_8h" kindref="compound">decklink_sdk/DeckLinkAPI.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="errors_8hpp" kindref="compound">libdecklink/errors.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="decklink__handle__deleter_8hpp" kindref="compound">libdecklink/decklink_handle_deleter.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_deck_link" kindref="compound">DeckLink</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>InterfaceType&gt;</highlight></codeline>
+<codeline lineno="15" refid="namespace_deck_link_1a0a55750acfe1a3289b6496f546559dda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespace_deck_link_1a0a55750acfe1a3289b6496f546559dda" kindref="member">load_interface</ref>(</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref><sp/>*<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">device</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_id</ref>,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unique_ptr&lt;InterfaceType,<sp/>IDeckLinkHandleDeleter&gt;&amp;<sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">dest</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_name</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">device</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BOOST_THROW_EXCEPTION</ref>(<ref refid="struct_deck_link_1_1null__pointer__error" kindref="compound">null_pointer_error</ref>()<sp/>&lt;&lt;<sp/><ref refid="namespace_deck_link_1ad8d01de64a88790fae5052482007223a" kindref="member">errmsg</ref>(</highlight><highlight class="stringliteral">&quot;device<sp/>was<sp/>null&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_ptr</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">result</ref><sp/>=<sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">device</ref>-&gt;QueryInterface(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_id</ref>,<sp/>&amp;<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_ptr</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">result</ref><sp/>!=<sp/><ref refid="_linux_c_o_m_8h_1a14bc2dfa42241600d567369cd25ddc70" kindref="member">S_OK</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BOOST_THROW_EXCEPTION</ref>(<ref refid="struct_deck_link_1_1decklink__driver__error" kindref="compound">decklink_driver_error</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/><ref refid="namespace_deck_link_1ad8d01de64a88790fae5052482007223a" kindref="member">errmsg</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>retrieve<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_name</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>interface&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/><ref refid="namespace_deck_link_1a09e9870449661e608f35fa3dc7732e90" kindref="member">decklink_error_code</ref>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2" kindref="member">HResult</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">result</ref>))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">assert</ref>(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_ptr</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">dest</ref>.reset(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">InterfaceType</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">interface_ptr</ref>));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="include/libdecklink/interface_helper.hpp"/>
+  </compounddef>
+</doxygen>

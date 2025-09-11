@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>hi_decklink_ros2</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md__2home_2mhenkel_2_documents_2hi__decklink__ros2_2_r_e_a_d_m_e"/> <ulink url="https://atlas.is.localnet/bamboo/browse/BAMEI-CIT/latest/"><image type="html" name="https://raw.githubusercontent.com/MPI-IS-BambooAgent/sw_badges/master/badges/plans/hidecklinkros/build.svg?sanitize=true" alt="Build status" inline="yes"></image>
+</ulink></para>
+<sect1 id="index_1autotoc_md0">
+<title>HI DeckLink ROS</title>
+<para>The <bold>HI <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> ROS</bold> package exposes BlackMagic Design <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> video playback and capture cards to a ROS network. It is based on the previous version <ulink url="https://gitlab.com/Polimi-dVRK/decklink/decklink_ros">DeckLink ROS</ulink> developed at the NearLab (Politecnico di Milano).</para>
+<sect2 id="index_1autotoc_md1">
+<title>Dependencies</title>
+<para><bold>HI <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> ROS</bold> leverages <ulink url="https://gitlab.com/Polimi-dVRK/decklink/libdecklink">libdecklink</ulink>, a higher-level level interface to the BlackMagic Design SDK, to control the underlying card(s). This component is installed as a git submodule.</para>
+</sect2>
+<sect2 id="index_1autotoc_md2">
+<title>Installation</title>
+<para>This project has been tested with:<itemizedlist>
+<listitem><para>Ubuntu 16.04 and Ubuntu 20.04</para>
+</listitem><listitem><para>ROS Kinetic, ROS Lunar, and ROS Noetic</para>
+</listitem><listitem><para><ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> Duo and <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> Quad 2</para>
+</listitem></itemizedlist>
+</para>
+<para>Clone the repository into your ROS workspace: <verbatim>git clone --recursive https://github.com/MPI-IS/hi_decklink_ros.git
+</verbatim> Build the nodes: <verbatim>catkin build hi_decklink_ros
+</verbatim> </para>
+</sect2>
+<sect2 id="index_1autotoc_md3">
+<title>Docker</title>
+<para><bold>HI <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> ROS</bold> can also be built inside a Docker container using the provided <computeroutput>Dockerfile</computeroutput>. In order to do so, simply do</para>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">docker<sp/>build<sp/>.<sp/>-t<sp/>hi_declink_ros<sp/>#<sp/>builds<sp/>image</highlight></codeline>
+<codeline><highlight class="normal">docker<sp/>run<sp/>-it<sp/>-d<sp/>--name<sp/>my_container<sp/>hi_declink_ros<sp/>#<sp/>starts<sp/>container</highlight></codeline>
+</programlisting></para>
+<para>Note that building this image is part of our continuous integration.</para>
+</sect2>
+<sect2 id="index_1autotoc_md4">
+<title>The publisher node</title>
+<para>The publisher node reads images from one input of the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> card and publishes them to ROS topic. After having the <computeroutput>roscore</computeroutput> running, open in a different terminal: <verbatim>rosrun hi_decklink_ros publisher _decklink_device:=&quot;DeckLink [model] ([input])&quot;
+</verbatim> This will create a <computeroutput>publisher</computeroutput> node that listens for images on from one input of your <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> card and publishes them on the topic <computeroutput>/image_raw</computeroutput>.</para>
+<para>To see the published image: <verbatim>rosrun image_view image_view image:=&quot;image_raw&quot;
+</verbatim> The node will additionally publish <computeroutput>sensor_msgs::CameraInfo</computeroutput> messages synchronised to each image message. If the camera is uncalibrated these will be empty. If a camera calibration file is available you can pass the path to the file in the <computeroutput>camera_info_url</computeroutput> parameter. This will allow the <computeroutput>image_proc</computeroutput> family of nodes to automatically generate rectified images.</para>
+<para>The node accepts the following parameters:</para>
+<para><table rows="5" cols="2"><row>
+<entry thead="yes"><para>Parameter   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>decklink_device</computeroutput>   </para>
+</entry><entry thead="no"><para>The name of the capture (input) interface on the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> card from which to read images and the channel used.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>camera_name</computeroutput>   </para>
+</entry><entry thead="no"><para>A name to identify the camera. The name is used to check that the right camera calibration information is being used. If the camera name in the calibration file and the name passed here differ a warning will be shown in the ROS console. If the name is not set the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> device name is used instead.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>camera_frame</computeroutput>   </para>
+</entry><entry thead="no"><para>The <computeroutput>tf</computeroutput> frame that the camera should attached to. This helps to keep point clouds generated with <computeroutput>stereo_image_proc</computeroutput> in the correct reference frame. The default value is the camera name.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>camera_info_url</computeroutput>   </para>
+</entry><entry thead="no"><para>The location in which to locate the camera info file. This should a be an absolute file path.   </para>
+</entry></row>
+</table>
+</para>
+<para>A launch file for a stereo endoscope is provided for documentation purposes in the <computeroutput>launch/</computeroutput> folder.</para>
+<para>The publisher node has been tested on:<itemizedlist>
+<listitem><para>a clinical Intuitive da Vinci Si HD robotic system</para>
+</listitem><listitem><para>a dVRK (da Vinci Research Kit)</para>
+</listitem><listitem><para>a standard HD-SDI video camera</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="index_1autotoc_md5">
+<title>The subscriber node</title>
+<para>The subscriber node reads images from a ROS topic and writes them to the specified <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> output. This node can be used to perform keying.</para>
+<para>After having the <computeroutput>roscore</computeroutput> running, open in a different terminal: <verbatim>rosrun hi_decklink_ros subscriber _decklink_device:=&quot;DeckLink [model] ([input])&quot; _topic:=&quot;[ros/image/topic]&quot;
+</verbatim> This will create a <computeroutput>subscriber</computeroutput> node that monitors the ROS image topic given as input. This node expects <computeroutput>BGRA8</computeroutput> formatted images for simplicity and will produce an error if an image with a different formatting is used. The alpha channel is required to support keying. To quickly test this node, please check the section &quot;Test subscriber&quot;.</para>
+<para>The node accepts the following parameters:</para>
+<para><table rows="6" cols="2"><row>
+<entry thead="yes"><para>Parameter   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>decklink_device</computeroutput>   </para>
+</entry><entry thead="no"><para>The name of the playback (output) interface on the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> card onto which the images will be written and the channel used.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>topic</computeroutput>   </para>
+</entry><entry thead="no"><para>The ROS topic from which the images will be read.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>image_format</computeroutput>   </para>
+</entry><entry thead="no"><para>The name of the display mode to use.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>keying (bool)</computeroutput>   </para>
+</entry><entry thead="no"><para>Whether or not to enable keying on the card.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>opacity (int)</computeroutput>   </para>
+</entry><entry thead="no"><para>The opacity of the keyed images in the range 0 (transparent) to 255 (opaque).   </para>
+</entry></row>
+</table>
+</para>
+<para>The subscriber node has been tested on:<itemizedlist>
+<listitem><para>the stereo viewer of a clinical Intuitive da Vinci Si HD robotic system</para>
+</listitem><listitem><para>the stereo viewer of a dVRK (da Vinci Research Kit)</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="index_1autotoc_md6">
+<title>Using keying</title>
+<para>Keying on <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> devices is extremely fast (less than 1ms extra latency on average). On modern cards it is possible to re-map each individual connector so that they can be used individually for input or for output. However, to use keying you must provide an input onto which the images will be keyed; as such, you must retain a pair (the left connector is for input and the right connector is for output). The output will be the input video with the keyed image overlaid on top with the specified opacity.</para>
+<para>The pixel format is hard coded to YUV422.</para>
+</sect2>
+<sect2 id="index_1autotoc_md7">
+<title>Test subscriber</title>
+<para>We prepared a small demo to test the subscriber node both in writing and keying mode. We placed an image (<computeroutput>image.png</computeroutput> in the folder <computeroutput>sample</computeroutput>) that you are welcome to use.</para>
+<para>After having the <computeroutput>roscore</computeroutput> running: <verbatim>rosrun hi_decklink_ros img2ros _path:=&quot;[/path/to/your/image.png]&quot;
+</verbatim> This will create a ROS topic image (<computeroutput>image_ros</computeroutput>). You can see it with: <verbatim>rosrun image_view image_view image:=&quot;image_ros&quot;
+</verbatim> Then run the subscriber node, specifying this topic: <verbatim>rosrun hi_decklink_ros subscriber _decklink_device:=&quot;DeckLink [model] ([input])&quot; _topic:=&quot;image_ros&quot;
+</verbatim> By default, the node will write this image.</para>
+<para>If you want this image to be keyed on the input video: <verbatim>rosrun hi_decklink_ros subscriber _decklink_device:=&quot;DeckLink [model] ([input])&quot; _topic:=&quot;image_ros&quot; _keying:=&quot;True&quot; _opacity:=&quot;150&quot;
+</verbatim> We designed the subscriber node, in a way that it possible to use the same node and change the two modes (write/keying) internally, using a boolean topic <computeroutput>function/output_write</computeroutput>. To understand its functioning, we suggest to check it in <computeroutput>subscriber.cpp</computeroutput>.</para>
+</sect2>
+<sect2 id="index_1autotoc_md8">
+<title>Launch examples</title>
+<para>We used these drivers to connect a workstation computer to the vision system of a clinical da Vinci Si HD surgical robot (Intuitive Inc.). In this way, we could overlay virtual content of the intraoperative images acquired by the endoscope.</para>
+<para>Examples of launch files are in the folder <computeroutput>launch</computeroutput>. For more information about how to connect the hardware to a da Vinci robot, please refer to our paper.</para>
+</sect2>
+<sect2 id="index_1autotoc_md9">
+<title>Authors</title>
+<para><ulink url="https://is.mpg.de/person/Forte">Maria-Paola Forte</ulink>, Haptic Intelligence Department - Max Planck Institute for Intelligent Systems</para>
+<para><ulink url="https://www.linkedin.com/in/thibaudchupin/">Thibaud Chupin</ulink></para>
+<para><bold>HI <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> ROS</bold> is based on the work done by <ulink url="https://www.linkedin.com/in/thibaudchupin/">Thibaud Chupin</ulink> on <ulink url="https://gitlab.com/Polimi-dVRK/decklink/decklink_ros">DeckLink ROS</ulink>.</para>
+</sect2>
+<sect2 id="index_1autotoc_md10">
+<title>Maintainers</title>
+<para><ulink url="https://is.mpg.de/person/Forte">Maria-Paola Forte</ulink>, Haptic Intelligence Department - Max Planck Institute for Intelligent Systems</para>
+</sect2>
+<sect2 id="index_1autotoc_md11">
+<title>License</title>
+<para>MIT license (see LICENSE.md).</para>
+<para><ulink url="https://gitlab.com/Polimi-dVRK/decklink/decklink_ros">DeckLink ROS</ulink> is distributed under the MIT license (see LICENSE_declink_ros.md)</para>
+</sect2>
+<sect2 id="index_1autotoc_md12">
+<title>Copyright</title>
+<para>© 2020, Max Planck Society - Max Planck Institute for Intelligent Systems</para>
+</sect2>
+<sect2 id="index_1autotoc_md13">
+<title>Notes</title>
+<para>The <computeroutput>libdecklink</computeroutput> tools (check the status of the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> card, its model, the status of the channels etc.) are not maintained anymore since this information can be obtained through the softwares provided by BlackMagic Design.</para>
+</sect2>
+<sect2 id="index_1autotoc_md14">
+<title>Acknowledgments</title>
+<para>We thank <ulink url="https://github.com/jcpassy">Jean-Claude Passy</ulink> and the <ulink url="http://is.tuebingen.mpg.de/en/software-workshop">Software Workshop</ulink> for their help to release the code.</para>
+</sect2>
+<sect2 id="index_1autotoc_md15">
+<title>Reference</title>
+<para>If you use these drivers, please cite: <programlisting><codeline><highlight class="normal">@article{Forte22-IJMRCAS-Design,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>title={Design<sp/>of<sp/>Interactive<sp/>{AR}<sp/>Functions<sp/>for<sp/>Robotic<sp/>Surgery<sp/>and<sp/>Evaluation<sp/>in<sp/>Dry-Lab<sp/>Lymphadenectomy},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>author={Forte,<sp/>Maria-Paola<sp/>and<sp/>Gourishetti,<sp/>Ravali<sp/>and<sp/>Javot,<sp/>Bernard<sp/>and<sp/>Gomez,<sp/>Ernest<sp/>T.<sp/>and<sp/>Kuchenbecker,<sp/>Katherine<sp/>J.},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>journal={The<sp/>International<sp/>Journal<sp/>of<sp/>Medical<sp/>Robotics<sp/>and<sp/>Computer<sp/>Assisted<sp/>Surgery},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>year={2022},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>publisher={Wiley<sp/>Online<sp/>Library}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/mhenkel/Documents/hi_decklink_ros2/README.md"/>
+  </compounddef>
+</doxygen>

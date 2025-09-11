@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_deck_link_1_1_i_deck_link_handle_deleter" kind="struct" language="C++" prot="public">
+    <compoundname>DeckLink::IDeckLinkHandleDeleter</compoundname>
+    <includes refid="decklink__handle__deleter_8hpp" local="no">decklink_handle_deleter.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_deck_link_1_1_i_deck_link_handle_deleter_1a13ce4270bdc08a2be9907aeb9819e393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">typename</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">DeckLinkImpl</ref></type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::IDeckLinkHandleDeleter::operator()</definition>
+        <argsstring>(DeckLinkImpl *ptr)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>DeckLink::IDeckLinkHandleDeleter::operator()</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">DeckLinkImpl</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Custom deleter used with the std::unique_ptr to ensure that the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> SDK resource is correctly freed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>DeckLinkImpl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref>... type of object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref>... to release </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/decklink_handle_deleter.hpp" line="18" column="14" bodyfile="include/libdecklink/decklink_handle_deleter.hpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/libdecklink/decklink_handle_deleter.hpp" line="9" column="5" bodyfile="include/libdecklink/decklink_handle_deleter.hpp" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="struct_deck_link_1_1_i_deck_link_handle_deleter_1a13ce4270bdc08a2be9907aeb9819e393" prot="public" virt="non-virtual"><scope>DeckLink::IDeckLinkHandleDeleter</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

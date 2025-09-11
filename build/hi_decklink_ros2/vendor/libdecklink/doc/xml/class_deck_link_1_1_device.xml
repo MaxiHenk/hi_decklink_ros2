@@ -1,0 +1,1108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_deck_link_1_1_device" kind="class" language="C++" prot="public">
+    <compoundname>DeckLink::Device</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">boost::noncopyable</basecompoundref>
+    <includes refid="device_8hpp" local="no">device.hpp</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_deck_link_1_1_device_1a11f3c90b34a437b57f4c296919c9e6d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">class</ref></type>
+        <definition>friend class DeviceInputInterface</definition>
+        <argsstring></argsstring>
+        <name>DeviceInputInterface</name>
+        <qualifiedname>DeckLink::Device::DeviceInputInterface</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device_input_interface" kindref="compound">DeviceInputInterface</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="25" column="22" bodyfile="include/libdecklink/device.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_device_1ae06d0bcdad03f092becf232883a078f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">class</ref></type>
+        <definition>friend class DeviceOutputInterface</definition>
+        <argsstring></argsstring>
+        <name>DeviceOutputInterface</name>
+        <qualifiedname>DeckLink::Device::DeviceOutputInterface</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="26" column="22" bodyfile="include/libdecklink/device.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1af4186c984b25944d2892535a94465ba3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_device_input_interface" kindref="compound">DeviceInputInterface</ref></type>
+        <definition>DeviceInputInterface DeckLink::Device::_input_interface</definition>
+        <argsstring></argsstring>
+        <name>_input_interface</name>
+        <qualifiedname>DeckLink::Device::_input_interface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="171" column="30" bodyfile="include/libdecklink/device.hpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1a530b754a216a5188f024d36088a60d42" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref></type>
+        <definition>DeviceOutputInterface DeckLink::Device::_output_interface</definition>
+        <argsstring></argsstring>
+        <name>_output_interface</name>
+        <qualifiedname>DeckLink::Device::_output_interface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="172" column="31" bodyfile="include/libdecklink/device.hpp" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1aa60a69a0a9b40d3a0b2429273a308a45" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::Device::_notification_callback_subscribed</definition>
+        <argsstring></argsstring>
+        <name>_notification_callback_subscribed</name>
+        <qualifiedname>DeckLink::Device::_notification_callback_subscribed</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">false</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="174" column="14" bodyfile="include/libdecklink/device.hpp" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1ade67900a9404fe3aeb99c8df5241a941" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_notification_callback" kindref="compound">NotificationCallback</ref></type>
+        <definition>NotificationCallback DeckLink::Device::_notification_callback</definition>
+        <argsstring></argsstring>
+        <name>_notification_callback</name>
+        <qualifiedname>DeckLink::Device::_notification_callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="175" column="30" bodyfile="include/libdecklink/device.hpp" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1ab3cc84573caa601dcf1b264db06fd63e" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLink, IDeckLinkHandleDeleter&gt; DeckLink::Device::_device_impl</definition>
+        <argsstring></argsstring>
+        <name>_device_impl</name>
+        <qualifiedname>DeckLink::Device::_device_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="177" column="33" bodyfile="include/libdecklink/device.hpp" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1a2a77159ab50c6359d75a22eee73a395d" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkStatus</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkStatus, IDeckLinkHandleDeleter&gt; DeckLink::Device::_status_impl</definition>
+        <argsstring></argsstring>
+        <name>_status_impl</name>
+        <qualifiedname>DeckLink::Device::_status_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="178" column="33" bodyfile="include/libdecklink/device.hpp" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1a49429aa4303f206878b861333b3ae822" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkAttributes</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkAttributes, IDeckLinkHandleDeleter&gt; DeckLink::Device::_attributes_impl</definition>
+        <argsstring></argsstring>
+        <name>_attributes_impl</name>
+        <qualifiedname>DeckLink::Device::_attributes_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="179" column="33" bodyfile="include/libdecklink/device.hpp" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1ae09bf382f6eaad332520f754b3b361e2" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="class_i_deck_link_configuration" kindref="compound">IDeckLinkConfiguration</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkConfiguration, IDeckLinkHandleDeleter&gt; DeckLink::Device::_configuration_impl</definition>
+        <argsstring></argsstring>
+        <name>_configuration_impl</name>
+        <qualifiedname>DeckLink::Device::_configuration_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="180" column="33" bodyfile="include/libdecklink/device.hpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_device_1a1134b46e7dd949795d3e8a46ebdc17a0" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IDeckLinkNotification</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IDeckLinkNotification, IDeckLinkHandleDeleter&gt; DeckLink::Device::_notification_impl</definition>
+        <argsstring></argsstring>
+        <name>_notification_impl</name>
+        <qualifiedname>DeckLink::Device::_notification_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="181" column="33" bodyfile="include/libdecklink/device.hpp" bodystart="181" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_deck_link_1_1_device_1ac76e0840a9232ad7d9588305d0266c7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> &gt;</type>
+        <definition>std::vector&lt; Device &gt; DeckLink::Device::List</definition>
+        <argsstring>()</argsstring>
+        <name>List</name>
+        <qualifiedname>DeckLink::Device::List</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="30" column="28" bodyfile="src/libdecklink/device.cpp" bodystart="14" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1af7d28b9271f67b58f37a059b468b0e17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> &gt;</type>
+        <definition>boost::optional&lt; Device &gt; DeckLink::Device::Get</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>Get</name>
+        <qualifiedname>DeckLink::Device::Get</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="32" column="32" bodyfile="src/libdecklink/device.cpp" bodystart="43" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3ee72cef0646173f50462248539d367b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::Device::Device</definition>
+        <argsstring>()</argsstring>
+        <name>Device</name>
+        <qualifiedname>DeckLink::Device::Device</qualifiedname>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This constructs a dummy <ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> that cannot actually be used for anything. It just serves to provide a default constructor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="42" column="9" bodyfile="include/libdecklink/device.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3ff22affb50a660b90225c586c1cc09c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::Device::Device</definition>
+        <argsstring>(IDeckLink *device_ptr)</argsstring>
+        <name>Device</name>
+        <qualifiedname>DeckLink::Device::Device</qualifiedname>
+        <param>
+          <type><ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref> *</type>
+          <declname>device_ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="44" column="18" bodyfile="src/libdecklink/device.cpp" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a83dcb265e795fc9b2840b8a748988d10" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::Device::Device</definition>
+        <argsstring>(Device &amp;&amp;src) noexcept</argsstring>
+        <name>Device</name>
+        <qualifiedname>DeckLink::Device::Device</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="46" column="9" bodyfile="src/libdecklink/device.cpp" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3cbb4aaceff13d6278cabb1ca893523b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> &amp;</type>
+        <definition>Device &amp; DeckLink::Device::operator=</definition>
+        <argsstring>(Device &amp;&amp;rhs) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>DeckLink::Device::operator=</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="48" column="16" bodyfile="src/libdecklink/device.cpp" bodystart="77" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1afdf63b41b5759a06a1ae948a24f93759" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>DeckLink::Device::~Device</definition>
+        <argsstring>()</argsstring>
+        <name>~Device</name>
+        <qualifiedname>DeckLink::Device::~Device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="50" column="17" bodyfile="src/libdecklink/device.cpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a33b16d9f7e8ce0064ede0993a87ecdce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DeckLink::Device::get_model_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_model_name</name>
+        <qualifiedname>DeckLink::Device::get_model_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="56" column="21" bodyfile="src/libdecklink/device.cpp" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a8f11d2d96bba5d9801e3f478e44a88cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DeckLink::Device::get_display_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_display_name</name>
+        <qualifiedname>DeckLink::Device::get_display_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="57" column="21" bodyfile="src/libdecklink/device.cpp" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a2f1b6566aab044dc17e61c18ba5da0d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DeckLink::Device::get_vendor_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_vendor_name</name>
+        <qualifiedname>DeckLink::Device::get_vendor_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="58" column="21" bodyfile="src/libdecklink/device.cpp" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a98a9d96ba8ce0c74c9ac97a9743af96e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DeckLink::Device::get_long_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_long_name</name>
+        <qualifiedname>DeckLink::Device::get_long_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="60" column="21" bodyfile="src/libdecklink/device.cpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aa9c1ed0ef76b0f8a15021f04571c668b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref> &gt;</type>
+        <definition>boost::optional&lt; bool &gt; DeckLink::Device::get_bool_attribute</definition>
+        <argsstring>(const AttributeID flag) const</argsstring>
+        <name>get_bool_attribute</name>
+        <qualifiedname>DeckLink::Device::get_bool_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a boolean attribute from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="63" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="139" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aaa710fc3ee2ad73f854b5861b0ae3dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_bool_attribute</definition>
+        <argsstring>(const AttributeID flag, bool value)</argsstring>
+        <name>set_bool_attribute</name>
+        <qualifiedname>DeckLink::Device::set_bool_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="64" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="155" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a4038250b8c51bbcf89545ed36e60a6f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int64_t</ref> &gt;</type>
+        <definition>boost::optional&lt; int64_t &gt; DeckLink::Device::get_int_attribute</definition>
+        <argsstring>(const AttributeID flag) const</argsstring>
+        <name>get_int_attribute</name>
+        <qualifiedname>DeckLink::Device::get_int_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="67" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="160" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3c57785429433df13a2e3ff7614cb146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_int_attribute</definition>
+        <argsstring>(const AttributeID flag, int value)</argsstring>
+        <name>set_int_attribute</name>
+        <qualifiedname>DeckLink::Device::set_int_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="68" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aaac347ea1018123a950b043d1173677f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">double</ref> &gt;</type>
+        <definition>boost::optional&lt; double &gt; DeckLink::Device::get_float_attribute</definition>
+        <argsstring>(const AttributeID flag) const</argsstring>
+        <name>get_float_attribute</name>
+        <qualifiedname>DeckLink::Device::get_float_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="71" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="181" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a78ca4987e72c291476b474e056fcf9d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_float_attribute</definition>
+        <argsstring>(const AttributeID flag, float value)</argsstring>
+        <name>set_float_attribute</name>
+        <qualifiedname>DeckLink::Device::set_float_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">float</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="72" column="15" bodyfile="src/libdecklink/device.cpp" bodystart="197" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aefdf9ff4188852bb928bc247c226aefe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; std::string &gt;</type>
+        <definition>boost::optional&lt; std::string &gt; DeckLink::Device::get_string_attribute</definition>
+        <argsstring>(const AttributeID flag) const</argsstring>
+        <name>get_string_attribute</name>
+        <qualifiedname>DeckLink::Device::get_string_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a string attribute from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="75" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="202" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a859bcd5d248a29d1227ac843b0b29032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_string_attribute</definition>
+        <argsstring>(const AttributeID flag, std::string value)</argsstring>
+        <name>set_string_attribute</name>
+        <qualifiedname>DeckLink::Device::set_string_attribute</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="76" column="20" bodyfile="src/libdecklink/device.cpp" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1ae082ee34d9165ce120a70b9f8acff087" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref> &gt;</type>
+        <definition>boost::optional&lt; bool &gt; DeckLink::Device::get_bool_configuration</definition>
+        <argsstring>(const ConfigurationID flag) const</argsstring>
+        <name>get_bool_configuration</name>
+        <qualifiedname>DeckLink::Device::get_bool_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a boolean configuration value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="79" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="228" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a8f27c7e121b2eaa6c305434487233864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_bool_configuration</definition>
+        <argsstring>(const ConfigurationID flag, bool value)</argsstring>
+        <name>set_bool_configuration</name>
+        <qualifiedname>DeckLink::Device::set_bool_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="80" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="244" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a9e5f545393add0456c1507c4a04a1642" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int64_t</ref> &gt;</type>
+        <definition>boost::optional&lt; int64_t &gt; DeckLink::Device::get_int_configuration</definition>
+        <argsstring>(const ConfigurationID flag) const</argsstring>
+        <name>get_int_configuration</name>
+        <qualifiedname>DeckLink::Device::get_int_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read an integer (<computeroutput>int64_t</computeroutput>) configuration value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="83" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="249" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a41ab23090f2c0add99a02f970cea23a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_int_configuration</definition>
+        <argsstring>(const ConfigurationID flag, int value)</argsstring>
+        <name>set_int_configuration</name>
+        <qualifiedname>DeckLink::Device::set_int_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="84" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="265" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1af618eac56f40f17540c37ea3b66d8a55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">double</ref> &gt;</type>
+        <definition>boost::optional&lt; double &gt; DeckLink::Device::get_float_configuration</definition>
+        <argsstring>(const ConfigurationID flag) const</argsstring>
+        <name>get_float_configuration</name>
+        <qualifiedname>DeckLink::Device::get_float_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a floating point (<computeroutput>double</computeroutput>) configuration value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="87" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="270" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a69d0ea090974f88f7064b331909196ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_float_configuration</definition>
+        <argsstring>(const ConfigurationID flag, float value)</argsstring>
+        <name>set_float_configuration</name>
+        <qualifiedname>DeckLink::Device::set_float_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">float</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="88" column="15" bodyfile="src/libdecklink/device.cpp" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a7cb6bc5ee1444b321ae1aad6a80af7e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; std::string &gt;</type>
+        <definition>boost::optional&lt; std::string &gt; DeckLink::Device::get_string_configuration</definition>
+        <argsstring>(const ConfigurationID flag) const</argsstring>
+        <name>get_string_configuration</name>
+        <qualifiedname>DeckLink::Device::get_string_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a string configuration value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="91" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="291" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3b82c55ad8b6820a572e6bacdcf80d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_string_configuration</definition>
+        <argsstring>(const ConfigurationID flag, std::string value)</argsstring>
+        <name>set_string_configuration</name>
+        <qualifiedname>DeckLink::Device::set_string_configuration</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="92" column="20" bodyfile="src/libdecklink/device.cpp" bodystart="310" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1ad6fde765f09597e349573d2671f24d68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref> &gt;</type>
+        <definition>boost::optional&lt; bool &gt; DeckLink::Device::get_bool_status</definition>
+        <argsstring>(const StatusID flag) const</argsstring>
+        <name>get_bool_status</name>
+        <qualifiedname>DeckLink::Device::get_bool_status</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read a boolean status value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="95" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="315" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1add63342b8f9918fd8ac2d42ae00bf947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_bool_status</definition>
+        <argsstring>(const StatusID flag, bool value)</argsstring>
+        <name>set_bool_status</name>
+        <qualifiedname>DeckLink::Device::set_bool_status</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="96" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="331" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a0a6cf96bdf47d5915428c0f4328762df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::optional&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int64_t</ref> &gt;</type>
+        <definition>boost::optional&lt; int64_t &gt; DeckLink::Device::get_int_status</definition>
+        <argsstring>(const StatusID flag) const</argsstring>
+        <name>get_int_status</name>
+        <qualifiedname>DeckLink::Device::get_int_status</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Read an integer (<computeroutput>int64_t</computeroutput>) status value from the card. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="99" column="25" bodyfile="src/libdecklink/device.cpp" bodystart="336" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a6daef510edfa493da3e72bf8fd74649e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_int_status</definition>
+        <argsstring>(const StatusID flag, int value)</argsstring>
+        <name>set_int_status</name>
+        <qualifiedname>DeckLink::Device::set_int_status</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref></type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="100" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="351" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a04a505f6709319793705150ba96e3273" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::Device::supports_input_format_detection</definition>
+        <argsstring>() const</argsstring>
+        <name>supports_input_format_detection</name>
+        <qualifiedname>DeckLink::Device::supports_input_format_detection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="104" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="360" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a9b5b9ba951366cc9a1427f0fb19bfa62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::set_notifications_callback</definition>
+        <argsstring>(NotificationCallback &amp;&amp;cb)</argsstring>
+        <name>set_notifications_callback</name>
+        <qualifiedname>DeckLink::Device::set_notifications_callback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_notification_callback" kindref="compound">NotificationCallback</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="108" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="372" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aabdc4ed97fdf4f3e1594d4d3e3592a0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::clear_notification_callback</definition>
+        <argsstring>()</argsstring>
+        <name>clear_notification_callback</name>
+        <qualifiedname>DeckLink::Device::clear_notification_callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="109" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="401" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1ac720181e050502406616af37b8bdf4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_input_interface" kindref="compound">DeviceInputInterface</ref> &amp;</type>
+        <definition>DeviceInputInterface &amp; DeckLink::Device::input</definition>
+        <argsstring>()</argsstring>
+        <name>input</name>
+        <qualifiedname>DeckLink::Device::input</qualifiedname>
+        <briefdescription>
+<para>Retrieve the <ref refid="class_deck_link_1_1_device_1a11f3c90b34a437b57f4c296919c9e6d4" kindref="member">DeviceInputInterface</ref> for this device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="114" column="30" bodyfile="src/libdecklink/device.cpp" bodystart="427" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a58fb16022fc3e9de818feb614dcc04e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeviceOutputInterface</ref> &amp;</type>
+        <definition>DeviceOutputInterface &amp; DeckLink::Device::output</definition>
+        <argsstring>()</argsstring>
+        <name>output</name>
+        <qualifiedname>DeckLink::Device::output</qualifiedname>
+        <briefdescription>
+<para>Retrieve the <ref refid="class_deck_link_1_1_device_output_interface" kindref="compound">DeckLink::DeviceOutputInterface</ref> for this device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="117" column="31" bodyfile="src/libdecklink/device.cpp" bodystart="439" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a069acc1d63e8ea475bc774d709b92477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref> *</type>
+        <definition>IDeckLink * DeckLink::Device::get_raw_device</definition>
+        <argsstring>()</argsstring>
+        <name>get_raw_device</name>
+        <qualifiedname>DeckLink::Device::get_raw_device</qualifiedname>
+        <briefdescription>
+<para>Get a raw pointer to the underlying device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This allows you to call additional methods that may not be wrapped by the <ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> class.</para>
+<para><simplesect kind="return"><para>A pointer to the device </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="125" column="19" bodyfile="src/libdecklink/device.cpp" bodystart="435" bodyend="437"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_deck_link_1_1_device_1aaee3bf276764cdccbd9f06e321baabf5" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::load_attributes_interface</definition>
+        <argsstring>() const</argsstring>
+        <name>load_attributes_interface</name>
+        <qualifiedname>DeckLink::Device::load_attributes_interface</qualifiedname>
+        <briefdescription>
+<para>Load the AttributesInterface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The Attributes interface is required to query attributes on the card and is used by the <computeroutput>get_xxx_attribute</computeroutput> family of functions.</para>
+<para><simplesect kind="note"><para>This function is marked const even though it really isn&apos;t. The <computeroutput>_attributes_impl</computeroutput> interface is lazy loaded so every time we call a <computeroutput>*_attributes</computeroutput> method we have to check if the interface has been loaded and if not load it. Since we want the <computeroutput>get_*_attribute</computeroutput> methods to be const we need this method to be const. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="143" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="448" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a3b3661dda67cc2e193c65a041741a12d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::load_configuration_interface</definition>
+        <argsstring>() const</argsstring>
+        <name>load_configuration_interface</name>
+        <qualifiedname>DeckLink::Device::load_configuration_interface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="145" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="461" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1af2a5f1d20e261bc279ce881b8a8a2d90" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::load_status_interface</definition>
+        <argsstring>() const</argsstring>
+        <name>load_status_interface</name>
+        <qualifiedname>DeckLink::Device::load_status_interface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="147" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="474" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a9a143e0e803dc61a746e1fa0bcc3e43f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::Device::load_notification_interface</definition>
+        <argsstring>() const</argsstring>
+        <name>load_notification_interface</name>
+        <qualifiedname>DeckLink::Device::load_notification_interface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="149" column="14" bodyfile="src/libdecklink/device.cpp" bodystart="487" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_device_1a27c87cbd5f0fcca3d1649329610ef409" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">typename</ref> <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" kindref="member">AttributeType</ref></type>
+          </param>
+        </templateparamlist>
+        <type>boost::optional&lt; <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" kindref="member">AttributeType</ref> &gt;</type>
+        <definition>boost::optional&lt; AttributeType &gt; DeckLink::Device::parse_configuration_query_result</definition>
+        <argsstring>(HResult result, AttributeType attribute_value) const</argsstring>
+        <name>parse_configuration_query_result</name>
+        <qualifiedname>DeckLink::Device::parse_configuration_query_result</qualifiedname>
+        <param>
+          <type><ref refid="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2" kindref="member">HResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" kindref="member">AttributeType</ref></type>
+          <declname>attribute_value</declname>
+        </param>
+        <briefdescription>
+<para>Centralise handling of the <computeroutput>AttributesInterface</computeroutput>, <computeroutput>ConfigurationInterface</computeroutput> and <computeroutput>StatusInterface</computeroutput> return codes in a single place. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>AttributeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of value to return (<computeroutput>bool</computeroutput>, <computeroutput>int64_t</computeroutput>, ...)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The return status of the <computeroutput>GetXXX</computeroutput> method </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>attribute_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to return if the returc code was good</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <computeroutput>attribute_value</computeroutput> if there were no errors </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/device.hpp" line="163" column="25" bodyfile="include/libdecklink/device.hpp" bodystart="187" bodyend="216"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DeckLink::Device</label>
+        <link refid="class_deck_link_1_1_device"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>boost::noncopyable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>DeckLink::CaptureCallback</label>
+        <link refid="class_deck_link_1_1_capture_callback"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::Device</label>
+        <link refid="class_deck_link_1_1_device"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_input_interface</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_output_interface</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_notification_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::DeviceInputInterface</label>
+        <link refid="class_deck_link_1_1_device_input_interface"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DeckLink::DeviceOutputInterface</label>
+        <link refid="class_deck_link_1_1_device_output_interface"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeckLink::NotificationCallback</label>
+        <link refid="class_deck_link_1_1_notification_callback"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IDeckLinkInputCallback</label>
+      </node>
+      <node id="8">
+        <label>IDeckLinkNotificationCallback</label>
+      </node>
+      <node id="2">
+        <label>boost::noncopyable</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/device.hpp" line="23" column="5" bodyfile="include/libdecklink/device.hpp" bodystart="23" bodyend="183"/>
+    <listofallmembers>
+      <member refid="class_deck_link_1_1_device_1a49429aa4303f206878b861333b3ae822" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_attributes_impl</name></member>
+      <member refid="class_deck_link_1_1_device_1ae09bf382f6eaad332520f754b3b361e2" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_configuration_impl</name></member>
+      <member refid="class_deck_link_1_1_device_1ab3cc84573caa601dcf1b264db06fd63e" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_device_impl</name></member>
+      <member refid="class_deck_link_1_1_device_1af4186c984b25944d2892535a94465ba3" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_input_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1ade67900a9404fe3aeb99c8df5241a941" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_notification_callback</name></member>
+      <member refid="class_deck_link_1_1_device_1aa60a69a0a9b40d3a0b2429273a308a45" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_notification_callback_subscribed</name></member>
+      <member refid="class_deck_link_1_1_device_1a1134b46e7dd949795d3e8a46ebdc17a0" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_notification_impl</name></member>
+      <member refid="class_deck_link_1_1_device_1a530b754a216a5188f024d36088a60d42" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_output_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1a2a77159ab50c6359d75a22eee73a395d" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>_status_impl</name></member>
+      <member refid="class_deck_link_1_1_device_1aabdc4ed97fdf4f3e1594d4d3e3592a0f" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>clear_notification_callback</name></member>
+      <member refid="class_deck_link_1_1_device_1a3ee72cef0646173f50462248539d367b" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>Device</name></member>
+      <member refid="class_deck_link_1_1_device_1a3ff22affb50a660b90225c586c1cc09c" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>Device</name></member>
+      <member refid="class_deck_link_1_1_device_1a83dcb265e795fc9b2840b8a748988d10" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>Device</name></member>
+      <member refid="class_deck_link_1_1_device_1a11f3c90b34a437b57f4c296919c9e6d4" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>DeviceInputInterface</name></member>
+      <member refid="class_deck_link_1_1_device_1ae06d0bcdad03f092becf232883a078f1" prot="private" virt="non-virtual"><scope>DeckLink::Device</scope><name>DeviceOutputInterface</name></member>
+      <member refid="class_deck_link_1_1_device_1af7d28b9271f67b58f37a059b468b0e17" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>Get</name></member>
+      <member refid="class_deck_link_1_1_device_1aa9c1ed0ef76b0f8a15021f04571c668b" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_bool_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1ae082ee34d9165ce120a70b9f8acff087" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_bool_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1ad6fde765f09597e349573d2671f24d68" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_bool_status</name></member>
+      <member refid="class_deck_link_1_1_device_1a8f11d2d96bba5d9801e3f478e44a88cd" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_display_name</name></member>
+      <member refid="class_deck_link_1_1_device_1aaac347ea1018123a950b043d1173677f" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_float_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1af618eac56f40f17540c37ea3b66d8a55" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_float_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a4038250b8c51bbcf89545ed36e60a6f9" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_int_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a9e5f545393add0456c1507c4a04a1642" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_int_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a0a6cf96bdf47d5915428c0f4328762df" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_int_status</name></member>
+      <member refid="class_deck_link_1_1_device_1a98a9d96ba8ce0c74c9ac97a9743af96e" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_long_name</name></member>
+      <member refid="class_deck_link_1_1_device_1a33b16d9f7e8ce0064ede0993a87ecdce" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_model_name</name></member>
+      <member refid="class_deck_link_1_1_device_1a069acc1d63e8ea475bc774d709b92477" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_raw_device</name></member>
+      <member refid="class_deck_link_1_1_device_1aefdf9ff4188852bb928bc247c226aefe" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_string_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a7cb6bc5ee1444b321ae1aad6a80af7e0" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_string_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a2f1b6566aab044dc17e61c18ba5da0d2" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>get_vendor_name</name></member>
+      <member refid="class_deck_link_1_1_device_1ac720181e050502406616af37b8bdf4dd" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>input</name></member>
+      <member refid="class_deck_link_1_1_device_1ac76e0840a9232ad7d9588305d0266c7c" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>List</name></member>
+      <member refid="class_deck_link_1_1_device_1aaee3bf276764cdccbd9f06e321baabf5" prot="protected" virt="non-virtual"><scope>DeckLink::Device</scope><name>load_attributes_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1a3b3661dda67cc2e193c65a041741a12d" prot="protected" virt="non-virtual"><scope>DeckLink::Device</scope><name>load_configuration_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1a9a143e0e803dc61a746e1fa0bcc3e43f" prot="protected" virt="non-virtual"><scope>DeckLink::Device</scope><name>load_notification_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1af2a5f1d20e261bc279ce881b8a8a2d90" prot="protected" virt="non-virtual"><scope>DeckLink::Device</scope><name>load_status_interface</name></member>
+      <member refid="class_deck_link_1_1_device_1a3cbb4aaceff13d6278cabb1ca893523b" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>operator=</name></member>
+      <member refid="class_deck_link_1_1_device_1a58fb16022fc3e9de818feb614dcc04e0" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>output</name></member>
+      <member refid="class_deck_link_1_1_device_1a27c87cbd5f0fcca3d1649329610ef409" prot="protected" virt="non-virtual"><scope>DeckLink::Device</scope><name>parse_configuration_query_result</name></member>
+      <member refid="class_deck_link_1_1_device_1aaa710fc3ee2ad73f854b5861b0ae3dae" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_bool_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a8f27c7e121b2eaa6c305434487233864" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_bool_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1add63342b8f9918fd8ac2d42ae00bf947" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_bool_status</name></member>
+      <member refid="class_deck_link_1_1_device_1a78ca4987e72c291476b474e056fcf9d6" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_float_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a69d0ea090974f88f7064b331909196ca" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_float_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a3c57785429433df13a2e3ff7614cb146" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_int_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a41ab23090f2c0add99a02f970cea23a6" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_int_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a6daef510edfa493da3e72bf8fd74649e" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_int_status</name></member>
+      <member refid="class_deck_link_1_1_device_1a9b5b9ba951366cc9a1427f0fb19bfa62" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_notifications_callback</name></member>
+      <member refid="class_deck_link_1_1_device_1a859bcd5d248a29d1227ac843b0b29032" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_string_attribute</name></member>
+      <member refid="class_deck_link_1_1_device_1a3b82c55ad8b6820a572e6bacdcf80d6e" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>set_string_configuration</name></member>
+      <member refid="class_deck_link_1_1_device_1a04a505f6709319793705150ba96e3273" prot="public" virt="non-virtual"><scope>DeckLink::Device</scope><name>supports_input_format_detection</name></member>
+      <member refid="class_deck_link_1_1_device_1afdf63b41b5759a06a1ae948a24f93759" prot="public" virt="virtual"><scope>DeckLink::Device</scope><name>~Device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

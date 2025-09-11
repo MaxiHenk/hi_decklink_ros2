@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_deck_link_1_1_notification_callback" kind="class" language="C++" prot="public">
+    <compoundname>DeckLink::NotificationCallback</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDeckLinkNotificationCallback</basecompoundref>
+    <includes refid="notification__callback_8hpp" local="no">notification_callback.hpp</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_deck_link_1_1_notification_callback_1a0052d741518dc6325491fd83fd09bc3f" prot="public" static="no">
+        <type>std::function&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref>(<ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint64_t</ref>)&gt;</type>
+        <definition>using DeckLink::NotificationCallback::status_changed_cb_t =  std::function&lt;void(StatusID, uint64_t)&gt;</definition>
+        <argsstring></argsstring>
+        <name>status_changed_cb_t</name>
+        <qualifiedname>DeckLink::NotificationCallback::status_changed_cb_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="24" column="9" bodyfile="include/libdecklink/notification_callback.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_deck_link_1_1_notification_callback_1a520fa05e0bf58785da428f7a0241eee2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">class</ref></type>
+        <definition>friend class Device</definition>
+        <argsstring></argsstring>
+        <name>Device</name>
+        <qualifiedname>DeckLink::NotificationCallback::Device</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="20" column="22" bodyfile="include/libdecklink/notification_callback.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deck_link_1_1_notification_callback_1aab9ff93ae04d2cc11ca98282291d09fc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_device" kindref="compound">Device</ref> *</type>
+        <definition>Device* DeckLink::NotificationCallback::_parent_device</definition>
+        <argsstring></argsstring>
+        <name>_parent_device</name>
+        <qualifiedname>DeckLink::NotificationCallback::_parent_device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="41" column="16" bodyfile="include/libdecklink/notification_callback.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deck_link_1_1_notification_callback_1a808e789f7279f7f67b539886cf7870a7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_notification_callback_1a0052d741518dc6325491fd83fd09bc3f" kindref="member">status_changed_cb_t</ref></type>
+        <definition>status_changed_cb_t DeckLink::NotificationCallback::_on_status_changed_cb</definition>
+        <argsstring></argsstring>
+        <name>_on_status_changed_cb</name>
+        <qualifiedname>DeckLink::NotificationCallback::_on_status_changed_cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="42" column="29" bodyfile="include/libdecklink/notification_callback.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deck_link_1_1_notification_callback_1a38a2af8ff029d0bf1e29225a2842d4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::NotificationCallback::NotificationCallback</definition>
+        <argsstring>()=default</argsstring>
+        <name>NotificationCallback</name>
+        <qualifiedname>DeckLink::NotificationCallback::NotificationCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="27" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_notification_callback_1a596c887e2b8c8f68f63d42b6a55291f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::NotificationCallback::NotificationCallback</definition>
+        <argsstring>(const status_changed_cb_t &amp;&amp;cb)</argsstring>
+        <name>NotificationCallback</name>
+        <qualifiedname>DeckLink::NotificationCallback::NotificationCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_notification_callback_1a0052d741518dc6325491fd83fd09bc3f" kindref="member">status_changed_cb_t</ref> &amp;&amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="29" column="9" bodyfile="src/libdecklink/notification_callback.cpp" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_notification_callback_1ad765440734dac6771b84a8e29c3a4986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>HRESULT DeckLink::NotificationCallback::Notify</definition>
+        <argsstring>(BMDNotifications topic, uint64_t param1, uint64_t param2) override</argsstring>
+        <name>Notify</name>
+        <qualifiedname>DeckLink::NotificationCallback::Notify</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_8h_1ac2cce4d8b67ae0c9a5b70b2f9443fefa" kindref="member">BMDNotifications</ref></type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint64_t</ref></type>
+          <declname>param1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">uint64_t</ref></type>
+          <declname>param2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="31" column="17" bodyfile="src/libdecklink/notification_callback.cpp" bodystart="16" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_notification_callback_1a35ff5b79bb3d779e480a916a910021c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::NotificationCallback::set_on_status_changed_cb</definition>
+        <argsstring>(const status_changed_cb_t &amp;&amp;on_status_changed_cb)</argsstring>
+        <name>set_on_status_changed_cb</name>
+        <qualifiedname>DeckLink::NotificationCallback::set_on_status_changed_cb</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_notification_callback_1a0052d741518dc6325491fd83fd09bc3f" kindref="member">status_changed_cb_t</ref> &amp;&amp;</type>
+          <declname>on_status_changed_cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/notification_callback.hpp" line="33" column="14" bodyfile="src/libdecklink/notification_callback.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DeckLink::NotificationCallback</label>
+        <link refid="class_deck_link_1_1_notification_callback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDeckLinkNotificationCallback</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>DeckLink::CaptureCallback</label>
+        <link refid="class_deck_link_1_1_capture_callback"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DeckLink::Device</label>
+        <link refid="class_deck_link_1_1_device"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_input_interface</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_output_interface</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_notification_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DeckLink::DeviceInputInterface</label>
+        <link refid="class_deck_link_1_1_device_input_interface"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DeckLink::DeviceOutputInterface</label>
+        <link refid="class_deck_link_1_1_device_output_interface"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::NotificationCallback</label>
+        <link refid="class_deck_link_1_1_notification_callback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_parent_device</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IDeckLinkInputCallback</label>
+      </node>
+      <node id="2">
+        <label>IDeckLinkNotificationCallback</label>
+      </node>
+      <node id="4">
+        <label>boost::noncopyable</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/notification_callback.hpp" line="19" column="5" bodyfile="include/libdecklink/notification_callback.hpp" bodystart="19" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_deck_link_1_1_notification_callback_1a808e789f7279f7f67b539886cf7870a7" prot="private" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>_on_status_changed_cb</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1aab9ff93ae04d2cc11ca98282291d09fc" prot="private" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>_parent_device</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1a520fa05e0bf58785da428f7a0241eee2" prot="private" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>Device</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1a38a2af8ff029d0bf1e29225a2842d4ee" prot="public" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>NotificationCallback</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1a596c887e2b8c8f68f63d42b6a55291f2" prot="public" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>NotificationCallback</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1ad765440734dac6771b84a8e29c3a4986" prot="public" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>Notify</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1a35ff5b79bb3d779e480a916a910021c1" prot="public" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>set_on_status_changed_cb</name></member>
+      <member refid="class_deck_link_1_1_notification_callback_1a0052d741518dc6325491fd83fd09bc3f" prot="public" virt="non-virtual"><scope>DeckLink::NotificationCallback</scope><name>status_changed_cb_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

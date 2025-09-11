@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_deck_link_1_1io__error" kind="struct" language="C++" prot="public">
+    <compoundname>DeckLink::io_error</compoundname>
+    <basecompoundref refid="struct_deck_link_1_1runtime__error" prot="public" virt="virtual">DeckLink::runtime_error</basecompoundref>
+    <derivedcompoundref refid="struct_deck_link_1_1file__error" prot="public" virt="virtual">DeckLink::file_error</derivedcompoundref>
+    <includes refid="errors_8hpp" local="no">errors.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>DeckLink::exception_base</label>
+        <link refid="struct_deck_link_1_1exception__base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DeckLink::file_error</label>
+        <link refid="struct_deck_link_1_1file__error"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeckLink::file_open_error</label>
+        <link refid="struct_deck_link_1_1file__open__error"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DeckLink::file_parse_error</label>
+        <link refid="struct_deck_link_1_1file__parse__error"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>DeckLink::file_read_error</label>
+        <link refid="struct_deck_link_1_1file__read__error"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::io_error</label>
+        <link refid="struct_deck_link_1_1io__error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>DeckLink::not_a_file_error</label>
+        <link refid="struct_deck_link_1_1not__a__file__error"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DeckLink::runtime_error</label>
+        <link refid="struct_deck_link_1_1runtime__error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>boost::exception</label>
+      </node>
+      <node id="4">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>DeckLink::exception_base</label>
+        <link refid="struct_deck_link_1_1exception__base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DeckLink::io_error</label>
+        <link refid="struct_deck_link_1_1io__error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DeckLink::runtime_error</label>
+        <link refid="struct_deck_link_1_1runtime__error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>boost::exception</label>
+      </node>
+      <node id="4">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/libdecklink/errors.hpp" line="37" column="5" bodyfile="include/libdecklink/errors.hpp" bodystart="37" bodyend="37"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

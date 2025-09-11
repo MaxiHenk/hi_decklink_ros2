@@ -1,0 +1,93 @@
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[0mDoxygen need to be installed to generate the doxygen documentation[0m
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2
+[ 16%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device.cpp.o[0m
+[ 16%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/display_mode.cpp.o[0m
+[ 16%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device_input_interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/types.cpp.o[0m
+[ 25%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_output_frame.cpp.o[0m
+[ 29%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_frame.cpp.o[0m
+[ 33%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device_output_interface.cpp.o[0m
+[ 33%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_input_frame.cpp.o[0m
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/device.cpp:5[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:[m[K In constructor ‘[01m[KDeckLink::Device::[01;32m[KDevice[m[K(IDeckLink*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:177:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KDeckLink::Device::_device_impl[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  177 |         mutable std::unique_ptr<IDeckLink, IDeckLinkHandleDeleter> [01;35m[K_device_impl[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:171:30:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KDeckLink::DeviceInputInterface DeckLink::Device::_input_interface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  171 |         DeviceInputInterface [01;35m[K_input_interface[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/device.cpp:60:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   60 |     [01;35m[KDevice[m[K::Device(IDeckLink* device_ptr)
+      |     [01;35m[K^~~~~~[m[K
+[ 37%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/capture_callback.cpp.o[0m
+[ 41%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/notification_callback.cpp.o[0m
+[ 45%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/include/decklink_sdk/DeckLinkAPIDispatch.cpp.o[0m
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/decklink_sdk/DeckLinkAPIDispatch.cpp:29:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma clang diagnostic[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+   29 | #pragma clang diagnostic ignored "-Wold-style-cast"
+      | 
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/capture_callback.cpp:[m[K In member function ‘[01m[Kvirtual HRESULT DeckLink::CaptureCallback::[01;32m[KVideoInputFrameArrived[m[K(IDeckLinkVideoInputFrame*, IDeckLinkAudioInputPacket*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/capture_callback.cpp:108:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  108 |         if([01;35m[K!video_frame->GetFlags()[m[K & bmdFrameHasNoInputSource) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX static library libdecklink.a[0m
+[ 50%] Built target decklink
+[ 54%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckquery.dir/src/deckquery.cpp.o[0m
+[ 58%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckoutput.dir/src/deckoutput.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/img2ros.dir/src/img2ros.cpp.o[0m
+[ 66%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckstatus.dir/src/deckstatus.cpp.o[0m
+[ 75%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckview.dir/src/deckview.cpp.o[0m
+[ 75%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckmonitor.dir/src/deckmonitor.cpp.o[0m
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckview.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K on_format_changed[m[K(DeckLink::InputFormatChangedEvent, const DeckLink::DisplayMode&, DeckLink::DetectedVideoInputFormatFlags)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckview.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfieldDominance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   54 |         BMDFieldDominance [01;35m[KfieldDominance[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 79%] [32m[1mLinking CXX executable deckmonitor[0m
+[ 83%] [32m[1mLinking CXX executable deckquery[0m
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/img2ros.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+   11 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/img2ros.dir/build.make:76: CMakeFiles/img2ros.dir/src/img2ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/img2ros.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 87%] [32m[1mLinking CXX executable deckview[0m
+[ 87%] Built target deckquery
+[ 87%] Built target deckmonitor
+[ 91%] [32m[1mLinking CXX executable deckstatus[0m
+[ 91%] Built target deckview
+[ 91%] Built target deckstatus
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   21 | #pragma GCC diagnostic ignored [01;35m[K"-Wconstant-conversion"[m[K
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:21:32:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Wno-int-conversion[m[K’?
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:25[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:[m[K In function ‘[01m[Kvoid[01;32m[K stbi__build_fast_ac[m[K(stbi__int16*, stbi__huffman*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:1839:33:[m[K [01;35m[Kwarning: [m[Kleft shift of negative value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-negative-value-Wshift-negative-value]8;;[m[K]
+ 1839 |             if (k < m) k += ([01;35m[K-1 << magbits[m[K) + 1;
+      |                              [01;35m[K~~~^~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:[m[K In function ‘[01m[Kint[01;32m[K stbi__tga_get_comp[m[K(int, int, int*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:5227:16:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+ 5227 |       case 16: [01;35m[Kif[m[K(is_grey) return STBI_grey_alpha;
+      |                [01;35m[K^~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:5229:7:[m[K [01;36m[Knote: [m[Khere
+ 5229 |       [01;36m[Kcase[m[K 15: if(is_rgb16) *is_rgb16 = 1;
+      |       [01;36m[K^~~~[m[K
+[ 95%] [32m[1mLinking CXX executable deckoutput[0m
+[ 95%] Built target deckoutput
+gmake: *** [Makefile:146: all] Error 2

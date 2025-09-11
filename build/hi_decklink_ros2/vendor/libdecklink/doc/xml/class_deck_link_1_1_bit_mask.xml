@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_deck_link_1_1_bit_mask" kind="class" language="C++" prot="public">
+    <compoundname>DeckLink::BitMask</compoundname>
+    <includes refid="bitmask_8hpp" local="no">bitmask.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">typename</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_deck_link_1_1_bit_mask_1ad02ac730331b98c90eb2f68ad77ae015" prot="private" static="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">typename</ref> std::underlying_type&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;<ref refid="class_deck_link_1_1_bit_mask_1a46dc633a4d2f0f0484d536a80aaffe3a" kindref="member">::type</ref></type>
+        <definition>using DeckLink::BitMask&lt; EnumType &gt;::underlying_type =  typename std::underlying_type&lt;EnumType&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>underlying_type</name>
+        <qualifiedname>DeckLink::BitMask::underlying_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="15" column="9" bodyfile="include/libdecklink/bitmask.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_deck_link_1_1_bit_mask_1aa7ac8f25955a2247e1771ebe92a8eb90" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask_1ad02ac730331b98c90eb2f68ad77ae015" kindref="member">underlying_type</ref></type>
+        <definition>underlying_type DeckLink::BitMask&lt; EnumType &gt;::_bits</definition>
+        <argsstring></argsstring>
+        <name>_bits</name>
+        <qualifiedname>DeckLink::BitMask::_bits</qualifiedname>
+        <initializer>= <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">static_cast</ref>&lt;<ref refid="class_deck_link_1_1_bit_mask_1ad02ac730331b98c90eb2f68ad77ae015" kindref="member">underlying_type</ref>&gt;(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="106" column="25" bodyfile="include/libdecklink/bitmask.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a46dc633a4d2f0f0484d536a80aaffe3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::BitMask&lt; EnumType &gt;::BitMask</definition>
+        <argsstring>()</argsstring>
+        <name>BitMask</name>
+        <qualifiedname>DeckLink::BitMask::BitMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="19" column="9" bodyfile="include/libdecklink/bitmask.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1ad1bbf0763e4d881e3414b49b68bd2edc" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::BitMask&lt; EnumType &gt;::BitMask</definition>
+        <argsstring>(EnumType value)</argsstring>
+        <name>BitMask</name>
+        <qualifiedname>DeckLink::BitMask::BitMask</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="21" column="18" bodyfile="include/libdecklink/bitmask.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a3090ac6ce32a63eece03135a84913d96" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">typename</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IntegerType</ref></type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>DeckLink::BitMask&lt; EnumType &gt;::BitMask</definition>
+        <argsstring>(IntegerType value)</argsstring>
+        <name>BitMask</name>
+        <qualifiedname>DeckLink::BitMask::BitMask</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">IntegerType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="24" column="18" bodyfile="include/libdecklink/bitmask.hpp" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1afc41f5ca7396a2affe2859118c2ac01c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::BitMask&lt; EnumType &gt;::BitMask</definition>
+        <argsstring>(std::initializer_list&lt; EnumType &gt; values)</argsstring>
+        <name>BitMask</name>
+        <qualifiedname>DeckLink::BitMask::BitMask</qualifiedname>
+        <param>
+          <type>std::initializer_list&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="26" column="9" bodyfile="include/libdecklink/bitmask.hpp" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1ad388bf005812f3368c3328bb4298c4c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask_1ad02ac730331b98c90eb2f68ad77ae015" kindref="member">underlying_type</ref></type>
+        <definition>underlying_type DeckLink::BitMask&lt; EnumType &gt;::bits</definition>
+        <argsstring>() const</argsstring>
+        <name>bits</name>
+        <qualifiedname>DeckLink::BitMask::bits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="32" column="25" bodyfile="include/libdecklink/bitmask.hpp" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a30c5cffed56d79c03e1ae857bb1158e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::BitMask&lt; EnumType &gt;::any</definition>
+        <argsstring>() const</argsstring>
+        <name>any</name>
+        <qualifiedname>DeckLink::BitMask::any</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="34" column="14" bodyfile="include/libdecklink/bitmask.hpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a9b9788ad1215e5d4c2416bd8f76db281" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref></type>
+        <definition>bool DeckLink::BitMask&lt; EnumType &gt;::none</definition>
+        <argsstring>() const</argsstring>
+        <name>none</name>
+        <qualifiedname>DeckLink::BitMask::none</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="36" column="14" bodyfile="include/libdecklink/bitmask.hpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1ac4c69c7afe804d82e4fc09e8b2ef0b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::BitMask&lt; EnumType &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>DeckLink::BitMask::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="38" column="14" bodyfile="include/libdecklink/bitmask.hpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a37bde65980c2c5e7f0ba072f487f967e" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeckLink::BitMask&lt; EnumType &gt;::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>DeckLink::BitMask::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="40" column="18" bodyfile="include/libdecklink/bitmask.hpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1aa5cfbfa523000a17761b78210fd85a88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; DeckLink::BitMask&lt; EnumType &gt;::operator|=</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;other)</argsstring>
+        <name>operator|=</name>
+        <qualifiedname>DeckLink::BitMask::operator|=</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="42" column="23" bodyfile="include/libdecklink/bitmask.hpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a74ed23ffbcfd22d5389f9d060175254c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; DeckLink::BitMask&lt; EnumType &gt;::operator|=</definition>
+        <argsstring>(const EnumType other)</argsstring>
+        <name>operator|=</name>
+        <qualifiedname>DeckLink::BitMask::operator|=</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="47" column="23" bodyfile="include/libdecklink/bitmask.hpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deck_link_1_1_bit_mask_1a0b37e05f2d10bbdd6ce217f3e941b297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; DeckLink::BitMask&lt; EnumType &gt;::operator~</definition>
+        <argsstring>()</argsstring>
+        <name>operator~</name>
+        <qualifiedname>DeckLink::BitMask::operator~</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="52" column="23" bodyfile="include/libdecklink/bitmask.hpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1af26cdd268fa6f8d09099e68421de4ce4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator&amp;</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, const BitMask&lt; EnumType &gt; &amp;rhs)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>DeckLink::BitMask::operator&amp;</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="59" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1a61ce500eefc41bc8bdae2f7c578acd68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator&amp;</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, EnumType rhs)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>DeckLink::BitMask::operator&amp;</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="68" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1a26176a092380a7339e2d3953473aeb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator|</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, const BitMask&lt; EnumType &gt; &amp;rhs)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>DeckLink::BitMask::operator|</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="75" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1a357a34d4ddc13b357d6aa337267e99a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator|</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, EnumType rhs)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>DeckLink::BitMask::operator|</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="84" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1a02cdc0278ade169d447ba8f8488f5edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator^</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, const BitMask&lt; EnumType &gt; &amp;rhs)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>DeckLink::BitMask::operator^</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="90" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_deck_link_1_1_bit_mask_1a2d8cb811e0a8f745dcb52d9f39448aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt;</type>
+        <definition>const BitMask&lt; EnumType &gt; operator^</definition>
+        <argsstring>(const BitMask&lt; EnumType &gt; &amp;lhs, EnumType rhs)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>DeckLink::BitMask::operator^</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask</ref>&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">EnumType</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/bitmask.hpp" line="99" column="30" bodyfile="include/libdecklink/bitmask.hpp" bodystart="99" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/libdecklink/bitmask.hpp" line="13" column="5" bodyfile="include/libdecklink/bitmask.hpp" bodystart="13" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_deck_link_1_1_bit_mask_1aa7ac8f25955a2247e1771ebe92a8eb90" prot="protected" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>_bits</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a30c5cffed56d79c03e1ae857bb1158e7" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>any</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a46dc633a4d2f0f0484d536a80aaffe3a" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>BitMask</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1ad1bbf0763e4d881e3414b49b68bd2edc" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>BitMask</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a3090ac6ce32a63eece03135a84913d96" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>BitMask</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1afc41f5ca7396a2affe2859118c2ac01c" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>BitMask</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1ad388bf005812f3368c3328bb4298c4c2" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>bits</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1ac4c69c7afe804d82e4fc09e8b2ef0b30" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>clear</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a9b9788ad1215e5d4c2416bd8f76db281" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>none</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a37bde65980c2c5e7f0ba072f487f967e" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator bool</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1af26cdd268fa6f8d09099e68421de4ce4" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator&amp;</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a61ce500eefc41bc8bdae2f7c578acd68" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator&amp;</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a02cdc0278ade169d447ba8f8488f5edc" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator^</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a2d8cb811e0a8f745dcb52d9f39448aa0" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator^</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a26176a092380a7339e2d3953473aeb3e" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator|</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a357a34d4ddc13b357d6aa337267e99a1" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator|</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1aa5cfbfa523000a17761b78210fd85a88" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator|=</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a74ed23ffbcfd22d5389f9d060175254c" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator|=</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1a0b37e05f2d10bbdd6ce217f3e941b297" prot="public" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>operator~</name></member>
+      <member refid="class_deck_link_1_1_bit_mask_1ad02ac730331b98c90eb2f68ad77ae015" prot="private" virt="non-virtual"><scope>DeckLink::BitMask</scope><name>underlying_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

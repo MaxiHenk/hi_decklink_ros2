@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (hi_decklink_ros2) JobQueued: {'identifier': 'hi_decklink_ros2', 'dependencies': OrderedDict()}
+[0.000297] (hi_decklink_ros2) JobStarted: {'identifier': 'hi_decklink_ros2'}
+[0.007268] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'cmake'}
+[0.007906] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'build'}
+[0.008569] (hi_decklink_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', '--', '-j8', '-l8'], 'cwd': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mhenkel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mhenkel', 'OLDPWD': '/home/mhenkel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS0': '$(printf "%s" ${EPOCHREALTIME/./} >"$BYOBU_RUN_DIR/timer.$$")', 'MANAGERPID': '3312', 'SYSTEMD_EXEC_PID': '3785', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '44102', 'GNOME_KEYRING_CONTROL': '/run/user/1006/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mhenkel', 'JOURNAL_STREAM': '9:21301', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1006.slice/user@1006.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mhenkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pckjk02:@/tmp/.ICE-unix/3554,unix/pckjk02:/tmp/.ICE-unix/3554', 'INVOCATION_ID': '4d4ef63905ad4f64869ff44a2ea35c44', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1006', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1006/.mutter-Xwaylandauth.3LXNB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1006/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3d9a1022-49ce-4637-ad4c-686da0c77082', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BYOBU_CONFIG_DIR': '/home/mhenkel/.config/byobu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'BYOBU_RUN_DIR': '/dev/shm/byobu-mhenkel-4HjfKyoW', 'PWD': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.063816] (hi_decklink_ros2) StdoutLine: {'line': b'[ 44%] Built target decklink\n'}
+[0.094103] (hi_decklink_ros2) StdoutLine: {'line': b'[ 51%] Built target deckview\n'}
+[0.094346] (hi_decklink_ros2) StdoutLine: {'line': b'[ 59%] Built target deckquery\n'}
+[0.094536] (hi_decklink_ros2) StdoutLine: {'line': b'[ 66%] Built target deckmonitor\n'}
+[0.094727] (hi_decklink_ros2) StdoutLine: {'line': b'[ 74%] Built target deckstatus\n'}
+[0.097436] (hi_decklink_ros2) StdoutLine: {'line': b'[ 81%] Built target deckoutput\n'}
+[0.099263] (-) TimerEvent: {}
+[0.099490] (hi_decklink_ros2) StdoutLine: {'line': b'[ 88%] Built target img2ros\n'}
+[0.122413] (hi_decklink_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.123350] (hi_decklink_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o\x1b[0m\n'}
+[0.199386] (-) TimerEvent: {}
+[0.299649] (-) TimerEvent: {}
+[0.399899] (-) TimerEvent: {}
+[0.500130] (-) TimerEvent: {}
+[0.600370] (-) TimerEvent: {}
+[0.700637] (-) TimerEvent: {}
+[0.800903] (-) TimerEvent: {}
+[0.901185] (-) TimerEvent: {}
+[1.001442] (-) TimerEvent: {}
+[1.101702] (-) TimerEvent: {}
+[1.201963] (-) TimerEvent: {}
+[1.302227] (-) TimerEvent: {}
+[1.402481] (-) TimerEvent: {}
+[1.502728] (-) TimerEvent: {}
+[1.603016] (-) TimerEvent: {}
+[1.703301] (-) TimerEvent: {}
+[1.803559] (-) TimerEvent: {}
+[1.903823] (-) TimerEvent: {}
+[2.004066] (-) TimerEvent: {}
+[2.104335] (-) TimerEvent: {}
+[2.204606] (-) TimerEvent: {}
+[2.304855] (-) TimerEvent: {}
+[2.405089] (-) TimerEvent: {}
+[2.505319] (-) TimerEvent: {}
+[2.605568] (-) TimerEvent: {}
+[2.705820] (-) TimerEvent: {}
+[2.806059] (-) TimerEvent: {}
+[2.906314] (-) TimerEvent: {}
+[2.983080] (hi_decklink_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.983667] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDeckLinkCameraDriver::\x1b[01;32m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.983770] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.983839] (hi_decklink_ros2) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[2.983908] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.983972] (hi_decklink_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.984225] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.984328] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[2.984461] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:5\x1b[m\x1b[K:\n'}
+[2.984570] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.984679] (hi_decklink_ros2) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.984785] (hi_decklink_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.984943] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.985063] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.985177] (hi_decklink_ros2) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.985285] (hi_decklink_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.985393] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.985501] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.985619] (hi_decklink_ros2) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.985711] (hi_decklink_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.985785] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.988606] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DeckLinkCameraDriver::\x1b[01;32m\x1b[Kon_start_capture_request\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.988823] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:51:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.988951] (hi_decklink_ros2) StderrLine: {'line': b'   51 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[2.989050] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.989126] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:52:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.989350] (hi_decklink_ros2) StderrLine: {'line': b'   52 |     \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K)\n'}
+[2.989448] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.989518] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DeckLinkCameraDriver::\x1b[01;32m\x1b[Kon_stop_capture_request\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.989606] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:61:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.989681] (hi_decklink_ros2) StderrLine: {'line': b'   61 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[2.989745] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.989811] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:62:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.989877] (hi_decklink_ros2) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K)\n'}
+[2.989941] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.006431] (-) TimerEvent: {}
+[3.106684] (-) TimerEvent: {}
+[3.206917] (-) TimerEvent: {}
+[3.307168] (-) TimerEvent: {}
+[3.407476] (-) TimerEvent: {}
+[3.507731] (-) TimerEvent: {}
+[3.608007] (-) TimerEvent: {}
+[3.708264] (-) TimerEvent: {}
+[3.736358] (hi_decklink_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:9\x1b[m\x1b[K:\n'}
+[3.736663] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDeckLinkCameraDriver::\x1b[01;32m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.736784] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.736903] (hi_decklink_ros2) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.737036] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.737145] (hi_decklink_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.737253] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.737362] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[3.737470] (hi_decklink_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:10\x1b[m\x1b[K:\n'}
+[3.737577] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.737686] (hi_decklink_ros2) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.737793] (hi_decklink_ros2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.737898] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.737967] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.738049] (hi_decklink_ros2) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.738165] (hi_decklink_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.738284] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.738408] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.738525] (hi_decklink_ros2) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.738646] (hi_decklink_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.738772] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.742755] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DeckLinkCameraDriver::\x1b[01;32m\x1b[Kon_start_capture_request\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.742909] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:51:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.742999] (hi_decklink_ros2) StderrLine: {'line': b'   51 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[3.743068] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.743137] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:52:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.743221] (hi_decklink_ros2) StderrLine: {'line': b'   52 |     \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K)\n'}
+[3.743425] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.743501] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DeckLinkCameraDriver::\x1b[01;32m\x1b[Kon_stop_capture_request\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.743572] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:61:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.743648] (hi_decklink_ros2) StderrLine: {'line': b'   61 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[3.743714] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.743775] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:62:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.743841] (hi_decklink_ros2) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K)\n'}
+[3.743905] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.785351] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.785588] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:11:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KDeckLinkCameraDriver::\x1b[01;32m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.785827] (hi_decklink_ros2) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K::DeckLinkCameraDriver()\n'}
+[3.785909] (hi_decklink_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.786003] (hi_decklink_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:22:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDeckLinkCameraDriver::\x1b[01;32m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[3.786159] (hi_decklink_ros2) StderrLine: {'line': b'   22 |     \x1b[01;36m\x1b[KDeckLinkCameraDriver\x1b[m\x1b[K()\n'}
+[3.786307] (hi_decklink_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.808370] (-) TimerEvent: {}
+[3.908587] (-) TimerEvent: {}
+[4.008825] (-) TimerEvent: {}
+[4.109071] (-) TimerEvent: {}
+[4.148474] (hi_decklink_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[4.148673] (hi_decklink_ros2) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.209182] (-) TimerEvent: {}
+[4.309417] (-) TimerEvent: {}
+[4.409648] (-) TimerEvent: {}
+[4.509880] (-) TimerEvent: {}
+[4.610143] (-) TimerEvent: {}
+[4.710381] (-) TimerEvent: {}
+[4.810612] (-) TimerEvent: {}
+[4.873684] (hi_decklink_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1\n'}
+[4.874061] (hi_decklink_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2\n'}
+[4.874384] (hi_decklink_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.876774] (hi_decklink_ros2) CommandEnded: {'returncode': 2}
+[4.886897] (hi_decklink_ros2) JobEnded: {'identifier': 'hi_decklink_ros2', 'rc': 2}
+[4.887792] (-) EventReactorShutdown: {}

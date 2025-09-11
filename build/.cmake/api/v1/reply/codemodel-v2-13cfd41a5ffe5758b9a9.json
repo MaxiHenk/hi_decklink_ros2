@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-16b7203b78b9a470e299.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "vendor/libdecklink",
+					"jsonFile" : "directory-vendor.libdecklink-Debug-35dd13217aaf71f29274.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendor/libdecklink",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hi_decklink_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libdecklink_wrapper",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_headers-Debug-20a5c2cc0bfafbde442c.json",
+					"name" : "all_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "decklink::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-decklink-Debug-ff28cfbc13ccce3b04ba.json",
+					"name" : "decklink",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deckmonitor::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-deckmonitor-Debug-ff55a093a758e2f57b26.json",
+					"name" : "deckmonitor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deckoutput::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-deckoutput-Debug-eb0358681226bc650be5.json",
+					"name" : "deckoutput",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deckquery::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-deckquery-Debug-6c065ed76d084c9338dc.json",
+					"name" : "deckquery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deckstatus::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-deckstatus-Debug-20591c7e250a1dee0417.json",
+					"name" : "deckstatus",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deckview::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-deckview-Debug-df9dc0ba9d8045a0531e.json",
+					"name" : "deckview",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hi_decklink_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hi_decklink_ros2_uninstall-Debug-396689367b7ec6f8b01a.json",
+					"name" : "hi_decklink_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ide_includes::@93de5ceb4a6d5de083f5",
+					"jsonFile" : "target-ide_includes-Debug-7e21dae45ae354beadba.json",
+					"name" : "ide_includes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "img2ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-img2ros-Debug-6b41dc7847c5aa600420.json",
+					"name" : "img2ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-Debug-ddaf4e6ac117d2dc459a.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-8af58a9205cdc07701c2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mhenkel/Documents/hi_decklink_ros2/build",
+		"source" : "/home/mhenkel/Documents/hi_decklink_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

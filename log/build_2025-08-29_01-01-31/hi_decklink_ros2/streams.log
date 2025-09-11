@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.064s] [ 44%] Built target decklink
+[0.094s] [ 59%] Built target deckview
+[0.094s] [ 59%] Built target deckmonitor
+[0.094s] [ 74%] Built target deckstatus
+[0.094s] [ 74%] Built target deckquery
+[0.098s] [ 81%] Built target img2ros
+[0.100s] [ 88%] Built target deckoutput
+[0.120s] [ 92%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.121s] [ 96%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[2.895s] In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6[m[K:
+[2.895s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_start_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[2.896s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:51:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.896s]    51 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[2.896s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.896s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:52:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.896s]    52 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[2.896s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.896s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_stop_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[2.897s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:61:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.897s]    61 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[2.897s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.897s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:62:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.897s]    62 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[2.897s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.800s] In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:9[m[K:
+[3.800s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_start_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[3.800s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:51:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.801s]    51 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[3.801s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.801s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:52:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.801s]    52 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[3.801s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.801s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_stop_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[3.801s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:61:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.802s]    61 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[3.802s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.802s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:62:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.802s]    62 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[3.802s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.849s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:[m[K At global scope:
+[3.849s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:11:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KDeckLinkCameraDriver::[01;32m[KDeckLinkCameraDriver[m[K()[m[K’
+[3.849s]    11 | [01;31m[KDeckLinkCameraDriver[m[K::DeckLinkCameraDriver()
+[3.849s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.849s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:22:5:[m[K [01;36m[Knote: [m[K‘[01m[KDeckLinkCameraDriver::[01;32m[KDeckLinkCameraDriver[m[K()[m[K’ previously defined here
+[3.849s]    22 |     [01;36m[KDeckLinkCameraDriver[m[K()
+[3.849s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.966s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+[4.966s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+[4.967s] gmake: *** [Makefile:146: all] Error 2
+[4.969s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8

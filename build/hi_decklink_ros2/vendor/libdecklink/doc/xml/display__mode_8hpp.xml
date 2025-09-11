@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="display__mode_8hpp" kind="file" language="C++">
+    <compoundname>display_mode.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes refid="_deck_link_a_p_i_8h" local="yes">decklink_sdk/DeckLinkAPI.h</includes>
+    <includes refid="types_8hpp" local="yes">libdecklink/types.hpp</includes>
+    <includes refid="bitmask_8hpp" local="yes">libdecklink/bitmask.hpp</includes>
+    <includedby refid="device__input__interface_8hpp" local="yes">include/libdecklink/device_input_interface.hpp</includedby>
+    <includedby refid="device__output__interface_8hpp" local="yes">include/libdecklink/device_output_interface.hpp</includedby>
+    <includedby refid="capture__callback_8cpp" local="yes">src/libdecklink/capture_callback.cpp</includedby>
+    <includedby refid="display__mode_8cpp" local="yes">src/libdecklink/display_mode.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>decklink_sdk/DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>DeckLinkAPIConfiguration.h</label>
+        <link refid="_deck_link_a_p_i_configuration_8h"/>
+      </node>
+      <node id="10">
+        <label>DeckLinkAPIDeckControl.h</label>
+        <link refid="_deck_link_a_p_i_deck_control_8h"/>
+      </node>
+      <node id="8">
+        <label>DeckLinkAPIDiscovery.h</label>
+        <link refid="_deck_link_a_p_i_discovery_8h"/>
+      </node>
+      <node id="7">
+        <label>DeckLinkAPIModes.h</label>
+        <link refid="_deck_link_a_p_i_modes_8h"/>
+      </node>
+      <node id="6">
+        <label>DeckLinkAPITypes.h</label>
+        <link refid="_deck_link_a_p_i_types_8h"/>
+      </node>
+      <node id="5">
+        <label>LinuxCOM.h</label>
+        <link refid="_linux_c_o_m_8h"/>
+      </node>
+      <node id="13">
+        <label>libdecklink/bitmask.hpp</label>
+        <link refid="bitmask_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/libdecklink/display_mode.hpp</label>
+        <link refid="display__mode_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>libdecklink/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>initializer_list</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>include/libdecklink/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>include/libdecklink/device_input_interface.hpp</label>
+        <link refid="device__input__interface_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>include/libdecklink/device_output_interface.hpp</label>
+        <link refid="device__output__interface_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/libdecklink/display_mode.hpp</label>
+        <link refid="display__mode_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/deckmonitor.cpp</label>
+        <link refid="deckmonitor_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/deckoutput.cpp</label>
+        <link refid="deckoutput_8cpp"/>
+      </node>
+      <node id="6">
+        <label>src/deckquery.cpp</label>
+        <link refid="deckquery_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/deckstatus.cpp</label>
+        <link refid="deckstatus_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/deckview.cpp</label>
+        <link refid="deckview_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/libdecklink/capture_callback.cpp</label>
+        <link refid="capture__callback_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/libdecklink/device.cpp</label>
+        <link refid="device_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/libdecklink/device_input_interface.cpp</label>
+        <link refid="device__input__interface_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/libdecklink/device_output_interface.cpp</label>
+        <link refid="device__output__interface_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/libdecklink/display_mode.cpp</label>
+        <link refid="display__mode_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/libdecklink/video_output_frame.cpp</label>
+        <link refid="video__output__frame_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_deck_link_1_1_display_mode" prot="public">DeckLink::DisplayMode</innerclass>
+    <innernamespace refid="namespace_deck_link">DeckLink</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>tibo<sp/>on<sp/>15/01/18.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_deck_link_a_p_i_8h" kindref="compound">decklink_sdk/DeckLinkAPI.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="types_8hpp" kindref="compound">libdecklink/types.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmask_8hpp" kindref="compound">libdecklink/bitmask.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_deck_link" kindref="compound">DeckLink</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16" refid="class_deck_link_1_1_display_mode" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_deck_link_1_1_display_mode_1a0818cb1a584f455778ff0e1d93b8f921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_display_mode_1a0818cb1a584f455778ff0e1d93b8f921" kindref="member">DisplayMode</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a0818cb1a584f455778ff0e1d93b8f921" kindref="member">DisplayMode</ref>(<ref refid="class_i_deck_link_display_mode" kindref="compound">IDeckLinkDisplayMode</ref><sp/>*<ref refid="class_deck_link_1_1_bit_mask" kindref="compound">mode</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36" refid="class_deck_link_1_1_display_mode_1ab326f42beae342b4b70a736ce2d3bda5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_display_mode_1ab326f42beae342b4b70a736ce2d3bda5" kindref="member">DisplayMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode" kindref="compound">DisplayMode</ref>&amp;<sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">other</ref>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45" refid="class_deck_link_1_1_display_mode_1ae6f9ff8b62702a4d6c8b661133d266ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1ae6f9ff8b62702a4d6c8b661133d266ed" kindref="member">is_valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a641ccf33b2bb9986e5ee074087b78bf3" kindref="member">_valid</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49" refid="class_deck_link_1_1_display_mode_1af53a96bb0441b95986ba4834d2500e4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754c" kindref="member">ImageFormat</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1af53a96bb0441b95986ba4834d2500e4a" kindref="member">get_image_format</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754c" kindref="member">ImageFormat</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<ref refid="class_deck_link_1_1_display_mode_1a83a4c5fe71ea1edcfbc5d0f4b4d2469b" kindref="member">_raw_mode</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53" refid="class_deck_link_1_1_display_mode_1a6c3db6a112d628df38d468fc987479e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a6c3db6a112d628df38d468fc987479e9" kindref="member">get_width</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a128a038706d558a5c73372bc0b8024ab" kindref="member">_width</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55" refid="class_deck_link_1_1_display_mode_1a4c6e3b5b4ef01531d39caebc9c9b439d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a4c6e3b5b4ef01531d39caebc9c9b439d" kindref="member">get_height</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a760bc42ba727976a107a956cfedcb5b9" kindref="member">_height</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57" refid="class_deck_link_1_1_display_mode_1a17a2bfdc0c7fa300bbe5f0c8f5cfa200" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a17a2bfdc0c7fa300bbe5f0c8f5cfa200" kindref="member">get_framerate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a8d38c1e2b6598276b4ef323e823bddbb" kindref="member">_framerate</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59" refid="class_deck_link_1_1_display_mode_1a480e0e13124ab17a6a3c480879aa3cf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_deck_link_1_1_display_mode_1a480e0e13124ab17a6a3c480879aa3cf3" kindref="member">get_name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a282af3e816a2f5c0b51626762774a7b3" kindref="member">_name</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61" refid="class_deck_link_1_1_display_mode_1ac0d897759c8598687e2dd6c49d6abc3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875" kindref="member">FieldDominance</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1ac0d897759c8598687e2dd6c49d6abc3b" kindref="member">get_field_dominance</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a0ee8fb78426c5bc815d3fce71a142516" kindref="member">_field_dominance</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63" refid="class_deck_link_1_1_display_mode_1a7899058e26a5339307ba07ad543258fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask&lt;DisplayModeFlags&gt;</ref>&amp;<sp/><ref refid="class_deck_link_1_1_display_mode_1a7899058e26a5339307ba07ad543258fc" kindref="member">get_flags</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a0c53f90221502826d3719d67e6adb876" kindref="member">_flags</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65" refid="class_deck_link_1_1_display_mode_1ac6b629de1ae61d055acfa4215820e2b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_modes_8h_1a53a24da93c73653675b403e3b4b30a4a" kindref="member">BMDDisplayMode</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1ac6b629de1ae61d055acfa4215820e2b8" kindref="member">get_raw_mode</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a83a4c5fe71ea1edcfbc5d0f4b4d2469b" kindref="member">_raw_mode</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67" refid="class_deck_link_1_1_display_mode_1a0d44a42757ac93583458c4e9bec2d552" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a0d44a42757ac93583458c4e9bec2d552" kindref="member">has_3D_support</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">bool</ref>(<ref refid="class_deck_link_1_1_display_mode_1a0c53f90221502826d3719d67e6adb876" kindref="member">_flags</ref><sp/>&amp;<sp/><ref refid="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bba492c89f4f9bbd69b427f15c707f22883" kindref="member">DisplayModeFlags::Supports3D</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">/*<sp/>Member<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simple<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76" refid="class_deck_link_1_1_display_mode_1a641ccf33b2bb9986e5ee074087b78bf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a641ccf33b2bb9986e5ee074087b78bf3" kindref="member">_valid</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79" refid="class_deck_link_1_1_display_mode_1a128a038706d558a5c73372bc0b8024ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a128a038706d558a5c73372bc0b8024ab" kindref="member">_width</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82" refid="class_deck_link_1_1_display_mode_1a760bc42ba727976a107a956cfedcb5b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a760bc42ba727976a107a956cfedcb5b9" kindref="member">_height</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85" refid="class_deck_link_1_1_display_mode_1a8d38c1e2b6598276b4ef323e823bddbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_deck_link_1_1_display_mode_1a8d38c1e2b6598276b4ef323e823bddbb" kindref="member">_framerate</ref><sp/>=<sp/>-1.0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87" refid="class_deck_link_1_1_display_mode_1a0ee8fb78426c5bc815d3fce71a142516" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875" kindref="member">FieldDominance</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1a0ee8fb78426c5bc815d3fce71a142516" kindref="member">_field_dominance</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90" refid="class_deck_link_1_1_display_mode_1a282af3e816a2f5c0b51626762774a7b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_deck_link_1_1_display_mode_1a282af3e816a2f5c0b51626762774a7b3" kindref="member">_name</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92" refid="class_deck_link_1_1_display_mode_1a83a4c5fe71ea1edcfbc5d0f4b4d2469b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_modes_8h_1a53a24da93c73653675b403e3b4b30a4a" kindref="member">BMDDisplayMode</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1a83a4c5fe71ea1edcfbc5d0f4b4d2469b" kindref="member">_raw_mode</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94" refid="class_deck_link_1_1_display_mode_1a0c53f90221502826d3719d67e6adb876" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">BitMask&lt;DisplayModeFlags&gt;</ref><sp/><ref refid="class_deck_link_1_1_display_mode_1a0c53f90221502826d3719d67e6adb876" kindref="member">_flags</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="include/libdecklink/display_mode.hpp"/>
+  </compounddef>
+</doxygen>

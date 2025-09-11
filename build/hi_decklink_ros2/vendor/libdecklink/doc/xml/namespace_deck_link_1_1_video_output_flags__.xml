@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link_1_1_video_output_flags__" kind="namespace" language="C++">
+    <compoundname>DeckLink::VideoOutputFlags_</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_deck_link_1_1_video_output_flags___1a7f027a89e4f786f16ed031e33f5ac367" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">constexpr</ref> std::array&lt; <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" kindref="member">VideoOutputFlags</ref>, 5 &gt;</type>
+        <definition>constexpr std::array&lt;VideoOutputFlags, 5&gt; DeckLink::VideoOutputFlags_::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <qualifiedname>DeckLink::VideoOutputFlags_::Values</qualifiedname>
+        <initializer>{
+            <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea7a1920d61156abc05a60135aefe8bc67" kindref="member">VideoOutputFlags::Default</ref>,
+            <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea5ef801b188b7e33ce686ae5f820d3bac" kindref="member">VideoOutputFlags::VANC</ref>,
+            <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea2bf7dc98dffd0038be373818ef533970" kindref="member">VideoOutputFlags::VITC</ref>,
+            <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea9952d52962ec0691c938c8528d62132f" kindref="member">VideoOutputFlags::RP188</ref>,
+            <ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47eac4b6be3c4adb72f0451c779af981aa8a" kindref="member">VideoOutputFlags::DualStream3D</ref>,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="301" column="30" bodyfile="include/libdecklink/types.hpp" bodystart="301" bodyend="307"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/types.cpp" line="553" column="5"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_i_deck_link_configuration" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IDeckLinkConfiguration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IUnknown</basecompoundref>
+    <includes refid="_deck_link_a_p_i_configuration_8h" local="no">DeckLinkAPIConfiguration.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a7bcaa36cc650a6711bfd4fadad66dd36" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::SetFlag</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, bool value)=0</argsstring>
+        <name>SetFlag</name>
+        <qualifiedname>IDeckLinkConfiguration::SetFlag</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="212" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a6de49de634e9233bc84b4c323bd899cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::GetFlag</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, bool *value)=0</argsstring>
+        <name>GetFlag</name>
+        <qualifiedname>IDeckLinkConfiguration::GetFlag</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="213" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a115a1c457c7a46db8ca338cf76d6f923" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::SetInt</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, int64_t value)=0</argsstring>
+        <name>SetInt</name>
+        <qualifiedname>IDeckLinkConfiguration::SetInt</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="214" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a52c71e713cf71b2f191a8dc62db5cf5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::GetInt</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, int64_t *value)=0</argsstring>
+        <name>GetInt</name>
+        <qualifiedname>IDeckLinkConfiguration::GetInt</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>int64_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="215" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a58d0e067955728dd1d3ab0554d1b606e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::SetFloat</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, double value)=0</argsstring>
+        <name>SetFloat</name>
+        <qualifiedname>IDeckLinkConfiguration::SetFloat</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="216" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a4af41d2f89c6c5dc6289c4f10cc8c65f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::GetFloat</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, double *value)=0</argsstring>
+        <name>GetFloat</name>
+        <qualifiedname>IDeckLinkConfiguration::GetFloat</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="217" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1afa041a9037ba53fbb865a97bbcbf791d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::SetString</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, const char *value)=0</argsstring>
+        <name>SetString</name>
+        <qualifiedname>IDeckLinkConfiguration::SetString</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="218" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a81e9f2955f011aa5bffe5e0f0e414a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::GetString</definition>
+        <argsstring>(BMDDeckLinkConfigurationID cfgID, const char **value)=0</argsstring>
+        <name>GetString</name>
+        <qualifiedname>IDeckLinkConfiguration::GetString</qualifiedname>
+        <param>
+          <type><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref></type>
+          <declname>cfgID</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="219" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a45342a727dcd9256149a8b4ae6201d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref></type>
+        <definition>virtual HRESULT IDeckLinkConfiguration::WriteConfigurationToPreferences</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>WriteConfigurationToPreferences</name>
+        <qualifiedname>IDeckLinkConfiguration::WriteConfigurationToPreferences</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="220" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_deck_link_configuration_1a65dda6acbfbfe99c447d2e423b1a1a65" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IDeckLinkConfiguration::~IDeckLinkConfiguration</definition>
+        <argsstring>()</argsstring>
+        <name>~IDeckLinkConfiguration</name>
+        <qualifiedname>IDeckLinkConfiguration::~IDeckLinkConfiguration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="223" column="13" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="223" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IDeckLinkConfiguration</label>
+        <link refid="class_i_deck_link_configuration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IDeckLinkConfiguration</label>
+        <link refid="class_i_deck_link_configuration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUnknown</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="209" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="210" bodyend="224"/>
+    <listofallmembers>
+      <member refid="class_i_deck_link_configuration_1a6de49de634e9233bc84b4c323bd899cf" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>GetFlag</name></member>
+      <member refid="class_i_deck_link_configuration_1a4af41d2f89c6c5dc6289c4f10cc8c65f" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>GetFloat</name></member>
+      <member refid="class_i_deck_link_configuration_1a52c71e713cf71b2f191a8dc62db5cf5c" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>GetInt</name></member>
+      <member refid="class_i_deck_link_configuration_1a81e9f2955f011aa5bffe5e0f0e414a9e" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>GetString</name></member>
+      <member refid="class_i_deck_link_configuration_1a7bcaa36cc650a6711bfd4fadad66dd36" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>SetFlag</name></member>
+      <member refid="class_i_deck_link_configuration_1a58d0e067955728dd1d3ab0554d1b606e" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>SetFloat</name></member>
+      <member refid="class_i_deck_link_configuration_1a115a1c457c7a46db8ca338cf76d6f923" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>SetInt</name></member>
+      <member refid="class_i_deck_link_configuration_1afa041a9037ba53fbb865a97bbcbf791d" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>SetString</name></member>
+      <member refid="class_i_deck_link_configuration_1a45342a727dcd9256149a8b4ae6201d19" prot="public" virt="pure-virtual"><scope>IDeckLinkConfiguration</scope><name>WriteConfigurationToPreferences</name></member>
+      <member refid="class_i_deck_link_configuration_1a65dda6acbfbfe99c447d2e423b1a1a65" prot="protected" virt="virtual"><scope>IDeckLinkConfiguration</scope><name>~IDeckLinkConfiguration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

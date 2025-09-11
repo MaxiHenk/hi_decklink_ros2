@@ -1,0 +1,57 @@
+-- Found Doxygen: /usr/bin/doxygen (found version "1.9.8") found components: doxygen dot 
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2
+[  3%] [34m[1mGenerating API documentation with Doxygen[0m
+[  6%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/types.cpp.o[0m
+[ 10%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device.cpp.o[0m
+[ 13%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/display_mode.cpp.o[0m
+[ 16%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device_input_interface.cpp.o[0m
+[ 20%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/device_output_interface.cpp.o[0m
+[ 23%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_frame.cpp.o[0m
+[ 26%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_input_frame.cpp.o[0m
+[ 30%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/video_output_frame.cpp.o[0m
+[ 33%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/capture_callback.cpp.o[0m
+[ 36%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/include/decklink_sdk/DeckLinkAPIDispatch.cpp.o[0m
+[ 40%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/decklink.dir/src/libdecklink/notification_callback.cpp.o[0m
+[ 43%] [32m[1mLinking CXX static library libdecklink.a[0m
+[ 43%] Built target docs
+[ 43%] Built target decklink
+[ 46%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckquery.dir/src/deckquery.cpp.o[0m
+[ 53%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckmonitor.dir/src/deckmonitor.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/img2ros.dir/src/img2ros.cpp.o[0m
+[ 56%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckstatus.dir/src/deckstatus.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 63%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckview.dir/src/deckview.cpp.o[0m
+[ 66%] [32mBuilding CXX object vendor/libdecklink/CMakeFiles/deckoutput.dir/src/deckoutput.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable deckmonitor[0m
+[ 76%] [32m[1mLinking CXX executable deckquery[0m
+[ 80%] [32m[1mLinking CXX executable deckstatus[0m
+[ 83%] [32m[1mLinking CXX executable deckview[0m
+[ 83%] Built target deckmonitor
+[ 83%] Built target deckquery
+[ 86%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[ 86%] Built target deckstatus
+[ 86%] Built target deckview
+[ 90%] [32m[1mLinking CXX executable deckoutput[0m
+[ 90%] Built target deckoutput
+[ 93%] [32m[1mLinking CXX executable img2ros[0m
+[ 93%] Built target img2ros
+[ 96%] [32m[1mLinking CXX executable publisher[0m
+[ 96%] Built target publisher

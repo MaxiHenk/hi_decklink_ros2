@@ -1,0 +1,1140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_deck_link_a_p_i_deck_control_8h" kind="file" language="C++">
+    <compoundname>DeckLinkAPIDeckControl.h</compoundname>
+    <includedby refid="_deck_link_a_p_i_8h" local="yes">include/decklink_sdk/DeckLinkAPI.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>include/decklink_sdk/DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/decklink_sdk/DeckLinkAPIDeckControl.h</label>
+        <link refid="_deck_link_a_p_i_deck_control_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>include/decklink_sdk/DeckLinkAPIDispatch.cpp</label>
+        <link refid="_deck_link_a_p_i_dispatch_8cpp"/>
+      </node>
+      <node id="4">
+        <label>include/libdecklink/capture_callback.hpp</label>
+        <link refid="capture__callback_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/libdecklink/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/libdecklink/device_input_interface.hpp</label>
+        <link refid="device__input__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>include/libdecklink/device_output_interface.hpp</label>
+        <link refid="device__output__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>include/libdecklink/display_mode.hpp</label>
+        <link refid="display__mode_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>include/libdecklink/errors.hpp</label>
+        <link refid="errors_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>include/libdecklink/interface_helper.hpp</label>
+        <link refid="interface__helper_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>include/libdecklink/notification_callback.hpp</label>
+        <link refid="notification__callback_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>include/libdecklink/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>include/libdecklink/video_frame.hpp</label>
+        <link refid="video__frame_8hpp"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>include/libdecklink/video_input_frame.hpp</label>
+        <link refid="video__input__frame_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>include/libdecklink/video_output_frame.hpp</label>
+        <link refid="video__output__frame_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/deckmonitor.cpp</label>
+        <link refid="deckmonitor_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/deckoutput.cpp</label>
+        <link refid="deckoutput_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/deckquery.cpp</label>
+        <link refid="deckquery_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/deckstatus.cpp</label>
+        <link refid="deckstatus_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/deckview.cpp</label>
+        <link refid="deckview_8cpp"/>
+      </node>
+      <node id="25">
+        <label>src/handle_errors.hpp</label>
+        <link refid="handle__errors_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>src/libdecklink/capture_callback.cpp</label>
+        <link refid="capture__callback_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/libdecklink/device.cpp</label>
+        <link refid="device_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/libdecklink/device_input_interface.cpp</label>
+        <link refid="device__input__interface_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/libdecklink/device_output_interface.cpp</label>
+        <link refid="device__output__interface_8cpp"/>
+      </node>
+      <node id="19">
+        <label>src/libdecklink/display_mode.cpp</label>
+        <link refid="display__mode_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/libdecklink/notification_callback.cpp</label>
+        <link refid="notification__callback_8cpp"/>
+      </node>
+      <node id="31">
+        <label>src/libdecklink/types.cpp</label>
+        <link refid="types_8cpp"/>
+      </node>
+      <node id="26">
+        <label>src/libdecklink/video_frame.cpp</label>
+        <link refid="video__frame_8cpp"/>
+      </node>
+      <node id="27">
+        <label>src/libdecklink/video_input_frame.cpp</label>
+        <link refid="video__input__frame_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/libdecklink/video_output_frame.cpp</label>
+        <link refid="video__output__frame_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_i_deck_link_deck_control_status_callback" prot="public">IDeckLinkDeckControlStatusCallback</innerclass>
+    <innerclass refid="class_i_deck_link_deck_control" prot="public">IDeckLinkDeckControl</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_deck_link_a_p_i_deck_control_8h_1ab1116dc642dcaa41a7626044eec8ec26" prot="public" static="no">
+        <name>BMD_CONST</name>
+        <initializer>static const</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="36" column="22" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlMode</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8afe3a3a8f7fa759c91b665c953fc46ce9" prot="public">
+          <name>bmdDeckControlNotOpened</name>
+          <initializer>=  0x6E746F70</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ae065099cefc9de5cd5ca91a3e644db50" prot="public">
+          <name>bmdDeckControlVTRControlMode</name>
+          <initializer>=  0x76747263</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8a5076b43b772b2a96bdf791c650fbad2c" prot="public">
+          <name>bmdDeckControlExportMode</name>
+          <initializer>=  0x6578706D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ac0da2ee5d5134da3a4cbdf3277cab626" prot="public">
+          <name>bmdDeckControlCaptureMode</name>
+          <initializer>=  0x6361706D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="51" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlEvent</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1abe8559a2377f159d87c4b8f32776c7bf" prot="public">
+          <name>bmdDeckControlAbortedEvent</name>
+          <initializer>=  0x61627465</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a4ffe7641f92879bf8e3e73ac25f5c29a" prot="public">
+          <name>bmdDeckControlPrepareForExportEvent</name>
+          <initializer>=  0x70666565</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a680f0ef108c9b76a711bc7cf63fd0b0d" prot="public">
+          <name>bmdDeckControlExportCompleteEvent</name>
+          <initializer>=  0x65786365</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a9c4e2d1629d02af67c29947dc1f4c1f6" prot="public">
+          <name>bmdDeckControlPrepareForCaptureEvent</name>
+          <initializer>=  0x70666365</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1adc6b3fd00c7d4e4367b842745585fb3d" prot="public">
+          <name>bmdDeckControlCaptureCompleteEvent</name>
+          <initializer>=  0x63636576</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="61" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="61" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlVTRControlState</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a77425b3966172da428e51431033487d3" prot="public">
+          <name>bmdDeckControlNotInVTRControlMode</name>
+          <initializer>=  0x6E76636D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2af4e36ce418a4bcf46f6a9a1bdbcc1acd" prot="public">
+          <name>bmdDeckControlVTRControlPlaying</name>
+          <initializer>=  0x76747270</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a39cccde3bb2c6d11d6ae179ee2661a7f" prot="public">
+          <name>bmdDeckControlVTRControlRecording</name>
+          <initializer>=  0x76747272</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ab9ab13cb2b8769eea38bc2a86012cb8e" prot="public">
+          <name>bmdDeckControlVTRControlStill</name>
+          <initializer>=  0x76747261</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a8527a32b4258a0c41cb3f16b05eb2e9a" prot="public">
+          <name>bmdDeckControlVTRControlShuttleForward</name>
+          <initializer>=  0x76747366</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2aa77846727fa3a8c3cf6abd1612621a02" prot="public">
+          <name>bmdDeckControlVTRControlShuttleReverse</name>
+          <initializer>=  0x76747372</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ae52f469d0c1a9959ddaadddc8a0e5fdb" prot="public">
+          <name>bmdDeckControlVTRControlJogForward</name>
+          <initializer>=  0x76746A66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a1305f3b6fa042af1590356023e3236cc" prot="public">
+          <name>bmdDeckControlVTRControlJogReverse</name>
+          <initializer>=  0x76746A72</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a685a34ab751ac18e3bc7346ded141c5b" prot="public">
+          <name>bmdDeckControlVTRControlStopped</name>
+          <initializer>=  0x7674726F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="78" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cd" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlStatusFlags</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cdae7fd552f8c38781aeb4d6699efff4f93" prot="public">
+          <name>bmdDeckControlStatusDeckConnected</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda0ca467f761d78a06d1f1f0a8a5e80733" prot="public">
+          <name>bmdDeckControlStatusRemoteMode</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda89402b3566b194d70b65cb29e0e7a738" prot="public">
+          <name>bmdDeckControlStatusRecordInhibited</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda71427d1f86e378502b48e26c8251d907" prot="public">
+          <name>bmdDeckControlStatusCassetteOut</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="93" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlExportModeOpsFlags</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a26ecb632af16b45c40b8b2667b44f3ff" prot="public">
+          <name>bmdDeckControlExportModeInsertVideo</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a92b5f29021f0209aaf23fc02e9035325" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio1</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a551730fd45d10fd1e66dde13b833a423" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio2</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aecfc9b337d577bc99023f9788cc4685d" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio3</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a8a5de637da7beef16266d5135fd6e81f" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio4</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aa30ef9d0c332138422166e9236a13c18" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio5</name>
+          <initializer>= 1 &lt;&lt; 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a7238f1d5f9524a02375c4738dde6d600" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio6</name>
+          <initializer>= 1 &lt;&lt; 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2e6c52a805aeeb53229f6e79acacc134" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio7</name>
+          <initializer>= 1 &lt;&lt; 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2061165762a31794e14578a8d99f5cd5" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio8</name>
+          <initializer>= 1 &lt;&lt; 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a68cfe571c712a28dfaff252a2f41a3dc" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio9</name>
+          <initializer>= 1 &lt;&lt; 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aea25b78660aca8668d188cb5655e8b41" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio10</name>
+          <initializer>= 1 &lt;&lt; 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aac0aeb369d975ae0976c8a0b67452cbc" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio11</name>
+          <initializer>= 1 &lt;&lt; 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a847ef6295dd76084b5c278ddd016db9d" prot="public">
+          <name>bmdDeckControlExportModeInsertAudio12</name>
+          <initializer>= 1 &lt;&lt; 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a1fd998486b4eb11562c4d57ee26e26bd" prot="public">
+          <name>bmdDeckControlExportModeInsertTimeCode</name>
+          <initializer>= 1 &lt;&lt; 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aba19008357a67047ada7a337cb9cf5c9" prot="public">
+          <name>bmdDeckControlExportModeInsertAssemble</name>
+          <initializer>= 1 &lt;&lt; 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a689a2f9e97b5d3da33ff432dfea2f305" prot="public">
+          <name>bmdDeckControlExportModeInsertPreview</name>
+          <initializer>= 1 &lt;&lt; 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44af1a685d4675dc6c077353e4b4ccff864" prot="public">
+          <name>bmdDeckControlUseManualExport</name>
+          <initializer>= 1 &lt;&lt; 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="103" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="103" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckControlError</name>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa7e2ddaaa350ee5046c8d52297fb51e31" prot="public">
+          <name>bmdDeckControlNoError</name>
+          <initializer>=  0x6E6F6572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa230d83698db6b4064573d3a613c1fbb0" prot="public">
+          <name>bmdDeckControlModeError</name>
+          <initializer>=  0x6D6F6572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaac489bade9769a72804a2847c23bf0f03" prot="public">
+          <name>bmdDeckControlMissedInPointError</name>
+          <initializer>=  0x6D696572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2516b9f0d7c78113fb9755f98c6dfc54" prot="public">
+          <name>bmdDeckControlDeckTimeoutError</name>
+          <initializer>=  0x64746572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0284081dd4261c9a8de6a6fce7d13ef1" prot="public">
+          <name>bmdDeckControlCommandFailedError</name>
+          <initializer>=  0x63666572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0817e90c9faf21e587147f43a0fa3063" prot="public">
+          <name>bmdDeckControlDeviceAlreadyOpenedError</name>
+          <initializer>=  0x64616C6F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaab079a22544f7c8bdc8936bf8810288b" prot="public">
+          <name>bmdDeckControlFailedToOpenDeviceError</name>
+          <initializer>=  0x66646572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa5e611c7108da3ca1a1bdae25dd6a1923" prot="public">
+          <name>bmdDeckControlInLocalModeError</name>
+          <initializer>=  0x6C6D6572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa3bfda487be9d2a9abaab9e7a15e8fe8c" prot="public">
+          <name>bmdDeckControlEndOfTapeError</name>
+          <initializer>=  0x65746572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2e3db7a921be0943d996b952619734ff" prot="public">
+          <name>bmdDeckControlUserAbortError</name>
+          <initializer>=  0x75616572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2f049b4f8247348e68674160bea06c59" prot="public">
+          <name>bmdDeckControlNoTapeInDeckError</name>
+          <initializer>=  0x6E746572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2b6b726e2ae56195ab6c8bf41e02fe74" prot="public">
+          <name>bmdDeckControlNoVideoFromCardError</name>
+          <initializer>=  0x6E766663</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadca13609165643961ed3749da540160c" prot="public">
+          <name>bmdDeckControlNoCommunicationError</name>
+          <initializer>=  0x6E636F6D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaec37c4ec27d688d36397d67fbdfb1d5a" prot="public">
+          <name>bmdDeckControlBufferTooSmallError</name>
+          <initializer>=  0x6274736D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadd74dcbaf8b9860539c6c01678fc7ae4" prot="public">
+          <name>bmdDeckControlBadChecksumError</name>
+          <initializer>=  0x63686B73</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa8e2c70bfab604f58df6fe78ee5a10390" prot="public">
+          <name>bmdDeckControlUnknownError</name>
+          <initializer>=  0x756E6572</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="126" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="126" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1ae43fccb6d5f8a3cdad00f977171bbdd3" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlMode</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="50" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1a0eed0eff57c5ec7b4899fea3dee7a23f" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlEvent</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="60" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1a5da57101e626754ad24932a2b602451c" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlVTRControlState</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlVTRControlState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="77" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1a831fd98518e5e27e9db35e23a29ea256" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlStatusFlags</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlStatusFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="92" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1a304e31f2ff7508bb69a8712fe13227e5" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlExportModeOpsFlags</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlExportModeOpsFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="102" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckControlError</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckControlError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="125" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_deck_link_a_p_i_deck_control_8h_1a22997a0deaafda9f1b856c25f1cb2a73" prot="public" static="no" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref> <ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+        <definition>BMD_CONST REFIID IID_IDeckLinkDeckControlStatusCallback</definition>
+        <argsstring></argsstring>
+        <name>IID_IDeckLinkDeckControlStatusCallback</name>
+        <initializer>=  {0x53,0x43,0x6F,0xFB,0xB4,0x34,0x49,0x06,0xBA,0xDC,0xAE,0x30,0x60,0xFF,0xE8,0xEF}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="45" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_deck_control_8h_1a0ec5db9e3430e7ecf4f1c0293feedb36" prot="public" static="no" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref> <ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+        <definition>BMD_CONST REFIID IID_IDeckLinkDeckControl</definition>
+        <argsstring></argsstring>
+        <name>IID_IDeckLinkDeckControl</name>
+        <initializer>=  {0x8E,0x1C,0x3A,0xCE,0x19,0xC7,0x4E,0x00,0x8B,0x92,0xD8,0x04,0x31,0xD9,0x58,0xBE}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h" line="46" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDeckControl.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-LICENSE-START-</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Copyright<sp/>(c)<sp/>2016<sp/>Blackmagic<sp/>Design</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>or<sp/>organization</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>software<sp/>and<sp/>accompanying<sp/>documentation<sp/>covered<sp/>by</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>this<sp/>license<sp/>(the<sp/>&quot;Software&quot;)<sp/>to<sp/>use,<sp/>reproduce,<sp/>display,<sp/>distribute,</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>execute,<sp/>and<sp/>transmit<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>prepare<sp/>derivative<sp/>works<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>third-parties<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>do<sp/>so,<sp/>all<sp/>subject<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">**<sp/>The<sp/>copyright<sp/>notices<sp/>in<sp/>the<sp/>Software<sp/>and<sp/>this<sp/>entire<sp/>statement,<sp/>including</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">**<sp/>the<sp/>above<sp/>license<sp/>grant,<sp/>this<sp/>restriction<sp/>and<sp/>the<sp/>following<sp/>disclaimer,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">**<sp/>must<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>in<sp/>whole<sp/>or<sp/>in<sp/>part,<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">**<sp/>all<sp/>derivative<sp/>works<sp/>of<sp/>the<sp/>Software,<sp/>unless<sp/>such<sp/>copies<sp/>or<sp/>derivative</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">**<sp/>works<sp/>are<sp/>solely<sp/>in<sp/>the<sp/>form<sp/>of<sp/>machine-executable<sp/>object<sp/>code<sp/>generated<sp/>by</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">**<sp/>a<sp/>source<sp/>language<sp/>processor.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">**<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">**<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">**<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE,<sp/>TITLE<sp/>AND<sp/>NON-INFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">**<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>OR<sp/>ANYONE<sp/>DISTRIBUTING<sp/>THE<sp/>SOFTWARE<sp/>BE<sp/>LIABLE</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">**<sp/>FOR<sp/>ANY<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">**<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">**<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">**<sp/>-LICENSE-END-</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMD_DECKLINKAPIDECKCONTROL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BMD_DECKLINKAPIDECKCONTROL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMD_CONST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BMD_CONST<sp/>__declspec(selectany)<sp/>static<sp/>const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_deck_link_a_p_i_deck_control_8h_1ab1116dc642dcaa41a7626044eec8ec26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BMD_CONST<sp/>static<sp/>const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Interface<sp/>ID<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="_deck_link_a_p_i_deck_control_8h_1a22997a0deaafda9f1b856c25f1cb2a73" refkind="member"><highlight class="normal"><ref refid="_deck_link_a_p_i_deck_control_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a22997a0deaafda9f1b856c25f1cb2a73" kindref="member">IID_IDeckLinkDeckControlStatusCallback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>53436FFB-B434-4906-BADC-AE3060FFE8EF<sp/>*/</highlight><highlight class="normal"><sp/>{0x53,0x43,0x6F,0xFB,0xB4,0x34,0x49,0x06,0xBA,0xDC,0xAE,0x30,0x60,0xFF,0xE8,0xEF};</highlight></codeline>
+<codeline lineno="46" refid="_deck_link_a_p_i_deck_control_8h_1a0ec5db9e3430e7ecf4f1c0293feedb36" refkind="member"><highlight class="normal"><ref refid="_deck_link_a_p_i_deck_control_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0ec5db9e3430e7ecf4f1c0293feedb36" kindref="member">IID_IDeckLinkDeckControl</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>8E1C3ACE-19C7-4E00-8B92-D80431D958BE<sp/>*/</highlight><highlight class="normal"><sp/>{0x8E,0x1C,0x3A,0xCE,0x19,0xC7,0x4E,0x00,0x8B,0x92,0xD8,0x04,0x31,0xD9,0x58,0xBE};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlMode<sp/>-<sp/>DeckControl<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_deck_link_a_p_i_deck_control_8h_1ae43fccb6d5f8a3cdad00f977171bbdd3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ae43fccb6d5f8a3cdad00f977171bbdd3" kindref="member">BMDDeckControlMode</ref>;</highlight></codeline>
+<codeline lineno="51" refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8" kindref="member">_BMDDeckControlMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="52" refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8afe3a3a8f7fa759c91b665c953fc46ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8afe3a3a8f7fa759c91b665c953fc46ce9" kindref="member">bmdDeckControlNotOpened</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ntop&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E746F70,</highlight></codeline>
+<codeline lineno="53" refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ae065099cefc9de5cd5ca91a3e644db50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ae065099cefc9de5cd5ca91a3e644db50" kindref="member">bmdDeckControlVTRControlMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtrc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747263,</highlight></codeline>
+<codeline lineno="54" refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8a5076b43b772b2a96bdf791c650fbad2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8a5076b43b772b2a96bdf791c650fbad2c" kindref="member">bmdDeckControlExportMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;expm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6578706D,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ac0da2ee5d5134da3a4cbdf3277cab626" kindref="member">bmdDeckControlCaptureMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;capm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6361706D</highlight></codeline>
+<codeline lineno="56" refid="_deck_link_a_p_i_deck_control_8h_1a7be1b734d4bfe84c190537ebe6cf45c8ac0da2ee5d5134da3a4cbdf3277cab626" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlEvent<sp/>-<sp/>DeckControl<sp/>event<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="_deck_link_a_p_i_deck_control_8h_1a0eed0eff57c5ec7b4899fea3dee7a23f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0eed0eff57c5ec7b4899fea3dee7a23f" kindref="member">BMDDeckControlEvent</ref>;</highlight></codeline>
+<codeline lineno="61" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1" kindref="member">_BMDDeckControlEvent</ref><sp/>{</highlight></codeline>
+<codeline lineno="62" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1abe8559a2377f159d87c4b8f32776c7bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1abe8559a2377f159d87c4b8f32776c7bf" kindref="member">bmdDeckControlAbortedEvent</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;abte&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61627465,<sp/></highlight><highlight class="comment">//<sp/>This<sp/>event<sp/>is<sp/>triggered<sp/>when<sp/>a<sp/>capture<sp/>or<sp/>edit-to-tape<sp/>operation<sp/>is<sp/>aborted.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Export-To-Tape<sp/>events<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a4ffe7641f92879bf8e3e73ac25f5c29a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a4ffe7641f92879bf8e3e73ac25f5c29a" kindref="member">bmdDeckControlPrepareForExportEvent</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;pfee&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x70666565,<sp/></highlight><highlight class="comment">//<sp/>This<sp/>event<sp/>is<sp/>triggered<sp/>a<sp/>few<sp/>frames<sp/>before<sp/>reaching<sp/>the<sp/>in-point.<sp/>IDeckLinkInput::StartScheduledPlayback()<sp/>should<sp/>be<sp/>called<sp/>at<sp/>this<sp/>point.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a680f0ef108c9b76a711bc7cf63fd0b0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a680f0ef108c9b76a711bc7cf63fd0b0d" kindref="member">bmdDeckControlExportCompleteEvent</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;exce&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x65786365,<sp/></highlight><highlight class="comment">//<sp/>This<sp/>event<sp/>is<sp/>triggered<sp/>a<sp/>few<sp/>frames<sp/>after<sp/>reaching<sp/>the<sp/>out-point.<sp/>At<sp/>this<sp/>point,<sp/>it<sp/>is<sp/>safe<sp/>to<sp/>stop<sp/>playback.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Capture<sp/>events<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a9c4e2d1629d02af67c29947dc1f4c1f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1a9c4e2d1629d02af67c29947dc1f4c1f6" kindref="member">bmdDeckControlPrepareForCaptureEvent</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;pfce&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x70666365,<sp/></highlight><highlight class="comment">//<sp/>This<sp/>event<sp/>is<sp/>triggered<sp/>a<sp/>few<sp/>frames<sp/>before<sp/>reaching<sp/>the<sp/>in-point.<sp/>The<sp/>serial<sp/>timecode<sp/>attached<sp/>to<sp/>IDeckLinkVideoInputFrames<sp/>is<sp/>now<sp/>valid.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1adc6b3fd00c7d4e4367b842745585fb3d" kindref="member">bmdDeckControlCaptureCompleteEvent</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ccev&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x63636576<sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>event<sp/>is<sp/>triggered<sp/>a<sp/>few<sp/>frames<sp/>after<sp/>reaching<sp/>the<sp/>out-point.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="_deck_link_a_p_i_deck_control_8h_1a0668b799195a2e3d264f334119c167c1adc6b3fd00c7d4e4367b842745585fb3d" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlVTRControlState<sp/>-<sp/>VTR<sp/>Control<sp/>state<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="_deck_link_a_p_i_deck_control_8h_1a5da57101e626754ad24932a2b602451c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a5da57101e626754ad24932a2b602451c" kindref="member">BMDDeckControlVTRControlState</ref>;</highlight></codeline>
+<codeline lineno="78" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2" kindref="member">_BMDDeckControlVTRControlState</ref><sp/>{</highlight></codeline>
+<codeline lineno="79" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a77425b3966172da428e51431033487d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a77425b3966172da428e51431033487d3" kindref="member">bmdDeckControlNotInVTRControlMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;nvcm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E76636D,</highlight></codeline>
+<codeline lineno="80" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2af4e36ce418a4bcf46f6a9a1bdbcc1acd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2af4e36ce418a4bcf46f6a9a1bdbcc1acd" kindref="member">bmdDeckControlVTRControlPlaying</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtrp&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747270,</highlight></codeline>
+<codeline lineno="81" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a39cccde3bb2c6d11d6ae179ee2661a7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a39cccde3bb2c6d11d6ae179ee2661a7f" kindref="member">bmdDeckControlVTRControlRecording</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtrr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747272,</highlight></codeline>
+<codeline lineno="82" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ab9ab13cb2b8769eea38bc2a86012cb8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ab9ab13cb2b8769eea38bc2a86012cb8e" kindref="member">bmdDeckControlVTRControlStill</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtra&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747261,</highlight></codeline>
+<codeline lineno="83" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a8527a32b4258a0c41cb3f16b05eb2e9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a8527a32b4258a0c41cb3f16b05eb2e9a" kindref="member">bmdDeckControlVTRControlShuttleForward</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtsf&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747366,</highlight></codeline>
+<codeline lineno="84" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2aa77846727fa3a8c3cf6abd1612621a02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2aa77846727fa3a8c3cf6abd1612621a02" kindref="member">bmdDeckControlVTRControlShuttleReverse</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtsr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76747372,</highlight></codeline>
+<codeline lineno="85" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ae52f469d0c1a9959ddaadddc8a0e5fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2ae52f469d0c1a9959ddaadddc8a0e5fdb" kindref="member">bmdDeckControlVTRControlJogForward</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtjf&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76746A66,</highlight></codeline>
+<codeline lineno="86" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a1305f3b6fa042af1590356023e3236cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a1305f3b6fa042af1590356023e3236cc" kindref="member">bmdDeckControlVTRControlJogReverse</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtjr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76746A72,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a685a34ab751ac18e3bc7346ded141c5b" kindref="member">bmdDeckControlVTRControlStopped</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vtro&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x7674726F</highlight></codeline>
+<codeline lineno="88" refid="_deck_link_a_p_i_deck_control_8h_1a68201565114fa91c79984c037fdd11d2a685a34ab751ac18e3bc7346ded141c5b" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlStatusFlags<sp/>-<sp/>Deck<sp/>Control<sp/>status<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="_deck_link_a_p_i_deck_control_8h_1a831fd98518e5e27e9db35e23a29ea256" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a831fd98518e5e27e9db35e23a29ea256" kindref="member">BMDDeckControlStatusFlags</ref>;</highlight></codeline>
+<codeline lineno="93" refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cd" kindref="member">_BMDDeckControlStatusFlags</ref><sp/>{</highlight></codeline>
+<codeline lineno="94" refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cdae7fd552f8c38781aeb4d6699efff4f93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cdae7fd552f8c38781aeb4d6699efff4f93" kindref="member">bmdDeckControlStatusDeckConnected</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="95" refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda0ca467f761d78a06d1f1f0a8a5e80733" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda0ca467f761d78a06d1f1f0a8a5e80733" kindref="member">bmdDeckControlStatusRemoteMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="96" refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda89402b3566b194d70b65cb29e0e7a738" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda89402b3566b194d70b65cb29e0e7a738" kindref="member">bmdDeckControlStatusRecordInhibited</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda71427d1f86e378502b48e26c8251d907" kindref="member">bmdDeckControlStatusCassetteOut</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3</highlight></codeline>
+<codeline lineno="98" refid="_deck_link_a_p_i_deck_control_8h_1a80048fe2c66e9e4b147ab193d03ef3cda71427d1f86e378502b48e26c8251d907" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlExportModeOpsFlags<sp/>-<sp/>Export<sp/>mode<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="_deck_link_a_p_i_deck_control_8h_1a304e31f2ff7508bb69a8712fe13227e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a304e31f2ff7508bb69a8712fe13227e5" kindref="member">BMDDeckControlExportModeOpsFlags</ref>;</highlight></codeline>
+<codeline lineno="103" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44" kindref="member">_BMDDeckControlExportModeOpsFlags</ref><sp/>{</highlight></codeline>
+<codeline lineno="104" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a26ecb632af16b45c40b8b2667b44f3ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a26ecb632af16b45c40b8b2667b44f3ff" kindref="member">bmdDeckControlExportModeInsertVideo</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="105" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a92b5f29021f0209aaf23fc02e9035325" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a92b5f29021f0209aaf23fc02e9035325" kindref="member">bmdDeckControlExportModeInsertAudio1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="106" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a551730fd45d10fd1e66dde13b833a423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a551730fd45d10fd1e66dde13b833a423" kindref="member">bmdDeckControlExportModeInsertAudio2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="107" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aecfc9b337d577bc99023f9788cc4685d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aecfc9b337d577bc99023f9788cc4685d" kindref="member">bmdDeckControlExportModeInsertAudio3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="108" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a8a5de637da7beef16266d5135fd6e81f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a8a5de637da7beef16266d5135fd6e81f" kindref="member">bmdDeckControlExportModeInsertAudio4</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>4,</highlight></codeline>
+<codeline lineno="109" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aa30ef9d0c332138422166e9236a13c18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aa30ef9d0c332138422166e9236a13c18" kindref="member">bmdDeckControlExportModeInsertAudio5</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>5,</highlight></codeline>
+<codeline lineno="110" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a7238f1d5f9524a02375c4738dde6d600" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a7238f1d5f9524a02375c4738dde6d600" kindref="member">bmdDeckControlExportModeInsertAudio6</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>6,</highlight></codeline>
+<codeline lineno="111" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2e6c52a805aeeb53229f6e79acacc134" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2e6c52a805aeeb53229f6e79acacc134" kindref="member">bmdDeckControlExportModeInsertAudio7</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>7,</highlight></codeline>
+<codeline lineno="112" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2061165762a31794e14578a8d99f5cd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a2061165762a31794e14578a8d99f5cd5" kindref="member">bmdDeckControlExportModeInsertAudio8</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>8,</highlight></codeline>
+<codeline lineno="113" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a68cfe571c712a28dfaff252a2f41a3dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a68cfe571c712a28dfaff252a2f41a3dc" kindref="member">bmdDeckControlExportModeInsertAudio9</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>9,</highlight></codeline>
+<codeline lineno="114" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aea25b78660aca8668d188cb5655e8b41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aea25b78660aca8668d188cb5655e8b41" kindref="member">bmdDeckControlExportModeInsertAudio10</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>10,</highlight></codeline>
+<codeline lineno="115" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aac0aeb369d975ae0976c8a0b67452cbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aac0aeb369d975ae0976c8a0b67452cbc" kindref="member">bmdDeckControlExportModeInsertAudio11</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>11,</highlight></codeline>
+<codeline lineno="116" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a847ef6295dd76084b5c278ddd016db9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a847ef6295dd76084b5c278ddd016db9d" kindref="member">bmdDeckControlExportModeInsertAudio12</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>12,</highlight></codeline>
+<codeline lineno="117" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a1fd998486b4eb11562c4d57ee26e26bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a1fd998486b4eb11562c4d57ee26e26bd" kindref="member">bmdDeckControlExportModeInsertTimeCode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>13,</highlight></codeline>
+<codeline lineno="118" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aba19008357a67047ada7a337cb9cf5c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44aba19008357a67047ada7a337cb9cf5c9" kindref="member">bmdDeckControlExportModeInsertAssemble</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>14,</highlight></codeline>
+<codeline lineno="119" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a689a2f9e97b5d3da33ff432dfea2f305" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44a689a2f9e97b5d3da33ff432dfea2f305" kindref="member">bmdDeckControlExportModeInsertPreview</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>15,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44af1a685d4675dc6c077353e4b4ccff864" kindref="member">bmdDeckControlUseManualExport</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>16</highlight></codeline>
+<codeline lineno="121" refid="_deck_link_a_p_i_deck_control_8h_1ab06bb6e195339c36aa8355af42cfdb44af1a685d4675dc6c077353e4b4ccff864" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckControlError<sp/>-<sp/>Deck<sp/>Control<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref>;</highlight></codeline>
+<codeline lineno="126" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaa" kindref="member">_BMDDeckControlError</ref><sp/>{</highlight></codeline>
+<codeline lineno="127" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa7e2ddaaa350ee5046c8d52297fb51e31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa7e2ddaaa350ee5046c8d52297fb51e31" kindref="member">bmdDeckControlNoError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;noer&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E6F6572,</highlight></codeline>
+<codeline lineno="128" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa230d83698db6b4064573d3a613c1fbb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa230d83698db6b4064573d3a613c1fbb0" kindref="member">bmdDeckControlModeError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;moer&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6D6F6572,</highlight></codeline>
+<codeline lineno="129" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaac489bade9769a72804a2847c23bf0f03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaac489bade9769a72804a2847c23bf0f03" kindref="member">bmdDeckControlMissedInPointError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;mier&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6D696572,</highlight></codeline>
+<codeline lineno="130" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2516b9f0d7c78113fb9755f98c6dfc54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2516b9f0d7c78113fb9755f98c6dfc54" kindref="member">bmdDeckControlDeckTimeoutError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dter&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64746572,</highlight></codeline>
+<codeline lineno="131" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0284081dd4261c9a8de6a6fce7d13ef1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0284081dd4261c9a8de6a6fce7d13ef1" kindref="member">bmdDeckControlCommandFailedError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;cfer&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x63666572,</highlight></codeline>
+<codeline lineno="132" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0817e90c9faf21e587147f43a0fa3063" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa0817e90c9faf21e587147f43a0fa3063" kindref="member">bmdDeckControlDeviceAlreadyOpenedError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dalo&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64616C6F,</highlight></codeline>
+<codeline lineno="133" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaab079a22544f7c8bdc8936bf8810288b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaab079a22544f7c8bdc8936bf8810288b" kindref="member">bmdDeckControlFailedToOpenDeviceError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;fder&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x66646572,</highlight></codeline>
+<codeline lineno="134" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa5e611c7108da3ca1a1bdae25dd6a1923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa5e611c7108da3ca1a1bdae25dd6a1923" kindref="member">bmdDeckControlInLocalModeError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;lmer&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6C6D6572,</highlight></codeline>
+<codeline lineno="135" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa3bfda487be9d2a9abaab9e7a15e8fe8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa3bfda487be9d2a9abaab9e7a15e8fe8c" kindref="member">bmdDeckControlEndOfTapeError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;eter&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x65746572,</highlight></codeline>
+<codeline lineno="136" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2e3db7a921be0943d996b952619734ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2e3db7a921be0943d996b952619734ff" kindref="member">bmdDeckControlUserAbortError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;uaer&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x75616572,</highlight></codeline>
+<codeline lineno="137" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2f049b4f8247348e68674160bea06c59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2f049b4f8247348e68674160bea06c59" kindref="member">bmdDeckControlNoTapeInDeckError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;nter&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E746572,</highlight></codeline>
+<codeline lineno="138" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2b6b726e2ae56195ab6c8bf41e02fe74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa2b6b726e2ae56195ab6c8bf41e02fe74" kindref="member">bmdDeckControlNoVideoFromCardError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;nvfc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E766663,</highlight></codeline>
+<codeline lineno="139" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadca13609165643961ed3749da540160c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadca13609165643961ed3749da540160c" kindref="member">bmdDeckControlNoCommunicationError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ncom&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6E636F6D,</highlight></codeline>
+<codeline lineno="140" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaec37c4ec27d688d36397d67fbdfb1d5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaaec37c4ec27d688d36397d67fbdfb1d5a" kindref="member">bmdDeckControlBufferTooSmallError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;btsm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6274736D,</highlight></codeline>
+<codeline lineno="141" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadd74dcbaf8b9860539c6c01678fc7ae4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaadd74dcbaf8b9860539c6c01678fc7ae4" kindref="member">bmdDeckControlBadChecksumError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;chks&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x63686B73,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa8e2c70bfab604f58df6fe78ee5a10390" kindref="member">bmdDeckControlUnknownError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;uner&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x756E6572</highlight></codeline>
+<codeline lineno="143" refid="_deck_link_a_p_i_deck_control_8h_1af63f5e94b66430afb320b4e07eeaeeaaa8e2c70bfab604f58df6fe78ee5a10390" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_deck_control_status_callback" kindref="compound">IDeckLinkDeckControlStatusCallback</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_deck_control" kindref="compound">IDeckLinkDeckControl</ref>;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>IDeckLinkDeckControlStatusCallback<sp/>-<sp/>Deck<sp/>control<sp/>state<sp/>change<sp/>callback.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="class_i_deck_link_deck_control_status_callback" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_deck_control_status_callback" kindref="compound">IDeckLinkDeckControlStatusCallback</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IUnknown</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="155" refid="class_i_deck_link_deck_control_status_callback_1a17acf374beb7dafa969525dcf7e59239" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_status_callback_1a17acf374beb7dafa969525dcf7e59239" kindref="member">TimecodeUpdate</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>currentTimecode)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="156" refid="class_i_deck_link_deck_control_status_callback_1a849b6740af5fbdf47f8d01972ea175b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_status_callback_1a849b6740af5fbdf47f8d01972ea175b0" kindref="member">VTRControlStateChanged</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a5da57101e626754ad24932a2b602451c" kindref="member">BMDDeckControlVTRControlState</ref><sp/>newState,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="157" refid="class_i_deck_link_deck_control_status_callback_1a2a8f8332c7b0453f07e8ba8835bb9e47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_status_callback_1a2a8f8332c7b0453f07e8ba8835bb9e47" kindref="member">DeckControlEventReceived</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a0eed0eff57c5ec7b4899fea3dee7a23f" kindref="member">BMDDeckControlEvent</ref><sp/>event,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="158" refid="class_i_deck_link_deck_control_status_callback_1afe7f1c1e5f7077464f85bf74776785ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_status_callback_1afe7f1c1e5f7077464f85bf74776785ed" kindref="member">DeckControlStatusChanged</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a831fd98518e5e27e9db35e23a29ea256" kindref="member">BMDDeckControlStatusFlags</ref><sp/>flags,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>mask)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="161" refid="class_i_deck_link_deck_control_status_callback_1aeccf5333e865f171376dd8c9862b0483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_deck_control_status_callback_1aeccf5333e865f171376dd8c9862b0483" kindref="member">~IDeckLinkDeckControlStatusCallback</ref><sp/>()<sp/>{}<sp/></highlight><highlight class="comment">//<sp/>call<sp/>Release<sp/>method<sp/>to<sp/>drop<sp/>reference<sp/>count</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>IDeckLinkDeckControl<sp/>-<sp/>Deck<sp/>Control<sp/>main<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="class_i_deck_link_deck_control" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_deck_control" kindref="compound">IDeckLinkDeckControl</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IUnknown</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169" refid="class_i_deck_link_deck_control_1a7e44ec8a24996e4d333e35ae7eb20d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a7e44ec8a24996e4d333e35ae7eb20d5f" kindref="member">Open</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a93cd3314ee8f29f0407d34108cdfec10" kindref="member">BMDTimeScale</ref><sp/>timeScale,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a978812ad7ab5ee0a1a0bc3fc2babc01a" kindref="member">BMDTimeValue</ref><sp/>timeValue,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>timecodeIsDropFrame,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="170" refid="class_i_deck_link_deck_control_1af4c6330885bf5f81f54ddbcddb65c705" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1af4c6330885bf5f81f54ddbcddb65c705" kindref="member">Close</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>standbyOn)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="171" refid="class_i_deck_link_deck_control_1a33f9fcd2b6e41c2eaed7c792aff4f33f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a33f9fcd2b6e41c2eaed7c792aff4f33f" kindref="member">GetCurrentState</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1ae43fccb6d5f8a3cdad00f977171bbdd3" kindref="member">BMDDeckControlMode</ref><sp/>*mode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a5da57101e626754ad24932a2b602451c" kindref="member">BMDDeckControlVTRControlState</ref><sp/>*vtrControlState,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a831fd98518e5e27e9db35e23a29ea256" kindref="member">BMDDeckControlStatusFlags</ref><sp/>*flags)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="172" refid="class_i_deck_link_deck_control_1aa5c9db29fba068aa8142cf459ed229ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aa5c9db29fba068aa8142cf459ed229ac" kindref="member">SetStandby</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>standbyOn)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="173" refid="class_i_deck_link_deck_control_1a1b181aa849ad54aac4b7ed4493cb0ed9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a1b181aa849ad54aac4b7ed4493cb0ed9" kindref="member">SendCommand</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>uint8_t<sp/>*inBuffer,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>inBufferSize,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>uint8_t<sp/>*outBuffer,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>*outDataSize,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>outBufferSize,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="174" refid="class_i_deck_link_deck_control_1a4aa843fcf80d20354cb21757c9033f8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a4aa843fcf80d20354cb21757c9033f8a" kindref="member">Play</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="175" refid="class_i_deck_link_deck_control_1aed06f50a507b729aec093b8071361709" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aed06f50a507b729aec093b8071361709" kindref="member">Stop</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="176" refid="class_i_deck_link_deck_control_1aa4e7bab7aff00b8b8e5b9e095d83d771" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aa4e7bab7aff00b8b8e5b9e095d83d771" kindref="member">TogglePlayStop</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="177" refid="class_i_deck_link_deck_control_1a02143629855b317dc09b8eaacd8af9cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a02143629855b317dc09b8eaacd8af9cf" kindref="member">Eject</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="178" refid="class_i_deck_link_deck_control_1aeb089cd078d179358be3b443740c4ea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aeb089cd078d179358be3b443740c4ea1" kindref="member">GoToTimecode</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>timecode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="179" refid="class_i_deck_link_deck_control_1a65ad73a5b47878d4a1e472be252da3a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a65ad73a5b47878d4a1e472be252da3a6" kindref="member">FastForward</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>viewTape,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="180" refid="class_i_deck_link_deck_control_1a5e1c9dd3235fc4e25e60e7866cbce050" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a5e1c9dd3235fc4e25e60e7866cbce050" kindref="member">Rewind</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>viewTape,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="181" refid="class_i_deck_link_deck_control_1aafce062dde838c3e2cc6cae60efd6124" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aafce062dde838c3e2cc6cae60efd6124" kindref="member">StepForward</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="182" refid="class_i_deck_link_deck_control_1ae1d670ea7c1bde0321a7b651fb4e55a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1ae1d670ea7c1bde0321a7b651fb4e55a9" kindref="member">StepBack</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="183" refid="class_i_deck_link_deck_control_1a0d27fd70d8554a2f7e37605023bda975" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a0d27fd70d8554a2f7e37605023bda975" kindref="member">Jog</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rate,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="184" refid="class_i_deck_link_deck_control_1a71022cbeb015a39b06a096b252a000dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a71022cbeb015a39b06a096b252a000dc" kindref="member">Shuttle</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rate,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="185" refid="class_i_deck_link_deck_control_1a87bdbffa29bea645979e9c407b86970a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a87bdbffa29bea645979e9c407b86970a" kindref="member">GetTimecodeString</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**currentTimeCode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="186" refid="class_i_deck_link_deck_control_1a5e29ed8055d776f14c41881e3deec64c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a5e29ed8055d776f14c41881e3deec64c" kindref="member">GetTimecode</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_timecode" kindref="compound">IDeckLinkTimecode</ref><sp/>**currentTimecode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="187" refid="class_i_deck_link_deck_control_1a0a90cd239087e764e1d5d0c37edc5222" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a0a90cd239087e764e1d5d0c37edc5222" kindref="member">GetTimecodeBCD</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>*currentTimecode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="188" refid="class_i_deck_link_deck_control_1a26f722a5525a87cda0b1d41252d4e2dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a26f722a5525a87cda0b1d41252d4e2dc" kindref="member">SetPreroll</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>prerollSeconds)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="189" refid="class_i_deck_link_deck_control_1aa2693afe0a7e942ff78d82de4e3a9a1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aa2693afe0a7e942ff78d82de4e3a9a1d" kindref="member">GetPreroll</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>*prerollSeconds)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="190" refid="class_i_deck_link_deck_control_1a99c2cf551f63076735c9d75765e67560" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a99c2cf551f63076735c9d75765e67560" kindref="member">SetExportOffset</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>int32_t<sp/>exportOffsetFields)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="191" refid="class_i_deck_link_deck_control_1a8b8ded0f164f73b991f1c136d6df45a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a8b8ded0f164f73b991f1c136d6df45a1" kindref="member">GetExportOffset</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>int32_t<sp/>*exportOffsetFields)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="192" refid="class_i_deck_link_deck_control_1a8d2d668d9e9be3c782fd7cf24a520c05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a8d2d668d9e9be3c782fd7cf24a520c05" kindref="member">GetManualExportOffset</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>int32_t<sp/>*deckManualExportOffsetFields)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="193" refid="class_i_deck_link_deck_control_1adec03d5fa751357233eba5696fe0a010" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1adec03d5fa751357233eba5696fe0a010" kindref="member">SetCaptureOffset</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>int32_t<sp/>captureOffsetFields)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="194" refid="class_i_deck_link_deck_control_1a6a7949fe17fe4f5c85c6f43398689b95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a6a7949fe17fe4f5c85c6f43398689b95" kindref="member">GetCaptureOffset</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>int32_t<sp/>*captureOffsetFields)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="195" refid="class_i_deck_link_deck_control_1a36a1cff08e16737e4fd381128b6ccbc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a36a1cff08e16737e4fd381128b6ccbc3" kindref="member">StartExport</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>inTimecode,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>outTimecode,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a304e31f2ff7508bb69a8712fe13227e5" kindref="member">BMDDeckControlExportModeOpsFlags</ref><sp/>exportModeOps,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="196" refid="class_i_deck_link_deck_control_1af255a1883247753f24e17aafb6ffa6d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1af255a1883247753f24e17aafb6ffa6d2" kindref="member">StartCapture</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useVITC,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>inTimecode,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_types_8h_1a951c378ef799c5a2b433089a8f814085" kindref="member">BMDTimecodeBCD</ref><sp/>outTimecode,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="197" refid="class_i_deck_link_deck_control_1aacb1ac731a343e2b53a39f6f6fc131da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1aacb1ac731a343e2b53a39f6f6fc131da" kindref="member">GetDeviceID</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>uint16_t<sp/>*deviceId,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="198" refid="class_i_deck_link_deck_control_1acfa8419fd21b17dfbc095dbf4f513331" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1acfa8419fd21b17dfbc095dbf4f513331" kindref="member">Abort</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="199" refid="class_i_deck_link_deck_control_1a5f11d4193795f2d01540b70dc9ac897e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a5f11d4193795f2d01540b70dc9ac897e" kindref="member">CrashRecordStart</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="200" refid="class_i_deck_link_deck_control_1a746644a150718de5a748849dc8fe2d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a746644a150718de5a748849dc8fe2d35" kindref="member">CrashRecordStop</ref><sp/>(</highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_deck_control_8h_1a45025a18396a5e1ceb051b86039c88d5" kindref="member">BMDDeckControlError</ref><sp/>*error)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="201" refid="class_i_deck_link_deck_control_1a2b7e88df7d556d594ac44bfb50b4706b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_deck_control_1a2b7e88df7d556d594ac44bfb50b4706b" kindref="member">SetCallback</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_deck_control_status_callback" kindref="compound">IDeckLinkDeckControlStatusCallback</ref><sp/>*callback)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="204" refid="class_i_deck_link_deck_control_1a09b1158b2515a6c0b9ca5d4ea2611f47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_deck_control_1a09b1158b2515a6c0b9ca5d4ea2611f47" kindref="member">~IDeckLinkDeckControl</ref><sp/>()<sp/>{}<sp/></highlight><highlight class="comment">//<sp/>call<sp/>Release<sp/>method<sp/>to<sp/>drop<sp/>reference<sp/>count</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(BMD_DECKLINKAPIDECKCONTROL_H)<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="include/decklink_sdk/DeckLinkAPIDeckControl.h"/>
+  </compounddef>
+</doxygen>

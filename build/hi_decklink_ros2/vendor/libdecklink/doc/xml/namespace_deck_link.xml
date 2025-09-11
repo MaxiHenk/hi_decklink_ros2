@@ -1,0 +1,3167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link" kind="namespace" language="C++">
+    <compoundname>DeckLink</compoundname>
+    <innerclass refid="class_deck_link_1_1_bit_mask" prot="public">DeckLink::BitMask</innerclass>
+    <innerclass refid="class_deck_link_1_1_capture_callback" prot="public">DeckLink::CaptureCallback</innerclass>
+    <innerclass refid="struct_deck_link_1_1decklink__driver__error" prot="public">DeckLink::decklink_driver_error</innerclass>
+    <innerclass refid="class_deck_link_1_1_device" prot="public">DeckLink::Device</innerclass>
+    <innerclass refid="class_deck_link_1_1_device_input_interface" prot="public">DeckLink::DeviceInputInterface</innerclass>
+    <innerclass refid="class_deck_link_1_1_device_output_interface" prot="public">DeckLink::DeviceOutputInterface</innerclass>
+    <innerclass refid="class_deck_link_1_1_display_mode" prot="public">DeckLink::DisplayMode</innerclass>
+    <innerclass refid="struct_deck_link_1_1empty__image__error" prot="public">DeckLink::empty_image_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1exception__base" prot="public">DeckLink::exception_base</innerclass>
+    <innerclass refid="struct_deck_link_1_1file__error" prot="public">DeckLink::file_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1file__open__error" prot="public">DeckLink::file_open_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1file__parse__error" prot="public">DeckLink::file_parse_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1file__read__error" prot="public">DeckLink::file_read_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1_i_deck_link_handle_deleter" prot="public">DeckLink::IDeckLinkHandleDeleter</innerclass>
+    <innerclass refid="struct_deck_link_1_1io__error" prot="public">DeckLink::io_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1key__error" prot="public">DeckLink::key_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1not__a__file__error" prot="public">DeckLink::not_a_file_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1not__implemented__error" prot="public">DeckLink::not_implemented_error</innerclass>
+    <innerclass refid="class_deck_link_1_1_notification_callback" prot="public">DeckLink::NotificationCallback</innerclass>
+    <innerclass refid="struct_deck_link_1_1null__pointer__error" prot="public">DeckLink::null_pointer_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1out__of__range__error" prot="public">DeckLink::out_of_range_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1runtime__error" prot="public">DeckLink::runtime_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1size__error" prot="public">DeckLink::size_error</innerclass>
+    <innerclass refid="struct_deck_link_1_1type__error" prot="public">DeckLink::type_error</innerclass>
+    <innerclass refid="class_deck_link_1_1_video_frame" prot="public">DeckLink::VideoFrame</innerclass>
+    <innerclass refid="class_deck_link_1_1_video_input_frame" prot="public">DeckLink::VideoInputFrame</innerclass>
+    <innerclass refid="class_deck_link_1_1_video_output_frame" prot="public">DeckLink::VideoOutputFrame</innerclass>
+    <innernamespace refid="namespace_deck_link_1_1_attribute_i_d__">DeckLink::AttributeID_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_attribute_type__">DeckLink::AttributeType_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_busy_state__">DeckLink::BusyState_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_capture_delegate_error__">DeckLink::CaptureDelegateError_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_configuration_i_d__">DeckLink::ConfigurationID_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_detected_video_input_format_flags__">DeckLink::DetectedVideoInputFormatFlags_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_display_mode_flags__">DeckLink::DisplayModeFlags_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_display_mode_support__">DeckLink::DisplayModeSupport_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_duplex_mode__">DeckLink::DuplexMode_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_field_dominance__">DeckLink::FieldDominance_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_h_result__">DeckLink::HResult_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_image_format__">DeckLink::ImageFormat_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_input_format_changed_event__">DeckLink::InputFormatChangedEvent_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_input_format_flag__">DeckLink::InputFormatFlag_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_pixel_format__">DeckLink::PixelFormat_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_status_i_d__">DeckLink::StatusID_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_timecode_flags__">DeckLink::TimecodeFlags_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_timecode_format__">DeckLink::TimecodeFormat_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_video_input_error__">DeckLink::VideoInputError_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_video_input_flags__">DeckLink::VideoInputFlags_</innernamespace>
+    <innernamespace refid="namespace_deck_link_1_1_video_output_flags__">DeckLink::VideoOutputFlags_</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ImageFormat</name>
+        <qualifiedname>DeckLink::ImageFormat</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca4b38da225171e1781308c764b6b3b172" prot="public">
+          <name>NTSC</name>
+          <initializer>= bmdModeNTSC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cabdd33342d40fec20c8b7f11a49a0f8f3" prot="public">
+          <name>NTSC2398</name>
+          <initializer>= bmdModeNTSC2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cacf4f483867e0c770dda73062a492b370" prot="public">
+          <name>PAL</name>
+          <initializer>= bmdModePAL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca2ab45e35b0bc39019a67b68127d22944" prot="public">
+          <name>PALp</name>
+          <initializer>= bmdModePALp</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca0cad6356e62c8f60a54a85dbc4d84d94" prot="public">
+          <name>HD720p50</name>
+          <initializer>= bmdModeHD720p50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca78abe69bbc9fde62d5370964e1643b61" prot="public">
+          <name>HD720p5994</name>
+          <initializer>= bmdModeHD720p5994</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca9514dae8c1974bf383f0b18e45806a41" prot="public">
+          <name>HD720p60</name>
+          <initializer>= bmdModeHD720p60</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca5eeaaba0599c6d17675aad7143c5a9ae" prot="public">
+          <name>HD1080p2398</name>
+          <initializer>= bmdModeHD1080p2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca871b00f5cebdae6c78decea9fe9410a9" prot="public">
+          <name>HD1080p24</name>
+          <initializer>= bmdModeHD1080p24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca48007160b8f53a5c7b98c121b8f92295" prot="public">
+          <name>HD1080p25</name>
+          <initializer>= bmdModeHD1080p25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cab4d12f24c2af468db9d2facfcf85ebbc" prot="public">
+          <name>HD1080p2997</name>
+          <initializer>= bmdModeHD1080p2997</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca2e2509a633cddce80f3734bff51e515a" prot="public">
+          <name>HD1080p30</name>
+          <initializer>= bmdModeHD1080p30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cadfd8ce97d9a63613972bd64327f44bc8" prot="public">
+          <name>HD1080i50</name>
+          <initializer>= bmdModeHD1080i50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754caba8565a1e4d4746caae0337f339e31dd" prot="public">
+          <name>HD1080i5994</name>
+          <initializer>= bmdModeHD1080i5994</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca776d6c6e6c46ef7a39ba9f4a94b9bf6c" prot="public">
+          <name>HD1080i6000</name>
+          <initializer>= bmdModeHD1080i6000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca7a8ef8dff27162b10760f0f15bb87b85" prot="public">
+          <name>HD1080p50</name>
+          <initializer>= bmdModeHD1080p50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cac89da8832515411a34f731ec7a189967" prot="public">
+          <name>HD1080p5994</name>
+          <initializer>= bmdModeHD1080p5994</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca1b67ca781839e09a6e921767a0f70d59" prot="public">
+          <name>HD1080p6000</name>
+          <initializer>= bmdModeHD1080p6000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cadda60c6f67f5e7f8353f3551c03c5291" prot="public">
+          <name>UHD2k2398</name>
+          <initializer>= bmdMode2k2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cab8bf72447a12874cc21422cb3491b697" prot="public">
+          <name>UHD2k24</name>
+          <initializer>= bmdMode2k24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cab0692c29c690023dd9531518c3b8e0d8" prot="public">
+          <name>UHD2k25</name>
+          <initializer>= bmdMode2k25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca8b171f59376c6d38c3d2759b94e541d2" prot="public">
+          <name>UHD2kDCI2398</name>
+          <initializer>= bmdMode2kDCI2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca56106b80d2d7aa95c8e737306f4b28be" prot="public">
+          <name>UHD2kDCI24</name>
+          <initializer>= bmdMode2kDCI24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca8cb9701a481cd927ec337c4adae884fa" prot="public">
+          <name>UHD2kDCI25</name>
+          <initializer>= bmdMode2kDCI25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca6042cdb6f97cbf36e07b30b27c1687d6" prot="public">
+          <name>UHD4k2160p2398</name>
+          <initializer>= bmdMode4K2160p2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca3a3df9659f080f4bcb10377699b6299b" prot="public">
+          <name>UHD4k2160p24</name>
+          <initializer>= bmdMode4K2160p24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca445e5446b75d7a73089cd03d72fb6f3b" prot="public">
+          <name>UHD4k2160p25</name>
+          <initializer>= bmdMode4K2160p25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca3aececa633e75659d77c5befb5608f1a" prot="public">
+          <name>UHD4k2160p2997</name>
+          <initializer>= bmdMode4K2160p2997</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cad2828c92694500d5246a272bff1f4004" prot="public">
+          <name>UHD4k2160p30</name>
+          <initializer>= bmdMode4K2160p30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cac183bbe5f37f8435a97b2a4dff2d62e6" prot="public">
+          <name>UHD4k2160p50</name>
+          <initializer>= bmdMode4K2160p50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca3f6a6cc444a4a40707dfdde9e2db0af9" prot="public">
+          <name>UHD4k2160p5994</name>
+          <initializer>= bmdMode4K2160p5994</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754cae0269d0b95e08f3287aec20573efa82f" prot="public">
+          <name>UHD4k2160p60</name>
+          <initializer>= bmdMode4K2160p60</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca9d6d40b7df1cd0af1f1f10af5f4e5d8d" prot="public">
+          <name>UHD4kDCI2160p2398</name>
+          <initializer>= bmdMode4kDCI2398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca216b712d787989cc68a718950c05d3d0" prot="public">
+          <name>UHD4kDCI2160p24</name>
+          <initializer>= bmdMode4kDCI24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca0a1bdd3197e44a2632185ae86ba0cad9" prot="public">
+          <name>UHD4kDCI2160p25</name>
+          <initializer>= bmdMode4kDCI25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754ca88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= bmdModeUnknown</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="18" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="18" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ac3c2be721d795618876643d19110e511" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>PixelFormat</name>
+        <qualifiedname>DeckLink::PixelFormat</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a0f91095ab2d2e0fe48068f7342d2c9f6" prot="public">
+          <name>YUV_8Bit</name>
+          <initializer>= bmdFormat8BitYUV</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511ad2274533a3b5c843a2b0a5cf2a3f08b1" prot="public">
+          <name>YUV_10Bit</name>
+          <initializer>= bmdFormat10BitYUV</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511ad0b51d0d9e6f7f9c5c9f3eac3a95ca52" prot="public">
+          <name>ARGB_8Bit</name>
+          <initializer>= bmdFormat8BitARGB</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511aaabcd18dafa313aa065532ba4efd7198" prot="public">
+          <name>BGRA_8Bit</name>
+          <initializer>= bmdFormat8BitBGRA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a67ed7d71146ab2fd1b21c824632cf3b9" prot="public">
+          <name>RGB_10Bit</name>
+          <initializer>= bmdFormat10BitRGB</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a60cca279a0c540c91eccfaf07b3a8bbd" prot="public">
+          <name>RGB_12Bit</name>
+          <initializer>= bmdFormat12BitRGB</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a8727b66e541d4ba9e897efbcc5b11b60" prot="public">
+          <name>RGBLE_12Bit</name>
+          <initializer>= bmdFormat12BitRGBLE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a93bdf20830ffd1b1ce6c57c7990b1b34" prot="public">
+          <name>RGBXLE_10Bit</name>
+          <initializer>= bmdFormat10BitRGBXLE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511ad776fd14fc79c984bf50341c0e9d4611" prot="public">
+          <name>RGBX_10Bit</name>
+          <initializer>= bmdFormat10BitRGBX</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a5be0961e6e8a5cd49abb33d4c0f0ffc0" prot="public">
+          <name>H265</name>
+          <initializer>= bmdFormatH265</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac3c2be721d795618876643d19110e511a5556f120519c6fc659800b215282606a" prot="public">
+          <name>DNxHR</name>
+          <initializer>= bmdFormatDNxHR</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="128" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="128" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FieldDominance</name>
+        <qualifiedname>DeckLink::FieldDominance</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= bmdUnknownFieldDominance</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875a0b6b689276f12e3796956e634809ccb1" prot="public">
+          <name>LowerFieldFirst</name>
+          <initializer>= bmdLowerFieldFirst</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875a43d067e4175878e0cac6981fcdbe5b7f" prot="public">
+          <name>UpperFieldFirst</name>
+          <initializer>= bmdUpperFieldFirst</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875a9712e73e86ea0fe944ca2ce3f9f7dd87" prot="public">
+          <name>Progressive</name>
+          <initializer>= bmdProgressiveFrame</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875a88564e7f4ae4c6fb3ce01d31bd5fd0a3" prot="public">
+          <name>ProgressiveSegmented</name>
+          <initializer>= bmdProgressiveSegmentedFrame</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="191" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a9a4ef26abcc91aa71e4b83b9620f25f4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>VideoInputFlags</name>
+        <qualifiedname>DeckLink::VideoInputFlags</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a9a4ef26abcc91aa71e4b83b9620f25f4a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <initializer>= bmdVideoInputFlagDefault</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a9a4ef26abcc91aa71e4b83b9620f25f4a28e9f371ec4e70cf2aa791df4063f6b4" prot="public">
+          <name>EnableFormatDetection</name>
+          <initializer>= bmdVideoInputEnableFormatDetection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a9a4ef26abcc91aa71e4b83b9620f25f4ac4b6be3c4adb72f0451c779af981aa8a" prot="public">
+          <name>DualStream3D</name>
+          <initializer>= bmdVideoInputDualStream3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="239" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>VideoOutputFlags</name>
+        <qualifiedname>DeckLink::VideoOutputFlags</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <initializer>= bmdVideoOutputFlagDefault</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea5ef801b188b7e33ce686ae5f820d3bac" prot="public">
+          <name>VANC</name>
+          <initializer>= bmdVideoOutputVANC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea2bf7dc98dffd0038be373818ef533970" prot="public">
+          <name>VITC</name>
+          <initializer>= bmdVideoOutputVITC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47ea9952d52962ec0691c938c8528d62132f" prot="public">
+          <name>RP188</name>
+          <initializer>= bmdVideoOutputRP188</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47eac4b6be3c4adb72f0451c779af981aa8a" prot="public">
+          <name>DualStream3D</name>
+          <initializer>= bmdVideoOutputDualStream3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="282" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="282" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AttributeType</name>
+        <qualifiedname>DeckLink::AttributeType</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6ac5836008c1649301e29351a55db8f65c" prot="public">
+          <name>Flag</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a1686a6c336b71b36d77354cea19a8b52" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
+          <name>Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a27118326006d3829667a400ad23d5d98" prot="public">
+          <name>String</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="329" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="329" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AttributeID</name>
+        <qualifiedname>DeckLink::AttributeID</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca35bcb7de6142be65ce85bb4efcf1083d" prot="public">
+          <name>SupportsInternalKeying</name>
+          <initializer>= BMDDeckLinkSupportsInternalKeying</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca4e8890d00676f22ed3a01aa251c0090b" prot="public">
+          <name>SupportsExternalKeying</name>
+          <initializer>= BMDDeckLinkSupportsExternalKeying</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca647ec22f0081fdc77b5d4a14c1ab55e9" prot="public">
+          <name>SupportsHDKeying</name>
+          <initializer>= BMDDeckLinkSupportsHDKeying</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca789f665e7c756337732e4bb0ff41ebf9" prot="public">
+          <name>SupportsInputFormatDetection</name>
+          <initializer>= BMDDeckLinkSupportsInputFormatDetection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca36706f0af22e8917e6c4596a7ae068b2" prot="public">
+          <name>SupportsClockTimingAdjustment</name>
+          <initializer>= BMDDeckLinkSupportsClockTimingAdjustment</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caed75e98ce06fd16f46a624ad1f044b69" prot="public">
+          <name>SupportsFulDuplex</name>
+          <initializer>= BMDDeckLinkSupportsFullDuplex</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caaa8a0ed12c46b5d93b1a8095c171665c" prot="public">
+          <name>SupportsFullFrameReferenceTimingOffset</name>
+          <initializer>= BMDDeckLinkSupportsFullFrameReferenceInputTimingOffset</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca82f6f972ca585030ae078cd61a0f6fec" prot="public">
+          <name>SupportsSMPTELevelOutput</name>
+          <initializer>= BMDDeckLinkSupportsSMPTELevelAOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca420105ee209fe8324c2c6a95e4498717" prot="public">
+          <name>SupportsDualLinkSDI</name>
+          <initializer>= BMDDeckLinkSupportsDualLinkSDI</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca2521ea9e713cb5e259daf8ed72fb12b0" prot="public">
+          <name>SupportsQuadLinkSDI</name>
+          <initializer>= BMDDeckLinkSupportsQuadLinkSDI</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca0499d07e74ece84bbf9f7aed8ef7d8cd" prot="public">
+          <name>SupportsIdleOutput</name>
+          <initializer>= BMDDeckLinkSupportsIdleOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca91816281eebf3d026a2b8f0e8f67c479" prot="public">
+          <name>SupportsDuplexModeConfiguration</name>
+          <initializer>= BMDDeckLinkSupportsDuplexModeConfiguration</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca7c2ec3ad16a7f2247806cdecf18adf52" prot="public">
+          <name>SupportsHDRMetaData</name>
+          <initializer>= BMDDeckLinkSupportsHDRMetadata</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cafcbccff21194d679ba649e0b4f8921da" prot="public">
+          <name>HasReferenceInput</name>
+          <initializer>= BMDDeckLinkHasReferenceInput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca172621d5d881b77ca310654d910f7ced" prot="public">
+          <name>HasSerialPort</name>
+          <initializer>= BMDDeckLinkHasSerialPort</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caa3bea8cafda5b04b4778c27611e7b975" prot="public">
+          <name>HasAnalogVideoOutputGain</name>
+          <initializer>= BMDDeckLinkHasAnalogVideoOutputGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca4f72e9fc367427db9e157efbd1c56b2a" prot="public">
+          <name>CanOnlyAdjustOverallVideoOutputGain</name>
+          <initializer>= BMDDeckLinkCanOnlyAdjustOverallVideoOutputGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caba35e48aa3d5087444d75821569b1c2d" prot="public">
+          <name>HasVideoInputAntiAliasingFilter</name>
+          <initializer>= BMDDeckLinkHasVideoInputAntiAliasingFilter</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca28b2eddbeadb74849ef52435f13d71e9" prot="public">
+          <name>HasBypass</name>
+          <initializer>= BMDDeckLinkHasBypass</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caf7fcf98595d87e5367b1544dfc36c745" prot="public">
+          <name>HasLTCTimecodeOutput</name>
+          <initializer>= BMDDeckLinkHasLTCTimecodeInput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca3e59563ca59450901c01f44afe0e0fbd" prot="public">
+          <name>MaximumAudioChannels</name>
+          <initializer>= BMDDeckLinkMaximumAudioChannels</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caee7daf7feb6c85783cca9db6e59afea0" prot="public">
+          <name>MaximumAnalogAudioChannels</name>
+          <initializer>= BMDDeckLinkMaximumAnalogAudioChannels</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caac34337ec6f8063729daa14648bf6767" prot="public">
+          <name>NumberOfSubDevices</name>
+          <initializer>= BMDDeckLinkNumberOfSubDevices</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caab1be05b7111a8a7f100125f5c3f4364" prot="public">
+          <name>SubDeviceIndex</name>
+          <initializer>= BMDDeckLinkSubDeviceIndex</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca3df4df0ffddb421fc9d2f2aa8bb7fc2d" prot="public">
+          <name>PersistentID</name>
+          <initializer>= BMDDeckLinkPersistentID</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cae574dddecbda4b6cf81311ef86687202" prot="public">
+          <name>PairedDevicePersistentID</name>
+          <initializer>= BMDDeckLinkPairedDevicePersistentID</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cacdb0d11504198db602bb4a609e25beae" prot="public">
+          <name>DeviceGroupID</name>
+          <initializer>= BMDDeckLinkDeviceGroupID</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cad591f6ab4724e6ba3894a326ed721882" prot="public">
+          <name>TopologicalID</name>
+          <initializer>= BMDDeckLinkTopologicalID</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca3cf163335dbdbd9485af82a57c08c6b1" prot="public">
+          <name>VideoOutputConnections</name>
+          <initializer>= BMDDeckLinkVideoOutputConnections</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cad50d71ad44c916d9e0bf972d627b0bff" prot="public">
+          <name>VideoInputConnections</name>
+          <initializer>= BMDDeckLinkVideoInputConnections</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca91f576339d1d994e6df9b76244baa32c" prot="public">
+          <name>AudioOutputConnections</name>
+          <initializer>= BMDDeckLinkAudioOutputConnections</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca2841c7f638d644838e1b46ed5caab398" prot="public">
+          <name>AudioInputConnections</name>
+          <initializer>= BMDDeckLinkAudioInputConnections</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca4d5e71d1b916ff4e8184e176c1d5ab42" prot="public">
+          <name>VideoIOSupport</name>
+          <initializer>= BMDDeckLinkVideoIOSupport</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cadf89bd393454383a68bde5fe394320f8" prot="public">
+          <name>ControlConnections</name>
+          <initializer>= BMDDeckLinkDeckControlConnections</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87caabe01f6b2937f75e317052b2bc37233c" prot="public">
+          <name>DeviceInterface</name>
+          <initializer>= BMDDeckLinkDeviceInterface</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cae1d9e212e04435326339e7744e9bf7b9" prot="public">
+          <name>VideoInputGainMinimum</name>
+          <initializer>= BMDDeckLinkVideoInputGainMinimum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cabdc71111c2c5cb36575a322ac868430d" prot="public">
+          <name>VideoInputGainMaximum</name>
+          <initializer>= BMDDeckLinkVideoInputGainMaximum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca145b23ea1ca22c1782eae206342fbad0" prot="public">
+          <name>VideoOutputGainMinimum</name>
+          <initializer>= BMDDeckLinkVideoOutputGainMinimum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca1ec786f1afa96dc47601fb2a20aef857" prot="public">
+          <name>VideoOutputGainMaximum</name>
+          <initializer>= BMDDeckLinkVideoOutputGainMaximum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca819ac16ce7df569ab5c98f72984e67d9" prot="public">
+          <name>MicrophoneInputGainMinimum</name>
+          <initializer>= BMDDeckLinkMicrophoneInputGainMinimum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca1965ccc63cc7cb7339ceeaffa64a16ad" prot="public">
+          <name>MicrophoneInputGainMaximum</name>
+          <initializer>= BMDDeckLinkMicrophoneInputGainMaximum</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cac6ba96550ca7bf21c70b0045cbcc2f87" prot="public">
+          <name>SerialPortDeviceName</name>
+          <initializer>= BMDDeckLinkSerialPortDeviceName</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87cacdeb8b6377296ceca2629106dc65499c" prot="public">
+          <name>VendorName</name>
+          <initializer>= BMDDeckLinkVendorName</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca3b868ced6f60acf5ee565ac021d42941" prot="public">
+          <name>DisplayName</name>
+          <initializer>= BMDDeckLinkDisplayName</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87ca435ee8813bc7717bd97322706f6ee5f7" prot="public">
+          <name>ModelName</name>
+          <initializer>= BMDDeckLinkModelName</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="374" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="374" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ConfigurationID</name>
+        <qualifiedname>DeckLink::ConfigurationID</qualifiedname>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a1c17c84394a000f888ea46618ae01c00" prot="public">
+          <name>Use1080pNotPsF</name>
+          <initializer>= bmdDeckLinkConfigUse1080pNotPsF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a400ddd83a7249b6418767f20f8687b32" prot="public">
+          <name>HDMI3DPackingFormat</name>
+          <initializer>= bmdDeckLinkConfigHDMI3DPackingFormat</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a282830816b4ad477179b5e1a49329db7" prot="public">
+          <name>AnalogAudioConsumerLevels</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioConsumerLevels</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a61897d9fa76264ad28e4e5e3507da506" prot="public">
+          <name>FieldFlickerRemoval</name>
+          <initializer>= bmdDeckLinkConfigFieldFlickerRemoval</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a795ff339d9848262512ad5ac42b9c71b" prot="public">
+          <name>HD1080p24ToHD1080i5994Conversion</name>
+          <initializer>= bmdDeckLinkConfigHD1080p24ToHD1080i5994Conversion</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3af403343dba3e522b395bd74de03ca208" prot="public">
+          <name>SDIVideoOutput444</name>
+          <initializer>= bmdDeckLinkConfig444SDIVideoOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a338d128e53d5748af885e3dcd4cae35c" prot="public">
+          <name>BlackVideoOutputDuringCapture</name>
+          <initializer>= bmdDeckLinkConfigBlackVideoOutputDuringCapture</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a99b8311f4b8bd0d2d7327af50b806fcd" prot="public">
+          <name>ReferenceInputTimingOffset</name>
+          <initializer>= bmdDeckLinkConfigReferenceInputTimingOffset</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a455d51a410f436189b0cb9392dbe267d" prot="public">
+          <name>CapturePassThroughMode</name>
+          <initializer>= bmdDeckLinkConfigCapturePassThroughMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a3acd988ce7d1b9625e7c52ed528e0944" prot="public">
+          <name>VideoOutputConnection</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputConnection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a47d723b4220eadd8b6ea1f315dd06890" prot="public">
+          <name>VideoOutputConversionMode</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputConversionMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aa5de6e6a5b878949e815323877482a35" prot="public">
+          <name>AnalogVideoOutputFlags</name>
+          <initializer>= bmdDeckLinkConfigAnalogVideoOutputFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3af629825f548a2f4199d9d5d20342de6a" prot="public">
+          <name>VideoInputConnection</name>
+          <initializer>= bmdDeckLinkConfigVideoInputConnection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a33a08c526fe1de110a9b5dab7d2cce07" prot="public">
+          <name>AnalogVideoInputFlags</name>
+          <initializer>= bmdDeckLinkConfigAnalogVideoInputFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a74f8064a5d9cd77176796d0b5be8a5a1" prot="public">
+          <name>VideoInputConversionMode</name>
+          <initializer>= bmdDeckLinkConfigVideoInputConversionMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a4d7a81f140a2df0c6c93e15352bbd89a" prot="public">
+          <name>PulldownSequenceInitialTimecodeFrame</name>
+          <initializer>= bmdDeckLinkConfig32PulldownSequenceInitialTimecodeFrame</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ad25b611204f915a551add7b59d18aee3" prot="public">
+          <name>VANCSourceLine1Mapping</name>
+          <initializer>= bmdDeckLinkConfigVANCSourceLine1Mapping</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a1e8b277f81a727e60a9d52a924b95e29" prot="public">
+          <name>VANCSourceLine2Mapping</name>
+          <initializer>= bmdDeckLinkConfigVANCSourceLine2Mapping</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3adf7d236d58bbbed41de80d82b50966e6" prot="public">
+          <name>VANCSourceLine3Mapping</name>
+          <initializer>= bmdDeckLinkConfigVANCSourceLine3Mapping</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a894d45b4f29900e712e5d2b59880c641" prot="public">
+          <name>AudioInputConnection</name>
+          <initializer>= bmdDeckLinkConfigAudioInputConnection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a6dc74448c7fcad98663478f7120e604d" prot="public">
+          <name>AnalogAudioInputScaleChannel1</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioInputScaleChannel1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a9ce6c8ae3d789497a18d257b48a3ecca" prot="public">
+          <name>AnalogAudioInputScaleChannel2</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioInputScaleChannel2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ae2783a3b721d272bfea97cbbe8c5d858" prot="public">
+          <name>AnalogAudioInputScaleChannel3</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioInputScaleChannel3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a22871d7eb11e07f2beb7d581b602412f" prot="public">
+          <name>AnalogAudioInputScaleChannel4</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioInputScaleChannel4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ab86eb867c03eb0d265f1b7b739e27912" prot="public">
+          <name>DigitalAudioInputScale</name>
+          <initializer>= bmdDeckLinkConfigDigitalAudioInputScale</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a423e22da7f5449414567bd33c98b984a" prot="public">
+          <name>AudioOutputAESAnalogSwitch</name>
+          <initializer>= bmdDeckLinkConfigAudioOutputAESAnalogSwitch</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aa79824d74977edbaac0fb534c886a32b" prot="public">
+          <name>AnalogAudioOutputScaleChannel1</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioOutputScaleChannel1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a6796d75b27e36e6a918a3098e7fa21d4" prot="public">
+          <name>AnalogAudioOutputScaleChannel2</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioOutputScaleChannel2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ab0b6f51a8bb848b8061939bb03826f02" prot="public">
+          <name>AnalogAudioOutputScaleChannel3</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioOutputScaleChannel3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ac9c8aac9ef8c070046c3d0b923b4dfe5" prot="public">
+          <name>AnalogAudioOutputScaleChannel4</name>
+          <initializer>= bmdDeckLinkConfigAnalogAudioOutputScaleChannel4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aac5023e8134ef7d851a93b988aa08b19" prot="public">
+          <name>DigitalAudioOutputScale</name>
+          <initializer>= bmdDeckLinkConfigDigitalAudioOutputScale</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aa978f9343c6fad538f51e3f41a2e367f" prot="public">
+          <name>DownConversionOnAllAnalogOutput</name>
+          <initializer>= bmdDeckLinkConfigDownConversionOnAllAnalogOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a3873d5019c9b681e6f665fec2902d3fb" prot="public">
+          <name>SMPTELevelAOutput</name>
+          <initializer>= bmdDeckLinkConfigSMPTELevelAOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3af467d0bbe1e428520bc9f8d9f5a9143d" prot="public">
+          <name>DeviceInformationLabel</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationLabel</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a17266dc2156b96108205819a74c60c4c" prot="public">
+          <name>DeviceInformationSerialNumber</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationSerialNumber</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ac2d0aa2018e13229818c91fadd62373c" prot="public">
+          <name>DeviceInformationCompany</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationCompany</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3ac63f7420c3f2e8fad241f92a999b7d58" prot="public">
+          <name>DeviceInformationPhone</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationPhone</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a2aedbd8f1ae32c35f2a6c143d806bae0" prot="public">
+          <name>DeviceInformationEmail</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationEmail</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3afe497bd9ceb4ac04c02fcef1d9aa2390" prot="public">
+          <name>DeviceInformationDate</name>
+          <initializer>= bmdDeckLinkConfigDeviceInformationDate</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a41b9f8d9a4ac4cfad3762686f079e052" prot="public">
+          <name>VideoOutputIdleOperation</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputIdleOperation</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a9dce2d5bf625b0aabf90ed57d0e67482" prot="public">
+          <name>SwapSerialRxTx</name>
+          <initializer>= bmdDeckLinkConfigSwapSerialRxTx</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a5ce88c4d66118388a69c6fd4262ca3a1" prot="public">
+          <name>Bypass</name>
+          <initializer>= bmdDeckLinkConfigBypass</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aa9b92849675bce4389ef642d6029218d" prot="public">
+          <name>ClockTimingAdjustment</name>
+          <initializer>= bmdDeckLinkConfigClockTimingAdjustment</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a8de1466e248d1b4c77cc95faef76da46" prot="public">
+          <name>VideoInputScanning</name>
+          <initializer>= bmdDeckLinkConfigVideoInputScanning</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a8e4bfd81da30ebe87554fab30905e4f3" prot="public">
+          <name>UseDedicatedLTCInput</name>
+          <initializer>= bmdDeckLinkConfigUseDedicatedLTCInput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a0ad8c5f095dc0589d307b127b7c15601" prot="public">
+          <name>DefaultVideoOutputMode</name>
+          <initializer>= bmdDeckLinkConfigDefaultVideoOutputMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a08c17d07aedad23f54473b9302a7cfc0" prot="public">
+          <name>DefaultVideoOutputModeFlags</name>
+          <initializer>= bmdDeckLinkConfigDefaultVideoOutputModeFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a5b34633f56e9f1c64f9ea83239a48ae5" prot="public">
+          <name>SDIOutputLinkConfiguration</name>
+          <initializer>= bmdDeckLinkConfigSDIOutputLinkConfiguration</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a4c110cf15517066ad7d5d5ad2624bc16" prot="public">
+          <name>VideoOutputComponentLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputComponentLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3abb05173f5653d4b8b32a6d24b108c740" prot="public">
+          <name>VideoOutputComponentChromaBlueGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputComponentChromaBlueGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3af16e9881f7b3e3a17f30f7fb0125276e" prot="public">
+          <name>VideoOutputComponentChromaRedGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputComponentChromaRedGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a05a87ab393d649c4dcaa5cedfe01a22f" prot="public">
+          <name>VideoOutputCompositeLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputCompositeLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a6956043610116a995dbf085d285847e5" prot="public">
+          <name>VideoOutputCompositeChromaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputCompositeChromaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a296fa65f40657221af918b9d47477211" prot="public">
+          <name>VideoOutputSVideoLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputSVideoLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a93031321f5613dd23e34c7b92f2d9778" prot="public">
+          <name>VideoOutputSVideoChromaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoOutputSVideoChromaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a9e2d77ce4f0527b591ca832b9e60ae06" prot="public">
+          <name>VideoInputComponentLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputComponentLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a731f24d3c44ee330b4cf5c07757f5edc" prot="public">
+          <name>VideoInputComponentChromaBlueGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputComponentChromaBlueGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3aba776106d68921452e6d74fa020ef1cc" prot="public">
+          <name>VideoInputComponentChromaRedGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputComponentChromaRedGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a62eaa19c5e88778a882cb414bcb96fee" prot="public">
+          <name>VideoInputCompositeLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputCompositeLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3acae1e173138393ea2ebcc1ecae44c4df" prot="public">
+          <name>VideoInputCompositeChromaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputCompositeChromaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a5b75828908652b1881c140eca86c9e9a" prot="public">
+          <name>VideoInputSVideoLumaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputSVideoLumaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a2d4519e74d6813172830fd10fbfe6591" prot="public">
+          <name>VideoInputSVideoChromaGain</name>
+          <initializer>= bmdDeckLinkConfigVideoInputSVideoChromaGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a079c29c185b8065952845df97f6d346e" prot="public">
+          <name>MicrophonePhantomPower</name>
+          <initializer>= bmdDeckLinkConfigMicrophonePhantomPower</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a43f87c8da6ca7f70474eac015afc0196" prot="public">
+          <name>MicrophoneInputGain</name>
+          <initializer>= bmdDeckLinkConfigMicrophoneInputGain</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a7ead0b9128c1dce49bc711698407c3ff" prot="public">
+          <name>HeadphoneVolume</name>
+          <initializer>= bmdDeckLinkConfigHeadphoneVolume</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a579bbfdd8704197d59980f4d01035b95" prot="public">
+          <name>DeckControlConnection</name>
+          <initializer>= bmdDeckLinkConfigDeckControlConnection</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a8167278bca09f9424d3bb8d6e7168d2e" prot="public">
+          <name>SDIInput3DPayloadOverride</name>
+          <initializer>= bmdDeckLinkConfigSDIInput3DPayloadOverride</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3a624ed0f5b5240a45dbc01d980f85e32e" prot="public">
+          <name>DuplexMode</name>
+          <initializer>= bmdDeckLinkConfigDuplexMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumerates the set of configuration settings of a <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> device which may be queried or set (see <ref refid="class_i_deck_link_configuration" kindref="compound">IDeckLinkConfiguration</ref> Interface for details) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="507" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="507" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>StatusID</name>
+        <qualifiedname>DeckLink::StatusID</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0acc45aa7f4c2168aa8dc2ef0c7326bc69" prot="public">
+          <name>DetectedVideoInputMode</name>
+          <initializer>= bmdDeckLinkStatusDetectedVideoInputMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a7b13cae2e931eed9626e3c8a667996a7" prot="public">
+          <name>DetectedVideoInputFlags</name>
+          <initializer>= bmdDeckLinkStatusDetectedVideoInputFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a5b22fe21c6b931d7c03acbb88e5aa0dd" prot="public">
+          <name>CurrentVideoInputMode</name>
+          <initializer>= bmdDeckLinkStatusCurrentVideoInputMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a0b6dadd8b7813a2b1ac3126d55350284" prot="public">
+          <name>CurrentVideoInputPixelFormat</name>
+          <initializer>= bmdDeckLinkStatusCurrentVideoInputPixelFormat</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a48f1f1702374220e12d0431a8a1924f6" prot="public">
+          <name>CurrentVideoInputFlags</name>
+          <initializer>= bmdDeckLinkStatusCurrentVideoInputFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a3a33c20d20f6034db57d52687f60ebee" prot="public">
+          <name>CurrentVideoOutputMode</name>
+          <initializer>= bmdDeckLinkStatusCurrentVideoOutputMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a3d92db92f4436b2b1e62b3e8ba6f3774" prot="public">
+          <name>CurrentVideoOutputFlags</name>
+          <initializer>= bmdDeckLinkStatusCurrentVideoOutputFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a73413603a4d094bd837cc246e450a4d6" prot="public">
+          <name>PCIExpressLinkWidth</name>
+          <initializer>= bmdDeckLinkStatusPCIExpressLinkWidth</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0aa74b6f62b6564048d0b2dc56cc980e42" prot="public">
+          <name>PCIExpressLinkSpeed</name>
+          <initializer>= bmdDeckLinkStatusPCIExpressLinkSpeed</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a6429af5cdbdf1de34061ae308906fec1" prot="public">
+          <name>LastVideoOutputPixelFormat</name>
+          <initializer>= bmdDeckLinkStatusLastVideoOutputPixelFormat</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0af28477f9d4c67c4a045b92432801950a" prot="public">
+          <name>ReferenceSignalMode</name>
+          <initializer>= bmdDeckLinkStatusReferenceSignalMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a624ed0f5b5240a45dbc01d980f85e32e" prot="public">
+          <name>DuplexMode</name>
+          <initializer>= bmdDeckLinkStatusDuplexMode</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0af99d5299ba3800e9900d62af8881afdd" prot="public">
+          <name>BusyState</name>
+          <initializer>= bmdDeckLinkStatusBusy</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a5acf60386fad8173d2d687b62e1e1a02" prot="public">
+          <name>VideoInputSignalLocked</name>
+          <initializer>= bmdDeckLinkStatusVideoInputSignalLocked</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0aa24e748f19b401d4a4e04cc7938b16d3" prot="public">
+          <name>ReferenceSignalLocked</name>
+          <initializer>= bmdDeckLinkStatusReferenceSignalLocked</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0a85660a21912f36ea6ba3afc2dfaa59d6" prot="public">
+          <name>ReferenceSignalFlags</name>
+          <initializer>= bmdDeckLinkStatusReferenceSignalFlags</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="681" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="681" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ad441868042fb7003e4e22dd3277730f2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputFormatFlag</name>
+        <qualifiedname>DeckLink::InputFormatFlag</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ad441868042fb7003e4e22dd3277730f2adfa54fb0177d90988f074e421cc7352a" prot="public">
+          <name>YCbCr422</name>
+          <initializer>= bmdDetectedVideoInputYCbCr422</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad441868042fb7003e4e22dd3277730f2af7cf3e3d470bcf2620dbbc8163062058" prot="public">
+          <name>RGB444</name>
+          <initializer>= bmdDetectedVideoInputRGB444</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad441868042fb7003e4e22dd3277730f2ac4b6be3c4adb72f0451c779af981aa8a" prot="public">
+          <name>DualStream3D</name>
+          <initializer>= bmdDetectedVideoInputDualStream3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="751" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="751" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DisplayModeFlags</name>
+        <qualifiedname>DeckLink::DisplayModeFlags</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bba492c89f4f9bbd69b427f15c707f22883" prot="public">
+          <name>Supports3D</name>
+          <initializer>= bmdDisplayModeSupports3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bbaf06e13ed711993eb43b1c654bf2689b5" prot="public">
+          <name>ColorspaceRec601</name>
+          <initializer>= bmdDisplayModeColorspaceRec601</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bba0cd94cf276571e305123e10fe2764680" prot="public">
+          <name>ColorspaceRec709</name>
+          <initializer>= bmdDisplayModeColorspaceRec709</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="794" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="794" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DisplayModeSupport</name>
+        <qualifiedname>DeckLink::DisplayModeSupport</qualifiedname>
+        <enumvalue id="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dca9ed2d871602556951e39f3cebd08d6cb" prot="public">
+          <name>NotSupported</name>
+          <initializer>= bmdDisplayModeNotSupported</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dcaeaa4dc5078017a5c5bebf383ab6f5124" prot="public">
+          <name>Supported</name>
+          <initializer>= bmdDisplayModeSupported</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dcaf563298b9d0cbf3ec62a6198f6b7f357" prot="public">
+          <name>SupportedWithConversion</name>
+          <initializer>= bmdDisplayModeSupportedWithConversion</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="837" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="837" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TimecodeFormat</name>
+        <qualifiedname>DeckLink::TimecodeFormat</qualifiedname>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca6076f511777685fd16308787f60a8d6e" prot="public">
+          <name>RP188VITC1</name>
+          <initializer>= bmdTimecodeRP188VITC1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2ccaee06abab21c8f9a58daf3b5c9dba8f01" prot="public">
+          <name>RP188VITC2</name>
+          <initializer>= bmdTimecodeRP188VITC2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca811576a35bab409dff922751b9ebb2ab" prot="public">
+          <name>RP188LTC</name>
+          <initializer>= bmdTimecodeRP188LTC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca174086ea05ce408b36b26b9774e793b9" prot="public">
+          <name>RP188Any</name>
+          <initializer>= bmdTimecodeRP188Any</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca2bf7dc98dffd0038be373818ef533970" prot="public">
+          <name>VITC</name>
+          <initializer>= bmdTimecodeVITC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca41edc7584c6a6bb1314bfcba91851445" prot="public">
+          <name>VITCField2</name>
+          <initializer>= bmdTimecodeVITCField2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cca5255d3daaa0a6276b844d61401e6f493" prot="public">
+          <name>Serial</name>
+          <initializer>= bmdTimecodeSerial</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="880" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="880" bodyend="888"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TimecodeFlags</name>
+        <qualifiedname>DeckLink::TimecodeFlags</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58acefb00ae8b3d996e18b152e728adffdd" prot="public">
+          <name>FlagDefault</name>
+          <initializer>= bmdTimecodeFlagDefault</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58accd1ec1d2094e14969abef023bbf063c" prot="public">
+          <name>IsDropFrame</name>
+          <initializer>= bmdTimecodeIsDropFrame</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58aa0fd7759231df223fb55934ce9e993b6" prot="public">
+          <name>FieldMark</name>
+          <initializer>= bmdTimecodeFieldMark</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="931" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="931" bodyend="935"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BusyState</name>
+        <qualifiedname>DeckLink::BusyState</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24ca7e526c260f7b7163df7c98531d8183b6" prot="public">
+          <name>NotBusy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24cadb3c548defe432f1bf7a38d212ee64b3" prot="public">
+          <name>CaptureBusy</name>
+          <initializer>= bmdDeviceCaptureBusy</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24ca572915e29c2077b3b6390b30cdf36751" prot="public">
+          <name>PlaybackBusy</name>
+          <initializer>= bmdDevicePlaybackBusy</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24ca1071ff22a358db7e1d76a5bbd2a8eecd" prot="public">
+          <name>SerialPortBusy</name>
+          <initializer>= bmdDeviceSerialPortBusy</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="974" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="974" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputFormatChangedEvent</name>
+        <qualifiedname>DeckLink::InputFormatChangedEvent</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503aff47069d284d9ac6f8bd7ca396619c9a" prot="public">
+          <name>DisplayModeChanged</name>
+          <initializer>= bmdVideoInputDisplayModeChanged</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503aa327fd1283e72829a4c9430554d28b64" prot="public">
+          <name>FieldDominanceChanged</name>
+          <initializer>= bmdVideoInputFieldDominanceChanged</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503a5caf14cb53ce94f901c13b3505458ec2" prot="public">
+          <name>ColorspaceChanged</name>
+          <initializer>= bmdVideoInputColorspaceChanged</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1020" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1020" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a170759576974daf1c357ce650f8baab6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DetectedVideoInputFormatFlags</name>
+        <qualifiedname>DeckLink::DetectedVideoInputFormatFlags</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a170759576974daf1c357ce650f8baab6adfa54fb0177d90988f074e421cc7352a" prot="public">
+          <name>YCbCr422</name>
+          <initializer>= bmdDetectedVideoInputYCbCr422</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a170759576974daf1c357ce650f8baab6af7cf3e3d470bcf2620dbbc8163062058" prot="public">
+          <name>RGB444</name>
+          <initializer>= bmdDetectedVideoInputRGB444</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a170759576974daf1c357ce650f8baab6ac4b6be3c4adb72f0451c779af981aa8a" prot="public">
+          <name>DualStream3D</name>
+          <initializer>= bmdDetectedVideoInputDualStream3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1063" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1063" bodyend="1067"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DuplexMode</name>
+        <qualifiedname>DeckLink::DuplexMode</qualifiedname>
+        <enumvalue id="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8abbd47109890259c0127154db1af26c75" prot="public">
+          <name>Full</name>
+          <initializer>= bmdDuplexStatusFullDuplex</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8ac48615a1bc4197056d522af276aa5a85" prot="public">
+          <name>Half</name>
+          <initializer>= bmdDuplexStatusHalfDuplex</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8a02a335cb56996b16f7bece70be215789" prot="public">
+          <name>Simplex</name>
+          <initializer>= bmdDuplexStatusSimplex</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8a3cab03c00dbd11bc3569afa0748013f0" prot="public">
+          <name>Inactive</name>
+          <initializer>= bmdDuplexStatusInactive</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1107" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1107" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>HResult</name>
+        <qualifiedname>DeckLink::HResult</qualifiedname>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2aa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <initializer>= S_OK</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2af8320b26d30ab433c5a54546d21f414c" prot="public">
+          <name>False</name>
+          <initializer>= S_FALSE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2abdb02da7c1238219ca3dfa8aec6940c9" prot="public">
+          <name>Unexpected</name>
+          <initializer>= E_UNEXPECTED</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2a997ca4ce119685f40f03a9a8a6c5346e" prot="public">
+          <name>NotImplemented</name>
+          <initializer>= E_NOTIMPL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2ab498327feeb51430af73e07deac268fd" prot="public">
+          <name>OutOfMemory</name>
+          <initializer>= E_OUTOFMEMORY</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2aa57d4f175913cd653c937f11a06ae72e" prot="public">
+          <name>InvalidArg</name>
+          <initializer>= E_INVALIDARG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2a88266f208fc65827ee70d944b209f847" prot="public">
+          <name>NoInterface</name>
+          <initializer>= E_NOINTERFACE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2a61cf8510205077b6f5491d38cd44c0f7" prot="public">
+          <name>Pointer</name>
+          <initializer>= E_POINTER</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2ac0eab4629ee23a645d4747074335ba60" prot="public">
+          <name>Handle</name>
+          <initializer>= E_HANDLE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2a727b63583e01fa2b3952dab580c84dc2" prot="public">
+          <name>Abort</name>
+          <initializer>= E_ABORT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2aceaa0734f0b3c738120c67344d8f3ec1" prot="public">
+          <name>Fail</name>
+          <initializer>= E_FAIL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2acbcc0759909213e7cdba1f0cbf253126" prot="public">
+          <name>AccessDenied</name>
+          <initializer>= E_ACCESSDENIED</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1153" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1153" bodyend="1166"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CaptureDelegateError</name>
+        <qualifiedname>DeckLink::CaptureDelegateError</qualifiedname>
+        <enumvalue id="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557aa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557aca9171a782d9b3c469028c60c24be20b" prot="public">
+          <name>EmptyFrameReceived</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557a2c3269307817cf3ed1324dc246970c2d" prot="public">
+          <name>EmptyVideoStream</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557a9bd3f415b753a9da041a5247ff038217" prot="public">
+          <name>PixelFormatConversionError</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1214" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1214" bodyend="1219"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_deck_link_1ac85c4403553a3d124350f12ed36da200" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>VideoInputError</name>
+        <qualifiedname>DeckLink::VideoInputError</qualifiedname>
+        <enumvalue id="namespace_deck_link_1ac85c4403553a3d124350f12ed36da200a7c925fb47ab44bb911cf49e5d2f182cc" prot="public">
+          <name>NullFrame</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_deck_link_1ac85c4403553a3d124350f12ed36da200af1d1551b3658ab2edeea54939ba49a72" prot="public">
+          <name>NoInputSource</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="1259" column="5" bodyfile="include/libdecklink/types.hpp" bodystart="1259" bodyend="1262"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_deck_link_1ad8d01de64a88790fae5052482007223a" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_errmsg</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_errmsg, const std::string&gt; DeckLink::errmsg</definition>
+        <argsstring></argsstring>
+        <name>errmsg</name>
+        <qualifiedname>DeckLink::errmsg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="16" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1ad5b5bbc40d0ae8c98f57611fdc805b4c" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_method_name</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_method_name, const std::string&gt; DeckLink::decklink_method</definition>
+        <argsstring></argsstring>
+        <name>decklink_method</name>
+        <qualifiedname>DeckLink::decklink_method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="20" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1a783efbf4219a4d68f32686b5b3e92537" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_device</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_device, const std::string&gt; DeckLink::decklink_device</definition>
+        <argsstring></argsstring>
+        <name>decklink_device</name>
+        <qualifiedname>DeckLink::decklink_device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="21" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1adecbbd1d9d1d8b2a8e029e3ca23d8145" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_command</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_command, const std::string&gt; DeckLink::decklink_command</definition>
+        <argsstring></argsstring>
+        <name>decklink_command</name>
+        <qualifiedname>DeckLink::decklink_command</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="22" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1a09e9870449661e608f35fa3dc7732e90" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_error_code</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2" kindref="member">HResult</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_error_code, const HResult&gt; DeckLink::decklink_error_code</definition>
+        <argsstring></argsstring>
+        <name>decklink_error_code</name>
+        <qualifiedname>DeckLink::decklink_error_code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="23" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1ab9f9d581eda611d5707309695ddbcef3" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_attribute_flag</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_attribute_flag, const AttributeID&gt; DeckLink::decklink_attribute_flag</definition>
+        <argsstring></argsstring>
+        <name>decklink_attribute_flag</name>
+        <qualifiedname>DeckLink::decklink_attribute_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="24" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1a7269ebe00616678550f52d354f2c1833" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_configuration_flag</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_configuration_flag, const ConfigurationID&gt; DeckLink::decklink_configuration_flag</definition>
+        <argsstring></argsstring>
+        <name>decklink_configuration_flag</name>
+        <qualifiedname>DeckLink::decklink_configuration_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="25" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1a4102aa59b27f9dca8e92c6b4baf84cab" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_decklink_status_flag</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_decklink_status_flag, const StatusID&gt; DeckLink::decklink_status_flag</definition>
+        <argsstring></argsstring>
+        <name>decklink_status_flag</name>
+        <qualifiedname>DeckLink::decklink_status_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="26" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1a4f11b6c1b7322df5d9c9980d40ecec97" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_errkey</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_errkey, const std::string&gt; DeckLink::errkey</definition>
+        <argsstring></argsstring>
+        <name>errkey</name>
+        <qualifiedname>DeckLink::errkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="35" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1aa876313e03757051f31a3ce992fc9049" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_errfile</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_errfile, const std::string&gt; DeckLink::errfile</definition>
+        <argsstring></argsstring>
+        <name>errfile</name>
+        <qualifiedname>DeckLink::errfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="40" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1acf911e1fd9a41f8913b7ecbeea14c017" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_size_expected</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">size_t</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_size_expected, const size_t&gt; DeckLink::expected_size</definition>
+        <argsstring></argsstring>
+        <name>expected_size</name>
+        <qualifiedname>DeckLink::expected_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="50" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_deck_link_1ada2f9a95493420f55bbb0e09cced1ee3" prot="public" static="no">
+        <type>boost::error_info&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">struct</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">tag_size_actual</ref>, <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">size_t</ref> &gt;</type>
+        <definition>typedef boost::error_info&lt;struct tag_size_actual, const size_t&gt; DeckLink::actual_size</definition>
+        <argsstring></argsstring>
+        <name>actual_size</name>
+        <qualifiedname>DeckLink::actual_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/errors.hpp" line="51" column="31" bodyfile="include/libdecklink/errors.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_deck_link_1a4eec1bf354e4264a51dbefb23eda753c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a2e9c9db98010bef3cbbd26d2df2c754c" kindref="member">ImageFormat</ref></type>
+        <definition>DeckLink::ImageFormat DeckLink::to_ImageFormat</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_ImageFormat</name>
+        <qualifiedname>DeckLink::to_ImageFormat</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a ImageFormat value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an ImageFormat field to convert back to a ImageFormat. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ImageFormat value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="102" column="17" bodyfile="src/libdecklink/types.cpp" bodystart="102" bodyend="177" declfile="include/libdecklink/types.hpp" declline="64" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a087ad82fed93d52ab7374e47695f4010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref></type>
+        <definition>DeckLink::PixelFormat DeckLink::to_PixelFormat</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_PixelFormat</name>
+        <qualifiedname>DeckLink::to_PixelFormat</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a PixelFormat value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an PixelFormat field to convert back to a PixelFormat. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The PixelFormat value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="306" column="17" bodyfile="src/libdecklink/types.cpp" bodystart="306" bodyend="333" declfile="include/libdecklink/types.hpp" declline="150" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a88de2f4e7474a1293501ee7af3954300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a7c6679feb8ce86cae4c6201599c7c875" kindref="member">FieldDominance</ref></type>
+        <definition>DeckLink::FieldDominance DeckLink::to_FieldDominance</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_FieldDominance</name>
+        <qualifiedname>DeckLink::to_FieldDominance</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a FieldDominance value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an FieldDominance field to convert back to a FieldDominance. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The FieldDominance value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="433" column="20" bodyfile="src/libdecklink/types.cpp" bodystart="433" bodyend="446" declfile="include/libdecklink/types.hpp" declline="206" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a864f4718dc05c3bd68f66f42ef156fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a9a4ef26abcc91aa71e4b83b9620f25f4" kindref="member">VideoInputFlags</ref></type>
+        <definition>DeckLink::VideoInputFlags DeckLink::to_VideoInputFlags</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_VideoInputFlags</name>
+        <qualifiedname>DeckLink::to_VideoInputFlags</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a VideoInputFlags value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an VideoInputFlags field to convert back to a VideoInputFlags. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The VideoInputFlags value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="495" column="21" bodyfile="src/libdecklink/types.cpp" bodystart="495" bodyend="504" declfile="include/libdecklink/types.hpp" declline="252" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a681413f0c5ab9ffc9c91fb03663e8e44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a2d3a2023ec01f6d04ab1f2c41b1fd47e" kindref="member">VideoOutputFlags</ref></type>
+        <definition>DeckLink::VideoOutputFlags DeckLink::to_VideoOutputFlags</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_VideoOutputFlags</name>
+        <qualifiedname>DeckLink::to_VideoOutputFlags</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a VideoOutputFlags value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an VideoOutputFlags field to convert back to a VideoOutputFlags. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The VideoOutputFlags value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="538" column="22" bodyfile="src/libdecklink/types.cpp" bodystart="538" bodyend="551" declfile="include/libdecklink/types.hpp" declline="297" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a9f635a2ab9b8a810158fbd93f7881541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" kindref="member">AttributeType</ref></type>
+        <definition>DeckLink::AttributeType DeckLink::to_AttributeType</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_AttributeType</name>
+        <qualifiedname>DeckLink::to_AttributeType</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a AttributeType value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an AttributeType field to convert back to a AttributeType. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The AttributeType value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="583" column="19" bodyfile="src/libdecklink/types.cpp" bodystart="583" bodyend="594" declfile="include/libdecklink/types.hpp" declline="343" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a309f2d820ccd3eefdff8513732fe4766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ad7d3bfad78ac8dfdc0394aa41237c87c" kindref="member">AttributeID</ref></type>
+        <definition>DeckLink::AttributeID DeckLink::to_AttributeID</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_AttributeID</name>
+        <qualifiedname>DeckLink::to_AttributeID</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a AttributeID value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an AttributeID field to convert back to a AttributeID. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The AttributeID value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="708" column="17" bodyfile="src/libdecklink/types.cpp" bodystart="708" bodyend="801" declfile="include/libdecklink/types.hpp" declline="429" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a294fb13d751322348bc84ffc179faf05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1aa6cafbf1c2e607d950b6ae33c8ad97e3" kindref="member">ConfigurationID</ref></type>
+        <definition>DeckLink::ConfigurationID DeckLink::to_ConfigurationID</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_ConfigurationID</name>
+        <qualifiedname>DeckLink::to_ConfigurationID</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a ConfigurationID value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an ConfigurationID field to convert back to a ConfigurationID. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ConfigurationID value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1159" column="21" bodyfile="src/libdecklink/types.cpp" bodystart="1159" bodyend="1298" declfile="include/libdecklink/types.hpp" declline="585" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a04fb4c014ec0ddb11e0661842525459d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a22f1b4ad667297062c34492e654ee9c0" kindref="member">StatusID</ref></type>
+        <definition>DeckLink::StatusID DeckLink::to_StatusID</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_StatusID</name>
+        <qualifiedname>DeckLink::to_StatusID</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a StatusID value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an StatusID field to convert back to a StatusID. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The StatusID value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1499" column="14" bodyfile="src/libdecklink/types.cpp" bodystart="1499" bodyend="1534" declfile="include/libdecklink/types.hpp" declline="707" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a34ca1ab6b6015131c107c32f58bb8f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ad441868042fb7003e4e22dd3277730f2" kindref="member">InputFormatFlag</ref></type>
+        <definition>DeckLink::InputFormatFlag DeckLink::to_InputFormatFlag</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_InputFormatFlag</name>
+        <qualifiedname>DeckLink::to_InputFormatFlag</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a InputFormatFlag value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an InputFormatFlag field to convert back to a InputFormatFlag. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The InputFormatFlag value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1605" column="21" bodyfile="src/libdecklink/types.cpp" bodystart="1605" bodyend="1614" declfile="include/libdecklink/types.hpp" declline="764" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a8e125ca8a8f23f8cbbe6e851677061a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ad8ad8d98601a48a302a8c0d3d5c0e5bb" kindref="member">DisplayModeFlags</ref></type>
+        <definition>DeckLink::DisplayModeFlags DeckLink::to_DisplayModeFlags</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_DisplayModeFlags</name>
+        <qualifiedname>DeckLink::to_DisplayModeFlags</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a DisplayModeFlags value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an DisplayModeFlags field to convert back to a DisplayModeFlags. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The DisplayModeFlags value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1644" column="22" bodyfile="src/libdecklink/types.cpp" bodystart="1644" bodyend="1653" declfile="include/libdecklink/types.hpp" declline="807" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a5366b4b129f56f000445eccb9831e82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dc" kindref="member">DisplayModeSupport</ref></type>
+        <definition>DeckLink::DisplayModeSupport DeckLink::to_DisplayModeSupport</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_DisplayModeSupport</name>
+        <qualifiedname>DeckLink::to_DisplayModeSupport</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a DisplayModeSupport value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an DisplayModeSupport field to convert back to a DisplayModeSupport. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The DisplayModeSupport value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1683" column="24" bodyfile="src/libdecklink/types.cpp" bodystart="1683" bodyend="1692" declfile="include/libdecklink/types.hpp" declline="850" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1ab8491aa26217ba3c9f62267144a10af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1acad148108e53f5e34b4c5db83dd6b2cc" kindref="member">TimecodeFormat</ref></type>
+        <definition>DeckLink::TimecodeFormat DeckLink::to_TimecodeFormat</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_TimecodeFormat</name>
+        <qualifiedname>DeckLink::to_TimecodeFormat</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a TimecodeFormat value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an TimecodeFormat field to convert back to a TimecodeFormat. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TimecodeFormat value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1730" column="20" bodyfile="src/libdecklink/types.cpp" bodystart="1730" bodyend="1747" declfile="include/libdecklink/types.hpp" declline="897" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a6afaecbabb086eee67bd1514a581428c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58" kindref="member">TimecodeFlags</ref></type>
+        <definition>DeckLink::TimecodeFlags DeckLink::to_TimecodeFlags</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_TimecodeFlags</name>
+        <qualifiedname>DeckLink::to_TimecodeFlags</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a TimecodeFlags value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an TimecodeFlags field to convert back to a TimecodeFlags. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TimecodeFlags value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1777" column="19" bodyfile="src/libdecklink/types.cpp" bodystart="1777" bodyend="1786" declfile="include/libdecklink/types.hpp" declline="944" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a637fd44150c7744cc038fdc1caebbc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a4fa3d52c86d627cc0ea9ae4be4fee24c" kindref="member">BusyState</ref></type>
+        <definition>DeckLink::BusyState DeckLink::to_BusyState</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_BusyState</name>
+        <qualifiedname>DeckLink::to_BusyState</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a BusyState value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an BusyState field to convert back to a BusyState. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The BusyState value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1818" column="15" bodyfile="src/libdecklink/types.cpp" bodystart="1818" bodyend="1829" declfile="include/libdecklink/types.hpp" declline="988" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1aa47df3009b5bcfb11ffc809325078bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ad2b5c8039706033ddf81f5e85cfa1503" kindref="member">InputFormatChangedEvent</ref></type>
+        <definition>DeckLink::InputFormatChangedEvent DeckLink::to_InputFormatChangedEvent</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_InputFormatChangedEvent</name>
+        <qualifiedname>DeckLink::to_InputFormatChangedEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a InputFormatChangedEvent value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an InputFormatChangedEvent field to convert back to a InputFormatChangedEvent. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The InputFormatChangedEvent value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1876" column="29" bodyfile="src/libdecklink/types.cpp" bodystart="1876" bodyend="1885" declfile="include/libdecklink/types.hpp" declline="1033" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a5bc7e71deaca0c79aa3539a800e48c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a170759576974daf1c357ce650f8baab6" kindref="member">DetectedVideoInputFormatFlags</ref></type>
+        <definition>DeckLink::DetectedVideoInputFormatFlags DeckLink::to_DetectedVideoInputFormatFlags</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_DetectedVideoInputFormatFlags</name>
+        <qualifiedname>DeckLink::to_DetectedVideoInputFormatFlags</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a DetectedVideoInputFormatFlags value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an DetectedVideoInputFormatFlags field to convert back to a DetectedVideoInputFormatFlags. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The DetectedVideoInputFormatFlags value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1915" column="35" bodyfile="src/libdecklink/types.cpp" bodystart="1915" bodyend="1924" declfile="include/libdecklink/types.hpp" declline="1076" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1adddf941cecce69bfbd1db39517bcac8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1a6853a3419b38adb5777c00550e454ce8" kindref="member">DuplexMode</ref></type>
+        <definition>DeckLink::DuplexMode DeckLink::to_DuplexMode</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_DuplexMode</name>
+        <qualifiedname>DeckLink::to_DuplexMode</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a DuplexMode value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an DuplexMode field to convert back to a DuplexMode. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The DuplexMode value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="1971" column="16" bodyfile="src/libdecklink/types.cpp" bodystart="1971" bodyend="1982" declfile="include/libdecklink/types.hpp" declline="1121" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a9a76f156ec8cf7da7602b855769270d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1aa7de3958a3ba62a453b649089d1b92d2" kindref="member">HResult</ref></type>
+        <definition>DeckLink::HResult DeckLink::to_HResult</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_HResult</name>
+        <qualifiedname>DeckLink::to_HResult</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a HResult value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an HResult field to convert back to a HResult. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The HResult value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="2047" column="13" bodyfile="src/libdecklink/types.cpp" bodystart="2047" bodyend="2074" declfile="include/libdecklink/types.hpp" declline="1175" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1adaeb4c9b8ad1eb6a5072ae3fbb038ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1abe420b7031c30612fcc6fda9a6df7557" kindref="member">CaptureDelegateError</ref></type>
+        <definition>DeckLink::CaptureDelegateError DeckLink::to_CaptureDelegateError</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_CaptureDelegateError</name>
+        <qualifiedname>DeckLink::to_CaptureDelegateError</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a CaptureDelegateError value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an CaptureDelegateError field to convert back to a CaptureDelegateError. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The CaptureDelegateError value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="2106" column="26" bodyfile="src/libdecklink/types.cpp" bodystart="2106" bodyend="2117" declfile="include/libdecklink/types.hpp" declline="1228" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a8baf3f9f4998f13ae5692bc14bbe9a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_deck_link_1ac85c4403553a3d124350f12ed36da200" kindref="member">VideoInputError</ref></type>
+        <definition>DeckLink::VideoInputError DeckLink::to_VideoInputError</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>to_VideoInputError</name>
+        <qualifiedname>DeckLink::to_VideoInputError</qualifiedname>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Convert a std::string to a VideoInputError value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The stringified version of an VideoInputError field to convert back to a VideoInputError. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The VideoInputError value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/types.cpp" line="2145" column="21" bodyfile="src/libdecklink/types.cpp" bodystart="2145" bodyend="2152" declfile="include/libdecklink/types.hpp" declline="1271" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a7240608f3b75cf7bf4bad57dbb03bc56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">size_t</ref></type>
+        <definition>size_t DeckLink::row_bytes</definition>
+        <argsstring>(PixelFormat pixel_format, int width)</argsstring>
+        <name>row_bytes</name>
+        <qualifiedname>DeckLink::row_bytes</qualifiedname>
+        <param>
+          <type><ref refid="namespace_deck_link_1ac3c2be721d795618876643d19110e511" kindref="member">PixelFormat</ref></type>
+          <declname>pixel_format</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">int</ref></type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Compute the length of bytes of a single image row. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This calculation is trivial for simple pixel formats but for formats where the size of a pixel in bytes is non-integer we have to consider alignment. The values here are taken from the <ref refid="namespace_deck_link" kindref="compound">DeckLink</ref> BlackMagic SDK docs shipped in this repo in <computeroutput>/doc/</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pixel_format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pixel format of the frame </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the frame in pixels </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of bytes per frame row </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/libdecklink/video_input_frame.cpp" line="61" column="12" bodyfile="src/libdecklink/video_input_frame.cpp" bodystart="61" bodyend="86" declfile="include/libdecklink/video_input_frame.hpp" declline="36" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_deck_link_1a0a55750acfe1a3289b6496f546559dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename InterfaceType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">void</ref></type>
+        <definition>void DeckLink::load_interface</definition>
+        <argsstring>(IDeckLink *device, REFIID interface_id, std::unique_ptr&lt; InterfaceType, IDeckLinkHandleDeleter &gt; &amp;dest, const std::string &amp;interface_name)</argsstring>
+        <name>load_interface</name>
+        <qualifiedname>DeckLink::load_interface</qualifiedname>
+        <param>
+          <type><ref refid="class_i_deck_link" kindref="compound">IDeckLink</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+          <declname>interface_id</declname>
+        </param>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_deck_link_1_1_bit_mask" kindref="compound">InterfaceType</ref>, <ref refid="struct_deck_link_1_1_i_deck_link_handle_deleter" kindref="compound">IDeckLinkHandleDeleter</ref> &gt; &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">const</ref> std::string &amp;</type>
+          <declname>interface_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/interface_helper.hpp" line="15" column="10" bodyfile="include/libdecklink/interface_helper.hpp" bodystart="15" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/capture_callback.cpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

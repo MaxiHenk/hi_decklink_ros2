@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_linux_c_o_m_8h" kind="file" language="C++">
+    <compoundname>LinuxCOM.h</compoundname>
+    <includedby refid="_deck_link_a_p_i_8h" local="yes">include/decklink_sdk/DeckLinkAPI.h</includedby>
+    <includedby refid="display__mode_8cpp" local="yes">src/libdecklink/display_mode.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>include/decklink_sdk/DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>include/decklink_sdk/DeckLinkAPIDispatch.cpp</label>
+        <link refid="_deck_link_a_p_i_dispatch_8cpp"/>
+      </node>
+      <node id="1">
+        <label>include/decklink_sdk/LinuxCOM.h</label>
+        <link refid="_linux_c_o_m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>include/libdecklink/capture_callback.hpp</label>
+        <link refid="capture__callback_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/libdecklink/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/libdecklink/device_input_interface.hpp</label>
+        <link refid="device__input__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>include/libdecklink/device_output_interface.hpp</label>
+        <link refid="device__output__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>include/libdecklink/display_mode.hpp</label>
+        <link refid="display__mode_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>include/libdecklink/errors.hpp</label>
+        <link refid="errors_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>include/libdecklink/interface_helper.hpp</label>
+        <link refid="interface__helper_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>include/libdecklink/notification_callback.hpp</label>
+        <link refid="notification__callback_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>include/libdecklink/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>include/libdecklink/video_frame.hpp</label>
+        <link refid="video__frame_8hpp"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>include/libdecklink/video_input_frame.hpp</label>
+        <link refid="video__input__frame_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>include/libdecklink/video_output_frame.hpp</label>
+        <link refid="video__output__frame_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/deckmonitor.cpp</label>
+        <link refid="deckmonitor_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/deckoutput.cpp</label>
+        <link refid="deckoutput_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/deckquery.cpp</label>
+        <link refid="deckquery_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/deckstatus.cpp</label>
+        <link refid="deckstatus_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/deckview.cpp</label>
+        <link refid="deckview_8cpp"/>
+      </node>
+      <node id="25">
+        <label>src/handle_errors.hpp</label>
+        <link refid="handle__errors_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>src/libdecklink/capture_callback.cpp</label>
+        <link refid="capture__callback_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/libdecklink/device.cpp</label>
+        <link refid="device_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/libdecklink/device_input_interface.cpp</label>
+        <link refid="device__input__interface_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/libdecklink/device_output_interface.cpp</label>
+        <link refid="device__output__interface_8cpp"/>
+      </node>
+      <node id="19">
+        <label>src/libdecklink/display_mode.cpp</label>
+        <link refid="display__mode_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/libdecklink/notification_callback.cpp</label>
+        <link refid="notification__callback_8cpp"/>
+      </node>
+      <node id="31">
+        <label>src/libdecklink/types.cpp</label>
+        <link refid="types_8cpp"/>
+      </node>
+      <node id="26">
+        <label>src/libdecklink/video_frame.cpp</label>
+        <link refid="video__frame_8cpp"/>
+      </node>
+      <node id="27">
+        <label>src/libdecklink/video_input_frame.cpp</label>
+        <link refid="video__input__frame_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/libdecklink/video_output_frame.cpp</label>
+        <link refid="video__output__frame_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_r_e_f_i_i_d" prot="public">REFIID</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a7ecfd7864dd44178e6b2645322d53182" prot="public" static="no">
+        <name>CFUUIDGetUUIDBytes</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="52" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a1eff4fb052d6e497649f6a06b4ac222a" prot="public" static="no">
+        <name>SUCCEEDED</name>
+        <param><defname>Status</defname></param>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)(Status) &gt;= 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="58" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1aca3919e6cf22894d07999a67e24bfded" prot="public" static="no">
+        <name>FAILED</name>
+        <param><defname>Status</defname></param>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)(Status)&lt;0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="59" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1ad41183bbf0abbc28b309e1ff2765ca68" prot="public" static="no">
+        <name>IS_ERROR</name>
+        <param><defname>Status</defname></param>
+        <initializer>((unsigned long)(Status) &gt;&gt; 31 == <ref refid="_linux_c_o_m_8h_1a90b2e06a02b5b39bc00210a97f61ce97" kindref="member">SEVERITY_ERROR</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="61" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1ad30e4aa8767311dde32462ccefb20f17" prot="public" static="no">
+        <name>HRESULT_CODE</name>
+        <param><defname>hr</defname></param>
+        <initializer>((hr) &amp; 0xFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="62" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a3e479b268fd3a8294c8e27bb410eabe1" prot="public" static="no">
+        <name>HRESULT_FACILITY</name>
+        <param><defname>hr</defname></param>
+        <initializer>(((hr) &gt;&gt; 16) &amp; 0x1fff)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="63" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a409951bfeab5d3cfb52ca4c12601c7ad" prot="public" static="no">
+        <name>HRESULT_SEVERITY</name>
+        <param><defname>hr</defname></param>
+        <initializer>(((hr) &gt;&gt; 31) &amp; 0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="64" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a5fa6ce2bcabfb12e2ca762e608c1554b" prot="public" static="no">
+        <name>SEVERITY_SUCCESS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="65" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a90b2e06a02b5b39bc00210a97f61ce97" prot="public" static="no">
+        <name>SEVERITY_ERROR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="66" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1aa544a8bf384535d8e4933135a4574961" prot="public" static="no">
+        <name>MAKE_HRESULT</name>
+        <param><defname>sev</defname></param>
+        <param><defname>fac</defname></param>
+        <param><defname>code</defname></param>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="68" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a14bc2dfa42241600d567369cd25ddc70" prot="public" static="no">
+        <name>S_OK</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x00000000L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="70" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a0990a9e86fec4192280bdf000ed859c2" prot="public" static="no">
+        <name>S_FALSE</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x00000001L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="71" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a95132efbc062b3af4f6343718d59d074" prot="public" static="no">
+        <name>E_UNEXPECTED</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x8000FFFFL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="72" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a68162fe3bd685193e977e955439cac4b" prot="public" static="no">
+        <name>E_NOTIMPL</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000001L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="73" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a3b3f182080f15d833d6a5590eafffade" prot="public" static="no">
+        <name>E_OUTOFMEMORY</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000002L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="74" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a4a353a556e58b37d5d789574c97ec9bb" prot="public" static="no">
+        <name>E_INVALIDARG</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000003L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="75" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a3c5dce00accf21e812552ce0a305e35c" prot="public" static="no">
+        <name>E_NOINTERFACE</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000004L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="76" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1ad277769a031f7cd67ccff388fd584eab" prot="public" static="no">
+        <name>E_POINTER</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000005L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="77" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a5a17dfd08d72a9b8c19a4c0644b1bec2" prot="public" static="no">
+        <name>E_HANDLE</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000006L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="78" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1af3855021d27c900e3234bcc086f9f8f5" prot="public" static="no">
+        <name>E_ABORT</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000007L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="79" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a8f0547e641e1efc8110437fa85aa722e" prot="public" static="no">
+        <name>E_FAIL</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000008L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="80" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a65014bcf210dc1cf3546e6edf65dcb4b" prot="public" static="no">
+        <name>E_ACCESSDENIED</name>
+        <initializer>((<ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>)0x80000009L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="81" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a7fa3bfe673d450a88ec109d2837882ab" prot="public" static="no">
+        <name>STDMETHODCALLTYPE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="83" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a2ae8dbe9094e036188eed9fd2654336c" prot="public" static="no">
+        <name>IID_IUnknown</name>
+        <initializer>(<ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref>){0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0x00,0x00,0x00,0x00,0x00,0x46}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="85" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_linux_c_o_m_8h_1a02671559818eec66db1d1f1d7499829f" prot="public" static="no">
+        <name>IUnknownUUID</name>
+        <initializer><ref refid="_linux_c_o_m_8h_1a2ae8dbe9094e036188eed9fd2654336c" kindref="member">IID_IUnknown</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="86" column="9" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_linux_c_o_m_8h_1a50ac42a593ecb2036abaa441044dcdd0" prot="public" static="no">
+        <type><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+        <definition>typedef REFIID CFUUIDBytes</definition>
+        <argsstring></argsstring>
+        <name>CFUUIDBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="51" column="16" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int HRESULT</definition>
+        <argsstring></argsstring>
+        <name>HRESULT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="54" column="13" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_linux_c_o_m_8h_1af632da489ebc3708ec3ab6791ee53fa4" prot="public" static="no">
+        <type>unsigned long</type>
+        <definition>typedef unsigned long ULONG</definition>
+        <argsstring></argsstring>
+        <name>ULONG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="55" column="23" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_linux_c_o_m_8h_1ab064840df4ab5a8cf90ddb963f94de34" prot="public" static="no">
+        <type>void *</type>
+        <definition>typedef void* LPVOID</definition>
+        <argsstring></argsstring>
+        <name>LPVOID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/LinuxCOM.h" line="56" column="14" bodyfile="include/decklink_sdk/LinuxCOM.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-LICENSE-START-</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Copyright<sp/>(c)<sp/>2009<sp/>Blackmagic<sp/>Design</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>or<sp/>organization</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>software<sp/>and<sp/>accompanying<sp/>documentation<sp/>covered<sp/>by</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>this<sp/>license<sp/>(the<sp/>&quot;Software&quot;)<sp/>to<sp/>use,<sp/>reproduce,<sp/>display,<sp/>distribute,</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>execute,<sp/>and<sp/>transmit<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>prepare<sp/>derivative<sp/>works<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>third-parties<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>do<sp/>so,<sp/>all<sp/>subject<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">**<sp/>The<sp/>copyright<sp/>notices<sp/>in<sp/>the<sp/>Software<sp/>and<sp/>this<sp/>entire<sp/>statement,<sp/>including</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">**<sp/>the<sp/>above<sp/>license<sp/>grant,<sp/>this<sp/>restriction<sp/>and<sp/>the<sp/>following<sp/>disclaimer,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">**<sp/>must<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>in<sp/>whole<sp/>or<sp/>in<sp/>part,<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">**<sp/>all<sp/>derivative<sp/>works<sp/>of<sp/>the<sp/>Software,<sp/>unless<sp/>such<sp/>copies<sp/>or<sp/>derivative</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">**<sp/>works<sp/>are<sp/>solely<sp/>in<sp/>the<sp/>form<sp/>of<sp/>machine-executable<sp/>object<sp/>code<sp/>generated<sp/>by</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">**<sp/>a<sp/>source<sp/>language<sp/>processor.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">**<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">**<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">**<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE,<sp/>TITLE<sp/>AND<sp/>NON-INFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">**<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>OR<sp/>ANYONE<sp/>DISTRIBUTING<sp/>THE<sp/>SOFTWARE<sp/>BE<sp/>LIABLE</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">**<sp/>FOR<sp/>ANY<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">**<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">**<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">**<sp/>-LICENSE-END-</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__LINUX_COM_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__LINUX_COM_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="struct_r_e_f_i_i_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33" refid="struct_r_e_f_i_i_d_1afb78957e71e03bbf1004f1066a604747" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1afb78957e71e03bbf1004f1066a604747" kindref="member">byte0</ref>;</highlight></codeline>
+<codeline lineno="34" refid="struct_r_e_f_i_i_d_1ae52ad5ffcd8dc4d01dab351daf96fa1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1ae52ad5ffcd8dc4d01dab351daf96fa1a" kindref="member">byte1</ref>;</highlight></codeline>
+<codeline lineno="35" refid="struct_r_e_f_i_i_d_1a7b7109c99f217419f00b3ca8169ac0bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a7b7109c99f217419f00b3ca8169ac0bb" kindref="member">byte2</ref>;</highlight></codeline>
+<codeline lineno="36" refid="struct_r_e_f_i_i_d_1ab64dd8ba2c77964c1405bc26920b0560" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1ab64dd8ba2c77964c1405bc26920b0560" kindref="member">byte3</ref>;</highlight></codeline>
+<codeline lineno="37" refid="struct_r_e_f_i_i_d_1a6fc5945196875a2e9d803c12f4387b69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a6fc5945196875a2e9d803c12f4387b69" kindref="member">byte4</ref>;</highlight></codeline>
+<codeline lineno="38" refid="struct_r_e_f_i_i_d_1a1dc7fbeaf1022b565a00f0d25552297a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a1dc7fbeaf1022b565a00f0d25552297a" kindref="member">byte5</ref>;</highlight></codeline>
+<codeline lineno="39" refid="struct_r_e_f_i_i_d_1af1d2e404c13881312ae9a25306956e21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1af1d2e404c13881312ae9a25306956e21" kindref="member">byte6</ref>;</highlight></codeline>
+<codeline lineno="40" refid="struct_r_e_f_i_i_d_1a64892ddc699580cddf58935ab978c1bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a64892ddc699580cddf58935ab978c1bf" kindref="member">byte7</ref>;</highlight></codeline>
+<codeline lineno="41" refid="struct_r_e_f_i_i_d_1a647d51a4542e6236dbc2e4fe8a0ebae5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a647d51a4542e6236dbc2e4fe8a0ebae5" kindref="member">byte8</ref>;</highlight></codeline>
+<codeline lineno="42" refid="struct_r_e_f_i_i_d_1a0ebc89ad001258a47551ee00c9200480" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a0ebc89ad001258a47551ee00c9200480" kindref="member">byte9</ref>;</highlight></codeline>
+<codeline lineno="43" refid="struct_r_e_f_i_i_d_1a825430e86a6bbfdc108b9726048d5e41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a825430e86a6bbfdc108b9726048d5e41" kindref="member">byte10</ref>;</highlight></codeline>
+<codeline lineno="44" refid="struct_r_e_f_i_i_d_1a55c76e984bcddbaaf43c36e8b5a15e29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a55c76e984bcddbaaf43c36e8b5a15e29" kindref="member">byte11</ref>;</highlight></codeline>
+<codeline lineno="45" refid="struct_r_e_f_i_i_d_1a073be4f7f47247b131d099cd90951c32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a073be4f7f47247b131d099cd90951c32" kindref="member">byte12</ref>;</highlight></codeline>
+<codeline lineno="46" refid="struct_r_e_f_i_i_d_1a1d35da890ff4676e4b9d93d0f35f8d2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a1d35da890ff4676e4b9d93d0f35f8d2a" kindref="member">byte13</ref>;</highlight></codeline>
+<codeline lineno="47" refid="struct_r_e_f_i_i_d_1a39162adad42f24672d81ef32e8ab4536" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1a39162adad42f24672d81ef32e8ab4536" kindref="member">byte14</ref>;</highlight></codeline>
+<codeline lineno="48" refid="struct_r_e_f_i_i_d_1afcfabd668e702d17a39a6a08602ab97c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d_1afcfabd668e702d17a39a6a08602ab97c" kindref="member">byte15</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="_linux_c_o_m_8h_1a50ac42a593ecb2036abaa441044dcdd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="_linux_c_o_m_8h_1a50ac42a593ecb2036abaa441044dcdd0" kindref="member">CFUUIDBytes</ref>;</highlight></codeline>
+<codeline lineno="52" refid="_linux_c_o_m_8h_1a7ecfd7864dd44178e6b2645322d53182" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CFUUIDGetUUIDBytes(x)<sp/><sp/><sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref>;</highlight></codeline>
+<codeline lineno="55" refid="_linux_c_o_m_8h_1af632da489ebc3708ec3ab6791ee53fa4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1af632da489ebc3708ec3ab6791ee53fa4" kindref="member">ULONG</ref>;</highlight></codeline>
+<codeline lineno="56" refid="_linux_c_o_m_8h_1ab064840df4ab5a8cf90ddb963f94de34" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="_linux_c_o_m_8h_1ab064840df4ab5a8cf90ddb963f94de34" kindref="member">LPVOID</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_linux_c_o_m_8h_1a1eff4fb052d6e497649f6a06b4ac222a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SUCCEEDED(Status)<sp/>((HRESULT)(Status)<sp/>&gt;=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_linux_c_o_m_8h_1aca3919e6cf22894d07999a67e24bfded" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FAILED(Status)<sp/>((HRESULT)(Status)&lt;0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="_linux_c_o_m_8h_1ad41183bbf0abbc28b309e1ff2765ca68" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_ERROR(Status)<sp/>((unsigned<sp/>long)(Status)<sp/>&gt;&gt;<sp/>31<sp/>==<sp/>SEVERITY_ERROR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_linux_c_o_m_8h_1ad30e4aa8767311dde32462ccefb20f17" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HRESULT_CODE(hr)<sp/>((hr)<sp/>&amp;<sp/>0xFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_linux_c_o_m_8h_1a3e479b268fd3a8294c8e27bb410eabe1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HRESULT_FACILITY(hr)<sp/>(((hr)<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>0x1fff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="_linux_c_o_m_8h_1a409951bfeab5d3cfb52ca4c12601c7ad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HRESULT_SEVERITY(hr)<sp/>(((hr)<sp/>&gt;&gt;<sp/>31)<sp/>&amp;<sp/>0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_linux_c_o_m_8h_1a5fa6ce2bcabfb12e2ca762e608c1554b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SEVERITY_SUCCESS<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_linux_c_o_m_8h_1a90b2e06a02b5b39bc00210a97f61ce97" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SEVERITY_ERROR<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="_linux_c_o_m_8h_1aa544a8bf384535d8e4933135a4574961" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAKE_HRESULT(sev,fac,code)<sp/>((HRESULT)<sp/>(((unsigned<sp/>long)(sev)&lt;&lt;31)<sp/>|<sp/>((unsigned<sp/>long)(fac)&lt;&lt;16)<sp/>|<sp/>((unsigned<sp/>long)(code)))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_linux_c_o_m_8h_1a14bc2dfa42241600d567369cd25ddc70" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>S_OK<sp/>((HRESULT)0x00000000L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="_linux_c_o_m_8h_1a0990a9e86fec4192280bdf000ed859c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>S_FALSE<sp/>((HRESULT)0x00000001L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="_linux_c_o_m_8h_1a95132efbc062b3af4f6343718d59d074" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_UNEXPECTED<sp/>((HRESULT)0x8000FFFFL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="_linux_c_o_m_8h_1a68162fe3bd685193e977e955439cac4b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_NOTIMPL<sp/>((HRESULT)0x80000001L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_linux_c_o_m_8h_1a3b3f182080f15d833d6a5590eafffade" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_OUTOFMEMORY<sp/>((HRESULT)0x80000002L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="_linux_c_o_m_8h_1a4a353a556e58b37d5d789574c97ec9bb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_INVALIDARG<sp/>((HRESULT)0x80000003L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="_linux_c_o_m_8h_1a3c5dce00accf21e812552ce0a305e35c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_NOINTERFACE<sp/>((HRESULT)0x80000004L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="_linux_c_o_m_8h_1ad277769a031f7cd67ccff388fd584eab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_POINTER<sp/>((HRESULT)0x80000005L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="_linux_c_o_m_8h_1a5a17dfd08d72a9b8c19a4c0644b1bec2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_HANDLE<sp/>((HRESULT)0x80000006L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="_linux_c_o_m_8h_1af3855021d27c900e3234bcc086f9f8f5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_ABORT<sp/>((HRESULT)0x80000007L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="_linux_c_o_m_8h_1a8f0547e641e1efc8110437fa85aa722e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_FAIL<sp/>((HRESULT)0x80000008L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="_linux_c_o_m_8h_1a65014bcf210dc1cf3546e6edf65dcb4b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_ACCESSDENIED<sp/>((HRESULT)0x80000009L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="_linux_c_o_m_8h_1a7fa3bfe673d450a88ec109d2837882ab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STDMETHODCALLTYPE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="_linux_c_o_m_8h_1a2ae8dbe9094e036188eed9fd2654336c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IID_IUnknown<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(REFIID){0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0x00,0x00,0x00,0x00,0x00,0x46}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_linux_c_o_m_8h_1a02671559818eec66db1d1f1d7499829f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IUnknownUUID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IID_IUnknown</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IUnknown</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="_linux_c_o_m_8h_1a7fa3bfe673d450a88ec109d2837882ab" kindref="member">STDMETHODCALLTYPE</ref><sp/>QueryInterface(<ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/>iid,<sp/><ref refid="_linux_c_o_m_8h_1ab064840df4ab5a8cf90ddb963f94de34" kindref="member">LPVOID</ref><sp/>*ppv)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1af632da489ebc3708ec3ab6791ee53fa4" kindref="member">ULONG</ref><sp/><ref refid="_linux_c_o_m_8h_1a7fa3bfe673d450a88ec109d2837882ab" kindref="member">STDMETHODCALLTYPE</ref><sp/>AddRef(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1af632da489ebc3708ec3ab6791ee53fa4" kindref="member">ULONG</ref><sp/><ref refid="_linux_c_o_m_8h_1a7fa3bfe673d450a88ec109d2837882ab" kindref="member">STDMETHODCALLTYPE</ref><sp/>Release(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="include/decklink_sdk/LinuxCOM.h"/>
+  </compounddef>
+</doxygen>

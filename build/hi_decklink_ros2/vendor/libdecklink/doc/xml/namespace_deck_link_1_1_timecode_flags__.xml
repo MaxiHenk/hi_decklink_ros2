@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link_1_1_timecode_flags__" kind="namespace" language="C++">
+    <compoundname>DeckLink::TimecodeFlags_</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_deck_link_1_1_timecode_flags___1ac9f83848a74ef73bdaf713ec748fcab9" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">constexpr</ref> std::array&lt; <ref refid="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58" kindref="member">TimecodeFlags</ref>, 3 &gt;</type>
+        <definition>constexpr std::array&lt;TimecodeFlags, 3&gt; DeckLink::TimecodeFlags_::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <qualifiedname>DeckLink::TimecodeFlags_::Values</qualifiedname>
+        <initializer>{
+            <ref refid="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58acefb00ae8b3d996e18b152e728adffdd" kindref="member">TimecodeFlags::FlagDefault</ref>,
+            <ref refid="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58accd1ec1d2094e14969abef023bbf063c" kindref="member">TimecodeFlags::IsDropFrame</ref>,
+            <ref refid="namespace_deck_link_1a589576306fbd42d5ca694997f9803a58aa0fd7759231df223fb55934ce9e993b6" kindref="member">TimecodeFlags::FieldMark</ref>,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="948" column="30" bodyfile="include/libdecklink/types.hpp" bodystart="948" bodyend="952"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/types.cpp" line="1788" column="5"/>
+  </compounddef>
+</doxygen>

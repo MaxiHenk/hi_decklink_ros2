@@ -1,0 +1,85 @@
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_start_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:47:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:48:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_stop_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:57:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:9[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_start_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:47:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:48:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:[m[K In member function ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kon_stop_capture_request[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:57:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:[m[K In constructor ‘[01m[KDeckLinkCameraDriver::[01;32m[KDeckLinkCameraDriver[m[K()[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:102:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDeckLinkCameraDriver::create_service(const char [14], void (DeckLinkCameraDriver::*)(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >), DeckLinkCameraDriver*)[m[K’
+  102 |     _start_capture = [01;31m[Kthis->create_service("start_capture",[m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  103 | [01;31m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  302 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:102:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+  102 |     _start_capture = [01;36m[Kthis->create_service("start_capture",[m[K
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  103 | [01;36m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  175 | [01;36m[KNode[m[K::create_service(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:102:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+  102 |     _start_capture = [01;36m[Kthis->create_service("start_capture",[m[K
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  103 | [01;36m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:104:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDeckLinkCameraDriver::create_service(const char [13], void (DeckLinkCameraDriver::*)(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >), DeckLinkCameraDriver*)[m[K’
+  104 |     _stop_capture = [01;31m[Kthis->create_service("stop_capture",[m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+  105 | [01;31m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  302 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:104:41:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+  104 |     _stop_capture = [01;36m[Kthis->create_service("stop_capture",[m[K
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+  105 | [01;36m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  175 | [01;36m[KNode[m[K::create_service(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:104:41:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+  104 |     _stop_capture = [01;36m[Kthis->create_service("stop_capture",[m[K
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+  105 | [01;36m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

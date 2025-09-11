@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_deck_link_a_p_i_dispatch_8cpp" kind="file" language="C++">
+    <compoundname>DeckLinkAPIDispatch.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">pthread.h</includes>
+    <includes local="no">dlfcn.h</includes>
+    <includes refid="_deck_link_a_p_i_8h" local="yes">DeckLinkAPI.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>DeckLinkAPIConfiguration.h</label>
+        <link refid="_deck_link_a_p_i_configuration_8h"/>
+      </node>
+      <node id="12">
+        <label>DeckLinkAPIDeckControl.h</label>
+        <link refid="_deck_link_a_p_i_deck_control_8h"/>
+      </node>
+      <node id="10">
+        <label>DeckLinkAPIDiscovery.h</label>
+        <link refid="_deck_link_a_p_i_discovery_8h"/>
+      </node>
+      <node id="1">
+        <label>include/decklink_sdk/DeckLinkAPIDispatch.cpp</label>
+        <link refid="_deck_link_a_p_i_dispatch_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>DeckLinkAPIModes.h</label>
+        <link refid="_deck_link_a_p_i_modes_8h"/>
+      </node>
+      <node id="8">
+        <label>DeckLinkAPITypes.h</label>
+        <link refid="_deck_link_a_p_i_types_8h"/>
+      </node>
+      <node id="7">
+        <label>LinuxCOM.h</label>
+        <link refid="_linux_c_o_m_8h"/>
+      </node>
+      <node id="4">
+        <label>dlfcn.h</label>
+      </node>
+      <node id="3">
+        <label>pthread.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_deck_link_a_p_i_dispatch_8cpp_1a8f372658b6e5396e7f47ed7784f6474f" prot="public" static="no">
+        <name>kDeckLinkAPI_Name</name>
+        <initializer>&quot;libDeckLinkAPI.so&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="38" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_deck_link_a_p_i_dispatch_8cpp_1a435f5420077028680b2a2310fef45d44" prot="public" static="no">
+        <name>KDeckLinkPreviewAPI_Name</name>
+        <initializer>&quot;libDeckLinkPreviewAPI.so&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="39" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_deck_link_a_p_i_dispatch_8cpp_1a933857529c6c03884b7497a74c81de87" prot="public" static="no">
+        <type>IDeckLinkIterator *(*</type>
+        <definition>typedef IDeckLinkIterator *(* CreateIteratorFunc) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>CreateIteratorFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="41" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_dispatch_8cpp_1ada90e6962e1d6bd4d39ce28a49e268e6" prot="public" static="no">
+        <type>IDeckLinkAPIInformation *(*</type>
+        <definition>typedef IDeckLinkAPIInformation *(* CreateAPIInformationFunc) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>CreateAPIInformationFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="42" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_dispatch_8cpp_1a354ba7507e2bf8315afadb51a0b488db" prot="public" static="no">
+        <type>IDeckLinkGLScreenPreviewHelper *(*</type>
+        <definition>typedef IDeckLinkGLScreenPreviewHelper *(* CreateOpenGLScreenPreviewHelperFunc) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>CreateOpenGLScreenPreviewHelperFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="43" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_dispatch_8cpp_1af239d47296a3593da27ac8a40af48805" prot="public" static="no">
+        <type>IDeckLinkVideoConversion *(*</type>
+        <definition>typedef IDeckLinkVideoConversion *(* CreateVideoConversionInstanceFunc) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>CreateVideoConversionInstanceFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="44" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_dispatch_8cpp_1a76dd2130cbe0262ed3e3185c7e7ef40c" prot="public" static="no">
+        <type>IDeckLinkDiscovery *(*</type>
+        <definition>typedef IDeckLinkDiscovery *(* CreateDeckLinkDiscoveryInstanceFunc) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>CreateDeckLinkDiscoveryInstanceFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="45" column="9" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" prot="public" static="yes" mutable="no">
+        <type>pthread_once_t</type>
+        <definition>pthread_once_t gDeckLinkOnceControl</definition>
+        <argsstring></argsstring>
+        <name>gDeckLinkOnceControl</name>
+        <initializer>= PTHREAD_ONCE_INIT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="47" column="22" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1a86fb320bfed80057ea1178b7253b26fe" prot="public" static="yes" mutable="no">
+        <type>pthread_once_t</type>
+        <definition>pthread_once_t gPreviewOnceControl</definition>
+        <argsstring></argsstring>
+        <name>gPreviewOnceControl</name>
+        <initializer>= PTHREAD_ONCE_INIT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="48" column="22" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1a2b650815f980367f190b2a903ae179ca" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool gLoadedDeckLinkAPI</definition>
+        <argsstring></argsstring>
+        <name>gLoadedDeckLinkAPI</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="50" column="12" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" prot="public" static="yes" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a933857529c6c03884b7497a74c81de87" kindref="member">CreateIteratorFunc</ref></type>
+        <definition>CreateIteratorFunc gCreateIteratorFunc</definition>
+        <argsstring></argsstring>
+        <name>gCreateIteratorFunc</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="52" column="26" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" prot="public" static="yes" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ada90e6962e1d6bd4d39ce28a49e268e6" kindref="member">CreateAPIInformationFunc</ref></type>
+        <definition>CreateAPIInformationFunc gCreateAPIInformationFunc</definition>
+        <argsstring></argsstring>
+        <name>gCreateAPIInformationFunc</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="53" column="32" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" prot="public" static="yes" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a354ba7507e2bf8315afadb51a0b488db" kindref="member">CreateOpenGLScreenPreviewHelperFunc</ref></type>
+        <definition>CreateOpenGLScreenPreviewHelperFunc gCreateOpenGLPreviewFunc</definition>
+        <argsstring></argsstring>
+        <name>gCreateOpenGLPreviewFunc</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="54" column="43" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" prot="public" static="yes" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_dispatch_8cpp_1af239d47296a3593da27ac8a40af48805" kindref="member">CreateVideoConversionInstanceFunc</ref></type>
+        <definition>CreateVideoConversionInstanceFunc gCreateVideoConversionFunc</definition>
+        <argsstring></argsstring>
+        <name>gCreateVideoConversionFunc</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="55" column="41" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" prot="public" static="yes" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a76dd2130cbe0262ed3e3185c7e7ef40c" kindref="member">CreateDeckLinkDiscoveryInstanceFunc</ref></type>
+        <definition>CreateDeckLinkDiscoveryInstanceFunc gCreateDeckLinkDiscoveryFunc</definition>
+        <argsstring></argsstring>
+        <name>gCreateDeckLinkDiscoveryFunc</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="56" column="43" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitDeckLinkAPI</definition>
+        <argsstring>(void)</argsstring>
+        <name>InitDeckLinkAPI</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="58" column="5" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="58" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1ab1e5f8206051cefd6a7bb8954432208c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitDeckLinkPreviewAPI</definition>
+        <argsstring>(void)</argsstring>
+        <name>InitDeckLinkPreviewAPI</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="85" column="5" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="85" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1ad71dd72d79840400d7469a7a45db08f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsDeckLinkAPIPresent</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsDeckLinkAPIPresent</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="100" column="5" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1a3c68d94244be0d27123d41e1dfdbaf9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDeckLinkIterator *</type>
+        <definition>IDeckLinkIterator * CreateDeckLinkIteratorInstance</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreateDeckLinkIteratorInstance</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="106" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1a14dd8e7c0234f4b8f1166aa065978c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDeckLinkAPIInformation *</type>
+        <definition>IDeckLinkAPIInformation * CreateDeckLinkAPIInformationInstance</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreateDeckLinkAPIInformationInstance</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="115" column="24" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="115" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1aaa9f4d4eca88f05f2f47bd6497b71eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDeckLinkGLScreenPreviewHelper *</type>
+        <definition>IDeckLinkGLScreenPreviewHelper * CreateOpenGLScreenPreviewHelper</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreateOpenGLScreenPreviewHelper</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="124" column="31" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="124" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1af9a44a5ece264c49fb03e6f9f8b6a68d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDeckLinkVideoConversion *</type>
+        <definition>IDeckLinkVideoConversion * CreateVideoConversionInstance</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreateVideoConversionInstance</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="134" column="26" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="_deck_link_a_p_i_dispatch_8cpp_1a51ffea9c683cff6c4c580bd0f7ceee9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDeckLinkDiscovery *</type>
+        <definition>IDeckLinkDiscovery * CreateDeckLinkDiscoveryInstance</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreateDeckLinkDiscoveryInstance</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp" line="143" column="20" bodyfile="include/decklink_sdk/DeckLinkAPIDispatch.cpp" bodystart="143" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-LICENSE-START-</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Copyright<sp/>(c)<sp/>2009<sp/>Blackmagic<sp/>Design</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>or<sp/>organization</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>software<sp/>and<sp/>accompanying<sp/>documentation<sp/>covered<sp/>by</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>this<sp/>license<sp/>(the<sp/>&quot;Software&quot;)<sp/>to<sp/>use,<sp/>reproduce,<sp/>display,<sp/>distribute,</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>execute,<sp/>and<sp/>transmit<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>prepare<sp/>derivative<sp/>works<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>third-parties<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>do<sp/>so,<sp/>all<sp/>subject<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">**<sp/>The<sp/>copyright<sp/>notices<sp/>in<sp/>the<sp/>Software<sp/>and<sp/>this<sp/>entire<sp/>statement,<sp/>including</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">**<sp/>the<sp/>above<sp/>license<sp/>grant,<sp/>this<sp/>restriction<sp/>and<sp/>the<sp/>following<sp/>disclaimer,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">**<sp/>must<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>in<sp/>whole<sp/>or<sp/>in<sp/>part,<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">**<sp/>all<sp/>derivative<sp/>works<sp/>of<sp/>the<sp/>Software,<sp/>unless<sp/>such<sp/>copies<sp/>or<sp/>derivative</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">**<sp/>works<sp/>are<sp/>solely<sp/>in<sp/>the<sp/>form<sp/>of<sp/>machine-executable<sp/>object<sp/>code<sp/>generated<sp/>by</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">**<sp/>a<sp/>source<sp/>language<sp/>processor.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">**<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">**<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">**<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE,<sp/>TITLE<sp/>AND<sp/>NON-INFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">**<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>OR<sp/>ANYONE<sp/>DISTRIBUTING<sp/>THE<sp/>SOFTWARE<sp/>BE<sp/>LIABLE</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">**<sp/>FOR<sp/>ANY<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">**<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">**<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">**<sp/>-LICENSE-END-</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">**/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Disable<sp/>warnings<sp/>for<sp/>this<sp/>file<sp/>since<sp/>we&apos;re<sp/>not<sp/>about<sp/>to<sp/>re-write<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wold-style-cast&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dlfcn.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_deck_link_a_p_i_8h" kindref="compound">DeckLinkAPI.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="_deck_link_a_p_i_dispatch_8cpp_1a8f372658b6e5396e7f47ed7784f6474f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kDeckLinkAPI_Name<sp/>&quot;libDeckLinkAPI.so&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="_deck_link_a_p_i_dispatch_8cpp_1a435f5420077028680b2a2310fef45d44" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>KDeckLinkPreviewAPI_Name<sp/>&quot;libDeckLinkPreviewAPI.so&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="_deck_link_a_p_i_dispatch_8cpp_1a933857529c6c03884b7497a74c81de87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IDeckLinkIterator*<sp/>(*CreateIteratorFunc)(void);</highlight></codeline>
+<codeline lineno="42" refid="_deck_link_a_p_i_dispatch_8cpp_1ada90e6962e1d6bd4d39ce28a49e268e6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IDeckLinkAPIInformation*<sp/>(*CreateAPIInformationFunc)(void);</highlight></codeline>
+<codeline lineno="43" refid="_deck_link_a_p_i_dispatch_8cpp_1a354ba7507e2bf8315afadb51a0b488db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IDeckLinkGLScreenPreviewHelper*<sp/>(*CreateOpenGLScreenPreviewHelperFunc)(void);</highlight></codeline>
+<codeline lineno="44" refid="_deck_link_a_p_i_dispatch_8cpp_1af239d47296a3593da27ac8a40af48805" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IDeckLinkVideoConversion*<sp/>(*CreateVideoConversionInstanceFunc)(void);</highlight></codeline>
+<codeline lineno="45" refid="_deck_link_a_p_i_dispatch_8cpp_1a76dd2130cbe0262ed3e3185c7e7ef40c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IDeckLinkDiscovery*<sp/>(*CreateDeckLinkDiscoveryInstanceFunc)(void);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>pthread_once_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref><sp/>=<sp/>PTHREAD_ONCE_INIT;</highlight></codeline>
+<codeline lineno="48" refid="_deck_link_a_p_i_dispatch_8cpp_1a86fb320bfed80057ea1178b7253b26fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>pthread_once_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a86fb320bfed80057ea1178b7253b26fe" kindref="member">gPreviewOnceControl</ref><sp/>=<sp/>PTHREAD_ONCE_INIT;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_deck_link_a_p_i_dispatch_8cpp_1a2b650815f980367f190b2a903ae179ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a2b650815f980367f190b2a903ae179ca" kindref="member">gLoadedDeckLinkAPI</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a933857529c6c03884b7497a74c81de87" kindref="member">CreateIteratorFunc</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" kindref="member">gCreateIteratorFunc</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="53" refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ada90e6962e1d6bd4d39ce28a49e268e6" kindref="member">CreateAPIInformationFunc</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" kindref="member">gCreateAPIInformationFunc</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="54" refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a354ba7507e2bf8315afadb51a0b488db" kindref="member">CreateOpenGLScreenPreviewHelperFunc</ref><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" kindref="member">gCreateOpenGLPreviewFunc</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55" refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1af239d47296a3593da27ac8a40af48805" kindref="member">CreateVideoConversionInstanceFunc</ref><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" kindref="member">gCreateVideoConversionFunc</ref><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56" refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a76dd2130cbe0262ed3e3185c7e7ef40c" kindref="member">CreateDeckLinkDiscoveryInstanceFunc</ref><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" kindref="member">gCreateDeckLinkDiscoveryFunc</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*libraryHandle;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>libraryHandle<sp/>=<sp/>dlopen(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a8f372658b6e5396e7f47ed7784f6474f" kindref="member">kDeckLinkAPI_Name</ref>,<sp/>RTLD_NOW|RTLD_GLOBAL);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!libraryHandle)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a2b650815f980367f190b2a903ae179ca" kindref="member">gLoadedDeckLinkAPI</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" kindref="member">gCreateIteratorFunc</ref><sp/>=<sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a933857529c6c03884b7497a74c81de87" kindref="member">CreateIteratorFunc</ref>)dlsym(libraryHandle,<sp/></highlight><highlight class="stringliteral">&quot;CreateDeckLinkIteratorInstance_0002&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" kindref="member">gCreateIteratorFunc</ref>)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" kindref="member">gCreateAPIInformationFunc</ref><sp/>=<sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1ada90e6962e1d6bd4d39ce28a49e268e6" kindref="member">CreateAPIInformationFunc</ref>)dlsym(libraryHandle,<sp/></highlight><highlight class="stringliteral">&quot;CreateDeckLinkAPIInformationInstance_0001&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" kindref="member">gCreateAPIInformationFunc</ref>)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" kindref="member">gCreateVideoConversionFunc</ref><sp/>=<sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1af239d47296a3593da27ac8a40af48805" kindref="member">CreateVideoConversionInstanceFunc</ref>)dlsym(libraryHandle,<sp/></highlight><highlight class="stringliteral">&quot;CreateVideoConversionInstance_0001&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" kindref="member">gCreateVideoConversionFunc</ref>)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" kindref="member">gCreateDeckLinkDiscoveryFunc</ref><sp/>=<sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a76dd2130cbe0262ed3e3185c7e7ef40c" kindref="member">CreateDeckLinkDiscoveryInstanceFunc</ref>)dlsym(libraryHandle,<sp/></highlight><highlight class="stringliteral">&quot;CreateDeckLinkDiscoveryInstance_0001&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" kindref="member">gCreateDeckLinkDiscoveryFunc</ref>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="_deck_link_a_p_i_dispatch_8cpp_1ab1e5f8206051cefd6a7bb8954432208c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab1e5f8206051cefd6a7bb8954432208c" kindref="member">InitDeckLinkPreviewAPI</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*libraryHandle;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>libraryHandle<sp/>=<sp/>dlopen(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a435f5420077028680b2a2310fef45d44" kindref="member">KDeckLinkPreviewAPI_Name</ref>,<sp/>RTLD_NOW|RTLD_GLOBAL);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!libraryHandle)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" kindref="member">gCreateOpenGLPreviewFunc</ref><sp/>=<sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a354ba7507e2bf8315afadb51a0b488db" kindref="member">CreateOpenGLScreenPreviewHelperFunc</ref>)dlsym(libraryHandle,<sp/></highlight><highlight class="stringliteral">&quot;CreateOpenGLScreenPreviewHelper_0001&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" kindref="member">gCreateOpenGLPreviewFunc</ref>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>dlerror());</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="_deck_link_a_p_i_dispatch_8cpp_1ad71dd72d79840400d7469a7a45db08f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad71dd72d79840400d7469a7a45db08f9" kindref="member">IsDeckLinkAPIPresent</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>DeckLink<sp/>API<sp/>dynamic<sp/>library<sp/>was<sp/>successfully<sp/>loaded,<sp/>return<sp/>this<sp/>knowledge<sp/>to<sp/>the<sp/>caller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a2b650815f980367f190b2a903ae179ca" kindref="member">gLoadedDeckLinkAPI</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="_deck_link_a_p_i_dispatch_8cpp_1a3c68d94244be0d27123d41e1dfdbaf9a" refkind="member"><highlight class="normal">IDeckLinkIterator*<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a3c68d94244be0d27123d41e1dfdbaf9a" kindref="member">CreateDeckLinkIteratorInstance</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" kindref="member">gCreateIteratorFunc</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab8a5bdc064f40ca64fe413a02fca69ba" kindref="member">gCreateIteratorFunc</ref>();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="_deck_link_a_p_i_dispatch_8cpp_1a14dd8e7c0234f4b8f1166aa065978c2f" refkind="member"><highlight class="normal">IDeckLinkAPIInformation*<sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a14dd8e7c0234f4b8f1166aa065978c2f" kindref="member">CreateDeckLinkAPIInformationInstance</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" kindref="member">gCreateAPIInformationFunc</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaad1056b44e5d3af5bde57ca7974c885" kindref="member">gCreateAPIInformationFunc</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="_deck_link_a_p_i_dispatch_8cpp_1aaa9f4d4eca88f05f2f47bd6497b71eaa" refkind="member"><highlight class="normal">IDeckLinkGLScreenPreviewHelper*<sp/><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aaa9f4d4eca88f05f2f47bd6497b71eaa" kindref="member">CreateOpenGLScreenPreviewHelper</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a86fb320bfed80057ea1178b7253b26fe" kindref="member">gPreviewOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ab1e5f8206051cefd6a7bb8954432208c" kindref="member">InitDeckLinkPreviewAPI</ref>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" kindref="member">gCreateOpenGLPreviewFunc</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1aa7bff754a367d3318befcfc9357f34c3" kindref="member">gCreateOpenGLPreviewFunc</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="_deck_link_a_p_i_dispatch_8cpp_1af9a44a5ece264c49fb03e6f9f8b6a68d" refkind="member"><highlight class="normal">IDeckLinkVideoConversion*<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1af9a44a5ece264c49fb03e6f9f8b6a68d" kindref="member">CreateVideoConversionInstance</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" kindref="member">gCreateVideoConversionFunc</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a7feec4c8aa81701a34a91c7a95607805" kindref="member">gCreateVideoConversionFunc</ref>();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="_deck_link_a_p_i_dispatch_8cpp_1a51ffea9c683cff6c4c580bd0f7ceee9d" refkind="member"><highlight class="normal">IDeckLinkDiscovery*<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a51ffea9c683cff6c4c580bd0f7ceee9d" kindref="member">CreateDeckLinkDiscoveryInstance</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_once(&amp;<ref refid="_deck_link_a_p_i_dispatch_8cpp_1a9deab4d76571b891da0a4dd2a2b6a340" kindref="member">gDeckLinkOnceControl</ref>,<sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1a005bf5fdfd441957d4a7d35c4868d128" kindref="member">InitDeckLinkAPI</ref>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" kindref="member">gCreateDeckLinkDiscoveryFunc</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_dispatch_8cpp_1ad52f99c5707f5efca8c8facffe2a8878" kindref="member">gCreateDeckLinkDiscoveryFunc</ref>();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="include/decklink_sdk/DeckLinkAPIDispatch.cpp"/>
+  </compounddef>
+</doxygen>

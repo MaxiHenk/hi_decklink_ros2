@@ -1,0 +1,10 @@
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:125:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kinit_image_transport[m[K()[m[K’
+  125 | void [01;31m[KDeckLinkCameraDriver[m[K::init_image_transport() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:9[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:24:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid DeckLinkCameraDriver::[01;32m[Kinit_image_transport[m[K()[m[K’ previously defined here
+   24 |     void [01;36m[Kinit_image_transport[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

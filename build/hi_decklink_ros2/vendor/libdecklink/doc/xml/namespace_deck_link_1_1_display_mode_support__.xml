@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link_1_1_display_mode_support__" kind="namespace" language="C++">
+    <compoundname>DeckLink::DisplayModeSupport_</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_deck_link_1_1_display_mode_support___1a340a3cefe4ca464a2ee098c46c34a387" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">constexpr</ref> std::array&lt; <ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dc" kindref="member">DisplayModeSupport</ref>, 3 &gt;</type>
+        <definition>constexpr std::array&lt;DisplayModeSupport, 3&gt; DeckLink::DisplayModeSupport_::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <qualifiedname>DeckLink::DisplayModeSupport_::Values</qualifiedname>
+        <initializer>{
+            <ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dca9ed2d871602556951e39f3cebd08d6cb" kindref="member">DisplayModeSupport::NotSupported</ref>,
+            <ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dcaeaa4dc5078017a5c5bebf383ab6f5124" kindref="member">DisplayModeSupport::Supported</ref>,
+            <ref refid="namespace_deck_link_1aaa31b9d87a05180bd5d08e578343d5dcaf563298b9d0cbf3ec62a6198f6b7f357" kindref="member">DisplayModeSupport::SupportedWithConversion</ref>,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="854" column="30" bodyfile="include/libdecklink/types.hpp" bodystart="854" bodyend="858"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/types.cpp" line="1694" column="5"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/img2ros" "/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/publisher" "/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/subscriber" "TARGETS" "img2ros" "publisher" "subscriber" "DESTINATION" "lib/hi_decklink_ros2")

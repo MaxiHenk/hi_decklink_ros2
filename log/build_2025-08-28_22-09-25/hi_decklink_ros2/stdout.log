@@ -1,0 +1,7 @@
+[ 50%] Built target decklink
+[ 66%] Built target deckview
+[ 66%] Built target deckquery
+[ 75%] Built target deckmonitor
+[ 83%] Built target deckstatus
+[ 91%] Built target deckoutput
+[ 95%] [32mBuilding CXX object CMakeFiles/img2ros.dir/src/img2ros.cpp.o[0m

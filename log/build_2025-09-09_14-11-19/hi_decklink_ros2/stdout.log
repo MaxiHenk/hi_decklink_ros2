@@ -1,0 +1,11 @@
+[ 41%] Built target decklink
+[ 55%] Built target deckquery
+[ 55%] Built target deckview
+[ 62%] Built target deckstatus
+[ 68%] Built target deckmonitor
+[ 75%] Built target deckoutput
+[ 82%] Built target img2ros
+[ 89%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable publisher[0m
+[ 96%] Built target publisher

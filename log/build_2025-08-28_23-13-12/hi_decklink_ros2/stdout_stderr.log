@@ -1,0 +1,24 @@
+[ 44%] Built target decklink
+[ 48%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[ 59%] Built target deckquery
+[ 66%] Built target img2ros
+[ 74%] Built target deckview
+[ 81%] Built target deckstatus
+[ 88%] Built target deckoutput
+[ 96%] Built target deckmonitor
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/publisher.cpp:6[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/std_srvs/srv/empty.hpp: No such file or directory
+   13 | #include [01;31m[K<std_srvs/std_srvs/srv/empty.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:8[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/std_srvs/srv/empty.hpp: No such file or directory
+   13 | #include [01;31m[K<std_srvs/std_srvs/srv/empty.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

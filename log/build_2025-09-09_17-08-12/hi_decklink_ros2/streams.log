@@ -1,0 +1,97 @@
+[0.009s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhenkel/Documents/hi_decklink_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2
+[0.117s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.334s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.365s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.558s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.635s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.705s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[0.710s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.747s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.758s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.905s] -- Configuring done (0.9s)
+[0.947s] -- Generating done (0.0s)
+[0.958s] -- Build files have been written to: /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2
+[0.970s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhenkel/Documents/hi_decklink_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2
+[0.971s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[1.022s] [  3%] [34m[1mGenerating API documentation with Doxygen[0m
+[1.044s] warning: Tag 'TCL_SUBST' at line 248 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.044s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.044s] warning: Tag 'COLS_IN_ALPHA_INDEX' at line 1103 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.044s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.044s] warning: Tag 'HTML_TIMESTAMP' at line 1239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.044s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.045s] warning: Tag 'FORMULA_TRANSPARENT' at line 1520 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.045s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.045s] warning: Tag 'LATEX_SOURCE_CODE' at line 1808 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.045s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.045s] warning: Tag 'LATEX_TIMESTAMP' at line 1824 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.045s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.045s] warning: Tag 'RTF_SOURCE_CODE' at line 1890 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.045s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.046s] warning: Tag 'DOCBOOK_PROGRAMLISTING' at line 1988 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.046s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.046s] warning: Tag 'PERL_PATH' at line 2168 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.046s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.046s] warning: Tag 'CLASS_DIAGRAMS' at line 2181 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.046s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.046s] warning: Tag 'MSCGEN_PATH' at line 2190 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.046s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.046s] warning: Tag 'DOT_FONTNAME' at line 2232 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.047s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.047s] warning: Tag 'DOT_FONTSIZE' at line 2239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.047s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.047s] warning: Tag 'DOT_TRANSPARENT' at line 2460 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+[1.047s]          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+[1.047s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' does not exist
+[1.047s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' does not exist
+[1.048s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' is not a readable file or directory... skipping.
+[1.048s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' is not a readable file or directory... skipping.
+[1.048s] warning: Specified markdown mainpage 'README.md' does not exist
+[1.049s] [ 43%] Built target decklink
+[1.093s] [ 50%] Built target deckview
+[1.093s] [ 60%] Built target deckmonitor
+[1.093s] [ 66%] Built target img2ros
+[1.093s] [ 70%] Built target deckquery
+[1.099s] [ 76%] Built target deckstatus
+[1.106s] [ 83%] Built target subscriber
+[1.118s] [ 93%] Built target publisher
+[1.128s] [100%] Built target deckoutput
+[1.430s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[1.605s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[1.626s] [100%] Built target docs
+[1.638s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[1.649s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2
+[1.656s] -- Install configuration: "Debug"
+[1.656s] -- Execute custom install script
+[1.657s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/img2ros
+[1.657s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/publisher
+[1.657s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/subscriber
+[1.658s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/libdecklink.a
+[1.658s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/package_run_dependencies/hi_decklink_ros2
+[1.658s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/parent_prefix_path/hi_decklink_ros2
+[1.658s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.sh
+[1.659s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.dsv
+[1.659s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.sh
+[1.660s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.dsv
+[1.660s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.bash
+[1.660s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.sh
+[1.660s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.zsh
+[1.661s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.dsv
+[1.661s] -- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.dsv
+[1.670s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/packages/hi_decklink_ros2
+[1.670s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.670s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.671s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config.cmake
+[1.671s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config-version.cmake
+[1.671s] -- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.xml
+[1.671s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch
+[1.672s] -- Installing: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers-MPI.xml
+[1.672s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers_keying-MPI.xml
+[1.672s] -- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/full-MPI.xml
+[1.674s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2

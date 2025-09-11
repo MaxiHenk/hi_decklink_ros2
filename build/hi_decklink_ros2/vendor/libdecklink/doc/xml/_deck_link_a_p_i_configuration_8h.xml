@@ -1,0 +1,1250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_deck_link_a_p_i_configuration_8h" kind="file" language="C++">
+    <compoundname>DeckLinkAPIConfiguration.h</compoundname>
+    <includedby refid="_deck_link_a_p_i_8h" local="yes">include/decklink_sdk/DeckLinkAPI.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>include/decklink_sdk/DeckLinkAPI.h</label>
+        <link refid="_deck_link_a_p_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/decklink_sdk/DeckLinkAPIConfiguration.h</label>
+        <link refid="_deck_link_a_p_i_configuration_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>include/decklink_sdk/DeckLinkAPIDispatch.cpp</label>
+        <link refid="_deck_link_a_p_i_dispatch_8cpp"/>
+      </node>
+      <node id="4">
+        <label>include/libdecklink/capture_callback.hpp</label>
+        <link refid="capture__callback_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/libdecklink/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/libdecklink/device_input_interface.hpp</label>
+        <link refid="device__input__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>include/libdecklink/device_output_interface.hpp</label>
+        <link refid="device__output__interface_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>include/libdecklink/display_mode.hpp</label>
+        <link refid="display__mode_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>include/libdecklink/errors.hpp</label>
+        <link refid="errors_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>include/libdecklink/interface_helper.hpp</label>
+        <link refid="interface__helper_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>include/libdecklink/notification_callback.hpp</label>
+        <link refid="notification__callback_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>include/libdecklink/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>include/libdecklink/video_frame.hpp</label>
+        <link refid="video__frame_8hpp"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>include/libdecklink/video_input_frame.hpp</label>
+        <link refid="video__input__frame_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>include/libdecklink/video_output_frame.hpp</label>
+        <link refid="video__output__frame_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/deckmonitor.cpp</label>
+        <link refid="deckmonitor_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/deckoutput.cpp</label>
+        <link refid="deckoutput_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/deckquery.cpp</label>
+        <link refid="deckquery_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/deckstatus.cpp</label>
+        <link refid="deckstatus_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/deckview.cpp</label>
+        <link refid="deckview_8cpp"/>
+      </node>
+      <node id="25">
+        <label>src/handle_errors.hpp</label>
+        <link refid="handle__errors_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>src/libdecklink/capture_callback.cpp</label>
+        <link refid="capture__callback_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/libdecklink/device.cpp</label>
+        <link refid="device_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/libdecklink/device_input_interface.cpp</label>
+        <link refid="device__input__interface_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/libdecklink/device_output_interface.cpp</label>
+        <link refid="device__output__interface_8cpp"/>
+      </node>
+      <node id="19">
+        <label>src/libdecklink/display_mode.cpp</label>
+        <link refid="display__mode_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/libdecklink/notification_callback.cpp</label>
+        <link refid="notification__callback_8cpp"/>
+      </node>
+      <node id="31">
+        <label>src/libdecklink/types.cpp</label>
+        <link refid="types_8cpp"/>
+      </node>
+      <node id="26">
+        <label>src/libdecklink/video_frame.cpp</label>
+        <link refid="video__frame_8cpp"/>
+      </node>
+      <node id="27">
+        <label>src/libdecklink/video_input_frame.cpp</label>
+        <link refid="video__input__frame_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/libdecklink/video_output_frame.cpp</label>
+        <link refid="video__output__frame_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_i_deck_link_configuration" prot="public">IDeckLinkConfiguration</innerclass>
+    <innerclass refid="class_i_deck_link_encoder_configuration" prot="public">IDeckLinkEncoderConfiguration</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_deck_link_a_p_i_configuration_8h_1ab1116dc642dcaa41a7626044eec8ec26" prot="public" static="no">
+        <name>BMD_CONST</name>
+        <initializer>static const</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="36" column="22" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckLinkConfigurationID</name>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac37d97ead9fad0227ed49074eef25401" prot="public">
+          <name>bmdDeckLinkConfigSwapSerialRxTx</name>
+          <initializer>=  0x73737274</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6999cd9501f7b9048cb8d9f9a934c2d4" prot="public">
+          <name>bmdDeckLinkConfigUse1080pNotPsF</name>
+          <initializer>=  0x6670726F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7999c19f4281fb1121159e904b2e5b58" prot="public">
+          <name>bmdDeckLinkConfigHDMI3DPackingFormat</name>
+          <initializer>=  0x33647066</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6cdbed52ec6d4119b2d7a9f90796ca82" prot="public">
+          <name>bmdDeckLinkConfigBypass</name>
+          <initializer>=  0x62797073</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5addf74a548e221470674af06d6e1d1639" prot="public">
+          <name>bmdDeckLinkConfigClockTimingAdjustment</name>
+          <initializer>=  0x63746164</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a2eafa6336132dae32e487cc12060fe33" prot="public">
+          <name>bmdDeckLinkConfigDuplexMode</name>
+          <initializer>=  0x64757078</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a95e85a906c70f6ed44ad7fd994eb61f5" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioConsumerLevels</name>
+          <initializer>=  0x6161636C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac6d5d428489283a8b9beca1a88dd711d" prot="public">
+          <name>bmdDeckLinkConfigFieldFlickerRemoval</name>
+          <initializer>=  0x66646672</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a79fa148a4cec524ed4c2787df712efa7" prot="public">
+          <name>bmdDeckLinkConfigHD1080p24ToHD1080i5994Conversion</name>
+          <initializer>=  0x746F3539</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a11401c271a479e08cc4ac04899ebe05d" prot="public">
+          <name>bmdDeckLinkConfig444SDIVideoOutput</name>
+          <initializer>=  0x3434346F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aae8e14c85c6f29ed96fa27769d23d1e6" prot="public">
+          <name>bmdDeckLinkConfigBlackVideoOutputDuringCapture</name>
+          <initializer>=  0x62766F63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6d2fa49e735856e53452d52434429cf9" prot="public">
+          <name>bmdDeckLinkConfigLowLatencyVideoOutput</name>
+          <initializer>=  0x6C6C766F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acdbc2c3243f9460e3d6275e1114685c9" prot="public">
+          <name>bmdDeckLinkConfigDownConversionOnAllAnalogOutput</name>
+          <initializer>=  0x6361616F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a322bed990da508bf2a7c3e2dc81c43a4" prot="public">
+          <name>bmdDeckLinkConfigSMPTELevelAOutput</name>
+          <initializer>=  0x736D7461</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8cc53ad08b1db88d79e5d10de572b7d2" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputConnection</name>
+          <initializer>=  0x766F636E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa039f7830144e46187e4cb18751d6f91" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputConversionMode</name>
+          <initializer>=  0x766F636D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a56a440bd8042f2f0e585a48626fca166" prot="public">
+          <name>bmdDeckLinkConfigAnalogVideoOutputFlags</name>
+          <initializer>=  0x61766F66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9c9154f35411ab43579fcb0cb7e227c3" prot="public">
+          <name>bmdDeckLinkConfigReferenceInputTimingOffset</name>
+          <initializer>=  0x676C6F74</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a47ef8ad37e8b7585986941f1b9cd6a31" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputIdleOperation</name>
+          <initializer>=  0x766F696F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a31e1f2d524dc86d87266370efaffdafa" prot="public">
+          <name>bmdDeckLinkConfigDefaultVideoOutputMode</name>
+          <initializer>=  0x64766F6D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a817c637754696cfcc5c2f850a36edc35" prot="public">
+          <name>bmdDeckLinkConfigDefaultVideoOutputModeFlags</name>
+          <initializer>=  0x64766F66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a25866c9175e508e80964a249febd9c64" prot="public">
+          <name>bmdDeckLinkConfigSDIOutputLinkConfiguration</name>
+          <initializer>=  0x736F6C63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf3f44a66f56ea78aa4e2a27694adb03" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputComponentLumaGain</name>
+          <initializer>=  0x6F636C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abc767a941b206ac5e044e690b83e5cf6" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputComponentChromaBlueGain</name>
+          <initializer>=  0x6F636362</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9ef5542870231926ba362ec204a19871" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputComponentChromaRedGain</name>
+          <initializer>=  0x6F636372</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a116264ffd9e4bab1c64efddf93306241" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputCompositeLumaGain</name>
+          <initializer>=  0x6F696C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aba1a28ec1095994a8fbf854406b78b1a" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputCompositeChromaGain</name>
+          <initializer>=  0x6F696367</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5e77774427694ddd08d873daa7a6f6da" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputSVideoLumaGain</name>
+          <initializer>=  0x6F736C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a36cca4c56d100933bab1034b950cc7a3" prot="public">
+          <name>bmdDeckLinkConfigVideoOutputSVideoChromaGain</name>
+          <initializer>=  0x6F736367</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aaac577b0a08cb5a86264636754f696f0" prot="public">
+          <name>bmdDeckLinkConfigVideoInputScanning</name>
+          <initializer>=  0x76697363</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a76cb2b4a926d3333b92b6a0fa1bc8ba8" prot="public">
+          <name>bmdDeckLinkConfigUseDedicatedLTCInput</name>
+          <initializer>=  0x646C7463</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad6bb7f680bbe3d6117a64fdce9a86422" prot="public">
+          <name>bmdDeckLinkConfigSDIInput3DPayloadOverride</name>
+          <initializer>=  0x33646473</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa233d2b032a8e184d9fee023a2c8267c" prot="public">
+          <name>bmdDeckLinkConfigVideoInputConnection</name>
+          <initializer>=  0x7669636E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6248665ed2f7b124d0fde35acc9b4a44" prot="public">
+          <name>bmdDeckLinkConfigAnalogVideoInputFlags</name>
+          <initializer>=  0x61766966</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac8f5557688028a140714ab481508ed12" prot="public">
+          <name>bmdDeckLinkConfigVideoInputConversionMode</name>
+          <initializer>=  0x7669636D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a78bdb65377fa8fd7d9650f3bb2696c67" prot="public">
+          <name>bmdDeckLinkConfig32PulldownSequenceInitialTimecodeFrame</name>
+          <initializer>=  0x70646966</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5afd6abd640610f66371291aef4d59607b" prot="public">
+          <name>bmdDeckLinkConfigVANCSourceLine1Mapping</name>
+          <initializer>=  0x76736C31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a233bd5fb1a4c4c382bbb04a21773e2ce" prot="public">
+          <name>bmdDeckLinkConfigVANCSourceLine2Mapping</name>
+          <initializer>=  0x76736C32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4e1e8bb3d1857ac3c045db0adf2941dd" prot="public">
+          <name>bmdDeckLinkConfigVANCSourceLine3Mapping</name>
+          <initializer>=  0x76736C33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac0adc4b3103b1a8dc0cbb67cc7de87a3" prot="public">
+          <name>bmdDeckLinkConfigCapturePassThroughMode</name>
+          <initializer>=  0x6370746D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a59dc485b3923ffe03c031f9e7e332966" prot="public">
+          <name>bmdDeckLinkConfigVideoInputComponentLumaGain</name>
+          <initializer>=  0x69636C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae94a6535c4b5e71442afaee0617d0291" prot="public">
+          <name>bmdDeckLinkConfigVideoInputComponentChromaBlueGain</name>
+          <initializer>=  0x69636362</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5eceba5f08c3e217dd240acec59e8b14" prot="public">
+          <name>bmdDeckLinkConfigVideoInputComponentChromaRedGain</name>
+          <initializer>=  0x69636372</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae486d963733878c2f12ef2a0a279f6d2" prot="public">
+          <name>bmdDeckLinkConfigVideoInputCompositeLumaGain</name>
+          <initializer>=  0x69696C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa41eac5ec7121a91b45498ece203743d" prot="public">
+          <name>bmdDeckLinkConfigVideoInputCompositeChromaGain</name>
+          <initializer>=  0x69696367</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0038e2eb53b0f7059fa3b1108de9a6fc" prot="public">
+          <name>bmdDeckLinkConfigVideoInputSVideoLumaGain</name>
+          <initializer>=  0x69736C67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf27d837ae2685b231227a2be12d825e" prot="public">
+          <name>bmdDeckLinkConfigVideoInputSVideoChromaGain</name>
+          <initializer>=  0x69736367</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad64c27a1f2ffa88705d428ab31592fd4" prot="public">
+          <name>bmdDeckLinkConfigMicrophonePhantomPower</name>
+          <initializer>=  0x6D706870</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac86a84b0e77188c2dba97575b8269113" prot="public">
+          <name>bmdDeckLinkConfigAudioInputConnection</name>
+          <initializer>=  0x6169636E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7f23dca462a14c5adcaa5257b16d1bd6" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioInputScaleChannel1</name>
+          <initializer>=  0x61697331</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8bc189e8a706e7de548bc2d736784f87" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioInputScaleChannel2</name>
+          <initializer>=  0x61697332</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a923c5c22629a87465aeece6addf462ee" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioInputScaleChannel3</name>
+          <initializer>=  0x61697333</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af1063073cb7402372b59749dd6f727ef" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioInputScaleChannel4</name>
+          <initializer>=  0x61697334</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a819bdd67f68eeb0d17654caa32a6353d" prot="public">
+          <name>bmdDeckLinkConfigDigitalAudioInputScale</name>
+          <initializer>=  0x64616973</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46f84923d9bc6dd5fe66b3ca30d8e7cd" prot="public">
+          <name>bmdDeckLinkConfigMicrophoneInputGain</name>
+          <initializer>=  0x6D696367</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7eef71568c08f4c0584e4869af4050ca" prot="public">
+          <name>bmdDeckLinkConfigAudioOutputAESAnalogSwitch</name>
+          <initializer>=  0x616F6161</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aded0779e0ffb864d4955e204724a3db3" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioOutputScaleChannel1</name>
+          <initializer>=  0x616F7331</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a07ba3bd1ff99366252af99b9d1c80ca4" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioOutputScaleChannel2</name>
+          <initializer>=  0x616F7332</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0829adc33ca6748c0d3814ef0dbe79a9" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioOutputScaleChannel3</name>
+          <initializer>=  0x616F7333</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4eaf22269ca305aff9f80846686301a3" prot="public">
+          <name>bmdDeckLinkConfigAnalogAudioOutputScaleChannel4</name>
+          <initializer>=  0x616F7334</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46067e139cbdf9ce606b2624d6a245f3" prot="public">
+          <name>bmdDeckLinkConfigDigitalAudioOutputScale</name>
+          <initializer>=  0x64616F73</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aac48f062d713c5814810d72345fff159" prot="public">
+          <name>bmdDeckLinkConfigHeadphoneVolume</name>
+          <initializer>=  0x68766F6C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a83da406300920f4fa8ceb15cacc4c958" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationLabel</name>
+          <initializer>=  0x64696C61</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a01c4e872fe864c31a7c81dba17242ec8" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationSerialNumber</name>
+          <initializer>=  0x6469736E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abfb2ceffa5959de372bc346f7967b65d" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationCompany</name>
+          <initializer>=  0x6469636F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af344e9a8417570b1086ab8c3e14c9ee3" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationPhone</name>
+          <initializer>=  0x64697068</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae11bcf087f7fa4063aff8d1fc72a79da" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationEmail</name>
+          <initializer>=  0x6469656D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0016766e5c80dd8d0791abc2e62cdc15" prot="public">
+          <name>bmdDeckLinkConfigDeviceInformationDate</name>
+          <initializer>=  0x64696461</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ab8127e3a37d9acba50a423d8a602bda5" prot="public">
+          <name>bmdDeckLinkConfigDeckControlConnection</name>
+          <initializer>=  0x6463636F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="51" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="51" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="enum" id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_BMDDeckLinkEncoderConfigurationID</name>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5aa52703c3f0e7829e98f0899885819774" prot="public">
+          <name>bmdDeckLinkEncoderConfigPreferredBitDepth</name>
+          <initializer>=  0x65706272</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a6a25bfaa2f0de1a1a3a2fc16bc8f608d" prot="public">
+          <name>bmdDeckLinkEncoderConfigFrameCodingMode</name>
+          <initializer>=  0x6566636D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad399ab81b7cf5661b4966691d3d8c6f2" prot="public">
+          <name>bmdDeckLinkEncoderConfigH265TargetBitrate</name>
+          <initializer>=  0x68746272</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a040a6b5b42d08f85ac860aaac7dc2f57" prot="public">
+          <name>bmdDeckLinkEncoderConfigDNxHRCompressionID</name>
+          <initializer>=  0x64636964</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a5665b7b92ab2104dc072be3517a64937" prot="public">
+          <name>bmdDeckLinkEncoderConfigDNxHRLevel</name>
+          <initializer>=  0x646C6576</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad3ff423de69e3b4c72554618e31ffcc2" prot="public">
+          <name>bmdDeckLinkEncoderConfigMPEG4SampleDescription</name>
+          <initializer>=  0x73747345</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a0e4ff26ff4a6d69f95e089188bcf6935" prot="public">
+          <name>bmdDeckLinkEncoderConfigMPEG4CodecSpecificDesc</name>
+          <initializer>=  0x65736473</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="177" column="1" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="177" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckLinkConfigurationID</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckLinkConfigurationID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="50" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t BMDDeckLinkEncoderConfigurationID</definition>
+        <argsstring></argsstring>
+        <name>BMDDeckLinkEncoderConfigurationID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="176" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_deck_link_a_p_i_configuration_8h_1a46171c492b46bff1766b6938fc9eae61" prot="public" static="no" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref> <ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+        <definition>BMD_CONST REFIID IID_IDeckLinkConfiguration</definition>
+        <argsstring></argsstring>
+        <name>IID_IDeckLinkConfiguration</name>
+        <initializer>=  {0xCB,0x71,0x73,0x4A,0xFE,0x37,0x4E,0x8D,0x8E,0x13,0x80,0x21,0x33,0xA1,0xC3,0xF2}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="45" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="_deck_link_a_p_i_configuration_8h_1a21266e17acc143b2860b89b5fbfe2d8c" prot="public" static="no" mutable="no">
+        <type><ref refid="_deck_link_a_p_i_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref> <ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref></type>
+        <definition>BMD_CONST REFIID IID_IDeckLinkEncoderConfiguration</definition>
+        <argsstring></argsstring>
+        <name>IID_IDeckLinkEncoderConfiguration</name>
+        <initializer>=  {0x13,0x80,0x50,0xE5,0xC6,0x0A,0x45,0x52,0xBF,0x3F,0x0F,0x35,0x80,0x49,0x32,0x7E}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h" line="46" column="18" bodyfile="include/decklink_sdk/DeckLinkAPIConfiguration.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-LICENSE-START-</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Copyright<sp/>(c)<sp/>2016<sp/>Blackmagic<sp/>Design</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>or<sp/>organization</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>software<sp/>and<sp/>accompanying<sp/>documentation<sp/>covered<sp/>by</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>this<sp/>license<sp/>(the<sp/>&quot;Software&quot;)<sp/>to<sp/>use,<sp/>reproduce,<sp/>display,<sp/>distribute,</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>execute,<sp/>and<sp/>transmit<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>prepare<sp/>derivative<sp/>works<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>third-parties<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>do<sp/>so,<sp/>all<sp/>subject<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">**<sp/>The<sp/>copyright<sp/>notices<sp/>in<sp/>the<sp/>Software<sp/>and<sp/>this<sp/>entire<sp/>statement,<sp/>including</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">**<sp/>the<sp/>above<sp/>license<sp/>grant,<sp/>this<sp/>restriction<sp/>and<sp/>the<sp/>following<sp/>disclaimer,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">**<sp/>must<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>in<sp/>whole<sp/>or<sp/>in<sp/>part,<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">**<sp/>all<sp/>derivative<sp/>works<sp/>of<sp/>the<sp/>Software,<sp/>unless<sp/>such<sp/>copies<sp/>or<sp/>derivative</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">**<sp/>works<sp/>are<sp/>solely<sp/>in<sp/>the<sp/>form<sp/>of<sp/>machine-executable<sp/>object<sp/>code<sp/>generated<sp/>by</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">**<sp/>a<sp/>source<sp/>language<sp/>processor.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">**<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">**<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">**<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">**<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE,<sp/>TITLE<sp/>AND<sp/>NON-INFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">**<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>OR<sp/>ANYONE<sp/>DISTRIBUTING<sp/>THE<sp/>SOFTWARE<sp/>BE<sp/>LIABLE</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">**<sp/>FOR<sp/>ANY<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">**<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">**<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">**<sp/>-LICENSE-END-</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMD_DECKLINKAPICONFIGURATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BMD_DECKLINKAPICONFIGURATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMD_CONST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BMD_CONST<sp/>__declspec(selectany)<sp/>static<sp/>const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_deck_link_a_p_i_configuration_8h_1ab1116dc642dcaa41a7626044eec8ec26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BMD_CONST<sp/>static<sp/>const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Interface<sp/>ID<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="_deck_link_a_p_i_configuration_8h_1a46171c492b46bff1766b6938fc9eae61" refkind="member"><highlight class="normal"><ref refid="_deck_link_a_p_i_configuration_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a46171c492b46bff1766b6938fc9eae61" kindref="member">IID_IDeckLinkConfiguration</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>CB71734A-FE37-4E8D-8E13-802133A1C3F2<sp/>*/</highlight><highlight class="normal"><sp/>{0xCB,0x71,0x73,0x4A,0xFE,0x37,0x4E,0x8D,0x8E,0x13,0x80,0x21,0x33,0xA1,0xC3,0xF2};</highlight></codeline>
+<codeline lineno="46" refid="_deck_link_a_p_i_configuration_8h_1a21266e17acc143b2860b89b5fbfe2d8c" refkind="member"><highlight class="normal"><ref refid="_deck_link_a_p_i_configuration_8h_1ab1116dc642dcaa41a7626044eec8ec26" kindref="member">BMD_CONST</ref><sp/><ref refid="struct_r_e_f_i_i_d" kindref="compound">REFIID</ref><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a21266e17acc143b2860b89b5fbfe2d8c" kindref="member">IID_IDeckLinkEncoderConfiguration</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>138050E5-C60A-4552-BF3F-0F358049327E<sp/>*/</highlight><highlight class="normal"><sp/>{0x13,0x80,0x50,0xE5,0xC6,0x0A,0x45,0x52,0xBF,0x3F,0x0F,0x35,0x80,0x49,0x32,0x7E};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckLinkConfigurationID<sp/>-<sp/>DeckLink<sp/>Configuration<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref>;</highlight></codeline>
+<codeline lineno="51" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5" kindref="member">_BMDDeckLinkConfigurationID</ref><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Serial<sp/>port<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac37d97ead9fad0227ed49074eef25401" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac37d97ead9fad0227ed49074eef25401" kindref="member">bmdDeckLinkConfigSwapSerialRxTx</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ssrt&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x73737274,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Input/Output<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6999cd9501f7b9048cb8d9f9a934c2d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6999cd9501f7b9048cb8d9f9a934c2d4" kindref="member">bmdDeckLinkConfigUse1080pNotPsF</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;fpro&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6670726F,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Input/Output<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7999c19f4281fb1121159e904b2e5b58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7999c19f4281fb1121159e904b2e5b58" kindref="member">bmdDeckLinkConfigHDMI3DPackingFormat</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;3dpf&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x33647066,</highlight></codeline>
+<codeline lineno="64" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6cdbed52ec6d4119b2d7a9f90796ca82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6cdbed52ec6d4119b2d7a9f90796ca82" kindref="member">bmdDeckLinkConfigBypass</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;byps&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x62797073,</highlight></codeline>
+<codeline lineno="65" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5addf74a548e221470674af06d6e1d1639" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5addf74a548e221470674af06d6e1d1639" kindref="member">bmdDeckLinkConfigClockTimingAdjustment</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ctad&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x63746164,</highlight></codeline>
+<codeline lineno="66" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a2eafa6336132dae32e487cc12060fe33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a2eafa6336132dae32e487cc12060fe33" kindref="member">bmdDeckLinkConfigDuplexMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dupx&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64757078,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Input/Output<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a95e85a906c70f6ed44ad7fd994eb61f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a95e85a906c70f6ed44ad7fd994eb61f5" kindref="member">bmdDeckLinkConfigAnalogAudioConsumerLevels</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aacl&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6161636C,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>output<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac6d5d428489283a8b9beca1a88dd711d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac6d5d428489283a8b9beca1a88dd711d" kindref="member">bmdDeckLinkConfigFieldFlickerRemoval</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;fdfr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x66646672,</highlight></codeline>
+<codeline lineno="75" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a79fa148a4cec524ed4c2787df712efa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a79fa148a4cec524ed4c2787df712efa7" kindref="member">bmdDeckLinkConfigHD1080p24ToHD1080i5994Conversion</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;to59&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x746F3539,</highlight></codeline>
+<codeline lineno="76" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a11401c271a479e08cc4ac04899ebe05d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a11401c271a479e08cc4ac04899ebe05d" kindref="member">bmdDeckLinkConfig444SDIVideoOutput</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;444o&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x3434346F,</highlight></codeline>
+<codeline lineno="77" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aae8e14c85c6f29ed96fa27769d23d1e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aae8e14c85c6f29ed96fa27769d23d1e6" kindref="member">bmdDeckLinkConfigBlackVideoOutputDuringCapture</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;bvoc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x62766F63,</highlight></codeline>
+<codeline lineno="78" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6d2fa49e735856e53452d52434429cf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6d2fa49e735856e53452d52434429cf9" kindref="member">bmdDeckLinkConfigLowLatencyVideoOutput</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;llvo&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6C6C766F,</highlight></codeline>
+<codeline lineno="79" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acdbc2c3243f9460e3d6275e1114685c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acdbc2c3243f9460e3d6275e1114685c9" kindref="member">bmdDeckLinkConfigDownConversionOnAllAnalogOutput</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;caao&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6361616F,</highlight></codeline>
+<codeline lineno="80" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a322bed990da508bf2a7c3e2dc81c43a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a322bed990da508bf2a7c3e2dc81c43a4" kindref="member">bmdDeckLinkConfigSMPTELevelAOutput</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;smta&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x736D7461,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Output<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8cc53ad08b1db88d79e5d10de572b7d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8cc53ad08b1db88d79e5d10de572b7d2" kindref="member">bmdDeckLinkConfigVideoOutputConnection</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vocn&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x766F636E,</highlight></codeline>
+<codeline lineno="85" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa039f7830144e46187e4cb18751d6f91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa039f7830144e46187e4cb18751d6f91" kindref="member">bmdDeckLinkConfigVideoOutputConversionMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vocm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x766F636D,</highlight></codeline>
+<codeline lineno="86" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a56a440bd8042f2f0e585a48626fca166" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a56a440bd8042f2f0e585a48626fca166" kindref="member">bmdDeckLinkConfigAnalogVideoOutputFlags</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;avof&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61766F66,</highlight></codeline>
+<codeline lineno="87" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9c9154f35411ab43579fcb0cb7e227c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9c9154f35411ab43579fcb0cb7e227c3" kindref="member">bmdDeckLinkConfigReferenceInputTimingOffset</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;glot&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x676C6F74,</highlight></codeline>
+<codeline lineno="88" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a47ef8ad37e8b7585986941f1b9cd6a31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a47ef8ad37e8b7585986941f1b9cd6a31" kindref="member">bmdDeckLinkConfigVideoOutputIdleOperation</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;voio&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x766F696F,</highlight></codeline>
+<codeline lineno="89" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a31e1f2d524dc86d87266370efaffdafa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a31e1f2d524dc86d87266370efaffdafa" kindref="member">bmdDeckLinkConfigDefaultVideoOutputMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dvom&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64766F6D,</highlight></codeline>
+<codeline lineno="90" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a817c637754696cfcc5c2f850a36edc35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a817c637754696cfcc5c2f850a36edc35" kindref="member">bmdDeckLinkConfigDefaultVideoOutputModeFlags</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dvof&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64766F66,</highlight></codeline>
+<codeline lineno="91" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a25866c9175e508e80964a249febd9c64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a25866c9175e508e80964a249febd9c64" kindref="member">bmdDeckLinkConfigSDIOutputLinkConfiguration</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;solc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x736F6C63,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Output<sp/>Floats<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf3f44a66f56ea78aa4e2a27694adb03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf3f44a66f56ea78aa4e2a27694adb03" kindref="member">bmdDeckLinkConfigVideoOutputComponentLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;oclg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F636C67,</highlight></codeline>
+<codeline lineno="96" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abc767a941b206ac5e044e690b83e5cf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abc767a941b206ac5e044e690b83e5cf6" kindref="member">bmdDeckLinkConfigVideoOutputComponentChromaBlueGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;occb&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F636362,</highlight></codeline>
+<codeline lineno="97" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9ef5542870231926ba362ec204a19871" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a9ef5542870231926ba362ec204a19871" kindref="member">bmdDeckLinkConfigVideoOutputComponentChromaRedGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;occr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F636372,</highlight></codeline>
+<codeline lineno="98" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a116264ffd9e4bab1c64efddf93306241" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a116264ffd9e4bab1c64efddf93306241" kindref="member">bmdDeckLinkConfigVideoOutputCompositeLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;oilg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F696C67,</highlight></codeline>
+<codeline lineno="99" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aba1a28ec1095994a8fbf854406b78b1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aba1a28ec1095994a8fbf854406b78b1a" kindref="member">bmdDeckLinkConfigVideoOutputCompositeChromaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;oicg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F696367,</highlight></codeline>
+<codeline lineno="100" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5e77774427694ddd08d873daa7a6f6da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5e77774427694ddd08d873daa7a6f6da" kindref="member">bmdDeckLinkConfigVideoOutputSVideoLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;oslg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F736C67,</highlight></codeline>
+<codeline lineno="101" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a36cca4c56d100933bab1034b950cc7a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a36cca4c56d100933bab1034b950cc7a3" kindref="member">bmdDeckLinkConfigVideoOutputSVideoChromaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;oscg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6F736367,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Input<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aaac577b0a08cb5a86264636754f696f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aaac577b0a08cb5a86264636754f696f0" kindref="member">bmdDeckLinkConfigVideoInputScanning</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;visc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76697363,<sp/></highlight><highlight class="comment">//<sp/>Applicable<sp/>to<sp/>H264<sp/>Pro<sp/>Recorder<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a76cb2b4a926d3333b92b6a0fa1bc8ba8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a76cb2b4a926d3333b92b6a0fa1bc8ba8" kindref="member">bmdDeckLinkConfigUseDedicatedLTCInput</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dltc&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x646C7463,<sp/></highlight><highlight class="comment">//<sp/>Use<sp/>timecode<sp/>from<sp/>LTC<sp/>input<sp/>instead<sp/>of<sp/>SDI<sp/>stream</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad6bb7f680bbe3d6117a64fdce9a86422" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad6bb7f680bbe3d6117a64fdce9a86422" kindref="member">bmdDeckLinkConfigSDIInput3DPayloadOverride</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;3dds&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x33646473,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Input<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa233d2b032a8e184d9fee023a2c8267c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa233d2b032a8e184d9fee023a2c8267c" kindref="member">bmdDeckLinkConfigVideoInputConnection</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vicn&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x7669636E,</highlight></codeline>
+<codeline lineno="112" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6248665ed2f7b124d0fde35acc9b4a44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a6248665ed2f7b124d0fde35acc9b4a44" kindref="member">bmdDeckLinkConfigAnalogVideoInputFlags</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;avif&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61766966,</highlight></codeline>
+<codeline lineno="113" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac8f5557688028a140714ab481508ed12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac8f5557688028a140714ab481508ed12" kindref="member">bmdDeckLinkConfigVideoInputConversionMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vicm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x7669636D,</highlight></codeline>
+<codeline lineno="114" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a78bdb65377fa8fd7d9650f3bb2696c67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a78bdb65377fa8fd7d9650f3bb2696c67" kindref="member">bmdDeckLinkConfig32PulldownSequenceInitialTimecodeFrame</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;pdif&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x70646966,</highlight></codeline>
+<codeline lineno="115" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5afd6abd640610f66371291aef4d59607b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5afd6abd640610f66371291aef4d59607b" kindref="member">bmdDeckLinkConfigVANCSourceLine1Mapping</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vsl1&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76736C31,</highlight></codeline>
+<codeline lineno="116" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a233bd5fb1a4c4c382bbb04a21773e2ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a233bd5fb1a4c4c382bbb04a21773e2ce" kindref="member">bmdDeckLinkConfigVANCSourceLine2Mapping</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vsl2&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76736C32,</highlight></codeline>
+<codeline lineno="117" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4e1e8bb3d1857ac3c045db0adf2941dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4e1e8bb3d1857ac3c045db0adf2941dd" kindref="member">bmdDeckLinkConfigVANCSourceLine3Mapping</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;vsl3&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x76736C33,</highlight></codeline>
+<codeline lineno="118" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac0adc4b3103b1a8dc0cbb67cc7de87a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac0adc4b3103b1a8dc0cbb67cc7de87a3" kindref="member">bmdDeckLinkConfigCapturePassThroughMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;cptm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6370746D,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Input<sp/>Floats<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a59dc485b3923ffe03c031f9e7e332966" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a59dc485b3923ffe03c031f9e7e332966" kindref="member">bmdDeckLinkConfigVideoInputComponentLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iclg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69636C67,</highlight></codeline>
+<codeline lineno="123" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae94a6535c4b5e71442afaee0617d0291" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae94a6535c4b5e71442afaee0617d0291" kindref="member">bmdDeckLinkConfigVideoInputComponentChromaBlueGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iccb&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69636362,</highlight></codeline>
+<codeline lineno="124" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5eceba5f08c3e217dd240acec59e8b14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a5eceba5f08c3e217dd240acec59e8b14" kindref="member">bmdDeckLinkConfigVideoInputComponentChromaRedGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iccr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69636372,</highlight></codeline>
+<codeline lineno="125" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae486d963733878c2f12ef2a0a279f6d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae486d963733878c2f12ef2a0a279f6d2" kindref="member">bmdDeckLinkConfigVideoInputCompositeLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iilg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69696C67,</highlight></codeline>
+<codeline lineno="126" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa41eac5ec7121a91b45498ece203743d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aa41eac5ec7121a91b45498ece203743d" kindref="member">bmdDeckLinkConfigVideoInputCompositeChromaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iicg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69696367,</highlight></codeline>
+<codeline lineno="127" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0038e2eb53b0f7059fa3b1108de9a6fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0038e2eb53b0f7059fa3b1108de9a6fc" kindref="member">bmdDeckLinkConfigVideoInputSVideoLumaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;islg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69736C67,</highlight></codeline>
+<codeline lineno="128" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf27d837ae2685b231227a2be12d825e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5acf27d837ae2685b231227a2be12d825e" kindref="member">bmdDeckLinkConfigVideoInputSVideoChromaGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;iscg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x69736367,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Input<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad64c27a1f2ffa88705d428ab31592fd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ad64c27a1f2ffa88705d428ab31592fd4" kindref="member">bmdDeckLinkConfigMicrophonePhantomPower</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;mphp&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6D706870,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Input<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac86a84b0e77188c2dba97575b8269113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ac86a84b0e77188c2dba97575b8269113" kindref="member">bmdDeckLinkConfigAudioInputConnection</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aicn&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6169636E,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Input<sp/>Floats<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7f23dca462a14c5adcaa5257b16d1bd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7f23dca462a14c5adcaa5257b16d1bd6" kindref="member">bmdDeckLinkConfigAnalogAudioInputScaleChannel1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ais1&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61697331,</highlight></codeline>
+<codeline lineno="141" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8bc189e8a706e7de548bc2d736784f87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a8bc189e8a706e7de548bc2d736784f87" kindref="member">bmdDeckLinkConfigAnalogAudioInputScaleChannel2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ais2&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61697332,</highlight></codeline>
+<codeline lineno="142" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a923c5c22629a87465aeece6addf462ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a923c5c22629a87465aeece6addf462ee" kindref="member">bmdDeckLinkConfigAnalogAudioInputScaleChannel3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ais3&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61697333,</highlight></codeline>
+<codeline lineno="143" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af1063073cb7402372b59749dd6f727ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af1063073cb7402372b59749dd6f727ef" kindref="member">bmdDeckLinkConfigAnalogAudioInputScaleChannel4</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;ais4&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x61697334,</highlight></codeline>
+<codeline lineno="144" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a819bdd67f68eeb0d17654caa32a6353d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a819bdd67f68eeb0d17654caa32a6353d" kindref="member">bmdDeckLinkConfigDigitalAudioInputScale</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dais&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64616973,</highlight></codeline>
+<codeline lineno="145" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46f84923d9bc6dd5fe66b3ca30d8e7cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46f84923d9bc6dd5fe66b3ca30d8e7cd" kindref="member">bmdDeckLinkConfigMicrophoneInputGain</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;micg&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6D696367,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Output<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7eef71568c08f4c0584e4869af4050ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a7eef71568c08f4c0584e4869af4050ca" kindref="member">bmdDeckLinkConfigAudioOutputAESAnalogSwitch</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aoaa&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x616F6161,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>Output<sp/>Floats<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aded0779e0ffb864d4955e204724a3db3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aded0779e0ffb864d4955e204724a3db3" kindref="member">bmdDeckLinkConfigAnalogAudioOutputScaleChannel1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aos1&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x616F7331,</highlight></codeline>
+<codeline lineno="154" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a07ba3bd1ff99366252af99b9d1c80ca4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a07ba3bd1ff99366252af99b9d1c80ca4" kindref="member">bmdDeckLinkConfigAnalogAudioOutputScaleChannel2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aos2&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x616F7332,</highlight></codeline>
+<codeline lineno="155" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0829adc33ca6748c0d3814ef0dbe79a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0829adc33ca6748c0d3814ef0dbe79a9" kindref="member">bmdDeckLinkConfigAnalogAudioOutputScaleChannel3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aos3&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x616F7333,</highlight></codeline>
+<codeline lineno="156" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4eaf22269ca305aff9f80846686301a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a4eaf22269ca305aff9f80846686301a3" kindref="member">bmdDeckLinkConfigAnalogAudioOutputScaleChannel4</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;aos4&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x616F7334,</highlight></codeline>
+<codeline lineno="157" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46067e139cbdf9ce606b2624d6a245f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a46067e139cbdf9ce606b2624d6a245f3" kindref="member">bmdDeckLinkConfigDigitalAudioOutputScale</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;daos&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64616F73,</highlight></codeline>
+<codeline lineno="158" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aac48f062d713c5814810d72345fff159" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5aac48f062d713c5814810d72345fff159" kindref="member">bmdDeckLinkConfigHeadphoneVolume</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;hvol&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x68766F6C,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Device<sp/>Information<sp/>Strings<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a83da406300920f4fa8ceb15cacc4c958" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a83da406300920f4fa8ceb15cacc4c958" kindref="member">bmdDeckLinkConfigDeviceInformationLabel</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dila&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64696C61,</highlight></codeline>
+<codeline lineno="163" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a01c4e872fe864c31a7c81dba17242ec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a01c4e872fe864c31a7c81dba17242ec8" kindref="member">bmdDeckLinkConfigDeviceInformationSerialNumber</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;disn&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6469736E,</highlight></codeline>
+<codeline lineno="164" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abfb2ceffa5959de372bc346f7967b65d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5abfb2ceffa5959de372bc346f7967b65d" kindref="member">bmdDeckLinkConfigDeviceInformationCompany</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dico&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6469636F,</highlight></codeline>
+<codeline lineno="165" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af344e9a8417570b1086ab8c3e14c9ee3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5af344e9a8417570b1086ab8c3e14c9ee3" kindref="member">bmdDeckLinkConfigDeviceInformationPhone</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;diph&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64697068,</highlight></codeline>
+<codeline lineno="166" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae11bcf087f7fa4063aff8d1fc72a79da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ae11bcf087f7fa4063aff8d1fc72a79da" kindref="member">bmdDeckLinkConfigDeviceInformationEmail</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;diem&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6469656D,</highlight></codeline>
+<codeline lineno="167" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0016766e5c80dd8d0791abc2e62cdc15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5a0016766e5c80dd8d0791abc2e62cdc15" kindref="member">bmdDeckLinkConfigDeviceInformationDate</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dida&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64696461,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Deck<sp/>Control<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ab8127e3a37d9acba50a423d8a602bda5" kindref="member">bmdDeckLinkConfigDeckControlConnection</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dcco&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6463636F</highlight></codeline>
+<codeline lineno="172" refid="_deck_link_a_p_i_configuration_8h_1a057baeac445726a663f4e1c405ef60d5ab8127e3a37d9acba50a423d8a602bda5" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enum<sp/>BMDDeckLinkEncoderConfigurationID<sp/>-<sp/>DeckLink<sp/>Encoder<sp/>Configuration<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref>;</highlight></codeline>
+<codeline lineno="177" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5" kindref="member">_BMDDeckLinkEncoderConfigurationID</ref><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Video<sp/>Encoder<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5aa52703c3f0e7829e98f0899885819774" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5aa52703c3f0e7829e98f0899885819774" kindref="member">bmdDeckLinkEncoderConfigPreferredBitDepth</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;epbr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x65706272,</highlight></codeline>
+<codeline lineno="182" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a6a25bfaa2f0de1a1a3a2fc16bc8f608d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a6a25bfaa2f0de1a1a3a2fc16bc8f608d" kindref="member">bmdDeckLinkEncoderConfigFrameCodingMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;efcm&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x6566636D,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>HEVC/H.265<sp/>Encoder<sp/>Integers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad399ab81b7cf5661b4966691d3d8c6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad399ab81b7cf5661b4966691d3d8c6f2" kindref="member">bmdDeckLinkEncoderConfigH265TargetBitrate</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;htbr&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x68746272,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>DNxHR/DNxHD<sp/>Compression<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a040a6b5b42d08f85ac860aaac7dc2f57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a040a6b5b42d08f85ac860aaac7dc2f57" kindref="member">bmdDeckLinkEncoderConfigDNxHRCompressionID</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dcid&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x64636964,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>DNxHR/DNxHD<sp/>Level<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a5665b7b92ab2104dc072be3517a64937" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a5665b7b92ab2104dc072be3517a64937" kindref="member">bmdDeckLinkEncoderConfigDNxHRLevel</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;dlev&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x646C6576,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Encoded<sp/>Sample<sp/>Decriptions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad3ff423de69e3b4c72554618e31ffcc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5ad3ff423de69e3b4c72554618e31ffcc2" kindref="member">bmdDeckLinkEncoderConfigMPEG4SampleDescription</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;stsE&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x73747345,<sp/></highlight><highlight class="comment">//<sp/>Full<sp/>MPEG4<sp/>sample<sp/>description<sp/>(aka<sp/>SampleEntry<sp/>of<sp/>an<sp/>&apos;stsd&apos;<sp/>atom-box).<sp/>Useful<sp/>for<sp/>MediaFoundation,<sp/>QuickTime,<sp/>MKV<sp/>and<sp/>more</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a0e4ff26ff4a6d69f95e089188bcf6935" kindref="member">bmdDeckLinkEncoderConfigMPEG4CodecSpecificDesc</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="comment">/*<sp/>&apos;esds&apos;<sp/>*/</highlight><highlight class="normal"><sp/>0x65736473<sp/><sp/></highlight><highlight class="comment">//<sp/>Sample<sp/>description<sp/>extensions<sp/>only<sp/>(atom<sp/>stream,<sp/>each<sp/>with<sp/>size<sp/>and<sp/>fourCC<sp/>header).<sp/>Useful<sp/>for<sp/>AVFoundation,<sp/>VideoToolbox,<sp/>MKV<sp/>and<sp/>more</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="_deck_link_a_p_i_configuration_8h_1a5acdfa3d9a925f23e744bca31bd282a5a0e4ff26ff4a6d69f95e089188bcf6935" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>Declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_configuration" kindref="compound">IDeckLinkConfiguration</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_encoder_configuration" kindref="compound">IDeckLinkEncoderConfiguration</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>IDeckLinkConfiguration<sp/>-<sp/>DeckLink<sp/>Configuration<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="class_i_deck_link_configuration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_configuration" kindref="compound">IDeckLinkConfiguration</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IUnknown</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="212" refid="class_i_deck_link_configuration_1a7bcaa36cc650a6711bfd4fadad66dd36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a7bcaa36cc650a6711bfd4fadad66dd36" kindref="member">SetFlag</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="213" refid="class_i_deck_link_configuration_1a6de49de634e9233bc84b4c323bd899cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a6de49de634e9233bc84b4c323bd899cf" kindref="member">GetFlag</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="214" refid="class_i_deck_link_configuration_1a115a1c457c7a46db8ca338cf76d6f923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a115a1c457c7a46db8ca338cf76d6f923" kindref="member">SetInt</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>int64_t<sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="215" refid="class_i_deck_link_configuration_1a52c71e713cf71b2f191a8dc62db5cf5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a52c71e713cf71b2f191a8dc62db5cf5c" kindref="member">GetInt</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>int64_t<sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="216" refid="class_i_deck_link_configuration_1a58d0e067955728dd1d3ab0554d1b606e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a58d0e067955728dd1d3ab0554d1b606e" kindref="member">SetFloat</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="217" refid="class_i_deck_link_configuration_1a4af41d2f89c6c5dc6289c4f10cc8c65f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a4af41d2f89c6c5dc6289c4f10cc8c65f" kindref="member">GetFloat</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="218" refid="class_i_deck_link_configuration_1afa041a9037ba53fbb865a97bbcbf791d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1afa041a9037ba53fbb865a97bbcbf791d" kindref="member">SetString</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="219" refid="class_i_deck_link_configuration_1a81e9f2955f011aa5bffe5e0f0e414a9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a81e9f2955f011aa5bffe5e0f0e414a9e" kindref="member">GetString</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1ade7d766f93e857afb740a37c5c264f3d" kindref="member">BMDDeckLinkConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="220" refid="class_i_deck_link_configuration_1a45342a727dcd9256149a8b4ae6201d19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_configuration_1a45342a727dcd9256149a8b4ae6201d19" kindref="member">WriteConfigurationToPreferences</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="223" refid="class_i_deck_link_configuration_1a65dda6acbfbfe99c447d2e423b1a1a65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_configuration_1a65dda6acbfbfe99c447d2e423b1a1a65" kindref="member">~IDeckLinkConfiguration</ref><sp/>()<sp/>{}<sp/></highlight><highlight class="comment">//<sp/>call<sp/>Release<sp/>method<sp/>to<sp/>drop<sp/>reference<sp/>count</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>IDeckLinkEncoderConfiguration<sp/>-<sp/>DeckLink<sp/>Encoder<sp/>Configuration<sp/>interface.<sp/>Obtained<sp/>from<sp/>IDeckLinkEncoderInput<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="class_i_deck_link_encoder_configuration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_deck_link_encoder_configuration" kindref="compound">IDeckLinkEncoderConfiguration</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IUnknown</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="231" refid="class_i_deck_link_encoder_configuration_1a6bf106454f3b3bd3a3bbcc7fce01b333" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a6bf106454f3b3bd3a3bbcc7fce01b333" kindref="member">SetFlag</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="232" refid="class_i_deck_link_encoder_configuration_1a96a724ce61d418af3c9a6ac6cdf6e3bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a96a724ce61d418af3c9a6ac6cdf6e3bb" kindref="member">GetFlag</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="233" refid="class_i_deck_link_encoder_configuration_1a06f09f82405b041288b40406a1d51a3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a06f09f82405b041288b40406a1d51a3e" kindref="member">SetInt</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/>int64_t<sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="234" refid="class_i_deck_link_encoder_configuration_1a39975c79d7d5131b333777e87ffd0f20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a39975c79d7d5131b333777e87ffd0f20" kindref="member">GetInt</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>int64_t<sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="235" refid="class_i_deck_link_encoder_configuration_1a4dcf9cc0fd4eeafb7f42bc3177fb9111" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a4dcf9cc0fd4eeafb7f42bc3177fb9111" kindref="member">SetFloat</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="236" refid="class_i_deck_link_encoder_configuration_1a2afe0604607e889ec64c4de3d0b03b60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a2afe0604607e889ec64c4de3d0b03b60" kindref="member">GetFloat</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="237" refid="class_i_deck_link_encoder_configuration_1ab4cb5d39215345053bb48caaec1799ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1ab4cb5d39215345053bb48caaec1799ea" kindref="member">SetString</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="238" refid="class_i_deck_link_encoder_configuration_1ae5070d81b3342761e1a69fad1ee65afa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1ae5070d81b3342761e1a69fad1ee65afa" kindref="member">GetString</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="239" refid="class_i_deck_link_encoder_configuration_1a1e9caf03528fdff8f16b3d26348e6133" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_linux_c_o_m_8h_1a570a903331bed6f464de16e2b037f108" kindref="member">HRESULT</ref><sp/><ref refid="class_i_deck_link_encoder_configuration_1a1e9caf03528fdff8f16b3d26348e6133" kindref="member">GetBytes</ref><sp/>(</highlight><highlight class="comment">/*<sp/>in<sp/>*/</highlight><highlight class="normal"><sp/><ref refid="_deck_link_a_p_i_configuration_8h_1a1fe05d96bbd425fa8e18ff7d41acdf99" kindref="member">BMDDeckLinkEncoderConfigurationID</ref><sp/>cfgID,<sp/></highlight><highlight class="comment">/*<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer<sp/></highlight><highlight class="comment">/*<sp/>optional<sp/>*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="comment">/*<sp/>in,<sp/>out<sp/>*/</highlight><highlight class="normal"><sp/>uint32_t<sp/>*bufferSize)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="242" refid="class_i_deck_link_encoder_configuration_1a5be127028cb027741541b97800810530" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_i_deck_link_encoder_configuration_1a5be127028cb027741541b97800810530" kindref="member">~IDeckLinkEncoderConfiguration</ref><sp/>()<sp/>{}<sp/></highlight><highlight class="comment">//<sp/>call<sp/>Release<sp/>method<sp/>to<sp/>drop<sp/>reference<sp/>count</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(BMD_DECKLINKAPICONFIGURATION_H)<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="include/decklink_sdk/DeckLinkAPIConfiguration.h"/>
+  </compounddef>
+</doxygen>

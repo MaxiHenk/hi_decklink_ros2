@@ -1,0 +1,67 @@
+[0.012s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.066s] [ 44%] Built target decklink
+[0.096s] [ 51%] Built target deckview
+[0.097s] [ 59%] Built target deckquery
+[0.097s] [ 74%] Built target deckmonitor
+[0.097s] [ 74%] Built target deckstatus
+[0.101s] [ 85%] Built target img2ros
+[0.101s] [ 88%] Built target deckoutput
+[0.121s] [ 92%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.123s] [ 96%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[3.747s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:[m[K In constructor ‘[01m[KDeckLinkCameraDriver::[01;32m[KDeckLinkCameraDriver[m[K()[m[K’:
+[3.747s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:89:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDeckLinkCameraDriver::create_service(const char [14], void (DeckLinkCameraDriver::*)(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >), DeckLinkCameraDriver*)[m[K’
+[3.748s]    89 |     _start_capture = [01;31m[Kthis->create_service("start_capture",[m[K
+[3.748s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.748s]    90 | [01;31m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+[3.748s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.748s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.748s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.748s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.748s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/include/decklink_camera_driver.hpp:10[m[K,
+[3.749s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:9[m[K:
+[3.749s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.749s]   302 |   [01;36m[Kcreate_service[m[K(
+[3.749s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.749s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.749s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:89:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+[3.749s]    89 |     _start_capture = [01;36m[Kthis->create_service("start_capture",[m[K
+[3.749s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.749s]    90 | [01;36m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+[3.750s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.750s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K:
+[3.750s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.750s]   175 | [01;36m[KNode[m[K::create_service(
+[3.750s]       | [01;36m[K^~~~[m[K
+[3.750s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.750s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:89:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+[3.750s]    89 |     _start_capture = [01;36m[Kthis->create_service("start_capture",[m[K
+[3.751s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.751s]    90 | [01;36m[K        &DeckLinkCameraDriver::on_start_capture_request, this)[m[K;
+[3.751s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.751s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:91:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDeckLinkCameraDriver::create_service(const char [13], void (DeckLinkCameraDriver::*)(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >), DeckLinkCameraDriver*)[m[K’
+[3.751s]    91 |     _stop_capture = [01;31m[Kthis->create_service("stop_capture",[m[K
+[3.751s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.751s]    92 | [01;31m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+[3.751s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.752s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.752s]   302 |   [01;36m[Kcreate_service[m[K(
+[3.752s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.752s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.752s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:91:41:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+[3.752s]    91 |     _stop_capture = [01;36m[Kthis->create_service("stop_capture",[m[K
+[3.752s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.753s]    92 | [01;36m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+[3.753s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.753s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.753s]   175 | [01;36m[KNode[m[K::create_service(
+[3.753s]       | [01;36m[K^~~~[m[K
+[3.753s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:175:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.753s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/decklink_camera_driver.cpp:91:41:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+[3.753s]    91 |     _stop_capture = [01;36m[Kthis->create_service("stop_capture",[m[K
+[3.754s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.754s]    92 | [01;36m[K        &DeckLinkCameraDriver::on_stop_capture_request, this)[m[K;
+[3.754s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.071s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:90: CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o] Error 1
+[5.071s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/publisher.dir/all] Error 2
+[5.072s] gmake: *** [Makefile:146: all] Error 2
+[5.074s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8

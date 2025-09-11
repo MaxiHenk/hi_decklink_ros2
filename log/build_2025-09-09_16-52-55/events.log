@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000629] (hi_decklink_ros2) JobQueued: {'identifier': 'hi_decklink_ros2', 'dependencies': OrderedDict()}
+[0.000664] (hi_decklink_ros2) JobStarted: {'identifier': 'hi_decklink_ros2'}
+[0.007211] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'cmake'}
+[0.007905] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'build'}
+[0.008631] (hi_decklink_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', '--', '-j8', '-l8'], 'cwd': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'mhenkel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mhenkel', 'OLDPWD': '/home/mhenkel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PS0': '$(printf "%s" ${EPOCHREALTIME/./} >"$BYOBU_RUN_DIR/timer.$$")', 'MANAGERPID': '24934', 'SYSTEMD_EXEC_PID': '25463', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '26574', 'GNOME_KEYRING_CONTROL': '/run/user/1006/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mhenkel', 'JOURNAL_STREAM': '9:92902', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1006.slice/user@1006.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pckjk02:@/tmp/.ICE-unix/25210,unix/pckjk02:/tmp/.ICE-unix/25210', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '66e85233aa3e4afa8482a1ccf04e69f6', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1006', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/mhenkel/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1006/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/mhenkel', 'AMENT_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:33c0e07b-7d94-42a2-bb0b-2a3ba439e359', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BYOBU_CONFIG_DIR': '/home/mhenkel/.config/byobu', 'GPG_AGENT_INFO': '/run/user/1006/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'BYOBU_RUN_DIR': '/dev/shm/byobu-mhenkel-cHew19Hf', 'PWD': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056623] (hi_decklink_ros2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating API documentation with Doxygen\x1b[0m\n'}
+[0.075189] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'TCL_SUBST' at line 248 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.075357] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.075612] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'COLS_IN_ALPHA_INDEX' at line 1103 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.075783] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076291] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'HTML_TIMESTAMP' at line 1239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.076376] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076447] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'FORMULA_TRANSPARENT' at line 1520 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.076516] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076580] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'LATEX_SOURCE_CODE' at line 1808 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.076644] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076716] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'LATEX_TIMESTAMP' at line 1824 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.076779] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076843] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'RTF_SOURCE_CODE' at line 1890 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.076910] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.076975] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'DOCBOOK_PROGRAMLISTING' at line 1988 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077037] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077109] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'PERL_PATH' at line 2168 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077172] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077234] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'CLASS_DIAGRAMS' at line 2181 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077297] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077362] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'MSCGEN_PATH' at line 2190 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077423] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077488] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'DOT_FONTNAME' at line 2232 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077550] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077613] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'DOT_FONTSIZE' at line 2239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077682] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077743] (hi_decklink_ros2) StderrLine: {'line': b"warning: Tag 'DOT_TRANSPARENT' at line 2460 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.\n"}
+[0.077805] (hi_decklink_ros2) StderrLine: {'line': b'         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"\n'}
+[0.077869] (hi_decklink_ros2) StderrLine: {'line': b"warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' does not exist\n"}
+[0.077946] (hi_decklink_ros2) StderrLine: {'line': b"warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' does not exist\n"}
+[0.079177] (hi_decklink_ros2) StderrLine: {'line': b"warning: source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' is not a readable file or directory... skipping.\n"}
+[0.079402] (hi_decklink_ros2) StderrLine: {'line': b"warning: source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' is not a readable file or directory... skipping.\n"}
+[0.079480] (hi_decklink_ros2) StderrLine: {'line': b"warning: Specified markdown mainpage 'README.md' does not exist\n"}
+[0.082023] (hi_decklink_ros2) StdoutLine: {'line': b'[ 43%] Built target decklink\n'}
+[0.100102] (-) TimerEvent: {}
+[0.125286] (hi_decklink_ros2) StdoutLine: {'line': b'[ 50%] Built target deckview\n'}
+[0.131063] (hi_decklink_ros2) StdoutLine: {'line': b'[ 63%] Built target img2ros\n'}
+[0.132465] (hi_decklink_ros2) StdoutLine: {'line': b'[ 63%] Built target deckquery\n'}
+[0.136306] (hi_decklink_ros2) StdoutLine: {'line': b'[ 70%] Built target deckstatus\n'}
+[0.144409] (hi_decklink_ros2) StdoutLine: {'line': b'[ 76%] Built target deckmonitor\n'}
+[0.145662] (hi_decklink_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.156844] (hi_decklink_ros2) StdoutLine: {'line': b'[ 90%] Built target publisher\n'}
+[0.175019] (hi_decklink_ros2) StdoutLine: {'line': b'[ 96%] Built target deckoutput\n'}
+[0.200188] (-) TimerEvent: {}
+[0.300409] (-) TimerEvent: {}
+[0.400631] (-) TimerEvent: {}
+[0.476132] (hi_decklink_ros2) StderrLine: {'line': b"/home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \\ref command\n"}
+[0.500757] (-) TimerEvent: {}
+[0.600964] (-) TimerEvent: {}
+[0.645438] (hi_decklink_ros2) StderrLine: {'line': b"/home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \\ref command\n"}
+[0.663814] (hi_decklink_ros2) StdoutLine: {'line': b'[ 96%] Built target docs\n'}
+[0.701093] (-) TimerEvent: {}
+[0.801419] (-) TimerEvent: {}
+[0.901727] (-) TimerEvent: {}
+[1.001992] (-) TimerEvent: {}
+[1.102377] (-) TimerEvent: {}
+[1.202693] (-) TimerEvent: {}
+[1.303014] (-) TimerEvent: {}
+[1.403420] (-) TimerEvent: {}
+[1.503786] (-) TimerEvent: {}
+[1.604156] (-) TimerEvent: {}
+[1.704447] (-) TimerEvent: {}
+[1.804694] (-) TimerEvent: {}
+[1.904967] (-) TimerEvent: {}
+[2.005243] (-) TimerEvent: {}
+[2.105469] (-) TimerEvent: {}
+[2.205711] (-) TimerEvent: {}
+[2.305973] (-) TimerEvent: {}
+[2.406231] (-) TimerEvent: {}
+[2.506473] (-) TimerEvent: {}
+[2.606694] (-) TimerEvent: {}
+[2.706940] (-) TimerEvent: {}
+[2.807200] (-) TimerEvent: {}
+[2.907457] (-) TimerEvent: {}
+[3.007703] (-) TimerEvent: {}
+[3.107939] (-) TimerEvent: {}
+[3.208196] (-) TimerEvent: {}
+[3.308413] (-) TimerEvent: {}
+[3.408639] (-) TimerEvent: {}
+[3.508883] (-) TimerEvent: {}
+[3.609102] (-) TimerEvent: {}
+[3.709356] (-) TimerEvent: {}
+[3.809594] (-) TimerEvent: {}
+[3.909831] (-) TimerEvent: {}
+[4.010075] (-) TimerEvent: {}
+[4.110310] (-) TimerEvent: {}
+[4.210550] (-) TimerEvent: {}
+[4.310788] (-) TimerEvent: {}
+[4.411028] (-) TimerEvent: {}
+[4.511236] (-) TimerEvent: {}
+[4.611484] (-) TimerEvent: {}
+[4.711730] (-) TimerEvent: {}
+[4.811981] (-) TimerEvent: {}
+[4.912268] (-) TimerEvent: {}
+[5.012524] (-) TimerEvent: {}
+[5.112770] (-) TimerEvent: {}
+[5.213005] (-) TimerEvent: {}
+[5.313297] (-) TimerEvent: {}
+[5.413555] (-) TimerEvent: {}
+[5.513807] (-) TimerEvent: {}
+[5.614039] (-) TimerEvent: {}
+[5.714372] (-) TimerEvent: {}
+[5.814629] (-) TimerEvent: {}
+[5.914877] (-) TimerEvent: {}
+[6.015087] (-) TimerEvent: {}
+[6.115328] (-) TimerEvent: {}
+[6.215585] (-) TimerEvent: {}
+[6.315834] (-) TimerEvent: {}
+[6.416095] (-) TimerEvent: {}
+[6.516359] (-) TimerEvent: {}
+[6.616618] (-) TimerEvent: {}
+[6.716881] (-) TimerEvent: {}
+[6.817147] (-) TimerEvent: {}
+[6.917422] (-) TimerEvent: {}
+[7.017690] (-) TimerEvent: {}
+[7.117955] (-) TimerEvent: {}
+[7.218236] (-) TimerEvent: {}
+[7.318511] (-) TimerEvent: {}
+[7.418773] (-) TimerEvent: {}
+[7.519022] (-) TimerEvent: {}
+[7.619331] (-) TimerEvent: {}
+[7.719584] (-) TimerEvent: {}
+[7.819861] (-) TimerEvent: {}
+[7.920118] (-) TimerEvent: {}
+[8.020362] (-) TimerEvent: {}
+[8.120594] (-) TimerEvent: {}
+[8.220825] (-) TimerEvent: {}
+[8.321061] (-) TimerEvent: {}
+[8.421341] (-) TimerEvent: {}
+[8.521570] (-) TimerEvent: {}
+[8.621807] (-) TimerEvent: {}
+[8.722038] (-) TimerEvent: {}
+[8.822310] (-) TimerEvent: {}
+[8.922538] (-) TimerEvent: {}
+[9.022772] (-) TimerEvent: {}
+[9.123001] (-) TimerEvent: {}
+[9.223289] (-) TimerEvent: {}
+[9.323529] (-) TimerEvent: {}
+[9.423772] (-) TimerEvent: {}
+[9.524022] (-) TimerEvent: {}
+[9.624310] (-) TimerEvent: {}
+[9.724539] (-) TimerEvent: {}
+[9.824771] (-) TimerEvent: {}
+[9.925004] (-) TimerEvent: {}
+[10.025285] (-) TimerEvent: {}
+[10.125532] (-) TimerEvent: {}
+[10.225778] (-) TimerEvent: {}
+[10.326004] (-) TimerEvent: {}
+[10.426281] (-) TimerEvent: {}
+[10.526509] (-) TimerEvent: {}
+[10.626743] (-) TimerEvent: {}
+[10.726977] (-) TimerEvent: {}
+[10.827258] (-) TimerEvent: {}
+[10.927502] (-) TimerEvent: {}
+[11.027746] (-) TimerEvent: {}
+[11.127989] (-) TimerEvent: {}
+[11.228269] (-) TimerEvent: {}
+[11.328506] (-) TimerEvent: {}
+[11.428747] (-) TimerEvent: {}
+[11.528986] (-) TimerEvent: {}
+[11.629265] (-) TimerEvent: {}
+[11.729523] (-) TimerEvent: {}
+[11.829777] (-) TimerEvent: {}
+[11.930102] (-) TimerEvent: {}
+[12.030703] (-) TimerEvent: {}
+[12.131407] (-) TimerEvent: {}
+[12.231961] (-) TimerEvent: {}
+[12.332411] (-) TimerEvent: {}
+[12.432653] (-) TimerEvent: {}
+[12.532895] (-) TimerEvent: {}
+[12.633129] (-) TimerEvent: {}
+[12.733365] (-) TimerEvent: {}
+[12.833615] (-) TimerEvent: {}
+[12.933856] (-) TimerEvent: {}
+[13.034101] (-) TimerEvent: {}
+[13.134372] (-) TimerEvent: {}
+[13.234640] (-) TimerEvent: {}
+[13.334907] (-) TimerEvent: {}
+[13.435175] (-) TimerEvent: {}
+[13.490726] (hi_decklink_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[13.535269] (-) TimerEvent: {}
+[13.635523] (-) TimerEvent: {}
+[13.735785] (-) TimerEvent: {}
+[13.836040] (-) TimerEvent: {}
+[13.936268] (-) TimerEvent: {}
+[14.036533] (-) TimerEvent: {}
+[14.136819] (-) TimerEvent: {}
+[14.237090] (-) TimerEvent: {}
+[14.337340] (-) TimerEvent: {}
+[14.347660] (hi_decklink_ros2) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[14.358987] (hi_decklink_ros2) CommandEnded: {'returncode': 0}
+[14.359626] (hi_decklink_ros2) JobProgress: {'identifier': 'hi_decklink_ros2', 'progress': 'install'}
+[14.368142] (hi_decklink_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2'], 'cwd': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'mhenkel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mhenkel', 'OLDPWD': '/home/mhenkel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PS0': '$(printf "%s" ${EPOCHREALTIME/./} >"$BYOBU_RUN_DIR/timer.$$")', 'MANAGERPID': '24934', 'SYSTEMD_EXEC_PID': '25463', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '26574', 'GNOME_KEYRING_CONTROL': '/run/user/1006/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mhenkel', 'JOURNAL_STREAM': '9:92902', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1006.slice/user@1006.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pckjk02:@/tmp/.ICE-unix/25210,unix/pckjk02:/tmp/.ICE-unix/25210', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '66e85233aa3e4afa8482a1ccf04e69f6', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1006', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/mhenkel/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1006/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/mhenkel', 'AMENT_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:33c0e07b-7d94-42a2-bb0b-2a3ba439e359', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BYOBU_CONFIG_DIR': '/home/mhenkel/.config/byobu', 'GPG_AGENT_INFO': '/run/user/1006/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'BYOBU_RUN_DIR': '/dev/shm/byobu-mhenkel-cHew19Hf', 'PWD': '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.375898] (hi_decklink_ros2) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[14.376306] (hi_decklink_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.376579] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/img2ros\n'}
+[14.376765] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/publisher\n'}
+[14.376886] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/hi_decklink_ros2/subscriber\n'}
+[14.377167] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/lib/libdecklink.a\n'}
+[14.377413] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/package_run_dependencies/hi_decklink_ros2\n'}
+[14.377597] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/parent_prefix_path/hi_decklink_ros2\n'}
+[14.377734] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.sh\n'}
+[14.377891] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/ament_prefix_path.dsv\n'}
+[14.378047] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.sh\n'}
+[14.378271] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/environment/path.dsv\n'}
+[14.378428] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.bash\n'}
+[14.378557] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.sh\n'}
+[14.378719] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.zsh\n'}
+[14.378980] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/local_setup.dsv\n'}
+[14.379314] (hi_decklink_ros2) StdoutLine: {'line': b'-- Symlinking: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.dsv\n'}
+[14.388423] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/ament_index/resource_index/packages/hi_decklink_ros2\n'}
+[14.388657] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.388803] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.388898] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config.cmake\n'}
+[14.388990] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/cmake/hi_decklink_ros2Config-version.cmake\n'}
+[14.389164] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/package.xml\n'}
+[14.389311] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch\n'}
+[14.389383] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers-MPI.xml\n'}
+[14.389448] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/subscribers_keying-MPI.xml\n'}
+[14.389511] (hi_decklink_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2/share/hi_decklink_ros2/launch/full-MPI.xml\n'}
+[14.391021] (hi_decklink_ros2) CommandEnded: {'returncode': 0}
+[14.408978] (hi_decklink_ros2) JobEnded: {'identifier': 'hi_decklink_ros2', 'rc': 0}
+[14.409455] (-) EventReactorShutdown: {}

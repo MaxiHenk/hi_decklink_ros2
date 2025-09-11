@@ -2,48 +2,81 @@
 // Created by nearlab on 04/10/17.
 //
 
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 #include <libdecklink/types.hpp>
+#include <boost/numeric/conversion/cast.hpp>
 
 #include "decklink_camera_driver.hpp"
 
+using std_srvs::srv::Empty;
+
 DeckLinkCameraDriver::DeckLinkCameraDriver()
-    /// member initializor - runs before constructor
-    /// node handler nh and private_nh and image transport it
-    /// ~ makes it private i.e. unique per node instance
-    : _nh()
-    , _private_nh("~")
-    , _it(_nh)
-{
+: rclcpp::Node("decklink_camera_driver")
+{   
+
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Starting to initialize parameters");
+    ///initialize
+    this->declare_parameter<std::string>("camera_name", "decklink_camera");
+    this->declare_parameter<std::string>("camera_frame", "camera_frame");
+    this->declare_parameter<std::string>("camera_info_url", "");
+
+    this->get_parameter("camera_name", _camera_name);
+    this->get_parameter("camera_frame", _camera_frame);
+    this->get_parameter("camera_info_url", _camera_info_url);
+
+    // Services
+    /*
+    _start_capture = this->create_service<std_srvs::srv::Empty>(
+        "start_capture",
+        &on_start_capture_request
+    );
+
+    _stop_capture = this->create_service<std_srvs::srv::Empty>(
+        "stop_capture",
+        &on_start_capture_request
+    );
+    */
+   RCLCPP_INFO_STREAM(this->get_logger(),
+    "Finished to initialize parameters");
+
     // Step 1 - Make sure that we have a valid DeckLink device
-    const std::string decklink_device = _private_nh.param("decklink_device", std::string());
+    this->declare_parameter<std::string>("decklink_device", "");
+	std::string decklink_device;
+    decklink_device = this->get_parameter("decklink_device").as_string();
+
+
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Starting to initialize DeckLink");
     auto result = DeckLink::Device::Get(decklink_device);
     if (!result) {
-        ROS_ERROR("DeckLink device<%s> does not exist.", decklink_device.c_str());
-        _nh.shutdown();
+        RCLCPP_ERROR_STREAM(this->get_logger(),
+        "DeckLink device<" << decklink_device.c_str()<<"> does not exist.");
         return;
     }
     
     _device = std::move(*result);
     
     if (!_device.supports_input_format_detection()) {
-        ROS_ERROR(
+        RCLCPP_ERROR_STREAM(this->get_logger(),
             "This decklink device does not support automatic input format detection. This means "
             "that it is necessary to manually set up the pixel format and display mode, something "
             "that this tool does not currently do. Please open an issue on Gitlab if you need this "
             "feature."
         );
-        _nh.shutdown();
         return;
     }
+
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Starting to initialize Callbacks");
     
     // Step 2 - Set up the device and make sure we're ready to go
     /// Container for Callback functions - can be called by other functions
     try {
         DeckLink::CaptureCallback cb(
-            boost::bind(&DeckLinkCameraDriver::on_new_image, this, _1),
-            boost::bind(&DeckLinkCameraDriver::on_video_format_changed, this, _1, _2, _3),
-            boost::bind(&DeckLinkCameraDriver::on_decklink_error, this, _1)
+            std::bind(&DeckLinkCameraDriver::on_new_image, this, std::placeholders::_1),
+            std::bind(&DeckLinkCameraDriver::on_video_format_changed, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3),
+            std::bind(&DeckLinkCameraDriver::on_decklink_error, this, std::placeholders::_1)
         );
         
         _device.input()
@@ -51,34 +84,51 @@ DeckLinkCameraDriver::DeckLinkCameraDriver()
                .set_callback(std::move(cb));
         
     } catch (DeckLink::decklink_driver_error& ex) {
-        ROS_ERROR_STREAM("" << boost::diagnostic_information(ex));
+        RCLCPP_ERROR_STREAM(this->get_logger(),
+            boost::diagnostic_information(ex));
     }
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Starting to initialize ROS-Stuff");
     
 
     // Step 3 - Set-up ROS Stuff
-    
-    // ROS configuration
-    _camera_name = _private_nh.param("camera_name", decklink_device);
-    _camera_frame = _private_nh.param("camera_frame", _camera_name);
-    _camera_info_url = _private_nh.param("camera_info_url", std::string());
-    
     _camera_info_mgr = std::make_unique
-        <camera_info_manager::CameraInfoManager>(_nh, _camera_name, _camera_info_url);
+        <camera_info_manager::CameraInfoManager>(this, _camera_name, _camera_info_url);
     
-    _camera_pub = _it.advertiseCamera("image_raw", 1);
     
-    _start_capture = _nh.advertiseService("start_capture",
-        &DeckLinkCameraDriver::on_start_capture_request, this);
-    _stop_capture = _nh.advertiseService("stop_capture",
-        &DeckLinkCameraDriver::on_stop_capture_request, this);
-    
+    _start_capture = this->create_service<std_srvs::srv::Empty>(
+        "start_capture",
+        std::bind(&DeckLinkCameraDriver::on_start_capture_request,
+                this, std::placeholders::_1, std::placeholders::_2)
+    );
+
+    _stop_capture = this->create_service<std_srvs::srv::Empty>(
+        "stop_capture",
+        std::bind(&DeckLinkCameraDriver::on_stop_capture_request,
+                this, std::placeholders::_1, std::placeholders::_2)
+    );
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Set up capturing images");
     // Step 4 - Start capturing images
     try {
         _device.input().start();
     } catch (const DeckLink::decklink_driver_error& ex) {
-        ROS_ERROR_STREAM("" << boost::diagnostic_information(ex));
+        RCLCPP_ERROR_STREAM(this->get_logger(),
+        boost::diagnostic_information(ex));
     }
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Finished capturing images");
 }
+
+
+
+void DeckLinkCameraDriver::init_image_transport() {
+        RCLCPP_INFO_STREAM(this->get_logger(),
+        "Initialized image transport and publisher");
+        _it = std::make_unique<image_transport::ImageTransport>(shared_from_this());
+        _camera_pub = _it->advertiseCamera("image_raw", 1);
+    }
+
 
 
 /**
@@ -92,18 +142,17 @@ void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
     // We assume here that the image will YUV-422, we could make this work for other image formats
     // but I don't need it personally. If you need it just open an issue on Gitlab and we'll do it
     if (frame.pixel_format() != DeckLink::PixelFormat::YUV_8Bit) {
-        ROS_ERROR(
-            "Unsupported pixel format <%s>. If you have a reason for not using YUV422 open an "
-            "issue on Gitlab and we'll implement it.",
-            to_string(frame.pixel_format()).c_str()
+        RCLCPP_ERROR_STREAM(this->get_logger(),
+            "Unsupported pixel format <" << to_string(frame.pixel_format())
+            << ">. If you have a reason for not using YUV422, open an issue on Gitlab."
         );
         return;
     }
     
     /// adds the image and adjusts it
-    /// needs to be updated
-    const auto image_msg = boost::make_shared<sensor_msgs::Image>();
-    image_msg->header.stamp    = ros::Time::now();
+    const auto image_msg = std::make_shared<sensor_msgs::msg::Image>();
+    rclcpp::Time t = this->now();
+    image_msg->header.stamp    = t;
     image_msg->header.frame_id = _camera_frame;
 
     image_msg->height   = boost::numeric_cast<unsigned int>(frame.height());
@@ -143,16 +192,13 @@ void DeckLinkCameraDriver::on_decklink_error(DeckLink::VideoInputError err) {
     switch(err) {
         case DeckLink::VideoInputError::NullFrame:
         case DeckLink::VideoInputError::NoInputSource:
-            ROS_ERROR(
-                "Device <%s> received a bad frame, Err: %s",
-                _device.get_long_name().c_str(),
-                to_string(err).c_str()
+            RCLCPP_ERROR_STREAM(this->get_logger(),
+                "Device <"<<_device.get_long_name().c_str()<<"> received a bad frame, Err:" << to_string(err).c_str()                
             );
         
         default:
-            ROS_ERROR(
-                "Device <%s> received an unknown error, Err: %i",
-                _device.get_long_name().c_str(), err
+            RCLCPP_ERROR_STREAM(this->get_logger(),
+                "Device <"<<_device.get_long_name().c_str()<<"> received an unknown error, Err:" << to_string(err).c_str()                
             );
     }
 }
@@ -168,14 +214,14 @@ void DeckLinkCameraDriver::on_video_format_changed(
     // Check for video field changes
     if (notification_event_raw & bmdVideoInputFieldDominanceChanged) {
         const auto field_dominance = new_display_mode.get_field_dominance();
-        ROS_INFO_STREAM(
+        RCLCPP_INFO_STREAM(this->get_logger(),
             "Input field dominance changed to " << to_string(field_dominance).c_str() << " (" << DeckLink::FieldDominance_::get_description(field_dominance).c_str() << ")\n"
         );
     }
     
     // Check if the pixel format has changed
     if (notification_event_raw & bmdVideoInputColorspaceChanged) {
-        ROS_INFO_STREAM(
+        RCLCPP_INFO_STREAM(this->get_logger(),
             "Input color space changed to:"
             << DeckLink::DetectedVideoInputFormatFlags_::pretty_print(detected_signal_flag).c_str() << "\n"
         );
@@ -183,7 +229,8 @@ void DeckLinkCameraDriver::on_video_format_changed(
     
     // Check if the video mode has changed
     if (notification_event_raw & bmdVideoInputDisplayModeChanged) {
-        ROS_INFO_STREAM("Input display mode changed to: " << new_display_mode.get_name() << "\n");
+        RCLCPP_INFO_STREAM(this->get_logger(),
+        "Input display mode changed to: " << new_display_mode.get_name() << "\n");
     }
 }
 

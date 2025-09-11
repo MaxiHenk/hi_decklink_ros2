@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_7354dab00544171260e370564d211d93" kind="dir">
+    <compoundname>include/decklink_sdk</compoundname>
+    <innerfile refid="_deck_link_a_p_i_8h">DeckLinkAPI.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_configuration_8h">DeckLinkAPIConfiguration.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_deck_control_8h">DeckLinkAPIDeckControl.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_discovery_8h">DeckLinkAPIDiscovery.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_dispatch_8cpp">DeckLinkAPIDispatch.cpp</innerfile>
+    <innerfile refid="_deck_link_a_p_i_modes_8h">DeckLinkAPIModes.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_types_8h">DeckLinkAPITypes.h</innerfile>
+    <innerfile refid="_deck_link_a_p_i_version_8h">DeckLinkAPIVersion.h</innerfile>
+    <innerfile refid="_linux_c_o_m_8h">LinuxCOM.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/decklink_sdk/"/>
+  </compounddef>
+</doxygen>

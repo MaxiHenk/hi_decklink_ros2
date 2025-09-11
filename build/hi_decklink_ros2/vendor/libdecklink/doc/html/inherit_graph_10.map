@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,191,92,216"/>
+<area shape="rect" id="Node000001" href="$class_i_deck_link.html" title=" " alt="" coords="209,5,296,31"/>
+<area shape="poly" id="edge25_Node000000_Node000001" title=" " alt="" coords="55,176,66,145,83,108,107,71,138,40,173,23,209,16,210,21,175,28,142,44,111,74,88,110,71,147,60,178"/>
+<area shape="rect" id="Node000002" href="$class_i_deck_link_configuration.html" title=" " alt="" coords="166,55,339,80"/>
+<area shape="poly" id="edge26_Node000000_Node000002" title=" " alt="" coords="61,177,92,132,114,108,139,89,165,77,167,82,141,94,117,112,96,135,65,180"/>
+<area shape="rect" id="Node000003" href="$class_i_deck_link_deck_control.html" title=" " alt="" coords="169,104,336,129"/>
+<area shape="poly" id="edge27_Node000000_Node000003" title=" " alt="" coords="74,180,104,159,139,140,177,127,178,132,141,144,107,163,77,184"/>
+<area shape="rect" id="Node000004" href="$class_i_deck_link_deck_control_status_callback.html" title=" " alt="" coords="149,154,356,194"/>
+<area shape="poly" id="edge28_Node000000_Node000004" title=" " alt="" coords="105,193,149,186,149,192,106,198"/>
+<area shape="rect" id="Node000005" href="$class_i_deck_link_display_mode.html" title=" " alt="" coords="167,219,338,244"/>
+<area shape="poly" id="edge29_Node000000_Node000005" title=" " alt="" coords="106,208,168,217,167,222,105,214"/>
+<area shape="rect" id="Node000006" href="$class_i_deck_link_display_mode_iterator.html" title=" " alt="" coords="143,268,362,293"/>
+<area shape="poly" id="edge30_Node000000_Node000006" title=" " alt="" coords="81,221,141,253,181,265,179,270,139,258,78,226"/>
+<area shape="rect" id="Node000007" href="$class_i_deck_link_encoder_configuration.html" title=" " alt="" coords="140,317,365,343"/>
+<area shape="poly" id="edge31_Node000000_Node000007" title=" " alt="" coords="67,226,98,266,119,286,141,302,169,315,167,320,139,307,115,290,94,270,63,230"/>
+<area shape="rect" id="Node000008" href="$class_i_deck_link_timecode.html" title=" " alt="" coords="177,367,328,392"/>
+<area shape="poly" id="edge32_Node000000_Node000008" title=" " alt="" coords="61,228,90,291,113,324,142,352,178,369,176,374,138,356,109,328,85,294,56,230"/>
+</map>

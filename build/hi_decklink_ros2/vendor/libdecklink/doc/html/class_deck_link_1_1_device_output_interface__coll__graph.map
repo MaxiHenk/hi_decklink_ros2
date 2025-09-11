@@ -1,0 +1,23 @@
+<map id="DeckLink::DeviceOutputInterface" name="DeckLink::DeviceOutputInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="514,80,751,105"/>
+<area shape="rect" id="Node000003" href="$class_deck_link_1_1_device.html" title=" " alt="" coords="451,168,585,193"/>
+<area shape="poly" id="edge10_Node000003_Node000001" title=" " alt="" coords="636,120,632,133,625,146,608,161,587,171,584,166,605,156,621,142,627,131,630,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="558,5,707,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="635,45,635,80,630,80,630,45"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="564,38,530,55,516,67,504,81,497,103,499,126,514,167,509,169,494,128,492,102,500,79,512,63,527,51,562,33"/>
+<area shape="rect" id="Node000004" href="$class_deck_link_1_1_device_input_interface.html" title=" " alt="" coords="481,256,707,281"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="704,33,738,51,753,63,765,78,785,102,795,115,802,130,803,148,796,171,780,199,752,234,726,248,685,259,684,253,724,243,748,230,775,196,791,169,797,148,796,131,790,118,781,105,761,82,749,67,735,55,701,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="510,154,511,141,517,128,532,113,550,103,553,108,535,118,522,131,517,142,516,154"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="519,206,520,219,526,230,539,244,556,254,553,258,536,248,521,234,515,221,513,207"/>
+<area shape="rect" id="Node000007" href="$class_deck_link_1_1_notification_callback.html" title=" " alt="" coords="205,256,426,281"/>
+<area shape="poly" id="edge13_Node000007_Node000003" title=" " alt="" coords="463,200,408,220,335,258,333,254,406,215,462,195"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="621,246,632,232,633,225,630,219,610,201,584,191,586,186,613,197,635,216,638,225,637,234,625,249"/>
+<area shape="rect" id="Node000005" href="$class_deck_link_1_1_capture_callback.html" title=" " alt="" coords="399,344,597,369"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="586,295,567,322,548,336,529,346,527,342,546,331,563,318,581,292"/>
+<area shape="poly" id="edge7_Node000004_Node000005" title=" " alt="" coords="491,330,492,317,497,304,512,289,531,279,533,284,515,293,502,307,497,318,496,331"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,256,180,281"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="161,282,445,341,444,347,160,287"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="240,254,214,239,210,228,216,216,228,209,248,203,308,194,450,183,451,188,309,199,249,208,230,214,220,219,216,228,218,236,243,250"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="64,168,281,193"/>
+<area shape="poly" id="edge12_Node000007_Node000008" title=" " alt="" coords="179,206,185,219,193,230,213,244,235,254,233,258,210,249,189,234,180,222,175,208"/>
+</map>

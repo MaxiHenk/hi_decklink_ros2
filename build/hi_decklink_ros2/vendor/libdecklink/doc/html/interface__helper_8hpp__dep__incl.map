@@ -1,0 +1,11 @@
+<map id="include/libdecklink/interface_helper.hpp" name="include/libdecklink/interface_helper.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="316,5,475,45"/>
+<area shape="rect" id="Node000002" href="$device_8cpp.html" title=" " alt="" coords="5,101,196,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,52,141,103,139,98,317,47"/>
+<area shape="rect" id="Node000003" href="$device__input__interface_8cpp.html" title=" " alt="" coords="221,93,383,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="366,57,324,95,321,91,363,53"/>
+<area shape="rect" id="Node000004" href="$device__output__interface_8cpp.html" title=" " alt="" coords="407,93,570,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="428,53,470,91,466,95,424,57"/>
+<area shape="rect" id="Node000005" href="$video__output__frame_8cpp.html" title=" " alt="" coords="595,93,751,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="470,47,613,91,611,96,468,52"/>
+</map>

@@ -1,0 +1,65 @@
+[0.009s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.055s] [  3%] [34m[1mGenerating API documentation with Doxygen[0m
+[0.063s] [ 43%] Built target decklink
+[0.079s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' does not exist
+[0.079s] warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' does not exist
+[0.086s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' is not a readable file or directory... skipping.
+[0.086s] warning: source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' is not a readable file or directory... skipping.
+[0.086s] warning: Specified markdown mainpage 'README.md' does not exist
+[0.094s] [ 50%] Built target deckview
+[0.095s] [ 56%] Built target deckquery
+[0.095s] [ 63%] Built target deckstatus
+[0.096s] [ 70%] Built target deckmonitor
+[0.101s] [ 76%] Built target img2ros
+[0.103s] [ 80%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.114s] [ 90%] Built target publisher
+[0.128s] [ 96%] Built target deckoutput
+[0.424s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[0.636s] /home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[0.655s] [ 96%] Built target docs
+[3.065s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.065s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:203:22:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+[3.065s]   203 |         auto modes = [01;31m[Koutput[m[K.get_display_modes();
+[3.065s]       |                      [01;31m[K^~~~~~[m[K
+[3.066s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.067s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.067s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:12[m[K:
+[3.067s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:206:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ is not a member of ‘[01m[KDeckLink[m[K’
+[3.067s]   206 |                 DeckLink::[01;31m[Kto_string[m[K(mode) << "\n"
+[3.067s]       |                           [01;31m[K^~~~~~~~~[m[K
+[3.068s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:206:27:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.068s] In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/errors.hpp:9[m[K,
+[3.068s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:14[m[K,
+[3.068s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:15[m[K:
+[3.068s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/types.hpp:1294:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kto_string[m[K’
+[3.068s]  1294 | std::string [01;36m[Kto_string[m[K(const DeckLink::VideoInputError value);
+[3.068s]       |             [01;36m[K^~~~~~~~~[m[K
+[3.068s] In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+[3.068s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K:
+[3.068s] [01m[K/usr/include/c++/13/bits/basic_string.h:4261:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+[3.069s]  4261 |   [01;36m[Kto_string[m[K(long double __val)
+[3.069s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.069s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:41[m[K,
+[3.069s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.069s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.069s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.069s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:43:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+[3.069s]    43 | [01;36m[Kto_string[m[K(const FutureReturnCode & future_return_code);
+[3.069s]       | [01;36m[K^~~~~~~~~[m[K
+[3.069s] In file included from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+[3.069s]                  from [01m[K/usr/include/boost/exception/all.hpp:25[m[K,
+[3.069s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/errors.hpp:7[m[K:
+[3.069s] [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:594:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::to_string[m[K’
+[3.069s]   594 |     [01;36m[Kto_string[m[K( exception_ptr const & p )
+[3.069s]       |     [01;36m[K^~~~~~~~~[m[K
+[3.070s] In file included from [01m[K/usr/include/boost/exception/to_string_stub.hpp:9[m[K,
+[3.070s]                  from [01m[K/usr/include/boost/exception/info.hpp:11[m[K,
+[3.070s]                  from [01m[K/usr/include/boost/exception/diagnostic_information.hpp:11[m[K,
+[3.070s]                  from [01m[K/usr/include/boost/exception/all.hpp:10[m[K:
+[3.070s] [01m[K/usr/include/boost/exception/to_string.hpp:78:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::to_string_detail::to_string[m[K’
+[3.070s]    78 |     [01;36m[Kto_string[m[K( std::pair<T,U> const & x )
+[3.070s]       |     [01;36m[K^~~~~~~~~[m[K
+[6.184s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+[6.184s] gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/subscriber.dir/all] Error 2
+[6.185s] gmake: *** [Makefile:146: all] Error 2
+[6.187s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8

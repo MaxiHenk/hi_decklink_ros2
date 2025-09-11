@@ -1,0 +1,1 @@
+/usr/bin/c++ -DDEBUG -g CMakeFiles/deckoutput.dir/src/deckoutput.cpp.o -o deckoutput  libdecklink.a -ldl /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_b64fcae33979c9614f073f3c71afd07c" kind="dir">
+    <compoundname>src/libdecklink</compoundname>
+    <innerfile refid="capture__callback_8cpp">capture_callback.cpp</innerfile>
+    <innerfile refid="device_8cpp">device.cpp</innerfile>
+    <innerfile refid="device__input__interface_8cpp">device_input_interface.cpp</innerfile>
+    <innerfile refid="device__output__interface_8cpp">device_output_interface.cpp</innerfile>
+    <innerfile refid="display__mode_8cpp">display_mode.cpp</innerfile>
+    <innerfile refid="notification__callback_8cpp">notification_callback.cpp</innerfile>
+    <innerfile refid="types_8cpp">types.cpp</innerfile>
+    <innerfile refid="video__frame_8cpp">video_frame.cpp</innerfile>
+    <innerfile refid="video__input__frame_8cpp">video_input_frame.cpp</innerfile>
+    <innerfile refid="video__output__frame_8cpp">video_output_frame.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/"/>
+  </compounddef>
+</doxygen>

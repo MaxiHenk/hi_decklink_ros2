@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_deck_link_1_1_attribute_type__" kind="namespace" language="C++">
+    <compoundname>DeckLink::AttributeType_</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_deck_link_1_1_attribute_type___1ac5a987f239420bd5d88efe88f77eda92" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="class_deck_link_1_1_bit_mask" kindref="compound">constexpr</ref> std::array&lt; <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6" kindref="member">AttributeType</ref>, 4 &gt;</type>
+        <definition>constexpr std::array&lt;AttributeType, 4&gt; DeckLink::AttributeType_::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <qualifiedname>DeckLink::AttributeType_::Values</qualifiedname>
+        <initializer>{
+            <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6ac5836008c1649301e29351a55db8f65c" kindref="member">AttributeType::Flag</ref>,
+            <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a1686a6c336b71b36d77354cea19a8b52" kindref="member">AttributeType::Int</ref>,
+            <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a22ae0e2b89e5e3d477f988cc36d3272b" kindref="member">AttributeType::Float</ref>,
+            <ref refid="namespace_deck_link_1a2948c1ffe03b75be3a79f739d95d97d6a27118326006d3829667a400ad23d5d98" kindref="member">AttributeType::String</ref>,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/libdecklink/types.hpp" line="347" column="30" bodyfile="include/libdecklink/types.hpp" bodystart="347" bodyend="352"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/libdecklink/types.cpp" line="596" column="5"/>
+  </compounddef>
+</doxygen>

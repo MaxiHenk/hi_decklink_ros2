@@ -1,0 +1,81 @@
+warning: Tag 'TCL_SUBST' at line 248 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'COLS_IN_ALPHA_INDEX' at line 1103 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'HTML_TIMESTAMP' at line 1239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'FORMULA_TRANSPARENT' at line 1520 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'LATEX_SOURCE_CODE' at line 1808 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'LATEX_TIMESTAMP' at line 1824 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'RTF_SOURCE_CODE' at line 1890 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOCBOOK_PROGRAMLISTING' at line 1988 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'PERL_PATH' at line 2168 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'CLASS_DIAGRAMS' at line 2181 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MSCGEN_PATH' at line 2190 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOT_FONTNAME' at line 2232 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOT_FONTSIZE' at line 2239 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOT_TRANSPARENT' at line 2460 of file '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' does not exist
+warning: tag INPUT: input source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' does not exist
+warning: source '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2/vendor/libdecklink/generated' is not a readable file or directory... skipping.
+warning: source '/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/lib/SDK/include' is not a readable file or directory... skipping.
+warning: Specified markdown mainpage 'README.md' does not exist
+/home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/device.cpp:5[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:[m[K In constructor ‘[01m[KDeckLink::Device::[01;32m[KDevice[m[K(IDeckLink*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:177:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KDeckLink::Device::_device_impl[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  177 |         mutable std::unique_ptr<IDeckLink, IDeckLinkHandleDeleter> [01;35m[K_device_impl[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/libdecklink/device.hpp:171:30:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KDeckLink::DeviceInputInterface DeckLink::Device::_input_interface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  171 |         DeviceInputInterface [01;35m[K_input_interface[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/device.cpp:60:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   60 |     [01;35m[KDevice[m[K::Device(IDeckLink* device_ptr)
+      |     [01;35m[K^~~~~~[m[K
+/home/mhenkel/Documents/hi_decklink_ros2/README.md:151: warning: unable to resolve reference to 'citation' for \ref command
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/include/decklink_sdk/DeckLinkAPIDispatch.cpp:29:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma clang diagnostic[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+   29 | #pragma clang diagnostic ignored "-Wold-style-cast"
+      | 
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/capture_callback.cpp:[m[K In member function ‘[01m[Kvirtual HRESULT DeckLink::CaptureCallback::[01;32m[KVideoInputFrameArrived[m[K(IDeckLinkVideoInputFrame*, IDeckLinkAudioInputPacket*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/libdecklink/capture_callback.cpp:108:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around operand of ‘[01m[K![m[K’ or change ‘[01m[K&[m[K’ to ‘[01m[K&&[m[K’ or ‘[01m[K![m[K’ to ‘[01m[K~[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  108 |         if([01;35m[K!video_frame->GetFlags()[m[K & bmdFrameHasNoInputSource) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckview.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K on_format_changed[m[K(DeckLink::InputFormatChangedEvent, const DeckLink::DisplayMode&, DeckLink::DetectedVideoInputFormatFlags)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckview.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfieldDominance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   54 |         BMDFieldDominance [01;35m[KfieldDominance[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   21 | #pragma GCC diagnostic ignored [01;35m[K"-Wconstant-conversion"[m[K
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:21:32:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Wno-int-conversion[m[K’?
+In file included from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/deckoutput.cpp:25[m[K:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:[m[K In function ‘[01m[Kvoid[01;32m[K stbi__build_fast_ac[m[K(stbi__int16*, stbi__huffman*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:1839:33:[m[K [01;35m[Kwarning: [m[Kleft shift of negative value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshift-negative-value-Wshift-negative-value]8;;[m[K]
+ 1839 |             if (k < m) k += ([01;35m[K-1 << magbits[m[K) + 1;
+      |                              [01;35m[K~~~^~~~~~~~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:[m[K In function ‘[01m[Kint[01;32m[K stbi__tga_get_comp[m[K(int, int, int*)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:5227:16:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+ 5227 |       case 16: [01;35m[Kif[m[K(is_grey) return STBI_grey_alpha;
+      |                [01;35m[K^~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/vendor/libdecklink/src/stb_image.h:5229:7:[m[K [01;36m[Knote: [m[Khere
+ 5229 |       [01;36m[Kcase[m[K 15: if(is_rgb16) *is_rgb16 = 1;
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K OnFrameReceived[m[K(DeckLink::DeviceOutputInterface&, DeckLink::PixelFormat, const DeckLink::DisplayMode&, const sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr&)[m[K’:
+[01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:94:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   94 |         return [01;31m[K-1[m[K;
+      |                [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

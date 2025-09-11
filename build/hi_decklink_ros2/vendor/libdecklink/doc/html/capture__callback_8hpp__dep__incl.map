@@ -1,0 +1,31 @@
+<map id="include/libdecklink/capture_callback.hpp" name="include/libdecklink/capture_callback.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="467,5,631,45"/>
+<area shape="rect" id="Node000002" href="$device__input__interface_8hpp.html" title=" " alt="" coords="591,93,793,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="594,50,662,91,659,96,591,55"/>
+<area shape="rect" id="Node000006" href="$deckquery_8cpp.html" title=" " alt="" coords="5,277,144,302"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="501,54,423,96,96,279,93,274,420,91,499,49"/>
+<area shape="rect" id="Node000008" href="$deckview_8cpp.html" title=" " alt="" coords="168,277,301,302"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="518,56,250,279,247,275,514,52"/>
+<area shape="rect" id="Node000013" href="$capture__callback_8cpp.html" title=" " alt="" coords="817,181,986,221"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="645,35,726,55,768,71,807,91,834,111,857,135,892,179,887,183,853,138,830,115,804,96,766,76,725,61,644,41"/>
+<area shape="rect" id="Node000003" href="$device_8hpp.html" title=" " alt="" coords="597,181,741,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="686,147,677,182,672,180,681,146"/>
+<area shape="rect" id="Node000010" href="$device__input__interface_8cpp.html" title=" " alt="" coords="1421,269,1584,309"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="720,142,765,188,805,219,860,236,932,247,1015,253,1103,256,1276,259,1350,262,1410,267,1422,269,1421,274,1409,272,1350,267,1276,264,1103,262,1014,258,931,252,859,241,803,224,762,192,716,145"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="752,136,857,179,854,184,750,141"/>
+<area shape="rect" id="Node000004" href="$deckmonitor_8cpp.html" title=" " alt="" coords="506,277,659,302"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="642,233,597,278,593,274,638,229"/>
+<area shape="rect" id="Node000005" href="$deckoutput_8cpp.html" title=" " alt="" coords="684,277,828,302"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="700,229,746,274,742,278,696,233"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="584,214,388,237,156,272,121,279,120,274,156,267,387,232,584,209"/>
+<area shape="rect" id="Node000007" href="$deckstatus_8cpp.html" title=" " alt="" coords="853,277,995,302"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="739,223,891,274,889,279,737,228"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="584,220,314,272,282,279,281,274,313,267,583,215"/>
+<area shape="rect" id="Node000009" href="$device_8cpp.html" title=" " alt="" coords="1019,277,1210,302"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="755,218,761,219,1053,274,1052,279,759,224,754,223"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="755,218,760,219,942,238,1085,243,1227,248,1410,267,1422,268,1421,274,1409,272,1227,254,1085,248,942,243,760,224,754,223"/>
+<area shape="rect" id="Node000011" href="$device__output__interface_8cpp.html" title=" " alt="" coords="1235,269,1397,309"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="755,218,760,219,890,235,992,243,1093,251,1223,267,1235,269,1234,274,1222,272,1093,256,991,248,889,240,760,224,754,223"/>
+<area shape="rect" id="Node000012" href="$video__output__frame_8cpp.html" title=" " alt="" coords="326,269,482,309"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="599,228,463,272,461,267,597,223"/>
+</map>

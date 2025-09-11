@@ -1,0 +1,9 @@
+[ 41%] Built target decklink
+[ 48%] Built target deckstatus
+[ 58%] Built target deckquery
+[ 62%] Built target deckview
+[ 68%] Built target deckmonitor
+[ 82%] Built target img2ros
+[ 82%] Built target deckoutput
+[ 93%] Built target publisher
+[ 96%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m

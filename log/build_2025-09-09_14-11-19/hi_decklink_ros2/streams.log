@@ -1,0 +1,82 @@
+[0.011s] Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
+[0.064s] [ 41%] Built target decklink
+[0.096s] [ 55%] Built target deckquery
+[0.097s] [ 55%] Built target deckview
+[0.097s] [ 62%] Built target deckstatus
+[0.097s] [ 68%] Built target deckmonitor
+[0.102s] [ 75%] Built target deckoutput
+[0.103s] [ 82%] Built target img2ros
+[0.113s] [ 89%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.113s] [ 89%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/decklink_camera_driver.cpp.o[0m
+[3.270s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:48:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.270s]    48 | [01;35m[K)[m[K {
+[3.271s]       | [01;35m[K^[m[K
+[3.271s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.271s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:13[m[K:
+[3.271s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:176:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.271s]   176 |     [01;36m[KConstPtr[m[K;
+[3.271s]       |     [01;36m[K^~~~~~~~[m[K
+[3.271s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K OnFrameReceived[m[K(DeckLink::DeviceOutputInterface&, DeckLink::PixelFormat, const DeckLink::DisplayMode&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr&)[m[K’:
+[3.272s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:64:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_encodings[m[K’ has not been declared
+[3.272s]    64 |     cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(image, [01;31m[Kimage_encodings[m[K::BGRA8);
+[3.272s]       |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.273s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:73:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.273s]    73 |     if ([01;35m[Kcv_ptr->image.step == frame.row_bytes()[m[K){
+[3.273s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.276s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.276s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:151:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[3.277s]   151 |             return -1[01;31m[K:[m[K
+[3.277s]       |                      [01;31m[K^[m[K
+[3.277s]       |                      [32m[K;[m[K
+[3.277s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:151:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.284s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:204:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kbool[m[K’ in assignment
+[3.285s]   204 |         use_keying = [01;31m[Knode->get_parameter("keying")[m[K;
+[3.285s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.285s]       |                                         [01;31m[K|[m[K
+[3.285s]       |                                         [01;31m[Krclcpp::Parameter[m[K
+[3.285s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:208:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[3.285s]   208 |             keyer_opacity = [01;31m[Knode->get_parameter("opacity")[m[K;
+[3.285s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.286s]       |                                                [01;31m[K|[m[K
+[3.286s]       |                                                [01;31m[Krclcpp::Parameter[m[K
+[3.287s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:221:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ is not a member of ‘[01m[Kboost[m[K’; did you mean ‘[01m[Kstd::bind[m[K’?
+[3.288s]   221 |         auto frame_cb = boost::[01;31m[Kbind[m[K(OnFrameReceived,
+[3.288s]       |                                [01;31m[K^~~~[m[K
+[3.288s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[3.288s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[3.288s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.288s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.288s]                  from [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:12[m[K:
+[3.288s] [01m[K/usr/include/c++/13/functional:906:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ declared here
+[3.289s]   906 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+[3.289s]       |     [01;36m[K^~~~[m[K
+[3.289s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:222:102:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[3.290s]   222 |                                     std::ref(device.output()), pixel_format, std::ref(display_mode), [01;31m[K_1[m[K);
+[3.290s]       |                                                                                                      [01;31m[K^~[m[K
+[3.290s]       |                                                                                                      [32m[Kstd::placeholders::_1[m[K
+[3.290s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[3.290s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[3.291s]       |                                                [01;36m[K^~[m[K
+[3.291s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:228:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription(const char [22], int, void (&)(const std_msgs::msg::Bool&))[m[K’
+[3.291s]   228 |         auto sub_full = [01;31m[Knode->create_subscription("function/output_write", 1, writeCallback)[m[K
+[3.291s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.291s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.291s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.291s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.292s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.292s]   221 |   [01;36m[Kcreate_subscription[m[K(
+[3.292s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.292s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.292s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:228:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessageT[m[K’
+[3.292s]   228 |         auto sub_full = [01;36m[Knode->create_subscription("function/output_write", 1, writeCallback)[m[K
+[3.292s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.292s] [01m[K/home/mhenkel/Documents/hi_decklink_ros2/src/subscriber.cpp:231:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+[3.293s]   231 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(),"Subscriber ready. Waiting for frames ...");
+[3.293s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.808s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+[4.808s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/subscriber.dir/all] Error 2
+[4.808s] gmake[1]: *** Waiting for unfinished jobs....
+[7.401s] [ 93%] [32m[1mLinking CXX executable publisher[0m
+[7.801s] [ 96%] Built target publisher
+[7.802s] gmake: *** [Makefile:146: all] Error 2
+[7.804s] Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2 -- -j8 -l8
