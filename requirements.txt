@@ -1,2 +1,0 @@
-sudo apt install ros-jazzy-camera-info-manager
-sudo apt install ros-jazzy-image-view

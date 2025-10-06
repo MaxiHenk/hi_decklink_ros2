@@ -1,58 +1,45 @@
 [![Build status](https://raw.githubusercontent.com/MPI-IS-BambooAgent/sw_badges/master/badges/plans/hidecklinkros/build.svg?sanitize=true)](https://atlas.is.localnet/bamboo/browse/BAMEI-CIT/latest/)
 
-# HI DeckLink ROS
+# HI DeckLink ROS2
 
-The **HI DeckLink ROS** package exposes BlackMagic Design DeckLink video playback
-and capture cards to a ROS network. It is based on the previous version
-[DeckLink ROS](https://gitlab.com/Polimi-dVRK/decklink/decklink_ros)
+The **HI DeckLink ROS2** package exposes BlackMagic Design DeckLink video playback
+and capture cards to a ROS2 network. It is based on the previous version for [ROS1 support](https://github.com/MPI-IS/hi_decklink_ros), which itself is based on [DeckLink ROS](https://gitlab.com/Polimi-dVRK/decklink/decklink_ros)
 developed at the NearLab (Politecnico di Milano).
 
 ## Dependencies
 
-**HI DeckLink ROS** leverages [libdecklink](https://gitlab.com/Polimi-dVRK/decklink/libdecklink),
+**HI DeckLink ROS2** leverages [libdecklink](https://gitlab.com/Polimi-dVRK/decklink/libdecklink),
 a higher-level level interface to the BlackMagic Design SDK,
 to control the underlying card(s). This component is installed as a git submodule.
 
 ## Installation
 
 This project has been tested with:
-+ Ubuntu 16.04 and Ubuntu 20.04
-+ ROS Kinetic, ROS Lunar, and ROS Noetic
++ Ubuntu 24.04
++ ROS2 Jazzy Jalisco
 + DeckLink Duo and DeckLink Quad 2
 
 Clone the repository into your ROS workspace:
 
-    git clone --recursive https://github.com/MPI-IS/hi_decklink_ros.git
+    git clone git@github.com:MaxiHenk/hi_decklink_ros2.git
 
 Build the nodes:
 
-    catkin build hi_decklink_ros
-
-## Docker
-
-**HI DeckLink ROS** can also be built inside a Docker container using the provided `Dockerfile`.
-In order to do so, simply do
-
-```bash
-docker build . -t hi_declink_ros # builds image
-docker run -it -d --name my_container hi_declink_ros # starts container
-```
-
-Note that building this image is part of our continuous integration.
+    TO DO
 
 ## The publisher node
 
 The publisher node reads images from one input of the DeckLink card and publishes them to ROS topic.
 After having the `roscore` running, open in a different terminal:
 
-    rosrun hi_decklink_ros publisher _decklink_device:="DeckLink [model] ([input])"
+    TO DO rosrun hi_decklink_ros publisher _decklink_device:="DeckLink [model] ([input])"
 
 This will create a `publisher` node that listens for images on from one input of your DeckLink card
 and publishes them on the topic `/image_raw`.
 
 To see the published image:
 
-	rosrun image_view image_view image:="image_raw"
+	TO DO  rosrun image_view image_view image:="image_raw"
 
 The node will additionally publish `sensor_msgs::CameraInfo` messages synchronised to each image message.
 If the camera is uncalibrated these will be empty.
@@ -71,9 +58,7 @@ The node accepts the following parameters:
 A launch file for a stereo endoscope is provided for documentation purposes in the `launch/` folder.
 
 The publisher node has been tested on:
-+ a clinical Intuitive da Vinci Si HD robotic system 
 + a dVRK (da Vinci Research Kit)
-+ a standard HD-SDI video camera 
 
 ## The subscriber node
 
@@ -82,7 +67,7 @@ This node can be used to perform keying.
 
 After having the `roscore` running, open in a different terminal:
 
-    rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="[ros/image/topic]"
+    TODO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="[ros/image/topic]"
 
 This will create a `subscriber` node that monitors the ROS image topic given as input.
 This node expects `BGRA8` formatted images for simplicity and will produce an error
@@ -100,8 +85,8 @@ The node accepts the following parameters:
 | `opacity (int)` | The opacity of the keyed images in the range 0 (transparent) to 255 (opaque). |
 
 The subscriber node has been tested on:
-+ the stereo viewer of a clinical Intuitive da Vinci Si HD robotic system 
 + the stereo viewer of a dVRK (da Vinci Research Kit)
+
 
 ## Using keying
 
@@ -117,34 +102,33 @@ The pixel format is hard coded to YUV422.
 ## Test subscriber
 
 We prepared a small demo to test the subscriber node both in writing and keying mode.
-We placed an image (`image.png` in the folder `sample`) that you are welcome to use.
+We placed an image (`image.png` in the folder `sample`) that you are welcome to use. Also make sure, that the components of the DeckLink-Device actually allow overwriting the image. Otherwise, the output at the console will not appear.
 
 After having the `roscore` running:
 
-	rosrun hi_decklink_ros img2ros _path:="[/path/to/your/image.png]"
+	TO DO rosrun hi_decklink_ros img2ros _path:="[/path/to/your/image.png]"
 
 This will create a ROS topic image (`image_ros`). You can see it with:
 
-	rosrun image_view image_view image:="image_ros"
+	TO DO rosrun image_view image_view image:="image_ros"
 
 Then run the subscriber node, specifying this topic:
 
-	rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros"
+	TO DO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros"
 
 By default, the node will write this image.
 
 If you want this image to be keyed on the input video:
 
-	rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros" _keying:="True" _opacity:="150"
+	TO DO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros" _keying:="True" _opacity:="150"
 
 We designed the subscriber node, in a way that it possible to use the same node and change the two modes (write/keying) internally,
 using a boolean topic `function/output_write`. To understand its functioning, we suggest to check it in `subscriber.cpp`.
 
-## Launch examples
+If the written image seems invisible, it might also be, that the alpha-values were set too small. If you run the code in Debug-Mode, you can check for this. 
 
-We used these drivers to connect a workstation computer to the vision system of a clinical
-da Vinci Si HD surgical robot (Intuitive Inc.).
-In this way, we could overlay virtual content of the intraoperative images acquired by the endoscope.
+
+## Launch examples
 
 Examples of launch files are in the folder `launch`.
 For more information about how to connect the hardware to a da Vinci robot,
@@ -166,6 +150,8 @@ on [DeckLink ROS](https://gitlab.com/Polimi-dVRK/decklink/decklink_ros).
 [Maria-Paola Forte](https://is.mpg.de/person/Forte),
 Haptic Intelligence Department - Max Planck Institute for Intelligent Systems
 
+[Maximilian Henkel](https://is.mpg.de/person/mhenkel)
+
 ## License
 
 MIT license (see LICENSE.md).
@@ -175,7 +161,7 @@ under the MIT license (see LICENSE_declink_ros.md)
 
 ## Copyright
 
-© 2020, Max Planck Society - Max Planck Institute for Intelligent Systems
+© 2025, Max Planck Society - Max Planck Institute for Intelligent Systems
 
 
 ## Notes

@@ -1,5 +1,5 @@
 //
-// Created by nearlab on 04/10/17.
+// Originally created by nearlab on 04/10/17 - updated to ROS2
 //
 
 #include <cv_bridge/cv_bridge.hpp>
@@ -25,20 +25,8 @@ DeckLinkCameraDriver::DeckLinkCameraDriver()
     this->get_parameter("camera_frame", _camera_frame);
     this->get_parameter("camera_info_url", _camera_info_url);
 
-    // Services
-    /*
-    _start_capture = this->create_service<std_srvs::srv::Empty>(
-        "start_capture",
-        &on_start_capture_request
-    );
-
-    _stop_capture = this->create_service<std_srvs::srv::Empty>(
-        "stop_capture",
-        &on_start_capture_request
-    );
-    */
-   RCLCPP_INFO_STREAM(this->get_logger(),
-    "Finished to initialize parameters");
+    RCLCPP_INFO_STREAM(this->get_logger(),
+    "Finished initializing parameters");
 
     // Step 1 - Make sure that we have a valid DeckLink device
     this->declare_parameter<std::string>("decklink_device", "");
@@ -130,16 +118,9 @@ void DeckLinkCameraDriver::init_image_transport() {
     }
 
 
-
-/**
- * Convert the data from the DeckLink::Frame type to the ROS Image message with as few copies as
- * possible.
- *
- * @param frame The input video frame
- */
 void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
 {
-    // We assume here that the image will YUV-422, we could make this work for other image formats
+    // We assume here that the image will have the format YUV-422, we could make this work for other image formats
     // but I don't need it personally. If you need it just open an issue on Gitlab and we'll do it
     if (frame.pixel_format() != DeckLink::PixelFormat::YUV_8Bit) {
         RCLCPP_ERROR_STREAM(this->get_logger(),
@@ -160,11 +141,8 @@ void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
     image_msg->step     = image_msg->width * 3; // RGB is 3 bytes per pixel
     image_msg->encoding = sensor_msgs::image_encodings::RGB8;
     
-  
-  
     // The frame contains YUV422 formatted pixels. We want to output RGB images.
     // To convert between the two we first need two OpenCV matrices
-    //
     // First we create a cv::Mat wrapping the input data. This syntax should allow us to not copy
     // the data thus reducing the latency.
     cv::Mat src(image_msg->height, image_msg->width, CV_8UC2, frame.bytes());
@@ -181,8 +159,6 @@ void DeckLinkCameraDriver::on_new_image(const DeckLink::VideoInputFrame& frame)
     // Finally, create the camera_info message and publish everything
     auto camera_info_msg = _camera_info_mgr->getCameraInfo();
     camera_info_msg.header = image_msg->header;
-    
-    /// publishes it
     _camera_pub.publish(*image_msg, camera_info_msg);
 }
 

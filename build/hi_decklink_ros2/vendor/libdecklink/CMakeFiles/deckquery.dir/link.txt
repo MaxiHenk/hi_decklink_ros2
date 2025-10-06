@@ -1,1 +1,0 @@
-/usr/bin/c++ -DDEBUG -g CMakeFiles/deckquery.dir/src/deckquery.cpp.o -o deckquery  libdecklink.a -ldl /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 

@@ -15,31 +15,28 @@
 #include "libdecklink/device.hpp"
 #include "libdecklink/types.hpp"
 #include <cv_bridge/cv_bridge.hpp>
-
 #include <std_msgs/msg/bool.hpp>
-//#include <std_msgs/Time.h> //time info
 
 using std_msgs::msg::Bool;
 using sensor_msgs::msg::Image;
 
-//used to adapt the keying mode to the writing mode internally (not in rosrun or in a launch file)
+//used to adapt the keying mode to the writing mode internally
 bool output_write, received = false;
 int keyer_opacity = 255;
 
 using namespace DeckLink;
 
-//ros::Time stamp = 0;
-
-//used to adapt the keying mode to the writing mode internally (not in rosrun or in a launch file)
+//used to adapt the keying mode to the writing mode internally
 void writeCallback(const Bool::SharedPtr msg) {
     output_write = msg->data;
     received = true;
 }
 
-//void stampCallback(const std_msgs::Time &msg) {
-//    stamp = msg.data;
-//}
 
+/*
+subscriber function called whenever decklink receives an image from the DaVinci.
+the function overwrites the image with the desired image
+*/
 void OnFrameReceived(
         DeviceOutputInterface &output,
         PixelFormat pixel_format,
@@ -47,7 +44,7 @@ void OnFrameReceived(
         const sensor_msgs::msg::Image::SharedPtr &image
 ) {
 
-    //used to adapt the keying mode to the writing mode internally (not in rosrun or in a launch file)
+    //used to adapt the keying mode to the writing mode internally
     if (received) {
         if (output_write) {
             output.disable_keyer();
@@ -97,31 +94,16 @@ void OnFrameReceived(
     frame.load(cv_ptr->image.data, static_cast<size_t>(cv_ptr->image.rows * cv_ptr->image.step));
     //sends frame to the Deck Link Card, thus it appears in the video output device
     output.display_video_frame(frame);
-
-    //double execution_time = (ros::Time::now() - stamp).toNSec() * 1e-6;
-    //ROS_INFO_STREAM("execution time:   " << execution_time); // "Execution time platform (ms): "
 }
 
 int main(int argc, char **argv) {
 
     try {
 
-        //ros::init(argc, argv, "decklink_subscriber", ros::init_options::AnonymousName);
-
-        /// Adds node to advertise topics etc - main interface to ROS
-        //ros::NodeHandle node;
-        //ros::NodeHandle private_node("~");
         rclcpp::init(argc, argv);
         auto node = rclcpp::Node::make_shared("decklink_subscriber");
 
-        /// transport, that can publish and subscribt to images
-        //image_transport::ImageTransport transport(node);
-        /// loop frequency
         rclcpp::Rate loop_rate(60);
-
-        // Device
-        //std::string device_name;
-        //private_node.getParam("decklink_device", device_name);
 
         node->declare_parameter<std::string>("decklink_device", "");
 	    std::string device_name;
@@ -135,9 +117,6 @@ int main(int argc, char **argv) {
             return -1;
         }
 
-        // Topic
-        //std::string topic;
-        //private_node.getParam("topic", topic);
         node->declare_parameter<std::string>("topic", "");
 	    std::string topic;
         topic = node->get_parameter("topic").as_string();
@@ -153,8 +132,6 @@ int main(int argc, char **argv) {
         node->declare_parameter<std::string>("image_format", "");
 	    std::string format;
         format = node->get_parameter("image_format").as_string();
-        //std::string format;
-        //private_node.getParam("image_format", format);
         if (format.empty()) {
             format = "HD1080i5994";
             RCLCPP_WARN(node->get_logger(),
@@ -195,8 +172,6 @@ int main(int argc, char **argv) {
         const auto display_mode = *res;
         device.output().enable(display_mode, pixel_format, VideoOutputFlags::Default);
 
-        
-        //private_node.getParam("keying", use_keying);
         node->declare_parameter<bool>("keying", false);
 	    bool use_keying;
         use_keying = node->get_parameter("keying").as_bool();
@@ -216,10 +191,6 @@ int main(int argc, char **argv) {
         }
 
         RCLCPP_INFO_STREAM(node->get_logger(),"Starting ROS Subscriber");
-        //auto frame_cb = std::bind(OnFrameReceived,
-        //                            std::ref(device.output()), pixel_format, std::ref(display_mode), std::placeholders::_1);
-        //image_transport::Subscriber subscriber = transport.subscribe(topic, 1, frame_cb);
-        //auto subscriber = node->create_subscription<sensor_msgs::msg::Image>("image_ros", rclcpp::QoS(1), frame_cb);
         
         auto subscriber = node->create_subscription<sensor_msgs::msg::Image>(
             topic,
@@ -228,11 +199,8 @@ int main(int argc, char **argv) {
                 OnFrameReceived(device.output(), pixel_format, display_mode, image);
             }
         );
-        //used to adapt the keying mode to the writing mode internally (not in rosrun or in a launch file)
-        //ros::Subscriber sub_full = node.subscribe("function/output_write", 1, writeCallback);
+        //used to adapt the keying mode to the writing mode internally
         auto sub_full = node->create_subscription<std_msgs::msg::Bool>("function/output_write", rclcpp::QoS(1), writeCallback);
-	    //ros::Subscriber sub_stamp = node.subscribe("time_stamp", 1, stampCallback);
-
         RCLCPP_INFO_STREAM(node->get_logger(),"Subscriber ready. Waiting for frames ...");
 
         rclcpp::spin(node);

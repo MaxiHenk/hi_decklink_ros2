@@ -1,5 +1,6 @@
 //
-// Created by nearlab on 04/10/17.
+// ROS1 version created by nearlab on 04/10/17.
+// Moved to ROS2 in this repo
 //
 
 
@@ -18,15 +19,22 @@
 class DeckLinkCameraDriver
 : public rclcpp::Node
 {
-    public: /* Methods */
+    public: 
     DeckLinkCameraDriver();
 
+    //sets up the camera publisher and the image transport
     void init_image_transport();
 
-    /// Called ech time the decklink card receives a new image
+    /**
+     * Called ech time the decklink card receives a new image
+     * Convert the data from the DeckLink::Frame type to the ROS Image message with as few copies as
+     * possible.
+     * Assumption is, that the image will be in YUV-422 format
+     * @param frame The input video frame
+    */
     void on_new_image(const DeckLink::VideoInputFrame& frame);
     
-    /// reports error
+    /// checks for errors and reports them e.g. bad frame
     void on_decklink_error(DeckLink::VideoInputError err);
     
     /// input video format changes
@@ -65,10 +73,6 @@ private: /* Methods */
     /// Stop the video capture
     void stop();
 
-
-private:
-    
-    // Start variables
     /// The name of the camera - required to build the sensor_msgs::CameraInfo
     std::string _camera_name;
     /// The tf frame the camera should be attached to.
@@ -78,7 +82,6 @@ private:
     /// Whether or not the camera is currently streaming video
     bool _stream_started = false;
     
-    // ROS2 Stuff
     std::shared_ptr<image_transport::ImageTransport> _it;
     std::unique_ptr<camera_info_manager::CameraInfoManager> _camera_info_mgr;
     image_transport::CameraPublisher _camera_pub;
@@ -86,7 +89,6 @@ private:
     rclcpp::Service<std_srvs::srv::Empty>::SharedPtr _start_capture;
     rclcpp::Service<std_srvs::srv::Empty>::SharedPtr _stop_capture;
     
-    // Decklink Stuff
     DeckLink::Device _device;
     
 };

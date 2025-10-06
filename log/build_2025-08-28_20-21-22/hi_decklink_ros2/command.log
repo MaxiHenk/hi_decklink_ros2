@@ -1,2 +1,0 @@
-Invoking command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhenkel/Documents/hi_decklink_ros2 -DCMAKE_INSTALL_PREFIX=/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2
-Invoked command in '/home/mhenkel/Documents/hi_decklink_ros2/build/hi_decklink_ros2' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhenkel/Documents/hi_decklink_ros2 -DCMAKE_INSTALL_PREFIX=/home/mhenkel/Documents/hi_decklink_ros2/install/hi_decklink_ros2
