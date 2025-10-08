@@ -6,3 +6,5 @@
 # Ignore the mkenum folder if  present
 tools/mkenum/
 
+#ignore vscode
+/.vscode
