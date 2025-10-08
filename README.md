@@ -23,26 +23,30 @@ Clone the repository into your ROS workspace:
 
     git clone git@github.com:MaxiHenk/hi_decklink_ros2.git
 
-Build the nodes:
+Start ROS2 and build your code in the hi_decklink_ros2 folder. This will ususally look like
 
-    TO DO
+    source /opt/ros/jazzy/setup.bash
+    colcon build
+    source install
+
+
 
 ## The publisher node
 
 The publisher node reads images from one input of the DeckLink card and publishes them to ROS topic.
 After having the `roscore` running, open in a different terminal:
 
-    TO DO rosrun hi_decklink_ros publisher _decklink_device:="DeckLink [model] ([input])"
+    ros2 run hi_decklink_ros2 publisher   --ros-args   -p decklink_device:="DeckLink [model] (input)"
 
 This will create a `publisher` node that listens for images on from one input of your DeckLink card
 and publishes them on the topic `/image_raw`.
 
 To see the published image:
 
-	TO DO  rosrun image_view image_view image:="image_raw"
+	ros2 run image_view image_view --ros-args -r image:=image_raw
 
 The node will additionally publish `sensor_msgs::CameraInfo` messages synchronised to each image message.
-If the camera is uncalibrated these will be empty.
+If the camera is uncalibrated these will be empty and you will receive an error message about it, which will not break the code.
 If a camera calibration file is available you can pass the path to the file in the `camera_info_url` parameter.
 This will allow the `image_proc` family of nodes to automatically generate rectified images.
 
@@ -55,7 +59,11 @@ The node accepts the following parameters:
 | `camera_frame` | The `tf` frame that the camera should attached to. This helps to keep point clouds generated with `stereo_image_proc` in the correct reference frame. The default value is the camera name. |
 | `camera_info_url` | The location in which to locate the camera info file. This should a be an absolute file path. |
 
-A launch file for a stereo endoscope is provided for documentation purposes in the `launch/` folder.
+A launch file for a stereo endoscope is provided for documentation purposes in the `launch/` folder. You can adapt the parameters and run it with
+
+    ros2 launch hi_decklink_ros2 full-MPI.xml
+
+The images will be published on the topics `/endoscope/left/image_raw` and `/endoscope/right/image_raw` respectively.
 
 The publisher node has been tested on:
 + a dVRK (da Vinci Research Kit)
@@ -67,7 +75,7 @@ This node can be used to perform keying.
 
 After having the `roscore` running, open in a different terminal:
 
-    TODO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="[ros/image/topic]"
+    ros2 run hi_decklink_ros2 subscriber --ros-args -p decklink_device:="DeckLink [model] ([input])" -p topic:="[topic]"
 
 This will create a `subscriber` node that monitors the ROS image topic given as input.
 This node expects `BGRA8` formatted images for simplicity and will produce an error
@@ -106,26 +114,32 @@ We placed an image (`image.png` in the folder `sample`) that you are welcome to 
 
 After having the `roscore` running:
 
-	TO DO rosrun hi_decklink_ros img2ros _path:="[/path/to/your/image.png]"
+	ros2 run hi_decklink_ros2 img2ros --ros-args -p path:=sample/image.png
 
 This will create a ROS topic image (`image_ros`). You can see it with:
 
-	TO DO rosrun image_view image_view image:="image_ros"
+	ros2 run image_view image_view --ros-args -r image:=image_ros
 
 Then run the subscriber node, specifying this topic:
 
-	TO DO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros"
+	ros2 run hi_decklink_ros2 subscriber --ros-args -p decklink_device:="DeckLink [model] ([input])" -p topic:="image_ros"
 
 By default, the node will write this image.
 
 If you want this image to be keyed on the input video:
 
-	TO DO rosrun hi_decklink_ros subscriber _decklink_device:="DeckLink [model] ([input])" _topic:="image_ros" _keying:="True" _opacity:="150"
+	ros2 run hi_decklink_ros2 subscriber --ros-args -p decklink_device:="DeckLink Quad (3)" -p topic:="image_ros" -p keying:="True" -p opacity:="150"
 
 We designed the subscriber node, in a way that it possible to use the same node and change the two modes (write/keying) internally,
 using a boolean topic `function/output_write`. To understand its functioning, we suggest to check it in `subscriber.cpp`.
 
 If the written image seems invisible, it might also be, that the alpha-values were set too small. If you run the code in Debug-Mode, you can check for this. 
+
+Similar to the publisher, there is also a launch file, which you can run with:
+
+    ros2 launch hi_decklink_ros2 subscribers-MPI.xml
+
+Simply adjust the parameters there and it will simuntaneously subscribe to both cameras. 
 
 
 ## Launch examples
@@ -141,7 +155,7 @@ Haptic Intelligence Department - Max Planck Institute for Intelligent Systems
 
 [Thibaud Chupin](https://www.linkedin.com/in/thibaudchupin/)
 
-**HI DeckLink ROS** is based on the work done by
+**HI DeckLink ROS2** is based on the work done by
 [Thibaud Chupin](https://www.linkedin.com/in/thibaudchupin/)
 on [DeckLink ROS](https://gitlab.com/Polimi-dVRK/decklink/decklink_ros).
 
